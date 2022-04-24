@@ -56,3 +56,9 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
+### Problem 412
+- **Name**:Fizz Buzz 
+- **Runtime**: 69 ms
+- **Memory**: 15 MB
+- **Solution**: Simple if-block appending to a list.
+
