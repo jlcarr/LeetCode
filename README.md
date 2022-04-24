@@ -50,3 +50,9 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 46.5 MB
 - **Solution**: I just converted to list and compared reverse. O(1) space is possible by first counting the middle position, then reversing the second half, and walking through both comparing.
 
+### Problem 383
+- **Name**: Ransom Note
+- **Runtime**: 85 ms
+- **Memory**: 14.2 MB
+- **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
+
