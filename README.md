@@ -32,6 +32,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: A closed form formula for the position of a character in the zig-zag grid can be made with modular arithmetic, after that it's a matter of sorting.
 
+### Problem 7
+- **Name**: Reverse Integer
+- **Runtime**: 39 ms
+- **Memory**: 14 MB
+- **Solution**: Use modular arithmetic to chop down the number, checking for overflows by moving subtractions and dividions across the inequality.
+
 ### Problem 13
 - **Name**: Roman to Integer
 - **Runtime**: 66 ms
