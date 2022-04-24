@@ -20,6 +20,18 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Keep track of previous positions in a dict, keep track of the start of current duplicate-free string candidate.
 
+### Problem 5
+- **Name**: Longest Palindromic Substring
+- **Runtime**: 4052 ms
+- **Memory**: 13.9 MB
+- **Solution**: Because input size is small, just brute-forced checked for palindromes around each character.
+
+### Problem 6
+- **Name**: Zigzag Conversion
+- **Runtime**: 70 ms
+- **Memory**: 14.2 MB
+- **Solution**: A closed form formula for the position of a character in the zig-zag grid can be made with modular arithmetic, after that it's a matter of sorting.
+
 ### Problem 13
 - **Name**: Roman to Integer
 - **Runtime**: 66 ms
