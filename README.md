@@ -38,6 +38,30 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Use modular arithmetic to chop down the number, checking for overflows by moving subtractions and dividions across the inequality.
 
+### Problem 8
+- **Name**: String to Integer (atoi)
+- **Runtime**: 81 ms
+- **Memory**: 13.9 MB
+- **Solution**: Used regex to match the description and get the capture groups, after which manual clamping was applied.
+
+### Problem 9
+- **Name**: Palindrome Number
+- **Runtime**: 84 ms
+- **Memory**: 13.9 MB	
+- **Solution**: Converted to string and compared with reverse.
+
+### Problem 11
+- **Name**: Container With Most Water
+- **Runtime**: 1077 ms
+- **Memory**: 27.5 MB	
+- **Solution**: 2 pointers meeting in the middle, incrementing the one of lowest height to break the bound.
+
+### Problem 12
+- **Name**: Integer to Roman
+- **Runtime**: 44 ms
+- **Memory**: 13.9 MB	
+- **Solution**: Kept a sorted list of Roman numberal conversions, and used modular arithmetic to cut down the number incrementally.
+
 ### Problem 13
 - **Name**: Roman to Integer
 - **Runtime**: 66 ms
@@ -57,8 +81,32 @@ Solutions to LeetCode problems in Python3
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
 ### Problem 412
-- **Name**:Fizz Buzz 
+- **Name**:i Fizz Buzz 
 - **Runtime**: 69 ms
 - **Memory**: 15 MB
 - **Solution**: Simple if-block appending to a list.
+
+### Problem 876
+- **Name**: Middle of the Linked List
+- **Runtime**: 47 ms
+- **Memory**: 13.9 MB
+- **Solution**: Ran through the list once to count, then again up to the middle.
+
+### Problem 1337
+- **Name**: The K Weakest Rows in a Matrix
+- **Runtime**: 108 ms
+- **Memory**: 14.3 MB
+- **Solution**: Sum the rows and perform an argsort.
+
+### Problem 1342
+- **Name**: Number of Steps to Reduce a Number to Zero
+- **Runtime**: 37 ms
+- **Memory**: 13.8 MB
+- **Solution**: Directly implemented the process.
+
+### Problem 2251
+- **Name**: Richest Customer Wealth
+- **Runtime**: 62 ms
+- **Memory**: 13.8 MB
+- **Solution**: Sum rows and take the max.
 
