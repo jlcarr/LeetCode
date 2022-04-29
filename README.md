@@ -20,6 +20,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Keep track of previous positions in a dict, keep track of the start of current duplicate-free string candidate.
 
+### Problem 4
+- **Name**: Median of Two Sorted Arrays
+- **Runtime**: 159 ms
+- **Memory**: 14.1 MB
+- **Solution**: Modified binary search one one array, checking the complement pointer in the other array to see if the median is reached. Watch out for edge-cases and off-by-1 errors.
+
 ### Problem 5
 - **Name**: Longest Palindromic Substring
 - **Runtime**: 4052 ms
@@ -50,6 +56,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB	
 - **Solution**: Converted to string and compared with reverse.
 
+### Problem 10
+- **Name**: Regular Expression Matching
+- **Runtime**: 60 ms
+- **Memory**: 14.4 MB	
+- **Solution**: Dynamic programming to run through the string and regex checking if they're still matching at each junction.
+
 ### Problem 11
 - **Name**: Container With Most Water
 - **Runtime**: 1077 ms
@@ -67,6 +79,60 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 66 ms
 - **Memory**: 14 MB
 - **Solution**: Pop from the string front, add unless the next numeral is higher, in which case subtract.
+
+### Problem 14
+- **Name**: Longest Common Prefix
+- **Runtime**: 44 ms
+- **Memory**: 13.8 MB
+- **Solution**: Run through the candidate prefix on each iteration, stoping when a mismatch is found and only keeping the match.
+
+### Problem 15
+- **Name**: 3Sum
+- **Runtime**: 1495 ms
+- **Memory**: 18.1 MB
+- **Solution**: Sort first, then run-through looking at first numbers, skipping duplicates, then search for 2Sum with the remaining using left and right pointers.
+
+### Problem 16
+- **Name**: 3Sum Closest
+- **Runtime**: 364 ms
+- **Memory**: 14.1 MB
+- **Solution**: Same as Problem 15, just simplified to only keep track of the best sum.
+
+### Problem 17
+- **Name**: Letter Combinations of a Phone Number
+- **Runtime**: 34 ms
+- **Memory**: 13.9 MB
+- **Solution**: Directly generating all possible result by re-appending to result list. Dict for conversions.
+
+### Problem 18
+- **Name**: 4Sum 
+- **Runtime**: 1607 ms
+- **Memory**: 13.9 MB
+- **Solution**: Same as Problem 5, but with an extra outer loop.
+
+### Problem 19
+- **Name**: Remove Nth Node From End of List 
+- **Runtime**: 41 ms
+- **Memory**: 13.8 MB
+- **Solution**: Run through the singly-linked-list once, with one pointer lagging behind.
+
+### Problem 20
+- **Name**: Valid Parentheses
+- **Runtime**: 54 ms
+- **Memory**: 13.8 MB
+- **Solution**: Keep a stack to stack the opening parens.
+
+### Problem 22
+- **Name**: Generate Parentheses
+- **Runtime**: 51 ms
+- **Memory**: 14.2 MB
+- **Solution**: Recursively build the possible string, keeping track of the open parens left to make, and closing parens needed.
+
+### Problem 23
+- **Name**: Merge k Sorted Lists
+- **Runtime**: 108 ms
+- **Memory**: 17.7 MB
+- **Solution**: Never keep empty lists. Implement a head to pull out the next nodes, pushing the next value of the linked-list. Override the ListNode's comparators for the heap.
 
 ### Problem 234
 - **Name**: Palindrome Linked List
