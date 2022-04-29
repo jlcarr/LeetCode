@@ -134,6 +134,48 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.7 MB
 - **Solution**: Never keep empty lists. Implement a head to pull out the next nodes, pushing the next value of the linked-list. Override the ListNode's comparators for the heap.
 
+### Problem 24
+- **Name**: Swap Nodes in Pairs
+- **Runtime**: 25 ms
+- **Memory**: 13.9 MB
+- **Solution**: Keep a lagging pointer, and just do some fancy swapping around with a temp variable.
+ 
+### Problem 25
+- **Name**: Reverse Nodes in k-Group
+- **Runtime**: 65 ms
+- **Memory**: 15.4 MB
+- **Solution**: Created a sub-function to swap the first k elements of a singly-linked-list, applied it until the last group is shorter than k, apply it a second time to get the last group in order and return.
+ 
+### Problem 26
+- **Name**: Remove Duplicates from Sorted Array
+- **Runtime**: 217 ms
+- **Memory**: 15.5 MB
+- **Solution**: Used a look-ahead pointer, and Python's del function to cut down the list.
+ 
+### Problem 27
+- **Name**: Remove Element
+- **Runtime**: 45 ms
+- **Memory**: 14 MB
+- **Solution**: Pointer runs through the array, stoping to del any occurrences.
+ 
+### Problem 28
+- **Name**: Implement strStr()
+- **Runtime**: 34 ms
+- **Memory**: 13.8 MB
+- **Solution**: Ran through the string, checking with Python's startswith function.
+ 
+### Problem 29
+- **Name**: Divide Two Integers
+- **Runtime**: 57 ms
+- **Memory**: 13.8 MB
+- **Solution**: Since we can double numbers by adding them to themselves, we can essentially build up the result by computing the binary value, using the divisor to start instead of 1.
+ 
+### Problem 41
+- **Name**: First Missing Positive
+- **Runtime**: 1491 ms
+- **Memory**: 59.6 MB
+- **Solution**: Essentially a linear-time integer-based sort since we know the approximate range of values.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
