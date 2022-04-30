@@ -170,6 +170,24 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Since we can double numbers by adding them to themselves, we can essentially build up the result by computing the binary value, using the divisor to start instead of 1.
  
+### Problem 30
+- **Name**: Substring with Concatenation of All Words
+- **Runtime**: 81 ms
+- **Memory**: 14.2 MB
+- **Solution**: Keep a dictionary count of remaining occurances of words needed in the string, scan through and update with words entering and leaving the scan area. Take care of modular offsets too.
+ 
+### Problem 31
+- **Name**: Next Permutation
+- **Runtime**: 42 ms
+- **Memory**: 13.8 MB
+- **Solution**: Find the first value that is less than any of its previous, the search back for the next up to be swapped. Overall linear.
+ 
+### Problem 32
+- **Name**: Longest Valid Parentheses
+- **Runtime**: 50 ms
+- **Memory**: 14.8 MB
+- **Solution**: Keep a stack of paren positions, and a boolean array of if they're popped or not, using the former to help fill the latter. Finally look for the longest streak in the boolean array.
+ 
 ### Problem 41
 - **Name**: First Missing Positive
 - **Runtime**: 1491 ms
