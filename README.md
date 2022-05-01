@@ -188,6 +188,30 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.8 MB
 - **Solution**: Keep a stack of paren positions, and a boolean array of if they're popped or not, using the former to help fill the latter. Finally look for the longest streak in the boolean array.
  
+### Problem 33
+- **Name**: Search in Rotated Sorted Array
+- **Runtime**: 56 ms
+- **Memory**: 14.3 MB
+- **Solution**: Do a binary search to find the rotation point (the true start of the array), then do another binary search for the target, correcting indicies with modular arithmetic.
+ 
+### Problem 34
+- **Name**: Find First and Last Position of Element in Sorted Array
+- **Runtime**: 143 ms
+- **Memory**: 15.6 MB
+- **Solution**: Binary search twice for the start and end of the streaks, using different equality preferences to get the start and end respectively.
+ 
+### Problem 35
+- **Name**: Search Insert Position
+- **Runtime**: 46 ms
+- **Memory**: 14.9 MB
+- **Solution**: Classic binary search, just watch out for off-by-one errors and edge cases.
+ 
+### Problem 36
+- **Name**: Valid Sudoku
+- **Runtime**: 110 ms
+- **Memory**: 13.9 MB
+- **Solution**: Search the rows and columns using some indexing, keep track of values found with a set to check for duplicates.
+ 
 ### Problem 41
 - **Name**: First Missing Positive
 - **Runtime**: 1491 ms
