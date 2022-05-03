@@ -212,11 +212,41 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Search the rows and columns using some indexing, keep track of values found with a set to check for duplicates.
  
+### Problem 38
+- **Name**: Count and Say
+- **Runtime**: 71 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recursively build up the solution.
+ 
+### Problem 39
+- **Name**: Combination Sum
+- **Runtime**: 81 ms
+- **Memory**: 14.5 MB
+- **Solution**: Dynamic programming, memoizing smaller targets, and going down the list of candidates.
+ 
+### Problem 40
+- **Name**: Combination Sum II
+- **Runtime**: 104 ms
+- **Memory**: 14.3 MB
+- **Solution**: Dynamic programming with an index similar to problem 39, but with a streak counter as well, and decided whether to keep a value, and how many.
+ 
 ### Problem 41
 - **Name**: First Missing Positive
 - **Runtime**: 1491 ms
 - **Memory**: 59.6 MB
 - **Solution**: Essentially a linear-time integer-based sort since we know the approximate range of values.
+ 
+### Problem 42
+- **Name**: Trapping Rain Water
+- **Runtime**: 110 ms
+- **Memory**: 15.8 MB
+- **Solution**: Shave off the ends, then process from the left and right sides to the max in the array. Anything less than current maximum in the processing will be caught.
+ 
+### Problem 43
+- **Name**: Multiply Strings
+- **Runtime**: 233 ms
+- **Memory**: 13.8 MB
+- **Solution**: This is just grade-school multiplication, with some ord/chr/ASCII arithmetic for string to int conversion.
  
 ### Problem 234
 - **Name**: Palindrome Linked List
