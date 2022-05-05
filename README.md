@@ -248,6 +248,48 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: This is just grade-school multiplication, with some ord/chr/ASCII arithmetic for string to int conversion.
  
+### Problem 44
+- **Name**: Wildcard Matching
+- **Runtime**: 345 ms
+- **Memory**: 25.7 MB
+- **Solution**: Similar to problem 10, use dynamic programming: run through the pattern and string checking for matches at every step and memoizing sub-results. Also removing duplicate wild-cards makes things faster too.
+ 
+### Problem 45
+- **Name**: Jump Game II
+- **Runtime**: 16446 ms
+- **Memory**: 15.4 MB
+- **Solution**: Kept track of the minimum costs at every step going forward. A more optimal solution would have been to keep track of the "maximum jump power" at each step.
+ 
+### Problem 46
+- **Name**: Permutations
+- **Runtime**: 73 ms
+- **Memory**: 14 MB
+- **Solution**: Recurive approach to building up the permulations of the list.
+ 
+### Problem 47
+- **Name**: Permutations II
+- **Runtime**: 70 ms
+- **Memory**: 14.1 MB
+- **Solution**: Same as Problem 46, except sorting first, and using a record of previous value placed in each loop to prevent re-counting a value at that level of recursion.
+ 
+### Problem 48
+- **Name**: Rotate Image
+- **Runtime**: 53 ms
+- **Memory**: 14 MB
+- **Solution**: Iterate over the "layers" of the matrix, and on each layer run along it, doing a 4-way swap top-row to last-column to bottom-row to first-column.
+ 
+### Problem 49
+- **Name**: Group Anagrams
+- **Runtime**: 119 ms
+- **Memory**: 19.5 MB
+- **Solution**: Sort the strings for anagram keys to a multi-set of all words found. Multi-set implemented as a dictionary of counts.
+ 
+### Problem 50
+- **Name**: Pow(x, n)
+- **Runtime**: 34 ms
+- **Memory**: 13.8 MB
+- **Solution**: Python has pow build in as ** however implementing the recursive algorithm for integer powers is actually faster in performance.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
