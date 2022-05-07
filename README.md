@@ -290,6 +290,72 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Python has pow build in as ** however implementing the recursive algorithm for integer powers is actually faster in performance.
  
+### Problem 51
+- **Name**: N-Queens
+- **Runtime**: 108 ms
+- **Memory**: 14.6 MB
+- **Solution**: Generate permuations, recusively going down rows, keeping track of the restrictions from columns and diagonals updating the diagona restricitons on each row.
+ 
+### Problem 52
+- **Name**: N-Queens II
+- **Runtime**: 63 ms
+- **Memory**: 13.9 MB
+- **Solution**: Same as problem 51, just counting solutions instead of having to construct the solution boards.
+ 
+### Problem 53
+- **Name**: Maximum Subarray
+- **Runtime**: 803 ms
+- **Memory**: 27.8 MB
+- **Solution**: Keep track of the highest value reached. So long as our running total is positive we might as well keep it, otherwise ditch it looking for another streak staying in the positives.
+ 
+### Problem 54
+- **Name**: Spiral Matrix
+- **Runtime**: 37 ms
+- **Memory**: 13.8 MB
+- **Solution**: Python's implementation of lists was useful: could shave off the sides of the matrix one at a time, going through the elements with the pop function and pop(0) for the front. Placing the element into the result after each operation.
+ 
+### Problem 55
+- **Name**: Jump Game
+- **Runtime**: 624 ms
+- **Memory**: 15.1 MB
+- **Solution**: Keep a running total of the max jump length you can make running though the array. If it ever reaches 0 then we are stuck and report it as so.
+ 
+### Problem 56
+- **Name**: Merge Intervals
+- **Runtime**: 252 ms
+- **Memory**: 18.1 MB
+- **Solution**: Sort the array of intervals first, then run through it keep track encompassing intervals, and appending to the result.
+ 
+### Problem 57
+- **Name**: Insert Interval
+- **Runtime**: 150 ms
+- **Memory**: 17.3 MB
+- **Solution**: Binary searched for position of first insertion, then ran through all intervals needing to be merged from there.
+ 
+### Problem 58
+- **Name**: Length of Last Word
+- **Runtime**: 39 ms
+- **Memory**: 13.8 MB
+- **Solution**: Strip trailing spaces first, then run through the string, keep track of the current streak. More optimal solution would be to run from the end.
+ 
+### Problem 59
+- **Name**: Spiral Matrix II
+- **Runtime**: 46 ms
+- **Memory**: 13.9 MB
+- **Solution**: Break down the spiral rings into cases for the top-right-bottom-left and traverse through filling up the matrix.
+ 
+### Problem 60
+- **Name**: Permutation Sequence
+- **Runtime**: 45 ms
+- **Memory**: 13.9 MB
+- **Solution**: We can enumerate permutations using the factorial number system, and construct a permutation from its number.
+ 
+### Problem 61
+- **Name**: Rotate List
+- **Runtime**: 62 ms
+- **Memory**: 13.9 MB
+- **Solution**: First find the length of the list and the final node. Mod k so we don't rotate more than once, and also join the tail to the head to make it circular. With the length and k we know how many more steps to go before breaking the list so it's no longer circular and can return the head.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
