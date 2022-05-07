@@ -356,6 +356,36 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: First find the length of the list and the final node. Mod k so we don't rotate more than once, and also join the tail to the head to make it circular. With the length and k we know how many more steps to go before breaking the list so it's no longer circular and can return the head.
  
+### Problem 62
+- **Name**: Unique Paths
+- **Runtime**: 58 ms
+- **Memory**: 13.9 MB
+- **Solution**: Closed-form solution via the stars-and-bars formula.
+ 
+### Problem 63
+- **Name**: Unique Paths II
+- **Runtime**: 64 ms
+- **Memory**: 14.2 MB
+- **Solution**: Dynamic programming recursion with memoization.
+ 
+### Problem 64
+- **Name**: Minimum Path Sum
+- **Runtime**: 111 ms
+- **Memory**: 15.6 MB
+- **Solution**: Dynamic programming by running through the grid and filling in costs of the shortest path.
+ 
+### Problem 65
+- **Name**: Valid Number
+- **Runtime**: 34 ms
+- **Memory**: 13.6 MB
+- **Solution**: Wrote a regex to match the requirements.
+ 
+### Problem 66
+- **Name**: Plus One
+- **Runtime**: 59 ms
+- **Memory**: 13.8 MB
+- **Solution**: Essentially the long addition algorithm, but with just the carry.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
