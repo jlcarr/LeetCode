@@ -386,6 +386,36 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Essentially the long addition algorithm, but with just the carry.
  
+### Problem 67
+- **Name**: Add Binary
+- **Runtime**: 58 ms
+- **Memory**: 13.8 MB
+- **Solution**: Used Python's built-in functions for binary conversion.
+ 
+### Problem 68
+- **Name**: Text Justification
+- **Runtime**: 35 ms
+- **Memory**: 13.9 MB
+- **Solution**: Run through the list of words keeping track of the minimum length of the line, and constructing the line when the limit is surpassed.
+ 
+### Problem 69
+- **Name**: Sqrt(x)
+- **Runtime**: 61 ms
+- **Memory**: 13.9 MB
+- **Solution**: Newton's method for solving what number squared equals the input.
+ 
+### Problem 70
+- **Name**: Climbing Stairs
+- **Runtime**: 45 ms
+- **Memory**: 13.8 MB
+- **Solution**: This is just the Fibonacci sequence. There is a closed-form solution via Binet's formula. Also a cached recursive approach works too.
+ 
+### Problem 71
+- **Name**: Simplify Path
+- **Runtime**: 72 ms
+- **Memory**: 13.8 MB
+- **Solution**: I used regex pattern substitutions to solve this problem. A faster but more memory intensive approach would be to keep a stack of the path.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
