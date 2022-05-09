@@ -416,6 +416,72 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: I used regex pattern substitutions to solve this problem. A faster but more memory intensive approach would be to keep a stack of the path.
  
+### Problem 72
+- **Name**: Edit Distance
+- **Runtime**: 89 ms
+- **Memory**: 17.1 MB
+- **Solution**: Dynamic programming with memoization. Run through the strings checking they match so far. Reaching an end means pure additions of deletions. mismatch means take the minimum of the 3 operations.
+ 
+### Problem 73
+- **Name**: Set Matrix Zeroes
+- **Runtime**: 142 ms
+- **Memory**: 14.8 MB
+- **Solution**: Run through the matrix keeping a list of all indices where zeros are found. Then run through that list, setting the rows and columns accordingly.
+ 
+### Problem 74
+- **Name**: Search a 2D Matrix 
+- **Runtime**: 102 ms
+- **Memory**: 14.5 MB
+- **Solution**: Used binary search across rows, then binary search across the found column. Technically binary search could be used across the entire matrix using modular arithmetic, but asymptotically the complexity is the same.
+ 
+### Problem 75
+- **Name**: Sort Colors
+- **Runtime**: 48 ms
+- **Memory**: 13.8 MB
+- **Solution**: Count the number of appearances of each color, then fill in the matrix accordingly.
+ 
+### Problem 76
+- **Name**: Minimum Window Substring
+- **Runtime**: 209 ms
+- **Memory**: 14.7 MB
+- **Solution**: Take a count of the required letters of t in a dict, then run through s with a lagged pointer, counting down the remaining letters of t needed from the dict. When a solution is reached incremented up the lagged pointer, until a tightest solution is found. Continue the run all the way through s to find the globally optimal solution in linear time.
+ 
+### Problem 77
+- **Name**: Combinations
+- **Runtime**: 109 ms
+- **Memory**: 18.8 MB
+- **Solution**: Recursion with memoization, choosing whether or not to include the given element at each step.
+ 
+### Problem 78
+- **Name**: Subsets
+- **Runtime**: 45 ms
+- **Memory**: 13.9 MB
+- **Solution**: Start with the set containing the empty set. Then run through the numbers and on each double the size the resulting set by appending a copy with the number added to each set.
+ 
+### Problem 79
+- **Name**: Word Search
+- **Runtime**: 4254 ms
+- **Memory**: 13.9 MB
+- **Solution**: Run through possible starting locations, then start the search. Search is DFS, recursively going through posiitions and the string, keeping track of the positions searched to avoid re-use. 
+ 
+### Problem 80
+- **Name**: Remove Duplicates from Sorted Array II
+- **Runtime**: 57 ms
+- **Memory**: 14 MB
+- **Solution**: Same as problem 26. Run through the array, checking two ahead for duplicates, and deleting while any are found.
+ 
+### Problem 81
+- **Name**: Search in Rotated Sorted Array II
+- **Runtime**: 52 ms
+- **Memory**: 14.6 MB
+- **Solution**: Same as problem 33. But if the binary search is unsure if it's in a streak of duplicates revert to linear search.
+ 
+### Problem 82
+- **Name**: Remove Duplicates from Sorted List II
+- **Runtime**: 56 ms
+- **Memory**: 13.8 MB
+- **Solution**: Run through the linked list, keeping track of the previous node. When duplicates are found continue deleting them until a non-duplicate is found, using the previous node. Also update the head if the deletion happens before there isn't a previous node to use.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
