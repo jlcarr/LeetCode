@@ -482,6 +482,36 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Run through the linked list, keeping track of the previous node. When duplicates are found continue deleting them until a non-duplicate is found, using the previous node. Also update the head if the deletion happens before there isn't a previous node to use.
  
+### Problem 83
+- **Name**: Remove Duplicates from Sorted List
+- **Runtime**: 38 ms
+- **Memory**: 13.8 MB
+- **Solution**: Same as problem 82 but easier. Run through the list, and while the next node is a duplicate, remove it.
+ 
+### Problem 86
+- **Name**: Partition List
+- **Runtime**: 64 ms
+- **Memory**: 13.8 MB
+- **Solution**: Run through the list, placing the lower nodes in their own side list, then concatenate the side list with the remaining list.
+ 
+### Problem 87
+- **Name**: Scramble String
+- **Runtime**: 70 ms
+- **Memory**: 14.4 MB
+- **Solution**: Because letters must all stay with whatever side of a swap they are grouped on we can look at cuts which preserve this property on one side, then recursively check those sub-problems, memoizing the solutions by starting points and lengths of the sub-problems.
+ 
+### Problem 88
+- **Name**: Merge Sorted Array
+- **Runtime**: 44 ms
+- **Memory**: 13.9 MB
+- **Solution**: Run through the arrays end-to-beginning, filling the merged array from the end back.
+ 
+### Problem 89
+- **Name**: Gray Code
+- **Runtime**: 223 ms
+- **Memory**: 22.6 MB
+- **Solution**: Gray codes can be build recursively by taking the size lower problem and appending a mirrored copy, and prefixing 0 and 1 to the original and mirrored respectively.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
