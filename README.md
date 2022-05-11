@@ -512,6 +512,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.6 MB
 - **Solution**: Gray codes can be build recursively by taking the size lower problem and appending a mirrored copy, and prefixing 0 and 1 to the original and mirrored respectively.
  
+### Problem 90
+- **Name**: Subsets II
+- **Runtime**: 62 ms
+- **Memory**: 14.1 MB
+- **Solution**: Similar to problem 78, but when a duplicate is found, count the number of duplicates and then multiply the number of subsets by the possible number of duplicates included.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
