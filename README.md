@@ -542,6 +542,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: DFS, appending the results of each sub-seach left-current-right.
  
+### Problem 95
+- **Name**: Unique Binary Search Trees II
+- **Runtime**: 108 ms
+- **Memory**: 15.7 MB
+- **Solution**: Kept a list of values, and sent them down each side of the binary search tree recursively. This could probably be more efficient just using ranges.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
