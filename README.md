@@ -518,6 +518,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Similar to problem 78, but when a duplicate is found, count the number of duplicates and then multiply the number of subsets by the possible number of duplicates included.
  
+### Problem 91
+- **Name**: Decode Ways
+- **Runtime**: 35 ms
+- **Memory**: 14.2 MB
+- **Solution**: Defined the problem recursively, running through the string, memoizing sub-results.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
