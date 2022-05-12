@@ -536,6 +536,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: A recursive approach memoizing sub-results: look for all possible places to put a dot, checking the first number fits the criteria, then search the next depth with the remainign digits and 1 fewer dots to place.
  
+### Problem 94
+- **Name**: Binary Tree Inorder Traversal
+- **Runtime**: 38 ms
+- **Memory**: 13.9 MB
+- **Solution**: DFS, appending the results of each sub-seach left-current-right.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
