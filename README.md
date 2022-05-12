@@ -530,6 +530,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Run through the list until the left node is found, then keep track of the new left and right nodes continuing forward placing the next nodes into the front of the new left. Watch out for edge cases.
  
+### Problem 93
+- **Name**: Restore IP Addresses
+- **Runtime**: 54 ms
+- **Memory**: 14.3 MB
+- **Solution**: A recursive approach memoizing sub-results: look for all possible places to put a dot, checking the first number fits the criteria, then search the next depth with the remainign digits and 1 fewer dots to place.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
