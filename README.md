@@ -524,6 +524,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Defined the problem recursively, running through the string, memoizing sub-results.
  
+### Problem 92
+- **Name**: Reverse Linked List II
+- **Runtime**: 41 ms
+- **Memory**: 13.9 MB
+- **Solution**: Run through the list until the left node is found, then keep track of the new left and right nodes continuing forward placing the next nodes into the front of the new left. Watch out for edge cases.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
