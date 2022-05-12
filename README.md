@@ -548,6 +548,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.7 MB
 - **Solution**: Kept a list of values, and sent them down each side of the binary search tree recursively. This could probably be more efficient just using ranges.
  
+### Problem 96
+- **Name**: Unique Binary Search Trees
+- **Runtime**: 57 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recursive solution just considers number of possible elements to send down each branch, similar to problem 95. Closed form solution is possible via Catalan numbers.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
