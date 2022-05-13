@@ -554,6 +554,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Recursive solution just considers number of possible elements to send down each branch, similar to problem 95. Closed form solution is possible via Catalan numbers.
  
+### Problem 100
+- **Name**: Same Tree
+- **Runtime**: 42 ms
+- **Memory**: 13.9 MB
+- **Solution**: We can perform a check for the current nodes matching, then check their left and rights together recursively.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
