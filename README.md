@@ -566,6 +566,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Recursively run down the binary search tree, keeping track of the left and right bounds to ensure correctness.
  
+### Problem 99
+- **Name**: Recover Binary Search Tree
+- **Runtime**: 130 ms
+- **Memory**: 14.1 MB
+- **Solution**: Morris traversal is the main method for traversing a tree without any kind of stack. It is an in-order traversal and so we can retain look for nodes that are out of order.
+ 
 ### Problem 100
 - **Name**: Same Tree
 - **Runtime**: 42 ms
