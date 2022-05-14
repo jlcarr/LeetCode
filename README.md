@@ -560,6 +560,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Dynamic programming with memoization. This one is particularly elegant in it breakdown into a O(n^2) search over the two starting positions of the strings.
  
+### Problem 98
+- **Name**: Validate Binary Search Tree
+- **Runtime**: 50 ms
+- **Memory**: 16.4 MB
+- **Solution**: Recursively run down the binary search tree, keeping track of the left and right bounds to ensure correctness.
+ 
 ### Problem 100
 - **Name**: Same Tree
 - **Runtime**: 42 ms
