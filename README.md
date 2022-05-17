@@ -488,6 +488,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Same as problem 82 but easier. Run through the list, and while the next node is a duplicate, remove it.
  
+### Problem 84
+- **Name**: Largest Rectangle in Histogram
+- **Runtime**: 1497 ms
+- **Memory**: 27.8 MB
+- **Solution**: The main idea behind the optimal solution is a "monostack": keeping a stack with monotonically increasing elements. The idea here being that while we are adding to the stack there could be a better solution, but once we want to add an element that violates the property, then we should look back through out stack to see the possible solutions and remove them before adding the smaller constraining element.
+ 
 ### Problem 86
 - **Name**: Partition List
 - **Runtime**: 64 ms
