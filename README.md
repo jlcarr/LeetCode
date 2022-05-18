@@ -596,6 +596,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 217
+- **Name**: Contains Duplicate
+- **Runtime**: 882 ms
+- **Memory**: 26.1 MB
+- **Solution**: Python's set will de-dupe the list for us and we can compare lengths in a one-liner.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
