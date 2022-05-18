@@ -590,6 +590,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: We can perform a check for the current nodes matching, then check their left and rights together recursively.
  
+### Problem 121
+- **Name**: Best Time to Buy and Sell Stock
+- **Runtime**: 985 ms
+- **Memory**: 25.1 MB
+- **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
