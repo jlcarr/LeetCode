@@ -608,6 +608,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 46.5 MB
 - **Solution**: I just converted to list and compared reverse. O(1) space is possible by first counting the middle position, then reversing the second half, and walking through both comparing.
 
+### Problem 238
+- **Name**: Product of Array Except Self
+- **Runtime**: 293 ms
+- **Memory**: 22.5 MB
+- **Solution**: Initial solution was to avoid the division by converting to logarithms, then subtracting and then re-exponentiating. Real answer is to run through the array forward accumulating, and then backwards accumulating.
+
 ### Problem 383
 - **Name**: Ransom Note
 - **Runtime**: 85 ms
