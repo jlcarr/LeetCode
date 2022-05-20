@@ -596,6 +596,30 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 152
+- **Name**: Maximum Product Subarray
+- **Runtime**: 135 ms
+- **Memory**: 14.4 MB
+- **Solution**: Passed through to find where the zeros were and compute streaks of non-zeroes between. Then ran through those streaks forward then backwards, keeping track of the maximum found, because if there are an odd number of negatives we want as many as possible, except either the first or last negative.
+ 
+### Problem 153
+- **Name**: Find Minimum in Rotated Sorted Array
+- **Runtime**: 95 ms
+- **Memory**: 14.1 MB
+- **Solution**: Use binary search to find where the array has been rotated to by making sure the left and right pointers are on different sides of the starting point.
+ 
+### Problem 190
+- **Name**: Reverse Bits
+- **Runtime**: 54 ms
+- **Memory**: 13.9 MB
+- **Solution**: Bitshift the input down, while bitsifting the output up, setting the least significant digit of the output the least significant digit of the input.
+ 
+### Problem 191
+- **Name**: Number of 1 Bits
+- **Runtime**: 65 ms
+- **Memory**: 13.9 MB
+- **Solution**: Original approach was to run through the binary representation by bitshifting down and extracting the least significant digit. However turns out there's a more optimal way: subtracting 1 will flip all bits up to and including the least significant 1, therefore taking the and operation will effectively remove the least significant 1.
+ 
 ### Problem 217
 - **Name**: Contains Duplicate
 - **Runtime**: 882 ms
@@ -613,6 +637,30 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 293 ms
 - **Memory**: 22.5 MB
 - **Solution**: Initial solution was to avoid the division by converting to logarithms, then subtracting and then re-exponentiating. Real answer is to run through the array forward accumulating, and then backwards accumulating.
+
+### Problem 268
+- **Name**: Missing Number
+- **Runtime**: 149 ms
+- **Memory**: 15.2 MB
+- **Solution**: Use the triangular number formula to get what the sum should be, then subtract off the actual sum.
+
+### Problem 322
+- **Name**: Coin Change
+- **Runtime**: 2829 ms
+- **Memory**: 14 MB
+- **Solution**: Compute sums that can be made up to the target amount keeping track of the shortest path to each. To do this, from a given sum iterate over the coins that can add to the sum. This makes the solution time proportional to `coins.length * amount`. My initial attempt at DP over starting coin and target value didn't work because the time complexity then included looping over the number of copies of a given coin to include.
+
+### Problem 338
+- **Name**: Counting Bits
+- **Runtime**: 80 ms
+- **Memory**: 20.7 MB
+- **Solution**: By removing the most significant binary digit we can a smaller number that has already been computed. As such we can run through the values onces and check previous solutions fill out the answer.
+
+### Problem 371
+- **Name**: Sum of Two Integers
+- **Runtime**: 25 ms
+- **Memory**: 13.8 MB
+- **Solution**: Bit-manipulation to perform binary addition, treating the second input as the carries, and the first input as the solution accumulator. The hardest part is accounting for negatives via two's complement.
 
 ### Problem 383
 - **Name**: Ransom Note
