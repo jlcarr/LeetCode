@@ -644,6 +644,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.2 MB
 - **Solution**: Use the triangular number formula to get what the sum should be, then subtract off the actual sum.
 
+### Problem 300
+- **Name**: Longest Increasing Subsequence
+- **Runtime**: 795 ms
+- **Memory**: 14.1 MB
+- **Solution**: Dynamic programming, keeping track of the minimum value reached to obtain a given streak length. This is therefore quadratic time complexity. However a more optimal approach is to notice that because of previous updates, only 1 streak value will need to be updated at most: therefore a binary search can be used.
+
 ### Problem 322
 - **Name**: Coin Change
 - **Runtime**: 2829 ms
