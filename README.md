@@ -596,6 +596,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 139
+- **Name**: Word Break
+- **Runtime**: 45 ms
+- **Memory**: 15 MB
+- **Solution**: Make a trie of the dictionary words, then ran through the string looking for trie leaves, and when one is found, add the next possible starting point to a heap to continue the search. This is also solveable by just keeping an array the length of the string to represent valid possible starting points and then for each get all next possible starting points.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
