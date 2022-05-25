@@ -596,6 +596,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 133
+- **Name**: Clone Graph
+- **Runtime**: 71 ms
+- **Memory**: 14.3 MB
+- **Solution**: DFS, keeping a dictionary from node values to their copies.
+ 
 ### Problem 139
 - **Name**: Word Break
 - **Runtime**: 45 ms
@@ -631,6 +637,18 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 42 ms
 - **Memory**: 14 MB
 - **Solution**: DP by taking the max of the solution with taking the current house then skipping one, or skipping the current house. My original approach started at the beginning and looked forward, memoizing sub-results. However a better solution requires only constant extra memory: by solving forward and taking the max between previous results.
+ 
+### Problem 207
+- **Name**: Course Schedule
+- **Runtime**: 117 ms
+- **Memory**: 18.3 MB
+- **Solution**: This is cycle detection in a directed graph. We loop over possible starting nodes, and run DFS on them, keeping track of which we still have to search, and which have been found in the current DFS run, and which have already been searched and determined to not contain any cycles.
+ 
+### Problem 213
+- **Name**: House Robber II
+- **Runtime**: 56 ms
+- **Memory**: 13.9 MB
+- **Solution**: Same as problem 198, just we can't have both the first and last house. So loop over the ability to keep one or the other.
  
 ### Problem 217
 - **Name**: Contains Duplicate
