@@ -674,6 +674,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Bit-manipulation to perform binary addition, treating the second input as the carries, and the first input as the solution accumulator. The hardest part is accounting for negatives via two's complement.
 
+### Problem 377
+- **Name**: Combination Sum IV
+- **Runtime**: 39 ms
+- **Memory**: 14.1 MB
+- **Solution**: DP, memoizing solutions to smaller targets.
+
 ### Problem 383
 - **Name**: Ransom Note
 - **Runtime**: 85 ms
