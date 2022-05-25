@@ -626,6 +626,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Original approach was to run through the binary representation by bitshifting down and extracting the least significant digit. However turns out there's a more optimal way: subtracting 1 will flip all bits up to and including the least significant 1, therefore taking the and operation will effectively remove the least significant 1.
  
+### Problem 198
+- **Name**: House Robber
+- **Runtime**: 42 ms
+- **Memory**: 14 MB
+- **Solution**: DP by taking the max of the solution with taking the current house then skipping one, or skipping the current house. My original approach started at the beginning and looked forward, memoizing sub-results. However a better solution requires only constant extra memory: by solving forward and taking the max between previous results.
+ 
 ### Problem 217
 - **Name**: Contains Duplicate
 - **Runtime**: 882 ms
