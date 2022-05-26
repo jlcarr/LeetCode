@@ -638,6 +638,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: DP by taking the max of the solution with taking the current house then skipping one, or skipping the current house. My original approach started at the beginning and looked forward, memoizing sub-results. However a better solution requires only constant extra memory: by solving forward and taking the max between previous results.
  
+### Problem 200
+- **Name**: Number of Islands
+- **Runtime**: 303 ms
+- **Memory**: 21.6 MB
+- **Solution**: A "flood-fill" algorithm using BFS, and keeping track of the possible starting points remaining, and counting the number of terminations.
+ 
 ### Problem 207
 - **Name**: Course Schedule
 - **Runtime**: 117 ms
@@ -711,10 +717,16 @@ Solutions to LeetCode problems in Python3
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
 ### Problem 412
-- **Name**:i Fizz Buzz 
+- **Name**: Fizz Buzz 
 - **Runtime**: 69 ms
 - **Memory**: 15 MB
 - **Solution**: Simple if-block appending to a list.
+
+### Problem 417
+- **Name**: Pacific Atlantic Water Flow
+- **Runtime**: 438 ms
+- **Memory**: 15.6 MB
+- **Solution**: Perform a "flood-fill" using BFS from the pairs of edges, and then take the intersection of the sets of nodes reached.
 
 ### Problem 876
 - **Name**: Middle of the Linked List
@@ -740,3 +752,6 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
 
+## Resources
+- Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+- Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
