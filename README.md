@@ -734,6 +734,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.6 MB
 - **Solution**: Perform a "flood-fill" using BFS from the pairs of edges, and then take the intersection of the sets of nodes reached.
 
+### Problem 435
+- **Name**: Non-overlapping Intervals
+- **Runtime**: 1912 ms
+- **Memory**: 52.9 MB
+- **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
+
 ### Problem 876
 - **Name**: Middle of the Linked List
 - **Runtime**: 47 ms
