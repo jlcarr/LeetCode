@@ -650,6 +650,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.6 MB
 - **Solution**: A "flood-fill" algorithm using BFS, and keeping track of the possible starting points remaining, and counting the number of terminations.
  
+### Problem 206
+- **Name**: Reverse Linked List
+- **Runtime**: 51 ms
+- **Memory**: 15.4 MB
+- **Solution**: The head will become the new tail: keep taking nodes out of the linked list after the target new tail (original head), and placing them at the from the of list until the tail is actually the tail.
+ 
 ### Problem 207
 - **Name**: Course Schedule
 - **Runtime**: 117 ms
