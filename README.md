@@ -614,6 +614,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Make a trie of the dictionary words, then ran through the string looking for trie leaves, and when one is found, add the next possible starting point to a heap to continue the search. This is also solveable by just keeping an array the length of the string to represent valid possible starting points and then for each get all next possible starting points.
  
+### Problem 141
+- **Name**: Linked List Cycle
+- **Runtime**: 75 ms
+- **Memory**: 17.6 MB
+- **Solution**: Tortoise and hare algorithm for cycle detection in a linked list.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
