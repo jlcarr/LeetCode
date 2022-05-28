@@ -620,6 +620,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.6 MB
 - **Solution**: Tortoise and hare algorithm for cycle detection in a linked list.
  
+### Problem 143
+- **Name**: Reorder List
+- **Runtime**: 176 ms
+- **Memory**: 23.9 MB
+- **Solution**: First find the length of the list, then find the middle and split into two lists, then reverse the second list, then merge the two.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
