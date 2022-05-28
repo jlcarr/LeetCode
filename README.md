@@ -596,6 +596,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 128
+- **Name**: Longest Consecutive Sequence
+- **Runtime**: 371 ms
+- **Memory**: 38.7 MB
+- **Solution**: Kept 2 dicts keeping track of the starts and ends of the consecutive sequences, updating as we run through the input.
+ 
 ### Problem 133
 - **Name**: Clone Graph
 - **Runtime**: 71 ms
