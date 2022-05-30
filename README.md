@@ -698,6 +698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.5 MB
 - **Solution**: Initial solution was to avoid the division by converting to logarithms, then subtracting and then re-exponentiating. Real answer is to run through the array forward accumulating, and then backwards accumulating.
 
+### Problem 242
+- **Name**: Valid Anagram
+- **Runtime**: 54 ms
+- **Memory**: 14.4 MB
+- **Solution**: Sorting the strings is one approach. A better one is to use Python's Counter class.
+
 ### Problem 268
 - **Name**: Missing Number
 - **Runtime**: 149 ms
