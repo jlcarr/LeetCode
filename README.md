@@ -596,6 +596,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 125
+- **Name**: Valid Palindrome
+- **Runtime**: 73 ms
+- **Memory**: 20.1 MB
+- **Solution**: Strip the string of non-alphanumeric characters, then compare with its reverse.
+ 
 ### Problem 128
 - **Name**: Longest Consecutive Sequence
 - **Runtime**: 371 ms
