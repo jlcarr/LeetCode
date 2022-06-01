@@ -770,6 +770,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.9 MB
 - **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
 
+### Problem 647
+- **Name**: Palindromic Substrings
+- **Runtime**: 2333 ms
+- **Memory**: 176.8 MB
+- **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
+
 ### Problem 876
 - **Name**: Middle of the Linked List
 - **Runtime**: 47 ms
