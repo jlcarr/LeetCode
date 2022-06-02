@@ -590,6 +590,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: We can perform a check for the current nodes matching, then check their left and rights together recursively.
  
+### Problem 104
+- **Name**: Maximum Depth of Binary Tree
+- **Runtime**: 45 ms
+- **Memory**: 16.3 MB
+- **Solution**: DFS / DP by defining and empty node and value 0, then from the root and taking the max of left and right.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
