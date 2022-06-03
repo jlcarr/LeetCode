@@ -698,6 +698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.1 MB
 - **Solution**: Python's set will de-dupe the list for us and we can compare lengths in a one-liner.
  
+### Problem 226
+- **Name**: Invert Binary Tree
+- **Runtime**: 65 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recusively call the function on each node's children, and swap the results.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
