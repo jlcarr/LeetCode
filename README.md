@@ -602,6 +602,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 124
+- **Name**: Binary Tree Maximum Path Sum
+- **Runtime**: 109 ms
+- **Memory**: 21.2 MB
+- **Solution**: Keep track of the globally best solution. For every node consider the max values of both children, if them joined would give a best solution, and pass up the best child. Essentially a DFS with a global track.
+ 
 ### Problem 125
 - **Name**: Valid Palindrome
 - **Runtime**: 73 ms
