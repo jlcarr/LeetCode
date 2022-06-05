@@ -590,6 +590,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: We can perform a check for the current nodes matching, then check their left and rights together recursively.
  
+### Problem 102
+- **Name**: Binary Tree Level Order Traversal
+- **Runtime**: 47 ms
+- **Memory**: 14.3 MB
+- **Solution**: BFS keeping track of the depth.
+ 
 ### Problem 104
 - **Name**: Maximum Depth of Binary Tree
 - **Runtime**: 45 ms
