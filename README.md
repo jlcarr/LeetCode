@@ -800,6 +800,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.9 MB
 - **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
 
+### Problem 572
+- **Name**: Subtree of Another Tree
+- **Runtime**: 202 ms
+- **Memory**: 15 MB
+- **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
+
 ### Problem 647
 - **Name**: Palindromic Substrings
 - **Runtime**: 2333 ms
