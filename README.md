@@ -740,6 +740,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.2 MB
 - **Solution**: Use the triangular number formula to get what the sum should be, then subtract off the actual sum.
 
+### Problem 297
+- **Name**: Serialize and Deserialize Binary Tree
+- **Runtime**: 154 ms
+- **Memory**: 20.3 MB
+- **Solution**: Many solutions exist of course. The one I went with first was a comma-separated list where every entry was a |-separated triple of (val, parent's index in the list, is left or right child). Worked slightly better than average. I bet there's a more optimal solution by constructing a numbering system of the different possible tree structures, using this to encode structure, then just a serialize the numbers as they appear in the tree. Using the problem's bounds this could probably be done with a serialization of 16-bit ints without need for separators. This should be optimal, perhaps with a compression algorithm on top.
+
 ### Problem 300
 - **Name**: Longest Increasing Subsequence
 - **Runtime**: 795 ms
