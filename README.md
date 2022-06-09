@@ -602,6 +602,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: DFS / DP by defining and empty node and value 0, then from the root and taking the max of left and right.
  
+### Problem 105
+- **Name**: Construct Binary Tree from Preorder and Inorder Traversal
+- **Runtime**: 1930 ms
+- **Memory**: 277.8 MB
+- **Solution**: We can recursively determine which parts of our preorder and inorder traversals belong on the left and right sides. The root will be the first element of preorder, and everything to the left of the root in the inorder will belong on the left-side, and we can then take all the found elements off the front of the preorder to also go down the left side of the recursion, then put the remainder down the right side.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
@@ -715,6 +721,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 65 ms
 - **Memory**: 13.9 MB
 - **Solution**: Recusively call the function on each node's children, and swap the results.
+ 
+### Problem 230
+- **Name**: Kth Smallest Element in a BST
+- **Runtime**: 51 ms
+- **Memory**: 18 MB
+- **Solution**: DFS, returning the count of children so that a given node in the BST knows how many smaller elements there are, using a global boolean to indicate success and break out returning the solution.
  
 ### Problem 234
 - **Name**: Palindrome Linked List
