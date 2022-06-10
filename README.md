@@ -734,6 +734,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 46.5 MB
 - **Solution**: I just converted to list and compared reverse. O(1) space is possible by first counting the middle position, then reversing the second half, and walking through both comparing.
 
+### Problem 235
+- **Name**: Lowest Common Ancestor of a Binary Search Tree
+- **Runtime**: 121 ms
+- **Memory**: 18.7 MB
+- **Solution**: Generalized solution, not just for BSTs, is to do DFS, with each depth of recursion return either a set of the seached for elements or, after the LCA is found, returning the solution. However, since we have a BST, we can simply search for the node between the two searched for results.
+
 ### Problem 238
 - **Name**: Product of Array Except Self
 - **Runtime**: 293 ms
