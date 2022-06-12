@@ -704,6 +704,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.3 MB
 - **Solution**: This is cycle detection in a directed graph. We loop over possible starting nodes, and run DFS on them, keeping track of which we still have to search, and which have been found in the current DFS run, and which have already been searched and determined to not contain any cycles.
  
+### Problem 209
+- **Name**: Implement Trie (Prefix Tree)
+- **Runtime**: 229 ms
+- **Memory**: 32.6 MB
+- **Solution**: Implemented by encapsulating a dict to other Tries, then functions are defined recursively with string slicing. Uses a boolean to indicate an end.
+ 
 ### Problem 213
 - **Name**: House Robber II
 - **Runtime**: 56 ms
