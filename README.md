@@ -710,6 +710,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 32.6 MB
 - **Solution**: Implemented by encapsulating a dict to other Tries, then functions are defined recursively with string slicing. Uses a boolean to indicate an end.
  
+### Problem 211
+- **Name**: Design Add and Search Words Data Structure
+- **Runtime**: 14955 ms
+- **Memory**: 77.7 MB
+- **Solution**: Used a Trie, iterating over keys for wildcards.
+ 
 ### Problem 213
 - **Name**: House Robber II
 - **Runtime**: 56 ms
