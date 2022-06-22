@@ -716,6 +716,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 77.7 MB
 - **Solution**: Used a Trie, iterating over keys for wildcards.
  
+### Problem 212
+- **Name**: Word Search II
+- **Runtime**: 1646 ms
+- **Memory**: 14.4 MB
+- **Solution**: First filtered all words to check their multi-set of letters was a subset of those on the board with Python's Counter. Next constructed a trie out of the words. Then iterate over starting points on the board, performing DFS keeping track of indices already searched. Go down the trie as we go down the DFS, checking our solution is still a candidate. When a solution is found, remove it from the trie, using the natural recursion of the DFS.
+ 
 ### Problem 213
 - **Name**: House Robber II
 - **Runtime**: 56 ms
