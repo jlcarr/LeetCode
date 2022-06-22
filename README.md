@@ -800,6 +800,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.7 MB
 - **Solution**: By removing the most significant binary digit we can a smaller number that has already been computed. As such we can run through the values onces and check previous solutions fill out the answer.
 
+### Problem 347
+- **Name**: Top K Frequent Elements
+- **Runtime**: 109 ms
+- **Memory**: 19.7 MB
+- **Solution**: Python actually comes with the functions to solve this out of the box: the `Counter` class to found frequencies, which comes with the `most_common(n)` function, which implements a heap under the hood: this gives a time complexity of O(`k*log(n)`), which has the worst case `k == n`. This question is close to sorting the input array: bucket sort is the obvious choice to beat the time requirements in O(`n`).
+
 ### Problem 371
 - **Name**: Sum of Two Integers
 - **Runtime**: 25 ms
