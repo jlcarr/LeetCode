@@ -776,6 +776,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.2 MB
 - **Solution**: Use the triangular number formula to get what the sum should be, then subtract off the actual sum.
 
+### Problem 295
+- **Name**: Find Median from Data Stream
+- **Runtime**: 674 ms
+- **Memory**: 35.9 MB
+- **Solution**: 2 heaps: 1 for the values less or equal to the median, and 1 for the values equal to or greater than the median.
+
 ### Problem 297
 - **Name**: Serialize and Deserialize Binary Tree
 - **Runtime**: 154 ms
