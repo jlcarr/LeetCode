@@ -590,6 +590,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: We can perform a check for the current nodes matching, then check their left and rights together recursively.
  
+### Problem 101
+- **Name**: Symmetric Tree
+- **Runtime**: 45 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recursively look at pairs of nodes on opposite sides of the mirror.
+ 
 ### Problem 102
 - **Name**: Binary Tree Level Order Traversal
 - **Runtime**: 47 ms
