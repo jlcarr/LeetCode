@@ -602,6 +602,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: BFS keeping track of the depth.
  
+### Problem 103
+- **Name**: Binary Tree Zigzag Level Order Traversal
+- **Runtime**: 61 ms
+- **Memory**: 14.1 MB
+- **Solution**: Use a BFS-like search, creating a search queue split up by depths, where each level runs through the previous level's children in reverse.
+ 
 ### Problem 104
 - **Name**: Maximum Depth of Binary Tree
 - **Runtime**: 45 ms
