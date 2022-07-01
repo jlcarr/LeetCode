@@ -614,6 +614,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 277.8 MB
 - **Solution**: We can recursively determine which parts of our preorder and inorder traversals belong on the left and right sides. The root will be the first element of preorder, and everything to the left of the root in the inorder will belong on the left-side, and we can then take all the found elements off the front of the preorder to also go down the left side of the recursion, then put the remainder down the right side.
  
+### Problem 108
+- **Name**: Convert Sorted Array to Binary Search Tree
+- **Runtime**: 113 ms
+- **Memory**: 15.7 MB
+- **Solution**: Recursively take the middle value, and slice the list into left and right sides, sending down the BST.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
