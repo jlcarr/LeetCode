@@ -212,6 +212,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Search the rows and columns using some indexing, keep track of values found with a set to check for duplicates.
  
+### Problem 37
+- **Name**: Sudoku Solver
+- **Runtime**: 928 ms
+- **Memory**: 14 MB
+- **Solution**: DFS works, modifying in-place and backtracking when an invalid leaf is found. A brief check for local feasibility of the solution is efficient.
+ 
 ### Problem 38
 - **Name**: Count and Say
 - **Runtime**: 71 ms
