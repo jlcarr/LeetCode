@@ -626,6 +626,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 277.8 MB
 - **Solution**: We can recursively determine which parts of our preorder and inorder traversals belong on the left and right sides. The root will be the first element of preorder, and everything to the left of the root in the inorder will belong on the left-side, and we can then take all the found elements off the front of the preorder to also go down the left side of the recursion, then put the remainder down the right side.
  
+### Problem 106
+- **Name**: Construct Binary Tree from Inorder and Postorder Traversal
+- **Runtime**: 1242 ms
+- **Memory**: 351.7 MB
+- **Solution**: We can get our current root from the end of the post-order, then find the left and right sides of the tree from the inorder, which we can use to recurse down the left and right sides of the tree.
+ 
 ### Problem 108
 - **Name**: Convert Sorted Array to Binary Search Tree
 - **Runtime**: 113 ms
