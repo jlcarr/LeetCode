@@ -650,6 +650,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.4 MB
 - **Solution**: Convert the linked-list to a list which can be sliced, and then recursively split the list in 2 to fill up the BST.
  
+### Problem 110
+- **Name**: Balanced Binary Tree
+- **Runtime**: 86 ms
+- **Memory**: 18.9 MB
+- **Solution**: Recursively get heights of sub-trees, and check for validity of left and right sub-trees and if there are any violations found.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
