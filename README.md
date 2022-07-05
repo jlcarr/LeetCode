@@ -644,6 +644,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.7 MB
 - **Solution**: Recursively take the middle value, and slice the list into left and right sides, sending down the BST.
  
+### Problem 109
+- **Name**: Convert Sorted List to Binary Search Tree
+- **Runtime**: 422 ms
+- **Memory**: 20.4 MB
+- **Solution**: Convert the linked-list to a list which can be sliced, and then recursively split the list in 2 to fill up the BST.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
