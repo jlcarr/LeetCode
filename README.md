@@ -890,6 +890,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.6 MB
 - **Solution**: Perform a "flood-fill" using BFS from the pairs of edges, and then take the intersection of the sets of nodes reached.
 
+### Problem 424
+- **Name**: Longest Repeating Character Replacement
+- **Runtime**: 1432 ms
+- **Memory**: 14 MB
+- **Solution**: For each unique character in the string run through with a fast and slow pointer, keeping track of remaining k and the streak length, pushing up the right pointer when possible, and dragging up the left pointer when needed.
+
 ### Problem 435
 - **Name**: Non-overlapping Intervals
 - **Runtime**: 1912 ms
