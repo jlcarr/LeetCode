@@ -656,6 +656,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.9 MB
 - **Solution**: Recursively get heights of sub-trees, and check for validity of left and right sub-trees and if there are any violations found.
  
+### Problem 111
+- **Name**: Minimum Depth of Binary Tree
+- **Runtime**: 1276 ms
+- **Memory**: 55 MB
+- **Solution**: Recursively check children for shortest path and return the min.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
