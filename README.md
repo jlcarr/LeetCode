@@ -662,6 +662,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 55 MB
 - **Solution**: Recursively check children for shortest path and return the min.
  
+### Problem 112
+- **Name**: Path Sum
+- **Runtime**: 37 ms
+- **Memory**: 15.1 MB
+- **Solution**: Recursively send down the new target to left and right child nodes until a solution is found.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
