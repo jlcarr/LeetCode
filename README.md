@@ -668,6 +668,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.1 MB
 - **Solution**: Recursively send down the new target to left and right child nodes until a solution is found.
  
+### Problem 113
+- **Name**: Path Sum II
+- **Runtime**: 62 ms
+- **Memory**: 15.5 MB
+- **Solution**: Recursively send down new target to left and right child nodes, and send back up list off all paths to be pre-pended to.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
