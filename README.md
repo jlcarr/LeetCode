@@ -674,6 +674,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Recursively send down new target to left and right child nodes, and send back up list off all paths to be pre-pended to.
  
+### Problem 114
+- **Name**: Flatten Binary Tree to Linked List
+- **Runtime**: 68 ms
+- **Memory**: 15.2 MB
+- **Solution**: Recursively flatten the left and right sides, returning the start and ends of each side to chain together.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
