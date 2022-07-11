@@ -680,6 +680,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.2 MB
 - **Solution**: Recursively flatten the left and right sides, returning the start and ends of each side to chain together.
  
+### Problem 115
+- **Name**: Distinct Subsequences
+- **Runtime**: 1621 ms
+- **Memory**: 154.9 MB
+- **Solution**: DP over starting indices of the strings, memoizing sub-results.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
