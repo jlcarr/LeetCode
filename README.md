@@ -686,6 +686,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 154.9 MB
 - **Solution**: DP over starting indices of the strings, memoizing sub-results.
  
+### Problem 116
+- **Name**: Populating Next Right Pointers in Each Node
+- **Runtime**: 83 ms
+- **Memory**: 15.5 MB
+- **Solution**: One solution is to recursively pass down left and right adjacent pairs, which are then joined and recurse: thereby keeping the separate branches that should be adjacent together. Another solution is to use each level of nexts and a queue to run through and join the children.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
