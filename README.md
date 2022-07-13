@@ -698,6 +698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.3 MB
 - **Solution**: Keep track of the starting node of the next level, and use it as a queue to run through looking for children, keeping track of the last child found to append to.
  
+### Problem 118
+- **Name**: Pascal's Triangle
+- **Runtime**: 62 ms
+- **Memory**: 13.9 MB
+- **Solution**: For each row, run though adjacent pairs of the previous row summing them.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
