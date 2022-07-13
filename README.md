@@ -692,6 +692,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: One solution is to recursively pass down left and right adjacent pairs, which are then joined and recurse: thereby keeping the separate branches that should be adjacent together. Another solution is to use each level of nexts and a queue to run through and join the children.
  
+### Problem 117
+- **Name**: Populating Next Right Pointers in Each Node II
+- **Runtime**: 49 ms
+- **Memory**: 15.3 MB
+- **Solution**: Keep track of the starting node of the next level, and use it as a queue to run through looking for children, keeping track of the last child found to append to.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
