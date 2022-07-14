@@ -704,6 +704,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: For each row, run though adjacent pairs of the previous row summing them.
  
+### Problem 120
+- **Name**: Triangle
+- **Runtime**: 138 ms
+- **Memory**: 14.9 MB
+- **Solution**: DP running through each row and taking only the smaller total cost of the two possible parents. Essentially a simplified Dijkstra's.
+ 
 ### Problem 121
 - **Name**: Best Time to Buy and Sell Stock
 - **Runtime**: 985 ms
