@@ -962,6 +962,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
 
+### Problem 632
+- **Name**: Smallest Range Covering Elements from K Lists
+- **Runtime**: 363 ms
+- **Memory**: 21.4 MB
+- **Solution**: Left and right pointers to make a sliding window. Keep one large sorted list keeping track of which original lists each came from. Start by "casting out" the right pointer until a valid pointer is found, then "real in" the left pointer, updating the solution while it remains valid.
+
 ### Problem 647
 - **Name**: Palindromic Substrings
 - **Runtime**: 2333 ms
