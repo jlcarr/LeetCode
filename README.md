@@ -866,6 +866,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.5 MB
 - **Solution**: Initial solution was to avoid the division by converting to logarithms, then subtracting and then re-exponentiating. Real answer is to run through the array forward accumulating, and then backwards accumulating.
 
+### Problem 239
+- **Name**: Sliding Window Maximum
+- **Runtime**: 3123 ms
+- **Memory**: 30.2 MB
+- **Solution**: I originally solved this problems by using a max heap to keep track of the largest values in the window, and a dict as a multi-set to keep track of which values fell out of the window, cleaning up the heap's root using this mutli-set to ensure the max of the window was always correct (i.e. the heap would contain values inside the window, and previous, while the multi-set would keep track of values fallen out of the window that still needed to be removed from the heap, and would be removed once they reached the root). This gave a runtime of `O(n*log(n))`. A better solution is to use a monotonic queue: the front is always the largest value, and also keeps track of the index, and new values will pop from the end until they are monotonic property is satisfied, thereby removing elements that cannot ever by the largest in the window.
+
 ### Problem 242
 - **Name**: Valid Anagram
 - **Runtime**: 54 ms
