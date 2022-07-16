@@ -722,6 +722,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.1 MB
 - **Solution**: Run through the array, keep track of the lowest point found so far, and the highest point found since the low-point, along with the result being selling at the highest point before the next low-point is found.
  
+### Problem 122
+- **Name**: Best Time to Buy and Sell Stock II
+- **Runtime**: 79 ms
+- **Memory**: 15.3 MB
+- **Solution**: Since we can only keep 1 until and can buy and sell on the same day, optimal strategy is to buy whenever the price will go up the next day and sell on the next day.
+ 
 ### Problem 124
 - **Name**: Binary Tree Maximum Path Sum
 - **Runtime**: 109 ms
