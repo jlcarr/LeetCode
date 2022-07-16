@@ -704,6 +704,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: For each row, run though adjacent pairs of the previous row summing them.
  
+### Problem 119
+- **Name**: Pascal's Triangle II
+- **Runtime**: 53 ms
+- **Memory**: 13.9 MB
+- **Solution**: We can use the fact that a given element of Pascal's triangle is given by the combination function.
+ 
 ### Problem 120
 - **Name**: Triangle
 - **Runtime**: 138 ms
