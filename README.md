@@ -974,6 +974,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.9 MB
 - **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
 
+### Problem 448
+- **Name**: Find All Numbers Disappeared in an Array
+- **Runtime**: 560 ms
+- **Memory**: 26.1 MB
+- **Solution**: We can simply turn the input into a set and perform set difference on the set of numbers 1 to n. A more optimal approach is to use the fact all the numbers are positive to borrow the negation bit to use as a marker on each index for if it was found or not.
+
 ### Problem 572
 - **Name**: Subtree of Another Tree
 - **Runtime**: 202 ms
