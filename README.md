@@ -896,6 +896,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.2 MB
 - **Solution**: Use the triangular number formula to get what the sum should be, then subtract off the actual sum.
 
+### Problem 287
+- **Name**: Find the Duplicate Number
+- **Runtime**: 641 ms
+- **Memory**: 27.8 MB
+- **Solution**: The solution that accommodates all the restrictions is the toritoise and hare algorithm treating the input array as a permutation (each element's value is the index of the next element mapped to). Finding the entrance to a cycle will guaruntee finding a duplicate. Also the first element 0 is guarunteed to be outside a cycle because no element can map to it.
+
 ### Problem 295
 - **Name**: Find Median from Data Stream
 - **Runtime**: 674 ms
