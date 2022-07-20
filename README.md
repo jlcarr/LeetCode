@@ -980,6 +980,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.9 MB
 - **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
 
+### Problem 442
+- **Name**: Find All Duplicates in an Array
+- **Runtime**: 854 ms
+- **Memory**: 21.7 MB
+- **Solution**: Since all values are supposed to be positive use negating an int at a given index as a marker of already having seen it.
+
 ### Problem 448
 - **Name**: Find All Numbers Disappeared in an Array
 - **Runtime**: 560 ms
