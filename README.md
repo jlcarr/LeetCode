@@ -432,7 +432,7 @@ Solutions to LeetCode problems in Python3
 - **Name**: Set Matrix Zeroes
 - **Runtime**: 142 ms
 - **Memory**: 14.8 MB
-- **Solution**: Run through the matrix keeping a list of all indices where zeros are found. Then run through that list, setting the rows and columns accordingly.
+- **Solution**: Run through the matrix keeping a list of all indices where zeros are found. Then run through that list, setting the rows and columns accordingly. To achieve a constant space solution, we can start by marking the first checking if the first row and first column will need to be set to all 0s, then use the first row and column to mark with 0s if they need to be all set.
  
 ### Problem 74
 - **Name**: Search a 2D Matrix 
@@ -1009,6 +1009,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 2333 ms
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
+
+### Problem 784
+- **Name**: Letter Case Permutation
+- **Runtime**: 62 ms
+- **Memory**: 14.6 MB
+- **Solution**: Run through all letters of the string, checking if lowercase and uppercase are different, if so double the result size and append the lowercase to the first half and uppercase the second half, otherwise just append to all.
 
 ### Problem 876
 - **Name**: Middle of the Linked List
