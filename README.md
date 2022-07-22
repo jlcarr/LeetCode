@@ -998,6 +998,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.1 MB
 - **Solution**: We can simply turn the input into a set and perform set difference on the set of numbers 1 to n. A more optimal approach is to use the fact all the numbers are positive to borrow the negation bit to use as a marker on each index for if it was found or not.
 
+### Problem 494
+- **Name**: Target Sum
+- **Runtime**: 366 ms
+- **Memory**: 14.2 MB
+- **Solution**: My initial solution was a simple recursive DP over the number we're looking at and the current target. However this solution is not optimal since it will memoize all the possible values of target for every step. A more optimal solution is to iterate over the numbers we either add of subtract to the target and create a new cache from the value at that given step, discarding the older cache as it's no longer needed.
+
 ### Problem 572
 - **Name**: Subtree of Another Tree
 - **Runtime**: 202 ms
