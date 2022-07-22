@@ -842,6 +842,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Same as problem 198, just we can't have both the first and last house. So loop over the ability to keep one or the other.
  
+### Problem 216
+- **Name**: Combination Sum III
+- **Runtime**: 58 ms
+- **Memory**: 14.1 MB
+- **Solution**: We can use a simple DP over the triple of choices k remaining, n target remaining, and i number to consider adding. For cases where we add the number we can prepend to all sub-solution values. Memoization should help too.
+ 
 ### Problem 217
 - **Name**: Contains Duplicate
 - **Runtime**: 882 ms
