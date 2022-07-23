@@ -746,6 +746,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.7 MB
 - **Solution**: Kept 2 dicts keeping track of the starts and ends of the consecutive sequences, updating as we run through the input.
  
+### Problem 131
+- **Name**: Palindrome Partitioning
+- **Runtime**: 1156 ms
+- **Memory**: 33.9 MB
+- **Solution**: Ran through the string, greedily trying to expanding the indices encompassing each possible palidrome to make longer and longer ones where possible. With all the valid stard and end indices recursively build up all palindrome partitions using the indices to see possible places for the next partition.
+ 
 ### Problem 133
 - **Name**: Clone Graph
 - **Runtime**: 71 ms
