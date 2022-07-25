@@ -938,6 +938,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Compute sums that can be made up to the target amount keeping track of the shortest path to each. To do this, from a given sum iterate over the coins that can add to the sum. This makes the solution time proportional to `coins.length * amount`. My initial attempt at DP over starting coin and target value didn't work because the time complexity then included looping over the number of copies of a given coin to include.
 
+### Problem 327
+- **Name**: Count of Range Sum
+- **Runtime**: 6577 ms
+- **Memory**: 52.6 MB
+- **Solution**: Use the cumulative sum trick to be able to compute the range sum between any indices then use a balanced binary search tree which counts children to quickly find the counts of values within the range.
+
 ### Problem 338
 - **Name**: Counting Bits
 - **Runtime**: 80 ms
