@@ -1034,6 +1034,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
 
+### Problem 704
+- **Name**: Binary Search
+- **Runtime**: 290 ms
+- **Memory**: 15.5 MB
+- **Solution**: Classic binary search algorithm: use a left and right pointer, then check if the middle value is greather than or lesser than the target values and update the left and right pointers to the middle value accordingly to tighen the bounds until a solution is found.
+
 ### Problem 784
 - **Name**: Letter Case Permutation
 - **Runtime**: 62 ms
