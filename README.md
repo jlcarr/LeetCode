@@ -1034,6 +1034,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
 
+### Problem 673
+- **Name**: Number of Longest Increasing Subsequence
+- **Runtime**: 1192 ms
+- **Memory**: 15.1 MB
+- **Solution**: Pre-construct a balanced BST, with indicators about where values have officially been filled in, and which also saves the max-length path to each number and the number of such paths (updating as appropriate for duplicates). We can then slightly more quickly find all smaller-than nodes which have been reached and look for the longest path and how many there are. The final step is a complete search of the tree, in case of disparate longest paths.
+
 ### Problem 704
 - **Name**: Binary Search
 - **Runtime**: 290 ms
