@@ -975,10 +975,16 @@ Solutions to LeetCode problems in Python3
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
 ### Problem 412
-- **Name**: Fizz Buzz 
+- **Name**: Fizz Buzz
 - **Runtime**: 69 ms
 - **Memory**: 15 MB
 - **Solution**: Simple if-block appending to a list.
+
+### Problem 416
+- **Name**: Partition Equal Subset Sum
+- **Runtime**: 446 ms
+- **Memory**: 14.9 MB
+- **Solution**: Since the partitions union to the complete set and their sums must be equal, then the sum of both must be equal to the sum of the entire set. If the set's sum is odd, then the answer is false. Now our target is half the set's sum. Picking elements of a set to match a target is the knapsack problem. Since the values are small enough we can cache reachable sums from previous elements in the array while going through, and from there add new reachable sums from the previously reachable. This in still exponential time in the worst case, but the bounds on this problem keep it reasonable.
 
 ### Problem 417
 - **Name**: Pacific Atlantic Water Flow
