@@ -1046,6 +1046,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.1 MB
 - **Solution**: Pre-construct a balanced BST, with indicators about where values have officially been filled in, and which also saves the max-length path to each number and the number of such paths (updating as appropriate for duplicates). We can then slightly more quickly find all smaller-than nodes which have been reached and look for the longest path and how many there are. The final step is a complete search of the tree, in case of disparate longest paths.
 
+### Problem 698
+- **Name**: Partition to K Equal Sum Subsets
+- **Runtime**: 161 ms
+- **Memory**: 14 MB
+- **Solution**: This is essentially a decision problem version of the bin packing problem. Being NP-Complete, we need to perform an exhaustive search, taking each element and tryig to place it in each of the bins, but we can speed things up be exiting early if no solution is found. We can also notice we'll want to place an element in a bin as soon as possible: we should never end up with the case where we choose to skip over placing an element in a bin which is still empty: the element should have either been already placed in a non-empty bin to keep building it, or placed in the empty to to start it: never just leave a bin empty.
+
 ### Problem 704
 - **Name**: Binary Search
 - **Runtime**: 290 ms
