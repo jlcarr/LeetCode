@@ -962,6 +962,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.6 MB
 - **Solution**: Use the cumulative sum trick to be able to compute the range sum between any indices then use a balanced binary search tree which counts children to quickly find the counts of values within the range.
 
+### Problem 328
+- **Name**: Odd Even Linked List
+- **Runtime**: 78 ms
+- **Memory**: 16.7 MB
+- **Solution**: Keep track of the head and tail of the even and odd new lists and build then up going through linearly, finally fastening the head of the even list to the tail of the off list.
+
 ### Problem 338
 - **Name**: Counting Bits
 - **Runtime**: 80 ms
