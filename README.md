@@ -782,6 +782,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23.9 MB
 - **Solution**: First find the length of the list, then find the middle and split into two lists, then reverse the second list, then merge the two.
  
+### Problem 148
+- **Name**: Sort List
+- **Runtime**: 1121 ms
+- **Memory**: 36.5 MB
+- **Solution**: We can use mergesort to solve this problem. The lists lend themselves nicely to merging, however finding the midpoints requires 2 run-throughs at each step to find the middle node and split.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
