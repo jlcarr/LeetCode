@@ -932,6 +932,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Dynamic programming, keeping track of the minimum value reached to obtain a given streak length. This is therefore quadratic time complexity. However a more optimal approach is to notice that because of previous updates, only 1 streak value will need to be updated at most: therefore a binary search can be used.
 
+### Problem 309
+- **Name**: Best Time to Buy and Sell Stock with Cooldown
+- **Runtime**: 66 ms
+- **Memory**: 14.2 MB
+- **Solution**: Since the state can be expressed as being at a given day either with or without the stock, from which the optimal solution going forward is independent of the path there, this implies a relatively linear DP. My first solution was a recursive one by state, where cooldown was expressed by jumping forward in time. I then read a more optimal solution, especially from a memory standpoint, was to keep track of 3 states: holding the stock, cooling down, not holding the stock. Then run forward keeping track of the max profit possible in each of the states.
+
 ### Problem 322
 - **Name**: Coin Change
 - **Runtime**: 2829 ms
