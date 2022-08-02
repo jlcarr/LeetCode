@@ -770,6 +770,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.6 MB
 - **Solution**: Tortoise and hare algorithm for cycle detection in a linked list.
  
+### Problem 142
+- **Name**: Linked List Cycle II
+- **Runtime**: 60 ms
+- **Memory**: 17.5 MB
+- **Solution**: Use the classic tortoise and hare algorithm to find the cycle, and then the starting point.
+ 
 ### Problem 143
 - **Name**: Reorder List
 - **Runtime**: 176 ms
