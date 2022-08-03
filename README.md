@@ -1106,6 +1106,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.9 MB
 - **Solution**: Greedy solution can be used to push the first appearance of a 0 back until all the 0s lie in the final K values. If there are 0s remaining then the problem is indeed unsolveable. So be able to do this in one pass quickly, we can use a queue to keep track of when we last needed a flip, and so if the current value should flip its value or not.
 
+### Problem 997
+- **Name**: Squares of a Sorted Array
+- **Runtime**: 348 ms
+- **Memory**: 16.2 MB
+- **Solution**: The easy solution is a 1-liner in Python. However the linear time solution uses the fact the original array is sorted: simply need to merge the original negatives with the positives into the resultant array.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
