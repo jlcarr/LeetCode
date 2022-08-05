@@ -992,6 +992,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: DP, memoizing solutions to smaller targets.
 
+### Problem 378
+- **Name**: Kth Smallest Element in a Sorted Matrix
+- **Runtime**: 285 ms
+- **Memory**: 18.8 MB
+- **Solution**: To get under the O(n^2) memory requirement, I man a heap of size n keeping track of the values of each row currently under consideration: take the lowest value out and move up the row and re-insert the new value. Repeating k times will lead to the lowest value overall in O(k * log(n)) time.
+
 ### Problem 383
 - **Name**: Ransom Note
 - **Runtime**: 85 ms
