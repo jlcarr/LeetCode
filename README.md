@@ -986,6 +986,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Bit-manipulation to perform binary addition, treating the second input as the carries, and the first input as the solution accumulator. The hardest part is accounting for negatives via two's complement.
 
+### Problem 373
+- **Name**: Find K Pairs with Smallest Sums
+- **Runtime**: 2494 ms
+- **Memory**: 33.9 MB
+- **Solution**: Use a heap to keep track of the minimums, the the indices to move up. Repeat popping and inserting the next sums up the lists until the result is filled.
+
 ### Problem 377
 - **Name**: Combination Sum IV
 - **Runtime**: 39 ms
