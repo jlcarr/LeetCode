@@ -728,6 +728,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.3 MB
 - **Solution**: Since we can only keep 1 until and can buy and sell on the same day, optimal strategy is to buy whenever the price will go up the next day and sell on the next day.
  
+### Problem 123
+- **Name**: Best Time to Buy and Sell Stock III
+- **Runtime**: 1450 ms
+- **Memory**:27.9 MB
+- **Solution**: Linear time solution obtained by first running backwards through the prices keeping track of max future prices and therefore max possible future profit. Then run through forward, keeping track of minimum past prices, and therefore max profit up to given day, added with max future profit we can then linearly find the max possible profit overall.
+ 
 ### Problem 124
 - **Name**: Binary Tree Maximum Path Sum
 - **Runtime**: 109 ms
