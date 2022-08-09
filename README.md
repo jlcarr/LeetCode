@@ -1070,6 +1070,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
 
+### Problem 621
+- **Name**: Task Scheduler
+- **Runtime**: 667 ms
+- **Memory**: 14.3 MB
+- **Solution**: First get tasks and their frequencies, then greedily assign them with a priority queue by frequency. Decrement after each assignment, and put them into a cooldown queue, which is popped into the priority queue after cooldown is over.
+
 ### Problem 632
 - **Name**: Smallest Range Covering Elements from K Lists
 - **Runtime**: 363 ms
