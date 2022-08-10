@@ -746,6 +746,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Strip the string of non-alphanumeric characters, then compare with its reverse.
  
+### Problem 126
+- **Name**: Word Ladder II
+- **Runtime**: 103 ms
+- **Memory**: 14.2 MB
+- **Solution**: BFS twice: the first time from beginWord to endWord to find the optimal distances to nodes along the path, then in reverse from endWord to beginWord to find the paths. This ensures that we only record the full paths for nodes that will on an optimal path. I included 2 ways to find neighboring nodes: by going over all letter-swap choices on each node (slower), or making a list of positions to swap letters from, each containing a map from the string with that letter removed to their corresponding words in wordList.
+ 
 ### Problem 128
 - **Name**: Longest Consecutive Sequence
 - **Runtime**: 371 ms
