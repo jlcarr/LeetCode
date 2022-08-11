@@ -1064,6 +1064,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.1 MB
 - **Solution**: We can simply turn the input into a set and perform set difference on the set of numbers 1 to n. A more optimal approach is to use the fact all the numbers are positive to borrow the negation bit to use as a marker on each index for if it was found or not.
 
+### Problem 452
+- **Name**: Minimum Number of Arrows to Burst Balloons
+- **Runtime**: 1587 ms
+- **Memory**: 59.8 MB
+- **Solution**: Greedy algorithm: if we go through by end of interval we know at the first end a dart will also hit all intervals the started before hand. We can repeat this and we know it will be optimal to use as few darts as possible. My first solution I used a dict to a linked list to implement a queue of ends I could immediately access the middle via dict when I found starts ahead of th current best end, however I didn't need this as I could just skip over them in my loop.
+
 ### Problem 494
 - **Name**: Target Sum
 - **Runtime**: 366 ms
