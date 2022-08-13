@@ -1076,6 +1076,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: My initial solution was a simple recursive DP over the number we're looking at and the current target. However this solution is not optimal since it will memoize all the possible values of target for every step. A more optimal solution is to iterate over the numbers we either add of subtract to the target and create a new cache from the value at that given step, discarding the older cache as it's no longer needed.
 
+### Problem 543
+- **Name**: Diameter of Binary Tree
+- **Runtime**: 66 ms
+- **Memory**: 16.4 MB
+- **Solution**: Recursively find max depths by recursing on children, then the max path is max sum of max depths between children for any node.
+
 ### Problem 572
 - **Name**: Subtree of Another Tree
 - **Runtime**: 202 ms
