@@ -1088,6 +1088,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
 
+### Problem 617
+- **Name**: Merge Two Binary Trees
+- **Runtime**: 87 ms
+- **Memory**: 15.4 MB
+- **Solution**: Recursive approach, using the fact that we can use original tree nodes instead of constructing new ones: as soon as we notice a lack of overlap we can just that node as is with its decendents.
+
 ### Problem 621
 - **Name**: Task Scheduler
 - **Runtime**: 667 ms
