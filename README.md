@@ -1100,6 +1100,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: First get tasks and their frequencies, then greedily assign them with a priority queue by frequency. Decrement after each assignment, and put them into a cooldown queue, which is popped into the priority queue after cooldown is over.
 
+### Problem 630
+- **Name**: Course Schedule III
+- **Runtime**: 1304 ms
+- **Memory**: 20.2 MB
+- **Solution**: The main limiting factor is the lastDay, so sort the courses by lastDay, then greedily add courses back-to-back. If the lastDay of an added course is less than the sum of the durations of all added courses so far, then we can correct this by removing the longest course added (possibly the most recent one), which is guarunteed to bring all currently added courses to valid positoons and now be under the lastDay cap. Continue until all courses have been gone through.
+
 ### Problem 632
 - **Name**: Smallest Range Covering Elements from K Lists
 - **Runtime**: 363 ms
