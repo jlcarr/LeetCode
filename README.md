@@ -1070,6 +1070,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.8 MB
 - **Solution**: Greedy algorithm: if we go through by end of interval we know at the first end a dart will also hit all intervals the started before hand. We can repeat this and we know it will be optimal to use as few darts as possible. My first solution I used a dict to a linked list to implement a queue of ends I could immediately access the middle via dict when I found starts ahead of th current best end, however I didn't need this as I could just skip over them in my loop.
 
+### Problem 474
+- **Name**: Concatenated Words
+- **Runtime**: 374 ms
+- **Memory**: 27.7 MB
+- **Solution**: My first solution was to use a trie, to which I also added a method to search for concatenated words by branching the search back to the root every time a node that was a leaf (i.e. a possible word concatenated) was found. My second solution was more optimal, which was a straightforward DFS, building up subwords, and if in a previously found cache, then separately looking at the rest of the word to see if it concatenates.
+
 ### Problem 480
 - **Name**: Sliding Window Median
 - **Runtime**: 1149 ms
