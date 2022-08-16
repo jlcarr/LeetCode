@@ -1154,6 +1154,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Ran through the list once to count, then again up to the middle.
 
+### Problem 895
+- **Name**: Maximum Frequency Stack
+- **Runtime**: 540 ms
+- **Memory**: 23 MB
+- **Solution**: The max frequency can only change by at most 1 on a given operation, so keep track of its value, then have a map of values to their frequencies, then frequencies to stack. That way when popped the max frequency can be found and most recent returned, and for a value it's frequency and be found quickly and incremented and added to the next frequency stack.
+
 ### Problem 986
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
