@@ -1070,6 +1070,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.8 MB
 - **Solution**: Greedy algorithm: if we go through by end of interval we know at the first end a dart will also hit all intervals the started before hand. We can repeat this and we know it will be optimal to use as few darts as possible. My first solution I used a dict to a linked list to implement a queue of ends I could immediately access the middle via dict when I found starts ahead of th current best end, however I didn't need this as I could just skip over them in my loop.
 
+### Problem 480
+- **Name**: Sliding Window Median
+- **Runtime**: 1149 ms
+- **Memory**: 16.1 MB
+- **Solution**: Used and upper heap and lower heap, with a Counter to keep track of values that need to be removed from the heaps. Similar to finding median of a stream.
+
 ### Problem 494
 - **Name**: Target Sum
 - **Runtime**: 366 ms
