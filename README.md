@@ -812,6 +812,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Use binary search to find where the array has been rotated to by making sure the left and right pointers are on different sides of the starting point.
  
+### Problem 169
+- **Name**: Majority Element
+- **Runtime**: 264 ms
+- **Memory**: 15.6 MB
+- **Solution**: Python's collections class makes this problem easy to solve in 1 line. However it is O(n) space, while an O(1) space solution exists via the Boyer-Moore voting algorithm:
+ 
 ### Problem 190
 - **Name**: Reverse Bits
 - **Runtime**: 54 ms
