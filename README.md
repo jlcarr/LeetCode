@@ -812,6 +812,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Use binary search to find where the array has been rotated to by making sure the left and right pointers are on different sides of the starting point.
  
+### Problem 162
+- **Name**: Find Peak Element
+- **Runtime**: 51 ms
+- **Memory**: 14 MB
+- **Solution**: Use binary search: on each new midpoint check to see if it's increasing or decreasing, then pull up the left or right bound accordinly to tighten in on a peak.
+ 
 ### Problem 169
 - **Name**: Majority Element
 - **Runtime**: 264 ms
