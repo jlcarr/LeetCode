@@ -1148,6 +1148,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
 
+### Problem 658
+- **Name**: Find K Closest Elements
+- **Runtime**: 322 ms
+- **Memory**: 15.4 MB
+- **Solution**: Use binary search to find the index of the closest element in the list (correcting for off-by-one errors), then linearly grow the indices to keep grabbing the next closest elements, and finally slice the array to return the final result.
+
 ### Problem 673
 - **Name**: Number of Longest Increasing Subsequence
 - **Runtime**: 1192 ms
