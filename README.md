@@ -1118,6 +1118,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Recursively find max depths by recursing on children, then the max path is max sum of max depths between children for any node.
 
+### Problem 567
+- **Name**: Permutation in String
+- **Runtime**: 133 ms
+- **Memory**: 14 MB
+- **Solution**: We can just keep counts of each letter appearing in the permutation, and having a sliding window through the array. We could optimize the check by keeping a count of letters that are out of balance so we don't need to complete equality check at each step.
+
 ### Problem 572
 - **Name**: Subtree of Another Tree
 - **Runtime**: 202 ms
