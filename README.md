@@ -1208,6 +1208,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23 MB
 - **Solution**: The max frequency can only change by at most 1 on a given operation, so keep track of its value, then have a map of values to their frequencies, then frequencies to stack. That way when popped the max frequency can be found and most recent returned, and for a value it's frequency and be found quickly and incremented and added to the next frequency stack.
 
+### Problem 904
+- **Name**: Fruit Into Baskets
+- **Runtime**: 1280 ms
+- **Memory**: 20.1 MB
+- **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
+
 ### Problem 986
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
