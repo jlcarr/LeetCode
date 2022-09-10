@@ -1220,6 +1220,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 973
+- **Name**: K Closest Points to Origin
+- **Runtime**: 1730 ms
+- **Memory**: 18.3 MB
+- **Solution**: One easy method is to compute all the distances and perform and argsort on the result. Interesting to note KD trees are also a useful datastructure of such problems. Quickselect would probably be the fastest, though a heap is also quite fast.
+
 ### Problem 986
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
