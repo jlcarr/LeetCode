@@ -1088,6 +1088,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.1 MB
 - **Solution**: We can simply turn the input into a set and perform set difference on the set of numbers 1 to n. A more optimal approach is to use the fact all the numbers are positive to borrow the negation bit to use as a marker on each index for if it was found or not.
 
+### Problem 451
+- **Name**: Sort Characters By Frequency
+- **Runtime**: 81 ms
+- **Memory**: 19.3 MB
+- **Solution**: Python's Counter class makes this easy, we can use the frequency as the key for sorting.
+
 ### Problem 452
 - **Name**: Minimum Number of Arrows to Burst Balloons
 - **Runtime**: 1587 ms
