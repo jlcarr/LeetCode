@@ -1196,6 +1196,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Classic binary search algorithm: use a left and right pointer, then check if the middle value is greather than or lesser than the target values and update the left and right pointers to the middle value accordingly to tighen the bounds until a solution is found.
 
+### Problem 767
+- **Name**: Reorganize String
+- **Runtime**: 33 ms
+- **Memory**: 13.9 MB
+- **Solution**: Use Python's Counter to get frequencies. Use the most frequent element to make buckets of adjacent characters, which we can then run over placing each new character in the next bucket. We're guarunteed to have at least 1 character between each of the same type.
+
 ### Problem 784
 - **Name**: Letter Case Permutation
 - **Runtime**: 62 ms
