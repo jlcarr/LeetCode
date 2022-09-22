@@ -890,6 +890,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Same as problem 198, just we can't have both the first and last house. So loop over the ability to keep one or the other.
  
+### Problem 215
+- **Name**: Kth Largest Element in an Array
+- **Runtime**: 1291 ms
+- **Memory**: 27.1 MB
+- **Solution**: This is classic quickselect algorithm.
+ 
 ### Problem 216
 - **Name**: Combination Sum III
 - **Runtime**: 58 ms
