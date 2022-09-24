@@ -872,6 +872,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.9 MB
 - **Solution**: Two pointers, to grow and slide window.
  
+### Problem 210
+- **Name**: Course Schedule II
+- **Runtime**: 266 ms
+- **Memory**: 15.5 MB
+- **Solution**: Construct the dependency graph and keep track of the number of inbound edges to each node. Nodes with no inbound edges represent classes that can be taken immediately. Remove their outbound edges from the graph, this represents this dependency being filled, and add any classes that now no longer have any inbounds. Repeat this process and check if all classes have been taken. This is Kahn's algorithm.
+ 
 ### Problem 211
 - **Name**: Design Add and Search Words Data Structure
 - **Runtime**: 14955 ms
