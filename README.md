@@ -1298,6 +1298,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
 
+### Problem 2418
+- **Name**: Sort the People
+- **Runtime**: 265 ms
+- **Memory**: 14.5 MB
+- **Solution**: Use Python's zip to combind the lists, then they can be sorted together, and finish by only returning the names.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
