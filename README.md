@@ -998,6 +998,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Since the state can be expressed as being at a given day either with or without the stock, from which the optimal solution going forward is independent of the path there, this implies a relatively linear DP. My first solution was a recursive one by state, where cooldown was expressed by jumping forward in time. I then read a more optimal solution, especially from a memory standpoint, was to keep track of 3 states: holding the stock, cooling down, not holding the stock. Then run forward keeping track of the max profit possible in each of the states.
 
+### Problem 310
+- **Name**: Minimum Height Trees
+- **Runtime**: 1338 ms
+- **Memory**: 25.8 MB
+- **Solution**: Only 1 or two nodes in a tree can be the root of the minimum height tree. Used a BFS, similar to Kahn's algorithm to start from the leaves and work through each layer until either a single or two adjacent nodes are left.
+
 ### Problem 322
 - **Name**: Coin Change
 - **Runtime**: 2829 ms
