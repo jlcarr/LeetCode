@@ -1304,6 +1304,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.5 MB
 - **Solution**: Use Python's zip to combind the lists, then they can be sorted together, and finish by only returning the names.
 
+### Problem 2419
+- **Name**: Longest Subarray With Maximum Bitwise AND
+- **Runtime**: 2658 ms
+- **Memory**: 28.5 MB
+- **Solution**: AND operations can never increase Hamming weight, only decrease of stay the same. Therefore it's a matter of counting streaks of values equal to the max of the array, and finding the longest streak.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
