@@ -842,6 +842,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: DP by taking the max of the solution with taking the current house then skipping one, or skipping the current house. My original approach started at the beginning and looked forward, memoizing sub-results. However a better solution requires only constant extra memory: by solving forward and taking the max between previous results.
  
+### Problem 199
+- **Name**: Binary Tree Right Side View
+- **Runtime**: 45 ms
+- **Memory**: 14 MB
+- **Solution**: DFS, prioritizing the right side, and keeping track of the depth. At each level append the first node seen to a global result list.
+ 
 ### Problem 200
 - **Name**: Number of Islands
 - **Runtime**: 303 ms
