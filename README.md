@@ -1310,6 +1310,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.5 MB
 - **Solution**: AND operations can never increase Hamming weight, only decrease of stay the same. Therefore it's a matter of counting streaks of values equal to the max of the array, and finding the longest streak.
 
+### Problem 2420
+- **Name**: Find All Good Indices
+- **Runtime**: 1060 ms
+- **Memory**: 30.7 MB
+- **Solution**: Create first differences array, then use a sliding window to count when the window contains all preceding non-increasing and proceding non-decreasing. This allows us to grab all the good indices. Careful for off-by-one errors.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
