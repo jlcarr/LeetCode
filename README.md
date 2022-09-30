@@ -1238,6 +1238,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Build up resulting strings literally: pop the end whenever a backspace character is encountered, then compare the 2.
 
+### Problem 863
+- **Name**: All Nodes Distance K in Binary Tree
+- **Runtime**: 71 ms
+- **Memory**: 14.4 MB
+- **Solution**: Two parts: search down to find the target node, then return back up with distance remaining. Recurse down again at each node to grab the relevant nodes.
+
 ### Problem 876
 - **Name**: Middle of the Linked List
 - **Runtime**: 47 ms
