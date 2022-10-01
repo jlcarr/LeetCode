@@ -1100,6 +1100,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 52.9 MB
 - **Solution**: Greedy algorithm: first sort the intervals, lowest start to highest start, then keep track of the end of the current interval, if it overlaps, then 1 interval has to go: increment the reuslt, and keep the interval that finishes first.
 
+### Problem 437
+- **Name**: Path Sum III
+- **Runtime**: 464 ms
+- **Memory**: 15.4 MB
+- **Solution**: Go down recursively and at a leaf return an empty Counter. At a return, we can either continue all lowers sums by adding to their keys, or start a new sum path.
+
 ### Problem 442
 - **Name**: Find All Duplicates in an Array
 - **Runtime**: 854 ms
