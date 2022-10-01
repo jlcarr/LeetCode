@@ -944,6 +944,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.7 MB
 - **Solution**: Generalized solution, not just for BSTs, is to do DFS, with each depth of recursion return either a set of the seached for elements or, after the LCA is found, returning the solution. However, since we have a BST, we can simply search for the node between the two searched for results.
 
+### Problem 236
+- **Name**: Lowest Common Ancestor of a Binary Tree
+- **Runtime**: 128 ms
+- **Memory**: 26.3 MB
+- **Solution**: Recursively solve the problem by returning the current node as soon as it matches one of the two nodes. Otherwise if both the left and right children are returning nodes, then this is the LCA, otherwise just continue to send any found child node up, or none.
+
 ### Problem 238
 - **Name**: Product of Array Except Self
 - **Runtime**: 293 ms
