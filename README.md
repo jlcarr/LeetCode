@@ -1340,6 +1340,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.7 MB
 - **Solution**: Create first differences array, then use a sliding window to count when the window contains all preceding non-increasing and proceding non-decreasing. This allows us to grab all the good indices. Careful for off-by-one errors.
 
+### Problem 2427
+- **Name**: Number of Common Factors
+- **Runtime**: 31 ms
+- **Memory**: 13.9 MB
+- **Solution**: The bound for this problem are small enough we can just run through all numbers from 1 to the minimum number (inclusive) checking the mod with both.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
