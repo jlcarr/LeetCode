@@ -1202,6 +1202,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
 
+### Problem 654
+- **Name**: Maximum Binary Tree
+- **Runtime**: 206 ms
+- **Memory**: 14.6 MB
+- **Solution**: Recursively build up the tree by directly searching for the max index at each step, and only passing down the bounding indices for space efficiency.
+
 ### Problem 658
 - **Name**: Find K Closest Elements
 - **Runtime**: 322 ms
