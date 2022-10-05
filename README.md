@@ -1214,6 +1214,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.4 MB
 - **Solution**: Use binary search to find the index of the closest element in the list (correcting for off-by-one errors), then linearly grow the indices to keep grabbing the next closest elements, and finally slice the array to return the final result.
 
+### Problem 662
+- **Name**: Maximum Width of Binary Tree
+- **Runtime**: 100 ms
+- **Memory**: 18.4 MB
+- **Solution**: Recursively go down each level, and keep track of the furthest left and right positions found. The position of a node's child can be computed by doubling it's current position, since all other nodes have 2 children (including null nodes).
+
 ### Problem 673
 - **Name**: Number of Longest Increasing Subsequence
 - **Runtime**: 1192 ms
