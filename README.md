@@ -1238,6 +1238,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Classic binary search algorithm: use a left and right pointer, then check if the middle value is greather than or lesser than the target values and update the left and right pointers to the middle value accordingly to tighen the bounds until a solution is found.
 
+### Problem 713
+- **Name**: Subarray Product Less Than K
+- **Runtime**: 1642 ms
+- **Memory**: 16.6 MB
+- **Solution**: This is a classic 2-pointer, which both monotonically increase, because the product can only increase. Increase the right pointer until a value less than k is found, set the left pointer there two, then increase the right pointer, accumulating to the product until it can't anymore, then increase the left pointer, dividing out of the accumulated product.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
