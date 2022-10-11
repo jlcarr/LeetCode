@@ -1244,6 +1244,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.6 MB
 - **Solution**: This is a classic 2-pointer, which both monotonically increase, because the product can only increase. Increase the right pointer until a value less than k is found, set the left pointer there two, then increase the right pointer, accumulating to the product until it can't anymore, then increase the left pointer, dividing out of the accumulated product.
 
+### Problem 720
+- **Name**: Longest Word in Dictionary
+- **Runtime**: 142 ms
+- **Memory**: 14.5 MB
+- **Solution**: First sort the words by lexicographic order, then run through, keeping a set of the buildable words found so far. If a word's substring is in the buildable, then it too is, and we can also check if it is greater in length than the current best.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
