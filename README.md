@@ -1094,6 +1094,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.6 MB
 - **Solution**: Perform a "flood-fill" using BFS from the pairs of edges, and then take the intersection of the sets of nodes reached.
 
+### Problem 421
+- **Name**: Maximum XOR of Two Numbers in an Array
+- **Runtime**: 849 ms
+- **Memory**: 35.5 MB
+- **Solution**: Build up the solution bit-by-bit by running over the bits and setting the next bit of the candidate solution, then checking if there are any prefixes in the nums which would xor to the prefix of the candidate solution.
+
 ### Problem 424
 - **Name**: Longest Repeating Character Replacement
 - **Runtime**: 1432 ms
