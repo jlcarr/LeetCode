@@ -1376,6 +1376,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: The bound for this problem are small enough we can just run through all numbers from 1 to the minimum number (inclusive) checking the mod with both.
 
+### Problem 2428
+- **Name**: Maximum Sum of an Hourglass
+- **Runtime**: 528 ms
+- **Memory**: 16.6 MB
+- **Solution**: Simple brute for summations over every possible index.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
