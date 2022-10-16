@@ -1382,6 +1382,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.6 MB
 - **Solution**: Simple brute for summations over every possible index.
 
+### Problem 2429
+- **Name**: Minimize XOR
+- **Runtime**: 63 ms
+- **Memory**: 14 MB
+- **Solution**: First find the Hamming weight of the num2, then first cancel out as many leading 1s from num1 as possible, and assign any leftover 1s to the lowest 0s possible.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
