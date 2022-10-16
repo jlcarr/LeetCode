@@ -1388,6 +1388,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: First find the Hamming weight of the num2, then first cancel out as many leading 1s from num1 as possible, and assign any leftover 1s to the lowest 0s possible.
 
+### Problem 2441
+- **Name**: Largest Positive Integer That Exists With Its Negative
+- **Runtime**: 251 ms
+- **Memory**: 14 MB
+- **Solution**: Make a set from nums to instantly look up if a negative is present, then filter the list, add -1 to the final set, and take the max remaining value.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
