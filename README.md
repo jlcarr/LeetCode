@@ -1394,6 +1394,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Make a set from nums to instantly look up if a negative is present, then filter the list, add -1 to the final set, and take the max remaining value.
 
+### Problem 2442
+- **Name**: Count Number of Distinct Integers After Reverse Operations
+- **Runtime**: 1056 ms
+- **Memory**: 41 MB
+- **Solution**: With Python we can simply convert to string and reverse and convert back to int. Finish by using set to get only distinct elements.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
