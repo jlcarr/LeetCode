@@ -1400,6 +1400,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 41 MB
 - **Solution**: With Python we can simply convert to string and reverse and convert back to int. Finish by using set to get only distinct elements.
 
+### Problem 2443
+- **Name**: Sum of Number and Its Reverse
+- **Runtime**: 6738 ms
+- **Memory**: 13.8 MB
+- **Solution**: While one could math/logic it out for a much faster solution, a brute force search (barely) works.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
