@@ -1406,6 +1406,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: While one could math/logic it out for a much faster solution, a brute force search (barely) works.
 
+### Problem 2444
+- **Name**: Count Subarrays With Fixed Bounds
+- **Runtime**: 847 ms
+- **Memory**: 28.7 MB
+- **Solution**: We can solve this problem by first noticing that any values outside the min-max range will effectively "chop" the array into pieces independant from eachother. We can run through any of these pieces of the array and consider all the valid sub-arrays ending on our given index: these will be distinct from other indices, and the number of valid subarray starts will stretch from either the start or the last out-of-bounds element up to the last appearance of either the min or max element, whichever comes first. Using this we can compute the result in linear time with constant memory.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
