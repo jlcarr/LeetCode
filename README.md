@@ -758,6 +758,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.7 MB
 - **Solution**: Kept 2 dicts keeping track of the starts and ends of the consecutive sequences, updating as we run through the input.
  
+### Problem 129
+- **Name**: Sum Root to Leaf Numbers
+- **Runtime**: 66 ms
+- **Memory**: 14 MB
+- **Solution**: DFS to find leaves and pass down the number so far, then return up with the sum.
+ 
 ### Problem 131
 - **Name**: Palindrome Partitioning
 - **Runtime**: 1156 ms
