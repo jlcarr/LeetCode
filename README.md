@@ -764,6 +764,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: DFS to find leaves and pass down the number so far, then return up with the sum.
  
+### Problem 130
+- **Name**: Surrounded Regions
+- **Runtime**: 145 ms
+- **Memory**: 15.2 MB
+- **Solution**: The trick is to notice that regions with edges adjacent to the edge will transitively be blocked from being captured. All other regions will be captured. Therefore we can perform BFS from the edges to find all regions that are not captured, and fill in all the others.
+ 
 ### Problem 131
 - **Name**: Palindrome Partitioning
 - **Runtime**: 1156 ms
