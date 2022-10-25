@@ -782,6 +782,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: DFS, keeping a dictionary from node values to their copies.
  
+### Problem 134
+- **Name**: Gas Station
+- **Runtime**: 694 ms
+- **Memory**: 19 MB
+- **Solution**: First check the loop has positive value by summing the gas minus the costs. Now since it's a non-decreasing loop imagine the graph showing the accumulated gas as a graph wrapped around a cylinder to show the cyclical nature: starting from anywhere if we do one full turn and identify the lowest point we can then rotate so it will always be at the bottom. Therefore identify the cumulative sum min index.
+ 
 ### Problem 139
 - **Name**: Word Break
 - **Runtime**: 45 ms
