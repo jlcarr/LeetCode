@@ -1442,6 +1442,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: This is another way of saying all numbers divisible by 6, so just filter the list, and handle the case where the list is empty before returning the mean.
 
+### Problem 2456
+- **Name**: Most Popular Video Creator
+- **Runtime**: 849 ms
+- **Memory**: 64.9 MB
+- **Solution**: Use Python's Counter to aggregate the total views for each creator, then filter down to only the top count, then grab the top vids for each creator and finish off by formatting the output.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
