@@ -1448,6 +1448,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 64.9 MB
 - **Solution**: Use Python's Counter to aggregate the total views for each creator, then filter down to only the top count, then grab the top vids for each creator and finish off by formatting the output.
 
+### Problem 2457
+- **Name**: Minimum Addition to Make Integer Beautiful
+- **Runtime**: 79 ms
+- **Memory**: 13.9 MB
+- **Solution**: Search for the solution by adding to each digit until we reach it's complement, checking if the digits sum is below the target. This way we work our way up digit by digit until we reach the optimal solution.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
