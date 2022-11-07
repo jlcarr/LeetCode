@@ -1454,6 +1454,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Search for the solution by adding to each digit until we reach it's complement, checking if the digits sum is below the target. This way we work our way up digit by digit until we reach the optimal solution.
 
+### Problem 2458
+- **Name**: Height of Binary Tree After Subtree Removal Queries
+- **Runtime**: 2791 ms
+- **Memory**: 162 MB
+- **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
