@@ -794,6 +794,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Go through bit-by-bit counting up the appearances and then take the mod 3 to get the leftover bits and reveal the final number.
  
+### Problem 138
+- **Name**: Copy List with Random Pointer
+- **Runtime**: 75 ms
+- **Memory**: 15 MB
+- **Solution**: A first run-through to gives each node a unique index identifier, then make a run-through to build up the copy-list and a dictionary mapping the unique indices to the new nodes, then a final run-through to set the random pointers in the new list using the mapping dict.
+ 
 ### Problem 139
 - **Name**: Word Break
 - **Runtime**: 45 ms
