@@ -823,6 +823,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 176 ms
 - **Memory**: 23.9 MB
 - **Solution**: First find the length of the list, then find the middle and split into two lists, then reverse the second list, then merge the two.
+
+### Problem 144
+- **Name**: Binary Tree Preorder Traversal
+- **Runtime**: 33 ms
+- **Memory**: 13.9 MB
+- **Solution**: This is an easy recursive/DFS solution, appending the lists returned by sub-calls in the correct ordering prepended with the value of the current node.
  
 ### Problem 148
 - **Name**: Sort List
