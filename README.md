@@ -830,6 +830,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: This is an easy recursive/DFS solution, appending the lists returned by sub-calls in the correct ordering prepended with the value of the current node.
  
+### Problem 145
+- **Name**: Binary Tree Postorder Traversal
+- **Runtime**: 64 ms
+- **Memory**: 13.9 MB
+- **Solution**: This is an easy recursive/DFS solution, appending the lists returned by sub-calls in the correct ordering appended with the value of the current node. Essentially the same as problem 144.
+ 
 ### Problem 148
 - **Name**: Sort List
 - **Runtime**: 1121 ms
