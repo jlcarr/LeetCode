@@ -836,6 +836,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: This is an easy recursive/DFS solution, appending the lists returned by sub-calls in the correct ordering appended with the value of the current node. Essentially the same as problem 144.
  
+### Problem 146
+- **Name**: LRU Cache
+- **Runtime**: 2120 ms
+- **Memory**: 75.8 MB
+- **Solution**: The LRU cache is a classic, the solution is to use a doubly-linked list to keep the order of last used, and a dictionay to the list nodes to allow random access.
+ 
 ### Problem 148
 - **Name**: Sort List
 - **Runtime**: 1121 ms
