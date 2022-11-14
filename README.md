@@ -842,6 +842,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 75.8 MB
 - **Solution**: The LRU cache is a classic, the solution is to use a doubly-linked list to keep the order of last used, and a dictionay to the list nodes to allow random access.
  
+### Problem 147
+- **Name**: Insertion Sort List
+- **Runtime**: 1505 ms
+- **Memory**: 16.5 MB
+- **Solution**: Keep track of the head of the sorted list, and the remaining unsorted list. Run through the unsorted list, and take each element and run up from the beginning of the sorted list, inserting it before the first element greater than itself is found (stable sort with strict inequality), using a prev and curr nodes to insert in the correct position.
+ 
 ### Problem 148
 - **Name**: Sort List
 - **Runtime**: 1121 ms
