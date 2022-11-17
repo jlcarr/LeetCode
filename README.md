@@ -854,6 +854,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 36.5 MB
 - **Solution**: We can use mergesort to solve this problem. The lists lend themselves nicely to merging, however finding the midpoints requires 2 run-throughs at each step to find the middle node and split.
  
+### Problem 149
+- **Name**: Max Points on a Line
+- **Runtime**: 328 ms
+- **Memory**: 14.3 MB
+- **Solution**: For each point, look at every other point, convert the lines intersecting into a standard format for same line: rise over run in lowest terms and positive x point closest to the y-intercept. These can be done quickly via gcd and mod operations. Handle edge cases for 0 rise or run. This allows us to create Counter dicts of the number of times a line is seen. Handle repeats in pairs of points. Fun!
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
