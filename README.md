@@ -860,6 +860,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: For each point, look at every other point, convert the lines intersecting into a standard format for same line: rise over run in lowest terms and positive x point closest to the y-intercept. These can be done quickly via gcd and mod operations. Handle edge cases for 0 rise or run. This allows us to create Counter dicts of the number of times a line is seen. Handle repeats in pairs of points. Fun!
  
+### Problem 150
+- **Name**: Evaluate Reverse Polish Notation
+- **Runtime**: 97 ms
+- **Memory**: 14.3 MB
+- **Solution**: Implement the stack of numbers, and on each token check if it's an operator, if so pop the top 2 elements and apply the operator then append back to the stack, otherwise convert to an int and put back on the stack. Careful the division is implementated correctly. Convert the final result to an int.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
