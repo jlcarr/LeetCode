@@ -884,6 +884,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Use binary search to find where the array has been rotated to by making sure the left and right pointers are on different sides of the starting point.
  
+### Problem 155
+- **Name**: Min Stack
+- **Runtime**: 168 ms
+- **Memory**: 18.1 MB
+- **Solution**: We can implement these O(1) operations back having both a regular Python list as a stack, and a second stack that only holds the min values from the stack. Could maybe be more memory efficient by only storing the indices to the current min?
+ 
 ### Problem 162
 - **Name**: Find Peak Element
 - **Runtime**: 51 ms
