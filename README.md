@@ -866,6 +866,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: Implement the stack of numbers, and on each token check if it's an operator, if so pop the top 2 elements and apply the operator then append back to the stack, otherwise convert to an int and put back on the stack. Careful the division is implementated correctly. Convert the final result to an int.
  
+### Problem 151
+- **Name**: Reverse Words in a String
+- **Runtime**: 66 ms
+- **Memory**: 14.1 MB
+- **Solution**: This is really easy in Python and can be done in one line. We can use Python's split to get the words, then string slicing to reverse the strings, and then join to recreate the output.
+ 
 ### Problem 152
 - **Name**: Maximum Product Subarray
 - **Runtime**: 135 ms
