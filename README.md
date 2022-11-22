@@ -896,6 +896,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Use binary search: on each new midpoint check to see if it's increasing or decreasing, then pull up the left or right bound accordinly to tighten in on a peak.
  
+### Problem 165
+- **Name**: Compare Version Numbers
+- **Runtime**: 36 ms
+- **Memory**: 13.8 MB
+- **Solution**: Split the string converting pieces to ints, then lengthen whichever is shorter with 0s, and then Python will do the compare.
+ 
 ### Problem 169
 - **Name**: Majority Element
 - **Runtime**: 264 ms
