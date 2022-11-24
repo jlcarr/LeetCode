@@ -1340,6 +1340,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.5 MB
 - **Solution**: First sort the words by lexicographic order, then run through, keeping a set of the buildable words found so far. If a word's substring is in the buildable, then it too is, and we can also check if it is greater in length than the current best.
 
+### Problem 745
+- **Name**: Prefix and Suffix Search
+- **Runtime**: 4900 ms
+- **Memory**: 138 MB
+- **Solution**: Use a trie to implement the fast searching, with the trick being because the words are guarunteed to be short, you can add all the possible suffixes with a delimiter after which comes the actual word, and this will cover all possible suffix-prefix cases. Implementing a Trie class with recusion was too slow, so barebone dicts with iteration was required.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
