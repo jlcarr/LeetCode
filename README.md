@@ -1424,6 +1424,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: The easy solution is a 1-liner in Python. However the linear time solution uses the fact the original array is sorted: simply need to merge the original negatives with the positives into the resultant array.
 
+### Problem 1203
+- **Name**: Sort Items by Groups Respecting Dependencies
+- **Runtime**: 578 ms
+- **Memory**: 32.7 MB
+- **Solution**: Dependency respecting implies topological sorting, the extra criteria of needing to be in adjacent groups means the groups will need to be in topological ordering as well: first construct the graphs of groups, topologically sort them with Kahn's algorithm, then within each group topologically sort the items. Kahn's algorithm will report a failed sort at any step.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
