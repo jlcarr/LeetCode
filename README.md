@@ -1118,6 +1118,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: Keep track of the head and tail of the even and odd new lists and build then up going through linearly, finally fastening the head of the even list to the tail of the off list.
 
+### Problem 336
+- **Name**: Palindrome Pairs
+- **Runtime**: 5487 ms
+- **Memory**: 377.8 MB
+- **Solution**: Added each word to a trie for forwards and for backwards, keeping the indices tracked on leaves. Then for each word search it forward and backward in the opposite trie, and on each leaf check if the remainder is a palindrome. Also make sure not to double-count indices.
+
 ### Problem 338
 - **Name**: Counting Bits
 - **Runtime**: 80 ms
