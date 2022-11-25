@@ -752,6 +752,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: BFS twice: the first time from beginWord to endWord to find the optimal distances to nodes along the path, then in reverse from endWord to beginWord to find the paths. This ensures that we only record the full paths for nodes that will on an optimal path. I included 2 ways to find neighboring nodes: by going over all letter-swap choices on each node (slower), or making a list of positions to swap letters from, each containing a map from the string with that letter removed to their corresponding words in wordList.
  
+### Problem 127
+- **Name**: Word Ladder
+- **Runtime**: 532 ms
+- **Memory**: 15 MB
+- **Solution**: BFS will find optimal path. Go overy every letter-swapping for each word looking for other words in the next depth layer. Keep track of the depth so far and return it when solution is found.
+ 
 ### Problem 128
 - **Name**: Longest Consecutive Sequence
 - **Runtime**: 371 ms
