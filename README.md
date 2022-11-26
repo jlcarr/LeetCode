@@ -782,6 +782,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 33.9 MB
 - **Solution**: Ran through the string, greedily trying to expanding the indices encompassing each possible palidrome to make longer and longer ones where possible. With all the valid stard and end indices recursively build up all palindrome partitions using the indices to see possible places for the next partition.
  
+### Problem 132
+- **Name**: Palindrome Partitioning II
+- **Runtime**: 3762 ms
+- **Memory**: 520.6 MB
+- **Solution**: DP, caching sub-results. For each index we look at all possible starting palindromes, then recurse to search afterwards. We can cache sub-results for indices, and also cache palindrome checks as well.
+ 
 ### Problem 133
 - **Name**: Clone Graph
 - **Runtime**: 71 ms
