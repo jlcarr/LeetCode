@@ -800,6 +800,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19 MB
 - **Solution**: First check the loop has positive value by summing the gas minus the costs. Now since it's a non-decreasing loop imagine the graph showing the accumulated gas as a graph wrapped around a cylinder to show the cyclical nature: starting from anywhere if we do one full turn and identify the lowest point we can then rotate so it will always be at the bottom. Therefore identify the cumulative sum min index.
  
+### Problem 135
+- **Name**: Candy
+- **Runtime**: 389 ms
+- **Memory**: 16.8 MB
+- **Solution**: 2-passes, making the minimum number of increases to satisfy the conditions. The first checks forwards increases, and will increase the current child's candy from the prev if need be, and similarly the second check goes backwards, ensuring the decreases are satisfied.
+ 
 ### Problem 137
 - **Name**: Single Number II
 - **Runtime**: 292 ms
