@@ -1556,6 +1556,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 162 MB
 - **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
 
+### Problem 2225
+- **Name**: Find Players With Zero or One Losses
+- **Runtime**: 1911 ms
+- **Memory**: 69.2 MB
+- **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
