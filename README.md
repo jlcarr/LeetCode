@@ -824,6 +824,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Make a trie of the dictionary words, then ran through the string looking for trie leaves, and when one is found, add the next possible starting point to a heap to continue the search. This is also solveable by just keeping an array the length of the string to represent valid possible starting points and then for each get all next possible starting points.
  
+### Problem 140
+- **Name**: Word Break II
+- **Runtime**: 53 ms
+- **Memory**: 13.9 MB
+- **Solution**: Make a trie of the dictionary, then use DFS search, going to the next depth by word ends, with caching by position in the string to find all possible valid breaks, and construct the result as returned upwards.
+ 
 ### Problem 141
 - **Name**: Linked List Cycle
 - **Runtime**: 75 ms
