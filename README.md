@@ -908,6 +908,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Use binary search to find where the array has been rotated to by making sure the left and right pointers are on different sides of the starting point.
  
+### Problem 154
+- **Name**: Find Minimum in Rotated Sorted Array II
+- **Runtime**: 126 ms
+- **Memory**: 14.5 MB
+- **Solution**: Binary search to find where the right and left are still on opposite sides of the rotation point. When caught in a duplicate, move up the pointers to break out.
+ 
 ### Problem 155
 - **Name**: Min Stack
 - **Runtime**: 168 ms
