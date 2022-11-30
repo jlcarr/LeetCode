@@ -1466,6 +1466,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 32.7 MB
 - **Solution**: Dependency respecting implies topological sorting, the extra criteria of needing to be in adjacent groups means the groups will need to be in topological ordering as well: first construct the graphs of groups, topologically sort them with Kahn's algorithm, then within each group topologically sort the items. Kahn's algorithm will report a failed sort at any step.
 
+### Problem 1207
+- **Name**: Unique Number of Occurrences
+- **Runtime**: 80 ms
+- **Memory**: 14.1 MB
+- **Solution**: Used Python's Counter class along sets to get unique count values and compare the lengths.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
