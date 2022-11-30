@@ -926,6 +926,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Use binary search: on each new midpoint check to see if it's increasing or decreasing, then pull up the left or right bound accordinly to tighten in on a peak.
  
+### Problem 164
+- **Name**: Maximum Gap
+- **Runtime**: 3945 ms
+- **Memory**: 30 MB
+- **Solution**: Sorted order in linear time implies bucketsort. In this case we don't need a complete sort, but if we bucket the values along the complete range, then we can guaruntee the largest difference will cause the values to be pushed into separate buckets because the distance between the two must be larger than or equal the even-spacing distance.
+ 
 ### Problem 165
 - **Name**: Compare Version Numbers
 - **Runtime**: 36 ms
