@@ -1490,6 +1490,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Directly implemented the process.
 
+### Problem 1704
+- **Name**: Determine if String Halves Are Alike
+- **Runtime**: 61 ms
+- **Memory**: 13.9 MB
+- **Solution**: Simply run though the first and second halves of the string counting up vowels, then compare the counts from each side.
+
 ### Problem 2022
 - **Name**: Convert 1D Array Into 2D Array
 - **Runtime**: 1017 ms
