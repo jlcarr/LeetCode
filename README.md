@@ -1490,6 +1490,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Directly implemented the process.
 
+### Problem 1657
+- **Name**: Determine if Two Strings Are Close
+- **Runtime**: 347 ms
+- **Memory**: 15.4 MB
+- **Solution**: Since we can reorder all the letters, order doesn't matter, but we can't get or remove letters, so we need to check the sets match, also the counts of unique letters can't be changed (but we can change which letters they are) so those need to be compared as well, which can be done by sorting the counts before comparing.
+
 ### Problem 1704
 - **Name**: Determine if String Halves Are Alike
 - **Runtime**: 61 ms
