@@ -1604,6 +1604,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 69.2 MB
 - **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
 
+### Problem 2256
+- **Name**: Minimum Average Difference
+- **Runtime**: 1799 ms
+- **Memory**: 24.8 MB
+- **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
