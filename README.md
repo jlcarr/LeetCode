@@ -1442,6 +1442,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 938
+- **Name**: Range Sum of BST
+- **Runtime**: 579 ms
+- **Memory**: 23 MB
+- **Solution**: Recursive search, using the BST structure, to navigate where further searching can be done.
+
 ### Problem 973
 - **Name**: K Closest Points to Origin
 - **Runtime**: 1730 ms
