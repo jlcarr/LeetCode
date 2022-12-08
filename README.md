@@ -1424,6 +1424,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.4 MB
 - **Solution**: Two parts: search down to find the target node, then return back up with distance remaining. Recurse down again at each node to grab the relevant nodes.
 
+### Problem 872
+- **Name**: Leaf-Similar Trees
+- **Runtime**: 67 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recursively look for leaves, and append the lists in order, then compare for the two trees.
+
 ### Problem 876
 - **Name**: Middle of the Linked List
 - **Runtime**: 47 ms
