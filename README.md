@@ -1496,6 +1496,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: Sum the rows and perform an argsort.
 
+### Problem 1339
+- **Name**: Maximum Product of Splitted Binary Tree
+- **Runtime**: 657 ms
+- **Memory**: 74.9 MB
+- **Solution**: The removing of 1 edge to make 2 subtrees is the same as comparing a subtree from a given node the the rest of the tree without it. So we can simply find the total sum of the tree recursively, then make another recursive traversal with all subtree sums and their differences with the rest of the tree.
+
 ### Problem 1342
 - **Name**: Number of Steps to Reduce a Number to Zero
 - **Runtime**: 37 ms
