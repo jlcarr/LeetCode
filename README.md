@@ -1406,6 +1406,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.6 MB
 - **Solution**: Run through all letters of the string, checking if lowercase and uppercase are different, if so double the result size and append the lowercase to the first half and uppercase the second half, otherwise just append to all.
 
+### Problem 797
+- **Name**: All Paths From Source to Target
+- **Runtime**: 110 ms
+- **Memory**: 17.5 MB
+- **Solution**: Because we are working with a DAG a simple recursive DFS will work fine, and we can use Python's functools.cache to avoid repeating computations.
+
 ### Problem 828
 - **Name**: Count Unique Characters of All Substrings of a Given String
 - **Runtime**: 3426 ms
