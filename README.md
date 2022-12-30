@@ -938,6 +938,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Split the string converting pieces to ints, then lengthen whichever is shorter with 0s, and then Python will do the compare.
  
+### Problem 166
+- **Name**: Fraction to Recurring Decimal
+- **Runtime**: 32 ms
+- **Memory**: 14 MB
+- **Solution**: Representing fractional numbers in a radix. We can compute the digits past the decimal point by multiplying by 10 and taking the integers. A repeating decimal will show up when an already used remainder appears, whereas a remainder of 0 means there is no repeated decimal. Watch out for edge cases such as negatives.
+ 
 ### Problem 169
 - **Name**: Majority Element
 - **Runtime**: 264 ms
