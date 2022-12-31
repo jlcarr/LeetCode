@@ -1472,6 +1472,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.3 MB
 - **Solution**: One easy method is to compute all the distances and perform and argsort on the result. Interesting to note KD trees are also a useful datastructure of such problems. Quickselect would probably be the fastest, though a heap is also quite fast.
 
+### Problem 980
+- **Name**: Unique Paths III
+- **Runtime**: 95 ms
+- **Memory**: 20.3 MB
+- **Solution**: This is counting the number of Hamiltonian paths with a given start and end. Just checking for existence is NP-Complete, so we essentially have to brute-force with DFS, but we can add some optimizations, such as memoization. Another idea for an optimization would be to use Ore's theorem for pruning: it applies only Hamiltonian cycles rather than paths, but if we imagine adding an extra node connected only to the given start and end nodes then we can transform this problem into a Hamiltonian cycle problem and apply the theorem.
+
 ### Problem 986
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
