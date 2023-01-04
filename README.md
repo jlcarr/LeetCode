@@ -1640,6 +1640,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 69.2 MB
 - **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
 
+### Problem 2244
+- **Name**: Minimum Rounds to Complete All Tasks
+- **Runtime**: 1793 ms
+- **Memory**: 28.5 MB
+- **Solution**: Use Python's Counter class to get counts of each object, then if there's a 1 there's no solutions, otherwise take 3s until either 0, 2 or 4 are left, use modular arithmetic to check.
+
 ### Problem 2256
 - **Name**: Minimum Average Difference
 - **Runtime**: 1799 ms
