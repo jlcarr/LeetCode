@@ -920,6 +920,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.1 MB
 - **Solution**: We can implement these O(1) operations back having both a regular Python list as a stack, and a second stack that only holds the min values from the stack. Could maybe be more memory efficient by only storing the indices to the current min?
  
+### Problem 160
+- **Name**: Intersection of Two Linked Lists
+- **Runtime**: 161 ms
+- **Memory**: 161 MB
+- **Solution**: Solved by doing a single pass, keeping a set of all the seen nodes, waiting for an intersection to happen. A lower memory solution exists by counting the lengths of each list, and then lining the lists up to ensure the last nodes will be hit at the same time, and therefore the intersection will be hit at the same time on both and can therefore be checked.
+ 
 ### Problem 162
 - **Name**: Find Peak Element
 - **Runtime**: 51 ms
