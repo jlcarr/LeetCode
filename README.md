@@ -950,6 +950,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Representing fractional numbers in a radix. We can compute the digits past the decimal point by multiplying by 10 and taking the integers. A repeating decimal will show up when an already used remainder appears, whereas a remainder of 0 means there is no repeated decimal. Watch out for edge cases such as negatives.
  
+### Problem 167
+- **Name**: Two Sum II - Input Array Is Sorted
+- **Runtime**: 186 ms
+- **Memory**: 14.9 MB
+- **Solution**: Run through the list, performing binary search on each element for its complement, for constant extra space.
+ 
 ### Problem 169
 - **Name**: Majority Element
 - **Runtime**: 264 ms
