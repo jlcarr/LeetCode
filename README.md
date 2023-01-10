@@ -962,6 +962,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.6 MB
 - **Solution**: Python's collections class makes this problem easy to solve in 1 line. However it is O(n) space, while an O(1) space solution exists via the Boyer-Moore voting algorithm:
  
+### Problem 172
+- **Name**: Majority Element
+- **Runtime**: 35 ms
+- **Memory**: 13.8 MB
+- **Solution**: The number of trailing zeroes is the number of times 10 is a factor, which is the min of the number of 5 and 2 factors. These can be found without actually fully computing n! by going through all the lower numbers while would be multiplied. Even further using division we can count the numbers divisible by 5 and 2, but we also need to account for number divisible by 5 and 2 multiple times: just exponentiate the facts and divide to count the total number of factors. This is therefore a O(log(n)) time solution.
+ 
 ### Problem 190
 - **Name**: Reverse Bits
 - **Runtime**: 54 ms
