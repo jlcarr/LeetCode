@@ -1544,6 +1544,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Directly implemented the process.
 
+### Problem 1443
+- **Name**: Minimum Time to Collect All Apples in a Tree.
+- **Runtime**: 541 ms
+- **Memory**: 49.2 MB
+- **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing. Memory could probably be 100% too if I resused the parents list as the found-set.
+
 ### Problem 1657
 - **Name**: Determine if Two Strings Are Close
 - **Runtime**: 347 ms
