@@ -963,10 +963,16 @@ Solutions to LeetCode problems in Python3
 - **Solution**: Python's collections class makes this problem easy to solve in 1 line. However it is O(n) space, while an O(1) space solution exists via the Boyer-Moore voting algorithm:
  
 ### Problem 172
-- **Name**: Majority Element
+- **Name**: Factorial Trailing Zeroes
 - **Runtime**: 35 ms
 - **Memory**: 13.8 MB
 - **Solution**: The number of trailing zeroes is the number of times 10 is a factor, which is the min of the number of 5 and 2 factors. These can be found without actually fully computing n! by going through all the lower numbers while would be multiplied. Even further using division we can count the numbers divisible by 5 and 2, but we also need to account for number divisible by 5 and 2 multiple times: just exponentiate the facts and divide to count the total number of factors. This is therefore a O(log(n)) time solution.
+ 
+### Problem 173
+- **Name**: Binary Search Tree Iterator
+- **Runtime**: 80 ms
+- **Memory**: 20.4 MB
+- **Solution**: Similar to how a normal tree-traveral would go, keep a stack to keep track of current position in the tree. While the stack has values, there is a next: the top of the stack. When a value is popped, put its right child on the stack, and all left-descendants along with it.
  
 ### Problem 190
 - **Name**: Reverse Bits
@@ -1548,7 +1554,7 @@ Solutions to LeetCode problems in Python3
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
 - **Memory**: 49.2 MB
-- **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing. Memory could probably be 100% too if I resused the parents list as the found-set.
+- **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing.
 
 ### Problem 1657
 - **Name**: Determine if Two Strings Are Close
