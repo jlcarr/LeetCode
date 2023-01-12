@@ -1556,6 +1556,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 49.2 MB
 - **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing.
 
+### Problem 1519
+- **Name**: Number of Nodes in the Sub-Tree With the Same Label
+- **Runtime**: 3145 ms
+- **Memory**: 183.9 MB
+- **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
+
 ### Problem 1657
 - **Name**: Determine if Two Strings Are Close
 - **Runtime**: 347 ms
