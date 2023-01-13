@@ -1682,6 +1682,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.5 MB
 - **Solution**: Use Python's Counter class to get counts of each object, then if there's a 1 there's no solutions, otherwise take 3s until either 0, 2 or 4 are left, use modular arithmetic to check.
 
+### Problem 2246
+- **Name**: Longest Path With Different Adjacent Characters
+- **Runtime**: 2430 ms
+- **Memory**: 167.5 MB
+- **Solution**: We can solve this with DFS, and handling the cases where there the longest path is in a sub-tree, or between two sub-paths, or is part of a larger path by returning both the longest overall path so far, as well as the longest path ending there.
+
 ### Problem 2256
 - **Name**: Minimum Average Difference
 - **Runtime**: 1799 ms
