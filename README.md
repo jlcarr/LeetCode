@@ -974,6 +974,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.4 MB
 - **Solution**: Similar to how a normal tree-traveral would go, keep a stack to keep track of current position in the tree. While the stack has values, there is a next: the top of the stack. When a value is popped, put its right child on the stack, and all left-descendants along with it.
  
+### Problem 174
+- **Name**: Dungeon Game
+- **Runtime**: 71 ms
+- **Memory**: 15.2 MB
+- **Solution**: Dynamic programming, using the dungeon in-place. We can start from the end, and move backward through the possible rooms row by row, filling them in with the minimum difference in health between the current room and the final room. We can't store up future health for previous reductions, so we clamp to 0 instead of going negative. Increment by 1 to end with at least 1 health.
+ 
 ### Problem 190
 - **Name**: Reverse Bits
 - **Runtime**: 54 ms
