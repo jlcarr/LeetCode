@@ -1526,6 +1526,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: The easy solution is a 1-liner in Python. However the linear time solution uses the fact the original array is sorted: simply need to merge the original negatives with the positives into the resultant array.
 
+### Problem 1061
+- **Name**: Lexicographically Smallest Equivalent String
+- **Runtime**: 48 ms
+- **Memory**: 13.8 MB
+- **Solution**: Essentially the same as finding connected components on an undirected graph. The Union-Find datastructure is perfect for this, and can be implemented with a single fixed-size array. We can handle the characters by using Python's ord and char, offsetting by ord('a'), and make sure each set maps to the lexicograhically smallest by making the union operation favor the parent of lowest value. This is the first time I got 100% on memory usage.
+
 ### Problem 1203
 - **Name**: Sort Items by Groups Respecting Dependencies
 - **Runtime**: 578 ms
