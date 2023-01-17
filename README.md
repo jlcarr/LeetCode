@@ -1496,6 +1496,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 926
+- **Name**: Flip String to Monotone Increasing
+- **Runtime**: 509 ms
+- **Memory**: 16 MB
+- **Solution**: Wherever we choose to "split" the string into a 0s half and 1s half, we can count the number of flips needed on each side. We can compute this instantly by counting up the accumulated count so far, and the total number of 0s since we can take the difference with the current count of 0s to get the number of flips to 1s remaining. We run over the entire string like so and take the min. Initialize values use that it counts the case where the entire string gets changed to 1s.
+
 ### Problem 938
 - **Name**: Range Sum of BST
 - **Runtime**: 579 ms
