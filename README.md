@@ -1496,6 +1496,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 918
+- **Name**: Maximum Sum Circular Subarray
+- **Runtime**: 551 ms
+- **Memory**: 19 MB
+- **Solution**: Kadane's algorithm, but for the ciruclar array notice that if the solution is one which falls off the bounds, then it is the complement with the minimum subarray: we can therefore compute the completment, and get that solution to check as well. Watch out for edge cases that would accidentally include empty subarrays.
+
 ### Problem 926
 - **Name**: Flip String to Monotone Increasing
 - **Runtime**: 509 ms
