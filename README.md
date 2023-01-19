@@ -1520,6 +1520,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.3 MB
 - **Solution**: One easy method is to compute all the distances and perform and argsort on the result. Interesting to note KD trees are also a useful datastructure of such problems. Quickselect would probably be the fastest, though a heap is also quite fast.
 
+### Problem 974
+- **Name**: Subarray Sums Divisible by K
+- **Runtime**: 342 ms
+- **Memory**: 18.9 MB
+- **Solution**: Keep a running count of the number times we've seen a given accumulated sum mod K. Because if we see the same sum mod K, then any previous times we say the same value we could chop the array there to get a subarray sum of 0, i.e. divisible by K.
+
 ### Problem 980
 - **Name**: Unique Paths III
 - **Runtime**: 95 ms
