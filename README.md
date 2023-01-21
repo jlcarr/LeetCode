@@ -956,6 +956,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.9 MB
 - **Solution**: Run through the list, performing binary search on each element for its complement, for constant extra space.
  
+### Problem 168
+- **Name**: Excel Sheet Column Title
+- **Runtime**: 40 ms
+- **Memory**: 13.9 MB
+- **Solution**: Almost like a base 26 number system, but need to offset by 1 at digit.
+ 
 ### Problem 169
 - **Name**: Majority Element
 - **Runtime**: 264 ms
