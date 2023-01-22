@@ -992,6 +992,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Sort the numbers using a comparator which simpy checking which order they are best placed in.
  
+### Problem 187
+- **Name**: Repeated DNA Sequences
+- **Runtime**: 115 ms
+- **Memory**: 27.6 MB
+- **Solution**: Run through all the length 10 slices of the string, incrementing their counts in a Counter. Filter the final results to have more than 1 occurance.
+ 
 ### Problem 190
 - **Name**: Reverse Bits
 - **Runtime**: 54 ms
