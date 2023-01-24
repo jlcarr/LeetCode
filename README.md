@@ -1508,6 +1508,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 909
+- **Name**: Snakes and Ladders
+- **Runtime**: 128 ms
+- **Memory**: 14 MB
+- **Solution**: BFS will find the shorest path, so BFS to the solution and return when it is found, keeping track of the min distances to each location.
+
 ### Problem 918
 - **Name**: Maximum Sum Circular Subarray
 - **Runtime**: 551 ms
