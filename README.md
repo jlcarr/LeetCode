@@ -1748,6 +1748,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.8 MB
 - **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
 
+### Problem 2359
+- **Name**: Find Closest Node to Given Two Nodes
+- **Runtime**: 2782 ms
+- **Memory**: 44 MB
+- **Solution**: Performed a DFS from each node to get a dict of the distances, stopping either at the leaf, or when a cycle is entered. Then take the min from the intersection of the dicts.
+
 ### Problem 2544
 - **Name**: Alternating Digit Sum
 - **Runtime**: 51 ms
