@@ -1460,6 +1460,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.6 MB
 - **Solution**: Run through all letters of the string, checking if lowercase and uppercase are different, if so double the result size and append the lowercase to the first half and uppercase the second half, otherwise just append to all.
 
+### Problem 787
+- **Name**: Cheapest Flights Within K Stops
+- **Runtime**: 483 ms
+- **Memory**: 15.7 MB
+- **Solution**: Essentially a modified BFS, where keys ared based on distance traverse from the the src node. Optimal cost is still tracked. There is probably a Dijkstra solution that's faster.
+
 ### Problem 797
 - **Name**: All Paths From Source to Target
 - **Runtime**: 110 ms
