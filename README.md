@@ -1766,6 +1766,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Usual approach to extracting digits: modular arithmetic and integer division. After that it's trivial to swap the signs of digits running from the most significant, and sum for the final result.
 
+### Problem 2545
+- **Name**: Sort the Students by Their Kth Score
+- **Runtime**: 492 ms
+- **Memory**: 20.5 MB
+- **Solution**: Since we are sorting by rows, we can easily use Python's sorted function with a lambda function key.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
