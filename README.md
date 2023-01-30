@@ -1580,6 +1580,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Essentially the same as finding connected components on an undirected graph. The Union-Find datastructure is perfect for this, and can be implemented with a single fixed-size array. We can handle the characters by using Python's ord and char, offsetting by ord('a'), and make sure each set maps to the lexicograhically smallest by making the union operation favor the parent of lowest value. This is the first time I got 100% on memory usage.
 
+### Problem 1137
+- **Name**: N-th Tribonacci Number
+- **Runtime**: 38 ms
+- **Memory**: 13.8 MB
+- **Solution**: Use the classic iterative approach with values to keep track of. Like Fibonacci numbers, this is a linear recurrence relation with constant coefficients, and so a closed-form solution is possible via matrix diagonalization.
+
 ### Problem 1203
 - **Name**: Sort Items by Groups Respecting Dependencies
 - **Runtime**: 578 ms
