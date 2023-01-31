@@ -1628,6 +1628,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 183.9 MB
 - **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
 
+### Problem 1626
+- **Name**: Best Team With No Conflicts
+- **Runtime**: 397 ms
+- **Memory**: 14.1 MB
+- **Solution**: DP using an array mapping ages to max achievable scores results in the best performance. Go through the players in order of individual score, and this ensures we can slice our array to alwyas contain younger players scoring the same or less. Take the maximum of the slice each time, updating the best result so far in the array. The final result will be the best score in the array.
+
 ### Problem 1657
 - **Name**: Determine if Two Strings Are Close
 - **Runtime**: 347 ms
