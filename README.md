@@ -1580,6 +1580,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Essentially the same as finding connected components on an undirected graph. The Union-Find datastructure is perfect for this, and can be implemented with a single fixed-size array. We can handle the characters by using Python's ord and char, offsetting by ord('a'), and make sure each set maps to the lexicograhically smallest by making the union operation favor the parent of lowest value. This is the first time I got 100% on memory usage.
 
+### Problem 1071
+- **Name**: Greatest Common Divisor of Strings
+- **Runtime**: 30 ms
+- **Memory**: 13.9 MB
+- **Solution**: Increasingly append to common divisor candidate while the prefixes are the same, and record whenever a valid candidate is found.
+
 ### Problem 1137
 - **Name**: N-th Tribonacci Number
 - **Runtime**: 38 ms
