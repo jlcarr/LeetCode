@@ -1538,6 +1538,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23 MB
 - **Solution**: Recursive search, using the BST structure, to navigate where further searching can be done.
 
+### Problem 953
+- **Name**: Verifying an Alien Dictionary
+- **Runtime**: 38 ms
+- **Memory**: 13.9 MB
+- **Solution**: Create a map from the characters to their positions, then we can convert the strings into lists of ints, and check if sorting makes a difference.
+
 ### Problem 973
 - **Name**: K Closest Points to Origin
 - **Runtime**: 1730 ms
