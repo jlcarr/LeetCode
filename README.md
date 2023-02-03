@@ -1796,6 +1796,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.5 MB
 - **Solution**: Since we are sorting by rows, we can easily use Python's sorted function with a lambda function key.
 
+### Problem 2546
+- **Name**: Apply Bitwise Operations to Make Strings Equal
+- **Runtime**: 44 ms
+- **Memory**: 15.1 MB
+- **Solution**: If we perform the analysis on what we can transform pairs of bits into, we can see that we can use 1s as a pivot to turn any other bit into a either a 1 or a 0. This means if our target has no 1s in it then we can only reach it if we start off with no 1s, and otherwise we can reach any target so long as we start off with at least one 1.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
