@@ -1802,6 +1802,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.1 MB
 - **Solution**: If we perform the analysis on what we can transform pairs of bits into, we can see that we can use 1s as a pivot to turn any other bit into a either a 1 or a 0. This means if our target has no 1s in it then we can only reach it if we start off with no 1s, and otherwise we can reach any target so long as we start off with at least one 1.
 
+### Problem 2547
+- **Name**: Minimum Cost to Split an Array
+- **Runtime**: 6534 ms
+- **Memory**: 14.1 MB
+- **Solution**: Step forward through the array, keeping track of the optimal cost for any split on the previous elements. Then look forward assuming a final split was made here and update for the minimum possible future costs. The overall minimum cost will then be the final result in the dynamic programming array.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
