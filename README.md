@@ -1640,6 +1640,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 49.2 MB
 - **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing.
 
+### Problem 1470
+- **Name**: Shuffle the Array
+- **Runtime**: 57 ms
+- **Memory**: 14.1 MB
+- **Solution**: Used Python's list comprehension with proper indexing into the original array.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
