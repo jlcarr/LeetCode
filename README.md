@@ -998,6 +998,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 27.6 MB
 - **Solution**: Run through all the length 10 slices of the string, incrementing their counts in a Counter. Filter the final results to have more than 1 occurance.
  
+### Problem 188
+- **Name**: Best Time to Buy and Sell Stock IV
+- **Runtime**: 331 ms
+- **Memory**: 78.9 MB
+- **Solution**: Dynamic programming, recursive solution with memoization, using the day i, remaining transactions k, and if holding the stock boolean as the state.
+ 
 ### Problem 190
 - **Name**: Reverse Bits
 - **Runtime**: 54 ms
