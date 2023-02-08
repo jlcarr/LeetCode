@@ -1112,6 +1112,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18 MB
 - **Solution**: DFS, returning the count of children so that a given node in the BST knows how many smaller elements there are, using a global boolean to indicate success and break out returning the solution.
  
+### Problem 233
+- **Name**: Number of Digit One
+- **Runtime**: 25 ms
+- **Memory**: 13.9 MB
+- **Solution**: Each digit can either contribute a complete amount less than its value, or if it's a 1 contribute up to the remaining digits.
+ 
 ### Problem 234
 - **Name**: Palindrome Linked List
 - **Runtime**: 932 ms
