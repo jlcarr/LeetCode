@@ -1694,6 +1694,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
 
+### Problem 2306
+- **Name**: Naming a Company
+- **Runtime**: 657 ms
+- **Memory**: 28.8 MB
+- **Solution**: If we create maps from each starting letter to the set of their possible suffixes, then we can go through each pair of letters, and find the set intersection reasonably quickly, which will give us words that can't be used as pairs, all others can be used as pairs, so we can perform the multiplication quickly.
+
 ### Problem 2418
 - **Name**: Sort the People
 - **Runtime**: 265 ms
