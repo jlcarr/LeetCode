@@ -1616,6 +1616,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Use the classic iterative approach with values to keep track of. Like Fibonacci numbers, this is a linear recurrence relation with constant coefficients, and so a closed-form solution is possible via matrix diagonalization.
 
+### Problem 1162
+- **Name**: As Far from Land as Possible
+- **Runtime**: 417 ms
+- **Memory**: 43.9 MB
+- **Solution**: Solved using Scipy's distance_transform_cdt, which is much more efficient than normal BFS. Must also turn the grid into a Numpy array. This is the 3rd time I've gotten 100%, then time on timing, while the memory was terrible.
+
 ### Problem 1203
 - **Name**: Sort Items by Groups Respecting Dependencies
 - **Runtime**: 578 ms
