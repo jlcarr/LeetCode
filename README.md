@@ -1610,6 +1610,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Increasingly append to common divisor candidate while the prefixes are the same, and record whenever a valid candidate is found.
 
+### Problem 1129
+- **Name**: Shortest Path with Alternating Colors
+- **Runtime**: 99 ms
+- **Memory**: 14.4 MB
+- **Solution**: BFS, just adding the last color visited as an extra parameter to the search space. More efficient would be to alternate between searching red and blue, and use the alternating colors with "layers" instead of a search queue.
+
 ### Problem 1137
 - **Name**: N-th Tribonacci Number
 - **Runtime**: 38 ms
