@@ -1826,6 +1826,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 44 MB
 - **Solution**: Performed a DFS from each node to get a dict of the distances, stopping either at the leaf, or when a cycle is entered. Then take the min from the intersection of the dicts.
 
+### Problem 2477
+- **Name**: Minimum Fuel Cost to Report to the Capital
+- **Runtime**: 2214 ms
+- **Memory**: 178.8 MB
+- **Solution**: Because of the tree structure we can use a DFS approach to compute the fuel needed to get the current city and how many representatives will need to pass through that city, and we can then compute the number of cars needed to reach the next city. 
+
 ### Problem 2544
 - **Name**: Alternating Digit Sum
 - **Runtime**: 51 ms
