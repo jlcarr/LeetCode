@@ -1592,6 +1592,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.9 MB
 - **Solution**: Two pointers running through the two lists, checking for interval overlaps, and then adding the overlappign interval to the result (overlapping interval will be the max of both starts, and the mins of boths ends: i.e. the intersection). If there's no overlap the earliest starting one is incremented to catch up, if there is overlap the soonest ending one is incremented to check for more overlaps.
 
+### Problem 989
+- **Name**: Add to Array-Form of Integer
+- **Runtime**: 313 ms
+- **Memory**: 15 MB
+- **Solution**: We can just use Python's conversion functions to do the work for us.
+
 ### Problem 995
 - **Name**: Minimum Number of K Consecutive Bit Flips
 - **Runtime**: 1485 ms
