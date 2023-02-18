@@ -1478,6 +1478,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Use Python's Counter to get frequencies. Use the most frequent element to make buckets of adjacent characters, which we can then run over placing each new character in the next bucket. We're guarunteed to have at least 1 character between each of the same type.
 
+### Problem 783
+- **Name**: Minimum Distance Between BST Nodes
+- **Runtime**: 43 ms
+- **Memory**: 13.9 MB
+- **Solution**: Recursive tree traversal to put the values into a list, which can then be sorted and take the differences between adjacent elements to find the min.
+
 ### Problem 784
 - **Name**: Letter Case Permutation
 - **Runtime**: 62 ms
