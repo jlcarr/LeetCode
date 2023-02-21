@@ -1370,6 +1370,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: My initial solution was a simple recursive DP over the number we're looking at and the current target. However this solution is not optimal since it will memoize all the possible values of target for every step. A more optimal solution is to iterate over the numbers we either add of subtract to the target and create a new cache from the value at that given step, discarding the older cache as it's no longer needed.
 
+### Problem 540
+- **Name**: Single Element in a Sorted Array
+- **Runtime**: 173 ms
+- **Memory**: 23.8 MB
+- **Solution**: We can use binary search by checking if elements with their matches are in even positions, compared to odd position by being offset by an unmatched prior element.
+
 ### Problem 543
 - **Name**: Diameter of Binary Tree
 - **Runtime**: 66 ms
