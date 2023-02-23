@@ -1370,6 +1370,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: My initial solution was a simple recursive DP over the number we're looking at and the current target. However this solution is not optimal since it will memoize all the possible values of target for every step. A more optimal solution is to iterate over the numbers we either add of subtract to the target and create a new cache from the value at that given step, discarding the older cache as it's no longer needed.
 
+### Problem 502
+- **Name**: IPO
+- **Runtime**: 1042 ms
+- **Memory**: 38.9 MB
+- **Solution**: Out of all possible projects we can take at a given time, we should always take the one with highest profit. Therefore we need a priority queue, implemented as a heap, where we can insert projects we can take. We can also use a heap to hold all the projects sorted by capital required, and pop all we can undertake into the priority queue.
+
 ### Problem 540
 - **Name**: Single Element in a Sorted Array
 - **Runtime**: 173 ms
