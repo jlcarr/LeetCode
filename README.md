@@ -1562,6 +1562,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: BFS will find the shorest path, so BFS to the solution and return when it is found, keeping track of the min distances to each location.
 
+### Problem 912
+- **Name**: Sort an Array
+- **Runtime**: 2054 ms
+- **Memory**: 32.7 MB
+- **Solution**: For nlogn performance, we should use either mergesort,heapsort or quicksort (technically bucketsort and radix sort as well, but they work much better on lower cardinality problem). To minimize the space needed we should perform the sort in-place. Mergesort it the easiest to implement, however doing in place is tricky, so I used a buffer.
+
 ### Problem 918
 - **Name**: Maximum Sum Circular Subarray
 - **Runtime**: 551 ms
