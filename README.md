@@ -1334,6 +1334,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.7 MB
 - **Solution**: Since all values are supposed to be positive use negating an int at a given index as a marker of already having seen it.
 
+### Problem 443
+- **Name**: String Compression
+- **Runtime**: 57 ms
+- **Memory**: 14 MB
+- **Solution**: We can perform the operations in-place without an extra array using 2 pointers, one to read in the string, and the other to act as a cursor to write the compressed string as its able to be computed.
+
 ### Problem 448
 - **Name**: Find All Numbers Disappeared in an Array
 - **Runtime**: 560 ms
