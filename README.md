@@ -159,10 +159,10 @@ Solutions to LeetCode problems in Python3
 - **Solution**: Pointer runs through the array, stoping to del any occurrences.
  
 ### Problem 28
-- **Name**: Implement strStr()
+- **Name**: Implement strStr() (Find the Index of the First Occurrence in a String)
 - **Runtime**: 34 ms
 - **Memory**: 13.8 MB
-- **Solution**: Ran through the string, checking with Python's startswith function.
+- **Solution**: Ran through the string, checking with Python's `startswith` function. Better solution is to use Python's `index` function.
  
 ### Problem 29
 - **Name**: Divide Two Integers
