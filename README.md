@@ -1700,6 +1700,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Directly implemented the process.
 
+### Problem 1345
+- **Name**: Jump Game IV
+- **Runtime**: 665 ms
+- **Memory**: 39.3 MB
+- **Solution**: This is a simple shortest path problem without edge weights or an admissable heuristic, so we can just use BFS. However cases are made to make a simple BFS run quadratically. Using a 2-sided BFS actuall solves the problem very quickly. However a more proper solution is to use note that we can keep track of neighbor groups to not search them again, greatly cutting down the problem in general.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
