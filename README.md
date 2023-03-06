@@ -1724,6 +1724,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 183.9 MB
 - **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
 
+### Problem 1539
+- **Name**: Kth Missing Positive Number
+- **Runtime**: 51 ms
+- **Memory**: 14 MB
+- **Solution**: Besides the easy linear solution, we can do better with binary search to find the index at which the value shows k elements have been skipped so far. The answer is then that index+k.
+
 ### Problem 1626
 - **Name**: Best Team With No Conflicts
 - **Runtime**: 397 ms
