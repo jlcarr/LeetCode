@@ -1754,6 +1754,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Check the size first. Then simply slice the original array, using list comprehension to build the 2D array.
 
+### Problem 2187
+- **Name**: Minimum Time to Complete Trips
+- **Runtime**: 2331 ms
+- **Memory**: 28.4 MB
+- **Solution**: We know the rations of each bus used should be approximately equal to their reciprocal, however to find the exact value, we'll need to search to pin the value down. We can use binary search to cut down the search space exponentially.
+
 ### Problem 2251
 - **Name**: Richest Customer Wealth
 - **Runtime**: 62 ms
