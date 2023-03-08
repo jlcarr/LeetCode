@@ -1544,6 +1544,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Recursively look for leaves, and append the lists in order, then compare for the two trees.
 
+### Problem 875
+- **Name**: Koko Eating Bananas
+- **Runtime**: 356 ms
+- **Memory**: 15.5 MB
+- **Solution**: We can put bounds on the answer, because k must be at most the number of bananas in the largest pile, and greater than 0. We can then binary search for the solution on the cusp when when if becomes infeasible.
+
 ### Problem 876
 - **Name**: Middle of the Linked List
 - **Runtime**: 47 ms
