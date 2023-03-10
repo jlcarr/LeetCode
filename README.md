@@ -1274,6 +1274,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 61.3 MB
 - **Solution**: For this problem I literally just implemented a simple hash table. In theory there should be completely random distribution over the buckets and within the buckets, so there shouldn't be an preference, though I suppose after a hash collision happens then there's a bias? The criteria for randomness is a little unclear, but the solution passes the test cases. A higher quality solution is to use a list of values and a dict mapping to the indices, that way inserting is appending, and removing is replacing with the last element.
 
+### Problem 382
+- **Name**: Linked List Random Node
+- **Runtime**: 72 ms
+- **Memory**: 17.5 MB
+- **Solution**: A simple solution is to simply put the numbers into a regular array once, then sample from that. In the case the size of the linked-list is unknown, use resevoir sampling algorithm.
+
 ### Problem 383
 - **Name**: Ransom Note
 - **Runtime**: 85 ms
