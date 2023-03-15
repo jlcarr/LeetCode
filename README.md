@@ -1610,6 +1610,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Create a map from the characters to their positions, then we can convert the strings into lists of ints, and check if sorting makes a difference.
 
+### Problem 958
+- **Name**: Check Completeness of a Binary Tree
+- **Runtime**: 40 ms
+- **Memory**: 13.9 MB
+- **Solution**: We can use BFS using the fact that level sets must match powers of 2 except for the final layer. Now for the final layer we must also check that every node is as far left as possible: we can do this by keeping track of when we meet a missing node, and making sure we don't find any other nodes afterwards.
+
 ### Problem 973
 - **Name**: K Closest Points to Origin
 - **Runtime**: 1730 ms
