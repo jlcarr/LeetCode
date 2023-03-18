@@ -1736,6 +1736,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Used Python's list comprehension with proper indexing into the original array.
 
+### Problem 1472
+- **Name**: Design Browser History
+- **Runtime**: 222 ms
+- **Memory**: 16.4 MB
+- **Solution**: Make an list to hold the urls, and extend it as needed with append. Use an index to keep place for the forward and backward history, and also keep an index for the maximum index after forward history is cleared: avoids reallocation.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
