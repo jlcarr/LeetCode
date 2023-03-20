@@ -1412,6 +1412,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
 
+### Problem 605
+- **Name**: Can Place Flowers
+- **Runtime**: 180 ms
+- **Memory**: 14.5 MB
+- **Solution**: Take a greedy approach, planting a flower whenever we can, and returning True as soon as we're able to hit the target, otherwise False.
+
 ### Problem 617
 - **Name**: Merge Two Binary Trees
 - **Runtime**: 87 ms
