@@ -1802,6 +1802,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.8 MB
 - **Solution**: If we create maps from each starting letter to the set of their possible suffixes, then we can go through each pair of letters, and find the set intersection reasonably quickly, which will give us words that can't be used as pairs, all others can be used as pairs, so we can perform the multiplication quickly.
 
+### Problem 2348
+- **Name**: Number of Zero-Filled Subarrays
+- **Runtime**: 1035 ms
+- **Memory**: 24.7 MB
+- **Solution**: We can solve this efficiently by just keeping track of the current streak of 0s, and when a streak is broken, add the triangluar number of the streak length (the number of start and end pairs within the streak) to the accumulated result.
+
 ### Problem 2418
 - **Name**: Sort the People
 - **Runtime**: 265 ms
