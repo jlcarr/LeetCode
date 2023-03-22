@@ -1928,6 +1928,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 178.8 MB
 - **Solution**: Because of the tree structure we can use a DFS approach to compute the fuel needed to get the current city and how many representatives will need to pass through that city, and we can then compute the number of cars needed to reach the next city. 
 
+### Problem 2492
+- **Name**: Minimum Score of a Path Between Two Cities
+- **Runtime**: 1619 ms
+- **Memory**: 82.1 MB
+- **Solution**: Careful, this isn't a shortest path problem: instead just use a graph search to find the shortest edge in the connected component of the graph.
+
 ### Problem 2544
 - **Name**: Alternating Digit Sum
 - **Runtime**: 51 ms
