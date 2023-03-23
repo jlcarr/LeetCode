@@ -1706,6 +1706,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Used Python's Counter class along sets to get unique count values and compare the lengths.
 
+### Problem 1319
+- **Name**: Number of Operations to Make Network Connected
+- **Runtime**: 508 ms
+- **Memory**: 44 MB
+- **Solution**: Used a bfs while there are unsearched nodes to find all the connected components. Also if there is an edge to a previously searched node, then it is an excess edge and can be used to connect components in an operation. Check if there are sufficient excess edges for connected components, and if so return 1 less than the number of components.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
