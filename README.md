@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 49.2 MB
 - **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing.
 
+### Problem 1466
+- **Name**: Reorder Routes to Make All Paths Lead to the City Zero
+- **Runtime**: 1282 ms
+- **Memory**: 57.9 MB
+- **Solution**: Take record of the graph and its complement. Perform BFS out from node 0 on the undirected graph, using the complement to help implement. At each edge check if it's in the original graph, and hence reached traveling outward from the origin: this is an edge the needs to be flipped.
+
 ### Problem 1470
 - **Name**: Shuffle the Array
 - **Runtime**: 57 ms
