@@ -1814,6 +1814,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.8 MB
 - **Solution**: If we create maps from each starting letter to the set of their possible suffixes, then we can go through each pair of letters, and find the set intersection reasonably quickly, which will give us words that can't be used as pairs, all others can be used as pairs, so we can perform the multiplication quickly.
 
+### Problem 2316
+- **Name**: Count Unreachable Pairs of Nodes in an Undirected Graph
+- **Runtime**: 2311 ms
+- **Memory**: 81.7 MB
+- **Solution**: Use a BFS to find all the connected components, then get their sizes. The number of pairs between any component is their sizes multiplied. A faster way of computing the multiplication of the sizes of every component is to use the match of expanding the brackets.
+
 ### Problem 2348
 - **Name**: Number of Zero-Filled Subarrays
 - **Runtime**: 1035 ms
