@@ -1826,6 +1826,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.7 MB
 - **Solution**: We can solve this efficiently by just keeping track of the current streak of 0s, and when a streak is broken, add the triangluar number of the streak length (the number of start and end pairs within the streak) to the accumulated result.
 
+### Problem 2360
+- **Name**: Longest Cycle in a Graph
+- **Runtime**: 1194 ms
+- **Memory**: 37.4 MB
+- **Solution**: This is finding the largest strongly connected component in a graph. We don't need a full Tarjan's algorithm, because each node only has one edge: we just need to find the cycle in the chain. We can do so using a dict to keep track of which nodes are in the chain, and how far along they are. We can then instantly find cycle lengths when we find a cycle.
+
 ### Problem 2418
 - **Name**: Sort the People
 - **Runtime**: 265 ms
