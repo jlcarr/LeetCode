@@ -1640,6 +1640,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.3 MB
 - **Solution**: This is counting the number of Hamiltonian paths with a given start and end. Just checking for existence is NP-Complete, so we essentially have to brute-force with DFS, but we can add some optimizations, such as memoization. Another idea for an optimization would be to use Ore's theorem for pruning: it applies only Hamiltonian cycles rather than paths, but if we imagine adding an extra node connected only to the given start and end nodes then we can transform this problem into a Hamiltonian cycle problem and apply the theorem.
 
+### Problem 983
+- **Name**: Minimum Cost For Tickets
+- **Runtime**: 91 ms
+- **Memory**: 13.9 MB
+- **Solution**: Dynamic Programming: keep a running min-cost, and update forward from each day on the minimum cost to get there.
+
 ### Problem 986
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
@@ -1802,11 +1808,35 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.4 MB
 - **Solution**: We know the rations of each bus used should be approximately equal to their reciprocal, however to find the exact value, we'll need to search to pin the value down. We can use binary search to cut down the search space exponentially.
 
+### Problem 2225
+- **Name**: Find Players With Zero or One Losses
+- **Runtime**: 1911 ms
+- **Memory**: 69.2 MB
+- **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
+
+### Problem 2244
+- **Name**: Minimum Rounds to Complete All Tasks
+- **Runtime**: 1793 ms
+- **Memory**: 28.5 MB
+- **Solution**: Use Python's Counter class to get counts of each object, then if there's a 1 there's no solutions, otherwise take 3s until either 0, 2 or 4 are left, use modular arithmetic to check.
+
+### Problem 2246
+- **Name**: Longest Path With Different Adjacent Characters
+- **Runtime**: 2430 ms
+- **Memory**: 167.5 MB
+- **Solution**: We can solve this with DFS, and handling the cases where there the longest path is in a sub-tree, or between two sub-paths, or is part of a larger path by returning both the longest overall path so far, as well as the longest path ending there.
+
 ### Problem 2251
 - **Name**: Richest Customer Wealth
 - **Runtime**: 62 ms
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
+
+### Problem 2256
+- **Name**: Minimum Average Difference
+- **Runtime**: 1799 ms
+- **Memory**: 24.8 MB
+- **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
 
 ### Problem 2306
 - **Name**: Naming a Company
@@ -1825,6 +1855,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 1035 ms
 - **Memory**: 24.7 MB
 - **Solution**: We can solve this efficiently by just keeping track of the current streak of 0s, and when a streak is broken, add the triangluar number of the streak length (the number of start and end pairs within the streak) to the accumulated result.
+
+### Problem 2359
+- **Name**: Find Closest Node to Given Two Nodes
+- **Runtime**: 2782 ms
+- **Memory**: 44 MB
+- **Solution**: Performed a DFS from each node to get a dict of the distances, stopping either at the leaf, or when a cycle is entered. Then take the min from the intersection of the dicts.
 
 ### Problem 2360
 - **Name**: Longest Cycle in a Graph
@@ -1915,36 +1951,6 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 2791 ms
 - **Memory**: 162 MB
 - **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
-
-### Problem 2225
-- **Name**: Find Players With Zero or One Losses
-- **Runtime**: 1911 ms
-- **Memory**: 69.2 MB
-- **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
-
-### Problem 2244
-- **Name**: Minimum Rounds to Complete All Tasks
-- **Runtime**: 1793 ms
-- **Memory**: 28.5 MB
-- **Solution**: Use Python's Counter class to get counts of each object, then if there's a 1 there's no solutions, otherwise take 3s until either 0, 2 or 4 are left, use modular arithmetic to check.
-
-### Problem 2246
-- **Name**: Longest Path With Different Adjacent Characters
-- **Runtime**: 2430 ms
-- **Memory**: 167.5 MB
-- **Solution**: We can solve this with DFS, and handling the cases where there the longest path is in a sub-tree, or between two sub-paths, or is part of a larger path by returning both the longest overall path so far, as well as the longest path ending there.
-
-### Problem 2256
-- **Name**: Minimum Average Difference
-- **Runtime**: 1799 ms
-- **Memory**: 24.8 MB
-- **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
-
-### Problem 2359
-- **Name**: Find Closest Node to Given Two Nodes
-- **Runtime**: 2782 ms
-- **Memory**: 44 MB
-- **Solution**: Performed a DFS from each node to get a dict of the distances, stopping either at the leaf, or when a cycle is entered. Then take the min from the intersection of the dicts.
 
 ### Problem 2477
 - **Name**: Minimum Fuel Cost to Report to the Capital
