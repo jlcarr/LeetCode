@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39.3 MB
 - **Solution**: This is a simple shortest path problem without edge weights or an admissable heuristic, so we can just use BFS. However cases are made to make a simple BFS run quadratically. Using a 2-sided BFS actuall solves the problem very quickly. However a more proper solution is to use note that we can keep track of neighbor groups to not search them again, greatly cutting down the problem in general.
 
+### Problem 1402
+- **Name**: Reducing Dishes
+- **Runtime**: 42 ms
+- **Memory**: 13.8 MB
+- **Solution**: Sort the satisfactions since we want the largest satisfaction to take advantage of the largest time multiplier. We then want to see which negative dishes we should drop. Use cumulative sum technique to get the effect of shifting down all future dishes by 1 by dropping a dish. We can then run through greedily checking if dropping the dish results in a net gain.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
