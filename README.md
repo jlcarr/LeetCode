@@ -1754,6 +1754,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 49.2 MB
 - **Solution**: Imagine all the apples moving up the tree until they reach the a node that has already been processed. We know each node takes 2s to move in then out, plus its descendants. We just need to parse the parents into an efficient format. This is the first time I've gotten "Beats 100%" on the timing.
 
+### Problem 1444
+- **Name**: Number of Ways of Cutting a Pizza
+- **Runtime**: 291 ms
+- **Memory**: 16 MB
+- **Solution**: Dynamic programming. Since we always give away the upper and left sides of the pizza after a cut, we can keep track of the minimum x and y left, as well as the number of cuts left, making a triple we can cache. We also need a quick way of checking of a cut has as least one apple left in it, and if the remaining pizza has at least one apple left: we can do this with the cumulative sum technique, but in 2D.
+
 ### Problem 1466
 - **Name**: Reorder Routes to Make All Paths Lead to the City Zero
 - **Runtime**: 1282 ms
