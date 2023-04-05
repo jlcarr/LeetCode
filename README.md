@@ -1922,6 +1922,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: First find the Hamming weight of the num2, then first cancel out as many leading 1s from num1 as possible, and assign any leftover 1s to the lowest 0s possible.
 
+### Problem 2439
+- **Name**: Minimize Maximum of Array
+- **Runtime**: 747 ms
+- **Memory**: 26.8 MB
+- **Solution**: The operation doesn't change the sum of the array, only moves value down, and accumulates at the 0 index. Therefore we can decrease any element except for the 0 element. So we can choose that element to take on value so as to always be the max in the array. From here was can run through the array, knowing we can alaways spread out the sum so far if ever we find values greater than the 0 index, and we should increase the 0 index as needed so as to always be the largest in the array.
+
 ### Problem 2441
 - **Name**: Largest Positive Integer That Exists With Its Negative
 - **Runtime**: 251 ms
