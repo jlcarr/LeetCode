@@ -1712,6 +1712,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Used Python's Counter class along sets to get unique count values and compare the lengths.
 
+### Problem 1254
+- **Name**: Number of Closed Islands
+- **Runtime**: 126 ms
+- **Memory**: 15.5 MB
+- **Solution**: Use a DFS/BFS to reach over each each cell in the grid and keep track of connected landmasses and if they reach the border or not.
+
 ### Problem 1319
 - **Name**: Number of Operations to Make Network Connected
 - **Runtime**: 508 ms
