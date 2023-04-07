@@ -1670,6 +1670,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: The easy solution is a 1-liner in Python. However the linear time solution uses the fact the original array is sorted: simply need to merge the original negatives with the positives into the resultant array.
 
+### Problem 1020
+- **Name**: Number of Enclaves
+- **Runtime**: 942 ms
+- **Memory**: 22.4 MB
+- **Solution**: Simple DFS/BFS search/flood-fill, to check which connected islands touch the border or not.
+
 ### Problem 1061
 - **Name**: Lexicographically Smallest Equivalent String
 - **Runtime**: 48 ms
