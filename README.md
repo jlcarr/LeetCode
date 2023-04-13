@@ -1610,6 +1610,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23 MB
 - **Solution**: Recursive search, using the BST structure, to navigate where further searching can be done.
 
+### Problem 947
+- **Name**: Validate Stack Sequences
+- **Runtime**: 71 ms
+- **Memory**: 14.2 MB
+- **Solution**: Since all the values are distinct, we just have to ensure all the pops can happen by iterating through them. If a pop can't currently happen, push to the stack until it can. If we run out of pushes before we finish then return False since it's invalid. If successful return True.
+
 ### Problem 953
 - **Name**: Verifying an Alien Dictionary
 - **Runtime**: 38 ms
