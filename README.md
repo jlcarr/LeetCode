@@ -1388,6 +1388,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.9 MB
 - **Solution**: Out of all possible projects we can take at a given time, we should always take the one with highest profit. Therefore we need a priority queue, implemented as a heap, where we can insert projects we can take. We can also use a heap to hold all the projects sorted by capital required, and pop all we can undertake into the priority queue.
 
+### Problem 516
+- **Name**: Longest Palindromic Subsequence
+- **Runtime**: 1033 ms
+- **Memory**: 250.9 MB
+- **Solution**: Use dynamic programming to cache sub-problems over start and end indices of substrings deciding whether or not to keep letters.
+
 ### Problem 540
 - **Name**: Single Element in a Sorted Array
 - **Runtime**: 173 ms
