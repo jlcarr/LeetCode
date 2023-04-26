@@ -1166,6 +1166,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.4 MB
 - **Solution**: Sorting the strings is one approach. A better one is to use Python's Counter class.
 
+### Problem 258
+- **Name**: Add Digits
+- **Runtime**: 35 ms
+- **Memory**: 13.8 MB
+- **Solution**: We can do this efficiently with modular arithmetic and while loops.
+
 ### Problem 268
 - **Name**: Missing Number
 - **Runtime**: 149 ms
