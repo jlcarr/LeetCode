@@ -1214,6 +1214,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.8 MB
 - **Solution**: Only 1 or two nodes in a tree can be the root of the minimum height tree. Used a BFS, similar to Kahn's algorithm to start from the leaves and work through each layer until either a single or two adjacent nodes are left.
 
+### Problem 319
+- **Name**: Bulb Switcher
+- **Runtime**: 40 ms
+- **Memory**: 16.3 MB
+- **Solution**: The number of times a bulb will be switched on an off will be equal to it's number of (improper) divisors. Divisors will come in pairs, unless the number is a square number. The count of the number of square numbers less than a given number is naturally its square root, rounded down.
+
 ### Problem 322
 - **Name**: Coin Change
 - **Runtime**: 2829 ms
