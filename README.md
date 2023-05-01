@@ -1814,6 +1814,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Make an list to hold the urls, and extend it as needed with append. Use an index to keep place for the forward and backward history, and also keep an index for the maximum index after forward history is cleared: avoids reallocation.
 
+### Problem 1491
+- **Name**: Average Salary Excluding the Minimum and Maximum Salary
+- **Runtime**: 51 ms
+- **Memory**: 16.2 MB
+- **Solution**: Easy enough to do, just subtracted the max and min from the total sum, then divided by the length minus 2.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
