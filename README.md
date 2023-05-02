@@ -1850,6 +1850,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Simply run though the first and second halves of the string counting up vowels, then compare the counts from each side.
 
+### Problem 1822
+- **Name**: Sign of the Product of an Array
+- **Runtime**: 70 ms
+- **Memory**: 16.4 MB
+- **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
+
 ### Problem 2022
 - **Name**: Convert 1D Array Into 2D Array
 - **Runtime**: 1017 ms
