@@ -1868,6 +1868,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.4 MB
 - **Solution**: We know the rations of each bus used should be approximately equal to their reciprocal, however to find the exact value, we'll need to search to pin the value down. We can use binary search to cut down the search space exponentially.
 
+### Problem 2215
+- **Name**: Find the Difference of Two Arrays
+- **Runtime**: 173 ms
+- **Memory**: 16.7 MB
+- **Solution**: We can do this easily with asymetric set difference.
+
 ### Problem 2225
 - **Name**: Find Players With Zero or One Losses
 - **Runtime**: 1911 ms
