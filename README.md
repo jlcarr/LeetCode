@@ -1466,6 +1466,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 176.8 MB
 - **Solution**: DP using cache of all start and end indices for substrings to recursively check if they're valid palindromes, then count the True values in the cache.
 
+### Problem 649
+- **Name**: Dota2 Senate
+- **Runtime**: 69 ms
+- **Memory**: 16.4 MB
+- **Solution**: The optimal strategy is to ban the next senator who would vote, since you are removing as much of your opponents chance to act as possible. We can simulate the process directly then, and use new string to represent the next round of remaining senators, and we can also use a count of the remaining senators in each party, and "lazy evaluation" of the bans queued up to make computation more efficient.
+
 ### Problem 654
 - **Name**: Maximum Binary Tree
 - **Runtime**: 206 ms
