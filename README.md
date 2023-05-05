@@ -1802,6 +1802,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16 MB
 - **Solution**: Dynamic programming. Since we always give away the upper and left sides of the pizza after a cut, we can keep track of the minimum x and y left, as well as the number of cuts left, making a triple we can cache. We also need a quick way of checking of a cut has as least one apple left in it, and if the remaining pizza has at least one apple left: we can do this with the cumulative sum technique, but in 2D.
 
+### Problem 1456
+- **Name**: Maximum Number of Vowels in a Substring of Given Length
+- **Runtime**: 172 ms
+- **Memory**: 18.5 MB
+- **Solution**: This is a simple sliding window, which we can implement with a simple count of the vowels in the current window and update with each increment.
+
 ### Problem 1466
 - **Name**: Reorder Routes to Make All Paths Lead to the City Zero
 - **Runtime**: 1282 ms
