@@ -1832,6 +1832,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: Easy enough to do, just subtracted the max and min from the total sum, then divided by the length minus 2.
 
+### Problem 1498
+- **Name**: Number of Subsequences That Satisfy the Given Sum Condition
+- **Runtime**: 9238 ms
+- **Memory**: 29.1 MB
+- **Solution**: First thing to notice is the order of the numbers doesn't matter, because any subarray about a given minimum and maximum can be extended to contribute more numbers lower than the given max without changing violting the target. So we can sort, then run up over the minimums, and find a max that satisfied the condition, and take all subarrays within, which means a power of 2.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
