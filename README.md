@@ -1850,6 +1850,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Besides the easy linear solution, we can do better with binary search to find the index at which the value shows k elements have been skipped so far. The answer is then that index+k.
 
+### Problem 1572
+- **Name**: Matrix Diagonal Sum
+- **Runtime**: 119 ms
+- **Memory**: 16.7 MB
+- **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
+
 ### Problem 1626
 - **Name**: Best Team With No Conflicts
 - **Runtime**: 397 ms
