@@ -1706,6 +1706,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.4 MB
 - **Solution**: Simple DFS/BFS search/flood-fill, to check which connected islands touch the border or not.
 
+### Problem 1035
+- **Name**: Uncrossed Lines
+- **Runtime**: 232 ms
+- **Memory**: 24.5 MB
+- **Solution**: We can solve this problem with dynamic programming by noticing we can use sub-solutions: in any subsolution we should start with the leftmost elements from each list and then look at the moves we can makes from there, which each spawn new states with the leftmost elements in positions that can never be further left.
+
 ### Problem 1061
 - **Name**: Lexicographically Smallest Equivalent String
 - **Runtime**: 48 ms
