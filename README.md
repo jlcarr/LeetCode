@@ -1892,6 +1892,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Check the size first. Then simply slice the original array, using list comprehension to build the 2D array.
 
+### Problem 2140
+- **Name**: Solving Questions With Brainpower
+- **Runtime**: 1754 ms
+- **Memory**: 63.4 MB
+- **Solution**: Classic dynamic programming since we can't go back on questions: we can compute the name score achievable by a given question.
+
 ### Problem 2187
 - **Name**: Minimum Time to Complete Trips
 - **Runtime**: 2331 ms
