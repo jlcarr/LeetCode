@@ -2072,6 +2072,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 162 MB
 - **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
 
+### Problem 2466
+- **Name**: Count Ways To Build Good Strings
+- **Runtime**: 331 ms
+- **Memory**: 20.2 MB
+- **Solution**: Dynamic programming counting the number of ways to get a given length, then summing in the range.
+
 ### Problem 2477
 - **Name**: Minimum Fuel Cost to Report to the Capital
 - **Runtime**: 2214 ms
