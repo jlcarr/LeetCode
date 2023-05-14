@@ -1880,6 +1880,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Simply run though the first and second halves of the string counting up vowels, then compare the counts from each side.
 
+### Problem 1799
+- **Name**: Maximize Score After N Operations
+- **Runtime**: 1171 ms
+- **Memory**: 24.1 MB
+- **Solution**: Dynamic programming recursively defined with caching. Precompute all the GCDs with Euclid's algorithm.
+
 ### Problem 1822
 - **Name**: Sign of the Product of an Array
 - **Runtime**: 70 ms
