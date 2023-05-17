@@ -1898,6 +1898,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Check the size first. Then simply slice the original array, using list comprehension to build the 2D array.
 
+### Problem 2130
+- **Name**: Maximum Twin Sum of a Linked List
+- **Runtime**: 972 ms
+- **Memory**: 56.9 MB
+- **Solution**: Put all the values in a list and then perform the twin sum there. A more space efficient method would be to reverse the second half of the list.
+
 ### Problem 2140
 - **Name**: Solving Questions With Brainpower
 - **Runtime**: 1754 ms
