@@ -1856,6 +1856,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Besides the easy linear solution, we can do better with binary search to find the index at which the value shows k elements have been skipped so far. The answer is then that index+k.
 
+### Problem 1557
+- **Name**: Minimum Number of Vertices to Reach All Nodes
+- **Runtime**: 1191 ms
+- **Memory**: 54.1 MB
+- **Solution**: The nodes in questions are the ones with no parents. An easy way and efficient way to find this is start with the set of all nodes and remove all the nodes on the tail of each edge.
+
 ### Problem 1572
 - **Name**: Matrix Diagonal Sum
 - **Runtime**: 119 ms
