@@ -1544,6 +1544,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.6 MB
 - **Solution**: Run through all letters of the string, checking if lowercase and uppercase are different, if so double the result size and append the lowercase to the first half and uppercase the second half, otherwise just append to all.
 
+### Problem 785
+- **Name**: Is Graph Bipartite?
+- **Runtime**: 178 ms
+- **Memory**: 16.7 MB
+- **Solution**: We can use a search algorithm, BFS or DFS, to color a neighbors of each node the opposite of the current node, and return false if there's a violation.
+
 ### Problem 787
 - **Name**: Cheapest Flights Within K Stops
 - **Runtime**: 483 ms
