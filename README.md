@@ -1502,6 +1502,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: This is essentially a decision problem version of the bin packing problem. Being NP-Complete, we need to perform an exhaustive search, taking each element and tryig to place it in each of the bins, but we can speed things up be exiting early if no solution is found. We can also notice we'll want to place an element in a bin as soon as possible: we should never end up with the case where we choose to skip over placing an element in a bin which is still empty: the element should have either been already placed in a non-empty bin to keep building it, or placed in the empty to to start it: never just leave a bin empty.
 
+### Problem 703
+- **Name**: Kth Largest Element in a Stream
+- **Runtime**: 117 ms
+- **Memory**: 20.3 MB
+- **Solution**: This is a obvious usecase for a heap. Push elements to the heap and pop until the size is k, the kth largest element will then be at the root. An improvement can be made by not trying to push elements which are less than than root.
+
 ### Problem 704
 - **Name**: Binary Search
 - **Runtime**: 290 ms
