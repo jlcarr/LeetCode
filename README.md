@@ -1574,6 +1574,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.7 MB
 - **Solution**: Solve this problem by counting the number of substrings in which a given letter appears once: summing over all letters is the same as summing the lengths of all substrings with unique letters. For each letter run through the string keeping track of the last position the character was seen, and the distance to the previous sighting of the character before that. We can update the result whenever a new sighting is found by counting the pairs of choices between indices before and including the previous sighting with the indices after the previous sighting (including none), which can be computed by a simple multiplication. This allows for a single pass for each letter.
 
+### Problem 837
+- **Name**: New 21 Game
+- **Runtime**: 96 ms
+- **Memory**: 16.8 MB
+- **Solution**: We can solve this problem efficiently by maintaining a sliding window of the sum of probabilities of the last k elements. A new element is equally likely across 1/maxPts to receive the probability of any in the window. As soon as we pass k we drop elements from the probability.
+
 ### Problem 844
 - **Name**: Backspace String Compare
 - **Runtime**: 30 ms
