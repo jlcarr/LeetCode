@@ -2120,6 +2120,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 82.1 MB
 - **Solution**: Careful, this isn't a shortest path problem: instead just use a graph search to find the shortest edge in the connected component of the graph.
 
+### Problem 2542
+- **Name**: Maximum Subsequence Score
+- **Runtime**: 1110 ms
+- **Memory**: 37.8 MB
+- **Solution**: The challenge is deciding if an element is worth adding to the subsequence even if it lowers the min because its sum value is large. If we order the pairs of number starting with the highest multipliers and continue descending we can evaluate each pair's effect on the result to see if it's worth adding. We can then maintain the numbers added to the sum in a heap.
+
 ### Problem 2544
 - **Name**: Alternating Digit Sum
 - **Runtime**: 51 ms
