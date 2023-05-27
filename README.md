@@ -1754,6 +1754,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Use the classic iterative approach with values to keep track of. Like Fibonacci numbers, this is a linear recurrence relation with constant coefficients, and so a closed-form solution is possible via matrix diagonalization.
 
+### Problem 1140
+- **Name**: Stone Game II
+- **Runtime**: 861 ms
+- **Memory**: 20.5 MB
+- **Solution**: Classic dynamic programming for optimal game tree search. Since every turn forces the number of rock piles to be lower we can memoize over (piles remaining/position, M, turn).
+
 ### Problem 1162
 - **Name**: As Far from Land as Possible
 - **Runtime**: 417 ms
