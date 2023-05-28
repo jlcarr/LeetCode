@@ -1820,6 +1820,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sort the satisfactions since we want the largest satisfaction to take advantage of the largest time multiplier. We then want to see which negative dishes we should drop. Use cumulative sum technique to get the effect of shifting down all future dishes by 1 by dropping a dish. We can then run through greedily checking if dropping the dish results in a net gain.
 
+### Problem 1406
+- **Name**: Stone Game III
+- **Runtime**: 5431 ms
+- **Memory**: 505.4 MB
+- **Solution**: Use dynamic programming over the current position along the piles and the player's turn. A more efficient solution is to only keep track of the current and last 3 states for each player.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
