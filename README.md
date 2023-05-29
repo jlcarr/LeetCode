@@ -1886,6 +1886,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Besides the easy linear solution, we can do better with binary search to find the index at which the value shows k elements have been skipped so far. The answer is then that index+k.
 
+### Problem 1547
+- **Name**: Minimum Cost to Cut a Stick
+- **Runtime**: 833 ms
+- **Memory**: 20 MB
+- **Solution**: Dynamic programming, memoizing over the left and right indices in the sorted cuts array. At each step we need to perform a cut between the left and right indices, and then search the sub-problems for their optimal solutions.
+
 ### Problem 1557
 - **Name**: Minimum Number of Vertices to Reach All Nodes
 - **Runtime**: 1191 ms
