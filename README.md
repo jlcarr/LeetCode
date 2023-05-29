@@ -1904,6 +1904,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
 
+### Problem 1603
+- **Name**: Design Parking System
+- **Runtime**: 139 ms
+- **Memory**: 16.8 MB
+- **Solution**: Simply keep track of the remainin spots for each parking space.
+
 ### Problem 1626
 - **Name**: Best Team With No Conflicts
 - **Runtime**: 397 ms
