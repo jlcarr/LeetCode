@@ -1514,6 +1514,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Classic binary search algorithm: use a left and right pointer, then check if the middle value is greather than or lesser than the target values and update the left and right pointers to the middle value accordingly to tighen the bounds until a solution is found.
 
+### Problem 705
+- **Name**: Design HashSet
+- **Runtime**: 748 ms
+- **Memory**: 21.6 MB
+- **Solution**: Main pieces needed is an array of buckets, which will double in size each time we surpass a given load, and a hash function. The hash function should be uniform, however for a quick solution I just used the mod of the integer keys.
+
 ### Problem 713
 - **Name**: Subarray Product Less Than K
 - **Runtime**: 1642 ms
