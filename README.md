@@ -1820,6 +1820,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39.3 MB
 - **Solution**: This is a simple shortest path problem without edge weights or an admissable heuristic, so we can just use BFS. However cases are made to make a simple BFS run quadratically. Using a 2-sided BFS actuall solves the problem very quickly. However a more proper solution is to use note that we can keep track of neighbor groups to not search them again, greatly cutting down the problem in general.
 
+### Problem 1351
+- **Name**: Count Negative Numbers in a Sorted Matrix
+- **Runtime**: 142 ms
+- **Memory**: 17.4 MB
+- **Solution**: Simply iterate through the matrix, we can start in minimum corner and go up by rows, and break to a new row when we hit a non-negative column, and return entirely when we hit a non-negative start to a row.
+
 ### Problem 1402
 - **Name**: Reducing Dishes
 - **Runtime**: 42 ms
