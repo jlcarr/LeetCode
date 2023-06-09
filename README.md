@@ -1532,6 +1532,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.5 MB
 - **Solution**: First sort the words by lexicographic order, then run through, keeping a set of the buildable words found so far. If a word's substring is in the buildable, then it too is, and we can also check if it is greater in length than the current best.
 
+### Problem 744
+- **Name**: Find Smallest Letter Greater Than Target
+- **Runtime**: 125 ms
+- **Memory**: 16.9 MB
+- **Solution**: Binary search.
+
 ### Problem 745
 - **Name**: Prefix and Suffix Search
 - **Runtime**: 4900 ms
