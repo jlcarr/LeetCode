@@ -1112,6 +1112,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Recusively call the function on each node's children, and swap the results.
  
+### Problem 228
+- **Name**: Summary Ranges
+- **Runtime**: 45 ms
+- **Memory**: 16.4 MB
+- **Solution**: Since the original list is sorted, we can simply add to each range one element at a time, and update the result once we find an element not fitting the range.
+ 
 ### Problem 230
 - **Name**: Kth Smallest Element in a BST
 - **Runtime**: 51 ms
