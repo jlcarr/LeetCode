@@ -2042,6 +2042,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.7 MB
 - **Solution**: We can solve this efficiently by just keeping track of the current streak of 0s, and when a streak is broken, add the triangluar number of the streak length (the number of start and end pairs within the streak) to the accumulated result.
 
+### Problem 2352
+- **Name**: Equal Row and Column Pairs
+- **Runtime**: 652 ms
+- **Memory**: 22.6 MB
+- **Solution**: We only need to go over each row and column once if we use hashing. We can make a map of the hash of each row to its index, and for the each column, check if there are any matching rows.
+
 ### Problem 2359
 - **Name**: Find Closest Node to Given Two Nodes
 - **Runtime**: 2782 ms
