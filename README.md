@@ -1778,6 +1778,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.5 MB
 - **Solution**: Classic dynamic programming for optimal game tree search. Since every turn forces the number of rock piles to be lower we can memoize over (piles remaining/position, M, turn).
 
+### Problem 1161
+- **Name**: Maximum Level Sum of a Binary Tree
+- **Runtime**: 324 ms
+- **Memory**: 21 MB
+- **Solution**: Use a tree traversal while keeping track of the current level, and all the levels sums.
+
 ### Problem 1162
 - **Name**: As Far from Land as Possible
 - **Runtime**: 417 ms
