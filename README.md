@@ -1958,6 +1958,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Simply run though the first and second halves of the string counting up vowels, then compare the counts from each side.
 
+### Problem 1732
+- **Name**: Find the Highest Altitude
+- **Runtime**: 40 ms
+- **Memory**: 16.3 MB
+- **Solution**: Simply run through the list keeping track of the cumulative sum and maximum of its value.
+
 ### Problem 1799
 - **Name**: Maximize Score After N Operations
 - **Runtime**: 1171 ms
