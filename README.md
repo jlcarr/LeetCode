@@ -1532,6 +1532,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.6 MB
 - **Solution**: This is a classic 2-pointer, which both monotonically increase, because the product can only increase. Increase the right pointer until a value less than k is found, set the left pointer there two, then increase the right pointer, accumulating to the product until it can't anymore, then increase the left pointer, dividing out of the accumulated product.
 
+### Problem 714
+- **Name**: Best Time to Buy and Sell Stock with Transaction Fee
+- **Runtime**: 678 ms
+- **Memory**: 23.4 MB
+- **Solution**: There are 2 states: holding the stock and not holding the stock, and the way we get there doesn't matter, just that we have maximum profit. So we can step forward, updating with the fee applied upon selling, not keeping track of any other information.
+
 ### Problem 720
 - **Name**: Longest Word in Dictionary
 - **Runtime**: 142 ms
