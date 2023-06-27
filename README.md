@@ -1040,6 +1040,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: The only bits that will be preserved from ANDing all number in the range are the common leading 1s before there is a difference in bits. Run through the binary representations to fill up the result.
  
+### Problem 202
+- **Name**: Happy Number
+- **Runtime**: 51 ms
+- **Memory**: 16.2 MB
+- **Solution**: We can solve this problem simply by using a set to check if we've seen the value before and proceeding with the process. However a more efficient solution is to use Floyd's cycle finding algorithm.
+ 
 ### Problem 206
 - **Name**: Reverse Linked List
 - **Runtime**: 51 ms
