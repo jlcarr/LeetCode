@@ -1622,6 +1622,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.4 MB
 - **Solution**: Two parts: search down to find the target node, then return back up with distance remaining. Recurse down again at each node to grab the relevant nodes.
 
+### Problem 864
+- **Name**: Shortest Path to Get All Keys
+- **Runtime**: 484 ms
+- **Memory**: 25.7 MB
+- **Solution**: We can get the shortest path using BFS. We can keep track of the full state in the search graph by the position and which keys are collected.
+
 ### Problem 872
 - **Name**: Leaf-Similar Trees
 - **Runtime**: 67 ms
