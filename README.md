@@ -1994,6 +1994,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1970
+- **Name**: Last Day Where You Can Still Cross
+- **Runtime**: 1493 ms
+- **Memory**: 25.2 MB
+- **Solution**: One will no longer be able to cross when the water connects the left and right sides. We can check connectivity faster than searching for paths, using union-find. Start off with extra columns on the left and right whose members make the left and right sets, and we check once those sets are merged.
+
 ### Problem 2022
 - **Name**: Convert 1D Array Into 2D Array
 - **Runtime**: 1017 ms
