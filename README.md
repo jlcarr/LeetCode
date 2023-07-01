@@ -2060,6 +2060,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.8 MB
 - **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
 
+### Problem 2305
+- **Name**: Fair Distribution of Cookies
+- **Runtime**: 4026 ms
+- **Memory**: 16.4 MB
+- **Solution**: Use a branch and bound search, keeping track of the best solution found so far to prune off branches of search paths which pass the limit.
+
 ### Problem 2306
 - **Name**: Naming a Company
 - **Runtime**: 657 ms
