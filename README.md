@@ -1952,6 +1952,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
 
+### Problem 1601
+- **Name**: Maximum Number of Achievable Transfer Requests
+- **Runtime**: 2937 ms
+- **Memory**: 16.4 MB
+- **Solution**: This is a linear 0-1 optimization problem with equality contraints. Pretty sure this is NP-hard, so we have to do a brute-force check of all possibilities, which works for the problem's bounds. Interestingly this problem is equivalues to finding a set of disjoint cycles within the multi-graph of the greatest cumulative length.
+
 ### Problem 1603
 - **Name**: Design Parking System
 - **Runtime**: 139 ms
