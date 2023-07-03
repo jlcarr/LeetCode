@@ -1616,6 +1616,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Build up resulting strings literally: pop the end whenever a backspace character is encountered, then compare the 2.
 
+### Problem 859
+- **Name**: Buddy Strings
+- **Runtime**: 59 ms
+- **Memory**: 16.6 MB
+- **Solution**: Run through the strings together, checking for mismatched. Can only have 2 at most, and if there are none need to check there are double letters to swap, so keep letter count. Careful the edge cases on this one.
+
 ### Problem 863
 - **Name**: All Nodes Distance K in Binary Tree
 - **Runtime**: 71 ms
