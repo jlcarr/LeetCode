@@ -1922,6 +1922,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: Easy enough to do, just subtracted the max and min from the total sum, then divided by the length minus 2.
 
+### Problem 1493
+- **Name**: Longest Subarray of 1's After Deleting One Element
+- **Runtime**: 325 ms
+- **Memory**: 19.1 MB
+- **Solution**: Just need to keep track of the length of the current and previous run of 1s. Appending a 0 to the array helps with edge cases, and the final case to catch is if the array is entirely 1s, since one has to be deleted: just check if it's the result is the length of the original array and if so decrement it.
+
 ### Problem 1498
 - **Name**: Number of Subsequences That Satisfy the Given Sum Condition
 - **Runtime**: 9238 ms
