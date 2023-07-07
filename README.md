@@ -2024,6 +2024,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Check the size first. Then simply slice the original array, using list comprehension to build the 2D array.
 
+### Problem 2024
+- **Name**: Maximize the Confusion of an Exam
+- **Runtime**: 463 ms
+- **Memory**: 18.8 MB
+- **Solution**: Run through flipping answers as needed until k runs out, then reverse the first time used to try to keep the longest consecutive streak. Used a queue to keep track of last index, but a 2 pointer approach to the sliding window is more efficient.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
