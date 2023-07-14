@@ -1826,6 +1826,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Used Python's Counter class along sets to get unique count values and compare the lengths.
 
+### Problem 1218
+- **Name**: Longest Arithmetic Subsequence of Given Difference
+- **Runtime**: 579 ms
+- **Memory**: 30.11 MB
+- **Solution**: Run through the array and for each value seen add it plus the difference into a dict holding the length of the streak so far. When a value is in the dict we can carry forward the streak.
+
 ### Problem 1254
 - **Name**: Number of Closed Islands
 - **Runtime**: 126 ms
