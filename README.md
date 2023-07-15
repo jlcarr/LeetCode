@@ -2006,6 +2006,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Simply run through the list keeping track of the cumulative sum and maximum of its value.
 
+### Problem 1751
+- **Name**: Maximum Number of Events That Can Be Attended II
+- **Runtime**: 912 ms
+- **Memory**: 62.5 MB
+- **Solution**: Because the way we get to an event doesn't matter, just our score, we can keep track of the max sore for each remaining k, then move forward by startDays, using a heap to keep track of trailing days we can move up.
+
 ### Problem 1799
 - **Name**: Maximize Score After N Operations
 - **Runtime**: 1171 ms
