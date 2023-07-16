@@ -1784,6 +1784,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Increasingly append to common divisor candidate while the prefixes are the same, and record whenever a valid candidate is found.
 
+### Problem 1125
+- **Name**: Smallest Sufficient Team
+- **Runtime**: 522 ms
+- **Memory**: 25.3 MB
+- **Solution**: Since this in an NP-hard problem we need to do DP over the smallest dimension available, in this case skills. We can converts the skills set to a bitset representation, then search over that. It doesn't matter how to got to a given skills covering, just we need to find the smallest set to cover the rest, so check each person if they contribute new skills and if so search the new skillsets, keeping the smallest complete covering.
+
 ### Problem 1129
 - **Name**: Shortest Path with Alternating Colors
 - **Runtime**: 99 ms
