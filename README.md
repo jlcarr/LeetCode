@@ -1370,6 +1370,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: We can perform the operations in-place without an extra array using 2 pointers, one to read in the string, and the other to act as a cursor to write the compressed string as its able to be computed.
 
+### Problem 445
+- **Name**: Add Two Numbers II
+- **Runtime**: 86 ms
+- **Memory**: 16.5 MB
+- **Solution**: Just use Python to do the work, turn the linked list into a Python integer do the addition, and turn it back.
+
 ### Problem 448
 - **Name**: Find All Numbers Disappeared in an Array
 - **Runtime**: 560 ms
