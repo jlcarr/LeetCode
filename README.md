@@ -1556,6 +1556,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.5 MB
 - **Solution**: First sort the words by lexicographic order, then run through, keeping a set of the buildable words found so far. If a word's substring is in the buildable, then it too is, and we can also check if it is greater in length than the current best.
 
+### Problem 735
+- **Name**: Asteroid Collision
+- **Runtime**: 101 ms
+- **Memory**: 17.6 MB
+- **Solution**: We can use a stack to build this up in a single pass over the asteroids. Any moving to the right won't collide with those already processed, and for one moving to the left we can pop right-moving from the stack while they are smaller.
+
 ### Problem 744
 - **Name**: Find Smallest Letter Greater Than Target
 - **Runtime**: 125 ms
