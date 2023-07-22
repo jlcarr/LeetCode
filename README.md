@@ -1514,6 +1514,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.1 MB
 - **Solution**: Pre-construct a balanced BST, with indicators about where values have officially been filled in, and which also saves the max-length path to each number and the number of such paths (updating as appropriate for duplicates). We can then slightly more quickly find all smaller-than nodes which have been reached and look for the longest path and how many there are. The final step is a complete search of the tree, in case of disparate longest paths.
 
+### Problem 688
+- **Name**: Knight Probability in Chessboard
+- **Runtime**: 290 ms
+- **Memory**: 16.5 MB
+- **Solution**: This is a probability transition problem, which we can solve by iteratively spreading out the probability density. We can use a dict so we only store and work with reachable tiles.
+
 ### Problem 698
 - **Name**: Partition to K Equal Sum Subsets
 - **Runtime**: 161 ms
