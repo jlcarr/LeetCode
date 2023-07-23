@@ -1670,6 +1670,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Ran through the list once to count, then again up to the middle.
 
+### Problem 894
+- **Name**: All Possible Full Binary Trees
+- **Runtime**: 255 ms
+- **Memory**: 30.9 MB
+- **Solution**: We can send down target sizes to each child of a nodes, and then we get a recursive subproblem.
+
 ### Problem 895
 - **Name**: Maximum Frequency Stack
 - **Runtime**: 540 ms
