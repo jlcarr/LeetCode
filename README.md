@@ -2318,6 +2318,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Step forward through the array, keeping track of the optimal cost for any split on the previous elements. Then look forward assuming a final split was made here and update for the minimum possible future costs. The overall minimum cost will then be the final result in the dynamic programming array.
 
+### Problem 2788
+- **Name**: Split Strings by Separator
+- **Runtime**: 122 ms
+- **Memory**: 16.4 MB
+- **Solution**: Python's already let's us split string by a delimiter, and we can use list comprehension to get a flattened list. Finally an if statement will filter out empty strings.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
