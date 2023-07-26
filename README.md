@@ -1634,6 +1634,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Build up resulting strings literally: pop the end whenever a backspace character is encountered, then compare the 2.
 
+### Problem 852
+- **Name**: Peak Index in a Mountain Array
+- **Runtime**: 610 ms
+- **Memory**: 30.1 MB
+- **Solution**: We can use binary search to find the peak and check neighbors to see if they're on the left or right side.
+
 ### Problem 859
 - **Name**: Buddy Strings
 - **Runtime**: 59 ms
