@@ -2060,6 +2060,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1870
+- **Name**: Minimum Speed to Arrive on Time
+- **Runtime**: 2274 ms
+- **Memory**: 30.5 MB
+- **Solution**: We can do binary search. Start with lower bound of 1 and upper bound of speed that would make every train arrive in an hr. Watch out for edge cases.
+
 ### Problem 1970
 - **Name**: Last Day Where You Can Still Cross
 - **Runtime**: 1493 ms
