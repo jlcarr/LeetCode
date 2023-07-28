@@ -1406,6 +1406,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.1 MB
 - **Solution**: Used and upper heap and lower heap, with a Counter to keep track of values that need to be removed from the heaps. Similar to finding median of a stream.
 
+### Problem 486
+- **Name**: Predict the Winner
+- **Runtime**: 30 ms
+- **Memory**: 16.6 MB
+- **Solution**: Use dynamic programming to memoize all sub-solutions of left and right indices.
+
 ### Problem 494
 - **Name**: Target Sum
 - **Runtime**: 366 ms
