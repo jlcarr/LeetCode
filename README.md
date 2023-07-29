@@ -1622,6 +1622,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.5 MB
 - **Solution**: Because we are working with a DAG a simple recursive DFS will work fine, and we can use Python's functools.cache to avoid repeating computations.
 
+### Problem 808
+- **Name**: Soup Servings
+- **Runtime**: 62 ms
+- **Memory**: 16.4 MB
+- **Solution**: The trick with this problem is that because of the exponential nature of the problem solutions converge to probability 1 after a large number of iterations. We can write out the dynamic programming version, and run it forward, only keeping track of 4 A states at a time and all corresponding B states probability (unless invalid). We can find a value of 1000 is sufficient for the required accuracy.
+
 ### Problem 828
 - **Name**: Count Unique Characters of All Substrings of a Given String
 - **Runtime**: 3426 ms
