@@ -1724,6 +1724,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19 MB
 - **Solution**: Kadane's algorithm, but for the ciruclar array notice that if the solution is one which falls off the bounds, then it is the complement with the minimum subarray: we can therefore compute the completment, and get that solution to check as well. Watch out for edge cases that would accidentally include empty subarrays.
 
+### Problem 920
+- **Name**: Number of Music Playlists
+- **Runtime**: 119 ms
+- **Memory**: 16.4 MB
+- **Solution**: Start with the total number of playlists wihout "at least once" constraint: we can use the usual combinatoric approach of number of choices at each step. Then to remove the cases of not using a song we subtract off the subproblems with fewer songs, using the choose function to account for all combinations.
+
 ### Problem 926
 - **Name**: Flip String to Monotone Increasing
 - **Runtime**: 509 ms
