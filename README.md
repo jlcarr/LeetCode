@@ -1430,6 +1430,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 250.9 MB
 - **Solution**: Use dynamic programming to cache sub-problems over start and end indices of substrings deciding whether or not to keep letters.
 
+### Problem 518
+- **Name**: Coin Change II
+- **Runtime**: 120 ms
+- **Memory**: 42 MB
+- **Solution**: Dynamic programming, recurse over position along the coins list, and amount remaining, memoizing sub-solutions.
+
 ### Problem 540
 - **Name**: Single Element in a Sorted Array
 - **Runtime**: 173 ms
