@@ -2204,6 +2204,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 37.4 MB
 - **Solution**: This is finding the largest strongly connected component in a graph. We don't need a full Tarjan's algorithm, because each node only has one edge: we just need to find the cycle in the chain. We can do so using a dict to keep track of which nodes are in the chain, and how far along they are. We can then instantly find cycle lengths when we find a cycle.
 
+### Problem 2369
+- **Name**: Check if There is a Valid Partition For The Array
+- **Runtime**: 1217 ms
+- **Memory**: 30.3 MB
+- **Solution**: We can use a state-machine keeping track of all possible states we could be in running through the array just once and checking we're able to arrive at a valid end state.
+
 ### Problem 2390
 - **Name**: Removing Stars From a String
 - **Runtime**: 215 ms
