@@ -2372,6 +2372,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 27.2 MB
 - **Solution**: Since all numbers are positive, might as well perform the operation on the furthest right as much as possible since it can only lead to larger numbers. Treat it like a stack.
 
+### Problem 2815
+- **Name**: Max Pair Sum in an Array
+- **Runtime**: 145 ms
+- **Memory**: 16.4 MB
+- **Solution**: We can use the string representation of numbers to get each digit and then find the max. We can then use this to quickly group our sets of equal max digits. From there we just check all pairs for the maximum value.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
