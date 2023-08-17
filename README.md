@@ -1442,6 +1442,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23.8 MB
 - **Solution**: We can use binary search by checking if elements with their matches are in even positions, compared to odd position by being offset by an unmatched prior element.
 
+### Problem 542
+- **Name**: 01 Matrix
+- **Runtime**: 562 ms
+- **Memory**: 21.7 MB
+- **Solution**: Perform BFS, keeping track of which layer we are on.
+
 ### Problem 543
 - **Name**: Diameter of Binary Tree
 - **Runtime**: 66 ms
