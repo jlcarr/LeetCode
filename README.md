@@ -2048,6 +2048,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: Simply keep track of the remainin spots for each parking space.
 
+### Problem 1615
+- **Name**: Maximal Network Rank
+- **Runtime**: 301 ms
+- **Memory**: 18.7 MB
+- **Solution**: We don't have to check all pairs and all edges, we only have to consider a few cases. The first is if there is more than 1 city with equally highest degree: we check all pair or a pair with no road between them, in which case these disjoint cities would make the maximal network rank, otherwise any pair works. If only 1 city has highest degree, then we look at every city with degree equal to the second highest degree to see if there's one not sharing a road with the highest, in which case that pair will be best otherwise any from the second highest degrees.
+
 ### Problem 1626
 - **Name**: Best Team With No Conflicts
 - **Runtime**: 397 ms
