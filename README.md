@@ -1994,6 +1994,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Make an list to hold the urls, and extend it as needed with append. Use an index to keep place for the forward and backward history, and also keep an index for the maximum index after forward history is cleared: avoids reallocation.
 
+### Problem 1489
+- **Name**: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+- **Runtime**: 795 ms
+- **Memory**: 16.5 MB
+- **Solution**: Any MST we build will contain all critical edges, and will contain some of the pseudocritical edges. If an edge is in our original MST, then check if it's critical by attempting to build an MST without it (remember to check connectivity by checking a search will visit all nodes even without the edge). If an edge is not in our original MST, then check if it's pseudocritical by starting off building an MST with that edge already selected: use Kruskal's for this.
+
 ### Problem 1491
 - **Name**: Average Salary Excluding the Minimum and Maximum Salary
 - **Runtime**: 51 ms
