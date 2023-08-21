@@ -1394,6 +1394,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.8 MB
 - **Solution**: Greedy algorithm: if we go through by end of interval we know at the first end a dart will also hit all intervals the started before hand. We can repeat this and we know it will be optimal to use as few darts as possible. My first solution I used a dict to a linked list to implement a queue of ends I could immediately access the middle via dict when I found starts ahead of th current best end, however I didn't need this as I could just skip over them in my loop.
 
+### Problem 459
+- **Name**: Repeated Substring Pattern
+- **Runtime**: 859 ms
+- **Memory**: 20 MB
+- **Solution**: Used the fact we must have divisibility to filter out some possible substrings, then used the regex module to perform the check. A more efficient method is the check if the original string is contained in the concatenation with itself without the first and last letters.
+
 ### Problem 474
 - **Name**: Concatenated Words
 - **Runtime**: 374 ms
