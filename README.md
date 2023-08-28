@@ -1112,6 +1112,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.1 MB
 - **Solution**: Python's set will de-dupe the list for us and we can compare lengths in a one-liner.
  
+### Problem 225
+- **Name**: Implement Stack using Queues
+- **Runtime**: 36 ms
+- **Memory**: 16.3 MB
+- **Solution**: The main issue is we'll need to be keeping the elements in the correct order for a stack, but in the queue. The only way to do this is to cycle the queue such that the pushed element can be put in the correct position.
+ 
 ### Problem 226
 - **Name**: Invert Binary Tree
 - **Runtime**: 65 ms
