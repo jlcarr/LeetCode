@@ -2354,6 +2354,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 178.8 MB
 - **Solution**: Because of the tree structure we can use a DFS approach to compute the fuel needed to get the current city and how many representatives will need to pass through that city, and we can then compute the number of cars needed to reach the next city. 
 
+### Problem 2483
+- **Name**: Minimum Penalty for a Shop
+- **Runtime**: 186 ms
+- **Memory**: 21.4 MB
+- **Solution**: Using a cumulative sum we can instantly compute the penalty for any index, and quickly find the minimum.
+
 ### Problem 2492
 - **Name**: Minimum Score of a Path Between Two Cities
 - **Runtime**: 1619 ms
