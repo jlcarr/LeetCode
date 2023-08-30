@@ -2414,6 +2414,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: We can use the string representation of numbers to get each digit and then find the max. We can then use this to quickly group our sets of equal max digits. From there we just check all pairs for the maximum value.
 
+### Problem 2816
+- **Name**: Double a Number Represented as a Linked List
+- **Runtime**: 1675 ms
+- **Memory**: 22.3 MB
+- **Solution**: For the contest I just convertted directly to an int and then back. A proper solution is to first reverse the linked list, perform the arithmetic, then reverse once more.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
