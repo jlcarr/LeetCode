@@ -2396,6 +2396,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Step forward through the array, keeping track of the optimal cost for any split on the previous elements. Then look forward assuming a final split was made here and update for the minimum possible future costs. The overall minimum cost will then be the final result in the dynamic programming array.
 
+### Problem 2707
+- **Name**: Extra Characters in a String
+- **Runtime**: 144 ms
+- **Memory**: 16.9 MB
+- **Solution**: Well want to work our way through the string finding the fewest possible leftover characters to arrive at a given position until we reach the end. From a position we can see which future position we can reach with a word in the dictionary efficiently using a trie.
+
 ### Problem 2788
 - **Name**: Split Strings by Separator
 - **Runtime**: 122 ms
