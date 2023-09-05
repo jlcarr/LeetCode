@@ -2426,6 +2426,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.3 MB
 - **Solution**: For the contest I just convertted directly to an int and then back. A proper solution is to first reverse the linked list, perform the arithmetic, then reverse once more.
 
+### Problem 2843
+- **Name**: Count Symmetric Integers
+- **Runtime**: 900 ms
+- **Memory**: 16.4 MB
+- **Solution**: Brute force checking every number using string casting and slicing.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
