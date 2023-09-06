@@ -2432,6 +2432,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Brute force checking every number using string casting and slicing.
 
+### Problem 2844
+- **Name**: Minimum Operations to Make a Special Number
+- **Runtime**: 48 ms
+- **Memory**: 16.3 MB
+- **Solution**: Basically we have only a few cases to cover: ending with 00,25,50,75. Write a whole bunch of cases, looking to delete numbers from the end to reach either the ending in 5 or ending in 0 cases.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
