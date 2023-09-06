@@ -1592,6 +1592,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.5 MB
 - **Solution**: First sort the words by lexicographic order, then run through, keeping a set of the buildable words found so far. If a word's substring is in the buildable, then it too is, and we can also check if it is greater in length than the current best.
 
+### Problem 725
+- **Name**: Split Linked List in Parts
+- **Runtime**: 49 ms
+- **Memory**: 16.8 MB
+- **Solution**: Run through the linked-list once to get its length, then we compute how many elements will go in each position in the result, and use the remainder to compute which will get extra elements.
+
 ### Problem 735
 - **Name**: Asteroid Collision
 - **Runtime**: 101 ms
