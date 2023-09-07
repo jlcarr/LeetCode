@@ -2444,6 +2444,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Basically we have only a few cases to cover: ending with 00,25,50,75. Write a whole bunch of cases, looking to delete numbers from the end to reach either the ending in 5 or ending in 0 cases.
 
+### Problem 2845
+- **Name**: Count of Interesting Subarrays
+- **Runtime**: 905 ms
+- **Memory**: 34.7 MB
+- **Solution**: We can compute once which elements of the array have the remainder criterion, now we need to count sub-arrays whose sum also meet the criterion. Since it's a sub-array sum we're interested in we can use the cumulative sum, and a counter to get all the counts of matching end of each array positon that will meet the criterion.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
