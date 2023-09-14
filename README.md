@@ -1256,6 +1256,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: Keep track of the head and tail of the even and odd new lists and build then up going through linearly, finally fastening the head of the even list to the tail of the off list.
 
+### Problem 332
+- **Name**: Reconstruct Itinerary
+- **Runtime**: 93 ms
+- **Memory**: 16.8 MB
+- **Solution**: First sort the edges of the graph so we traverse them in lexicographic order in the first place, then use a depth-first search. Delete edges from the graph as they are traversed to increase efficiency, and restore them upon backtracking. Keep track of the count of edges used and return when all have been used.
+
 ### Problem 336
 - **Name**: Palindrome Pairs
 - **Runtime**: 5487 ms
