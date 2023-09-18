@@ -2066,6 +2066,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
 
+### Problem 1584
+- **Name**: Min Cost to Connect All Points
+- **Runtime**: 2133 ms
+- **Memory**: 77.9 MB
+- **Solution**: Since we are just worried about connectivity this is just the problem of finding the minimum spanning tree on the complete graph. Use Kruskal's with union-find.
+
 ### Problem 1601
 - **Name**: Maximum Number of Achievable Transfer Requests
 - **Runtime**: 2937 ms
