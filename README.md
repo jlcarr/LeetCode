@@ -2102,6 +2102,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.4 MB
 - **Solution**: Since we can reorder all the letters, order doesn't matter, but we can't get or remove letters, so we need to check the sets match, also the counts of unique letters can't be changed (but we can change which letters they are) so those need to be compared as well, which can be done by sorting the counts before comparing.
 
+### Problem 1658
+- **Name**: Minimum Operations to Reduce X to Zero
+- **Runtime**: 1059 ms
+- **Memory**: 39 MB
+- **Solution**: Used a prefix sum with a map to the index to find the minimum start and end indices to match the target.
+
 ### Problem 1704
 - **Name**: Determine if String Halves Are Alike
 - **Runtime**: 61 ms
