@@ -1322,6 +1322,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
+### Problem 392
+- **Name**: Is Subsequence
+- **Runtime**: 45 ms
+- **Memory**: 16.4 MB
+- **Solution**: We should try to use up the letters from the substring as soon as possible running through the largers string.
+
 ### Problem 412
 - **Name**: Fizz Buzz
 - **Runtime**: 69 ms
