@@ -1322,6 +1322,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Used the collections.Counter datastructure, which is essentially a multi-set, and comes with an 'inclusion' operator.
 
+### Problem 389
+- **Name**: Find the Difference
+- **Runtime**: 38 ms
+- **Memory**: 16.3 MB
+- **Solution**: We can use the Counter class to find the differences between the letters in the two strings and pick out the added letter.
+
 ### Problem 392
 - **Name**: Is Subsequence
 - **Runtime**: 45 ms
