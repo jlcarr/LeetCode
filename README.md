@@ -1232,6 +1232,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.8 MB
 - **Solution**: Only 1 or two nodes in a tree can be the root of the minimum height tree. Used a BFS, similar to Kahn's algorithm to start from the leaves and work through each layer until either a single or two adjacent nodes are left.
 
+### Problem 316
+- **Name**: Remove Duplicate Letters
+- **Runtime**: 43 ms
+- **Memory**: 16.2 MB
+- **Solution**: The solution is to use a variant of the monotonic stack. We have a stack that we will place the candidate letters into if the letter does not already appear. If the top of the stack is a larger letter and it will appear again we can pop it from the stack.
+
 ### Problem 319
 - **Name**: Bulb Switcher
 - **Runtime**: 40 ms
