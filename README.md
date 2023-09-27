@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Ran through the list once to count, then again up to the middle.
 
+### Problem 880
+- **Name**: Decoded String at Index
+- **Runtime**: 41 ms
+- **Memory**: 16.1 MB
+- **Solution**: Keep track of the what the resultant length of the operations would be up will we surpass k, then start undoing the operations, using modular arithmetic to see where k would be pointing to in a string before multuplying it. Use a stack to keep track of the operations and final characters.
+
 ### Problem 894
 - **Name**: All Possible Full Binary Trees
 - **Runtime**: 255 ms
