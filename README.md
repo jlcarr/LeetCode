@@ -1766,6 +1766,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.1 MB
 - **Solution**: Since only 2 types are allowed, we only need to look for continuguous streaks of 2 types. We can run through the array once, and keep track of the 2 types currently under consideration and the last time each type was seen. Upon a new type we discard the other that isn't adjacent, and reupdate the length of our current streak.
 
+### Problem 905
+- **Name**: Sort Array By Parity
+- **Runtime**: 79 ms
+- **Memory**: 17 MB
+- **Solution**: Just return the arrays joined, filtered by even and odds respectively.
+
 ### Problem 909
 - **Name**: Snakes and Ladders
 - **Runtime**: 128 ms
