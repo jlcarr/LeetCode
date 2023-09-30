@@ -1424,6 +1424,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.8 MB
 - **Solution**: Greedy algorithm: if we go through by end of interval we know at the first end a dart will also hit all intervals the started before hand. We can repeat this and we know it will be optimal to use as few darts as possible. My first solution I used a dict to a linked list to implement a queue of ends I could immediately access the middle via dict when I found starts ahead of th current best end, however I didn't need this as I could just skip over them in my loop.
 
+### Problem 456
+- **Name**: 132 Pattern
+- **Runtime**: 368 ms
+- **Memory**: 36.6 MB
+- **Solution**: This is a monotonic stack problem: keep a stack of candidates for the largest value, and also our canidate for the second largest, which we can pop from the stack into. We place new candidates on the stack as they come up.
+
 ### Problem 459
 - **Name**: Repeated Substring Pattern
 - **Runtime**: 859 ms
