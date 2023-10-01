@@ -2516,6 +2516,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 34.7 MB
 - **Solution**: We can compute once which elements of the array have the remainder criterion, now we need to count sub-arrays whose sum also meet the criterion. Since it's a sub-array sum we're interested in we can use the cumulative sum, and a counter to get all the counts of matching end of each array positon that will meet the criterion.
 
+### Problem 2873
+- **Name**: Maximum Value of an Ordered Triplet I
+- **Runtime**: 57 ms
+- **Memory**: 16.2 MB
+- **Solution**: Since the problem size is small enough, just did a double loop for pairs, using and accumulated max from proceeding elements to get the maximum triplet.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
