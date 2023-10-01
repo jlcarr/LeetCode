@@ -1496,6 +1496,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Recursively find max depths by recursing on children, then the max path is max sum of max depths between children for any node.
 
+### Problem 557
+- **Name**: Reverse Words in a String III
+- **Runtime**: 44 ms
+- **Memory**: 17.1 MB
+- **Solution**: We can just split the words by spaces, and reverse each one before rejoining using list comprehension.
+
 ### Problem 567
 - **Name**: Permutation in String
 - **Runtime**: 133 ms
