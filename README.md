@@ -2528,6 +2528,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: Since the problem size is small enough, just did a double loop for pairs, using and accumulated max from proceeding elements to get the maximum triplet.
 
+### Problem 2874
+- **Name**: Maximum Value of an Ordered Triplet II
+- **Runtime**: 923 ms
+- **Memory**: 29.9 MB
+- **Solution**: Since the problem size is now large we need to be cleverer. To get the maximum value for any given j, we want to maximize the value from the i and the k, and since there are guaranteed to be on the left and right sides respectively we can just use a left and right cumulative maximum array for each.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
