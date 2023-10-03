@@ -2210,6 +2210,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.8 MB
 - **Solution**: Run through flipping answers as needed until k runs out, then reverse the first time used to try to keep the longest consecutive streak. Used a queue to keep track of last index, but a 2 pointer approach to the sliding window is more efficient.
 
+### Problem 2038
+- **Name**: Remove Colored Pieces if Both Neighbors are the Same Color
+- **Runtime**: 125 ms
+- **Memory**: 17.4 MB
+- **Solution**: We can only remove letters that are in groups of 3 or more, so essentially we remove letters until we have pairs beside eachother or singles. Because of this we'll never join groups. So we just count the number of removable letters for each player and see if A has enough to outlast B.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
