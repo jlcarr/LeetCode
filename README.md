@@ -2084,6 +2084,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 29.1 MB
 - **Solution**: First thing to notice is the order of the numbers doesn't matter, because any subarray about a given minimum and maximum can be extended to contribute more numbers lower than the given max without changing violting the target. So we can sort, then run up over the minimums, and find a max that satisfied the condition, and take all subarrays within, which means a power of 2.
 
+### Problem 1512
+- **Name**: Number of Good Pairs
+- **Runtime**: 34 ms
+- **Memory**: 16.4 MB
+- **Solution**: This is just the number of unique pairs we can choose from the sets of same value. So we can solve this in a 1-liner with Python's Counter class and the comb math function.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
