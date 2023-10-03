@@ -2540,6 +2540,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 29.9 MB
 - **Solution**: Since the problem size is now large we need to be cleverer. To get the maximum value for any given j, we want to maximize the value from the i and the k, and since there are guaranteed to be on the left and right sides respectively we can just use a left and right cumulative maximum array for each.
 
+### Problem 2875
+- **Name**: Minimum Size Subarray in Infinite Array
+- **Runtime**: 442 ms
+- **Memory**: 49.5 MB
+- **Solution**: If the target is greater than the sum of the array, then we'll clearly need to repeat it until the target is less: therefore we can use division and mod to get to this point. Afterwards we can simply double the array size and look for the smallest subarray for the target, using the cumulative sum technique.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
