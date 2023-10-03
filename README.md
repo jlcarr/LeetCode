@@ -2546,6 +2546,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 49.5 MB
 - **Solution**: If the target is greater than the sum of the array, then we'll clearly need to repeat it until the target is less: therefore we can use division and mod to get to this point. Afterwards we can simply double the array size and look for the smallest subarray for the target, using the cumulative sum technique.
 
+### Problem 2876
+- **Name**: Count Visited Nodes in a Directed Graph
+- **Runtime**: 1489 ms
+- **Memory**: 47.2 MB
+- **Solution**: This is simular to finding lengths of cycles in linked lists. For each node we knows we'll eventually find a cycles, so search until a cycles is detected, easily done with a set, though more efficient is a tortoise-hare algorithm. I also used a stack to get the distances of other nodes in the list to the cycle. In this way we only visit each node a few times at most.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
