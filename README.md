@@ -1604,6 +1604,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Classic binary search algorithm: use a left and right pointer, then check if the middle value is greather than or lesser than the target values and update the left and right pointers to the middle value accordingly to tighen the bounds until a solution is found.
 
+### Problem 706
+- **Name**: Design HashMap
+- **Runtime**: 1446 ms
+- **Memory**: 20.5 MB
+- **Solution**: For a hash function I swapped the left and right sides of the number a XOR'd with a number with a well distributed hamming weight. After that used a load-balance of 0.75 to rehash, and used the typical dynamic array doubling in size implementation.
+
 ### Problem 705
 - **Name**: Design HashSet
 - **Runtime**: 748 ms
