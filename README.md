@@ -1130,6 +1130,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Since the original list is sorted, we can simply add to each range one element at a time, and update the result once we find an element not fitting the range.
  
+### Problem 229
+- **Name**: Majority Element II
+- **Runtime**: 107 ms
+- **Memory**: 17.6 MB
+- **Solution**: We can solve this in a 1-liner with Counter. However to use only constant space we should use the Boyer-Moore voting algorithm.
+ 
 ### Problem 230
 - **Name**: Kth Smallest Element in a BST
 - **Runtime**: 51 ms
