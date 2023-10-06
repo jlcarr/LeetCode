@@ -1286,6 +1286,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.7 MB
 - **Solution**: By removing the most significant binary digit we can a smaller number that has already been computed. As such we can run through the values onces and check previous solutions fill out the answer.
 
+### Problem 343
+- **Name**: Integer Break
+- **Runtime**: 40 ms
+- **Memory**: 16.2 MB
+- **Solution**: We will want as much symmetry between the numbers as possible, since we're multilying numbers with a fixed sum. Because of the small problem size we can run over all candidates, and the get their products, accounting for remainder.
+
 ### Problem 347
 - **Name**: Top K Frequent Elements
 - **Runtime**: 109 ms
