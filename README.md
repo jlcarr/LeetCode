@@ -2042,6 +2042,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 505.4 MB
 - **Solution**: Use dynamic programming over the current position along the piles and the player's turn. A more efficient solution is to only keep track of the current and last 3 states for each player.
 
+### Problem 1420
+- **Name**: Build Array Where You Can Find The Maximum Exactly K Comparisons
+- **Runtime**: 91 ms
+- **Memory**: 16.5 MB
+- **Solution**: Dymanic programming, moving forward over the array, and keeping track of the possible max values for each number of changes so far. If we go past the target number of changes, discard. Compute the number of ways to reach a new changes for a given max, as well as current change, use the accumulated sum so far to quickly compute the number of ways to reach new max. Also if staying the same then any value less than is good, so we multiply to get count.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
