@@ -2066,6 +2066,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.5 MB
 - **Solution**: This is a simple sliding window, which we can implement with a simple count of the vowels in the current window and update with each increment.
 
+### Problem 1458
+- **Name**: Max Dot Product of Two Subsequences
+- **Runtime**: 568 ms
+- **Memory**: 99 MB
+- **Solution**: Classic dynamic programming with memoization. We go over indices of the two arrays and decide whether to use the pair in the dot product or carry forward searching other pairs.
+
 ### Problem 1466
 - **Name**: Reorder Routes to Make All Paths Lead to the City Zero
 - **Runtime**: 1282 ms
