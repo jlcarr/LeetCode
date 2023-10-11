@@ -2192,6 +2192,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39 MB
 - **Solution**: Used a prefix sum with a map to the index to find the minimum start and end indices to match the target.
 
+### Problem 1672
+- **Name**: Richest Customer Wealth
+- **Runtime**: 62 ms
+- **Memory**: 13.8 MB
+- **Solution**: Sum rows and take the max.
+
 ### Problem 1704
 - **Name**: Determine if String Halves Are Alike
 - **Runtime**: 61 ms
@@ -2301,10 +2307,10 @@ Solutions to LeetCode problems in Python3
 - **Solution**: We can solve this with DFS, and handling the cases where there the longest path is in a sub-tree, or between two sub-paths, or is part of a larger path by returning both the longest overall path so far, as well as the longest path ending there.
 
 ### Problem 2251
-- **Name**: Richest Customer Wealth
-- **Runtime**: 62 ms
-- **Memory**: 13.8 MB
-- **Solution**: Sum rows and take the max.
+- **Name**: Number of Flowers in Full Bloom
+- **Runtime**: 901 ms
+- **Memory**: 37.1 MB
+- **Solution**: By sorting the arrays by time, we can go through person by person, and then see which flowers we haven't looked at yet have bloomed before looking at our current person. For each blooming flower be put its endtime in a heap, which we can then correct to only contain those still in bloom for the given person: the size of the heap is the nubmer of flowers still in bloom.
 
 ### Problem 2256
 - **Name**: Minimum Average Difference
