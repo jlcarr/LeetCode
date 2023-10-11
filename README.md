@@ -2234,6 +2234,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.2 MB
 - **Solution**: One will no longer be able to cross when the water connects the left and right sides. We can check connectivity faster than searching for paths, using union-find. Start off with extra columns on the left and right whose members make the left and right sets, and we check once those sets are merged.
 
+### Problem 2009
+- **Name**: Minimum Number of Operations to Make Array Continuous
+- **Runtime**: 720 ms
+- **Memory**: 35.3 MB
+- **Solution**: Sort the array and remove duplicates. Because needing to move an element to the front is the same number of operations as moving an element to the end fo the continuous streak, we can choose an element already in the array to be the first one. How many elements would already be in its streak could be found using binary search to find where the last element would go, or its index if it is in the array currently. We use this the figure out how many remaining element need to be changed.
+
 ### Problem 2022
 - **Name**: Convert 1D Array Into 2D Array
 - **Runtime**: 1017 ms
