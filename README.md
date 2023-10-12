@@ -1934,6 +1934,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Increasingly append to common divisor candidate while the prefixes are the same, and record whenever a valid candidate is found.
 
+### Problem 1095
+- **Name**: Find in Mountain Array
+- **Runtime**: 48 ms
+- **Memory**: 17 MB
+- **Solution**: Binary search to find the peak, checking if rising or falling to determine which side. Then binary search the left followed by right, also check the start index, peak, and final index, in order to find the minimum index occurence.
+
 ### Problem 1125
 - **Name**: Smallest Sufficient Team
 - **Runtime**: 522 ms
