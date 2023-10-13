@@ -1670,6 +1670,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 138 MB
 - **Solution**: Use a trie to implement the fast searching, with the trick being because the words are guarunteed to be short, you can add all the possible suffixes with a delimiter after which comes the actual word, and this will cover all possible suffix-prefix cases. Implementing a Trie class with recusion was too slow, so barebone dicts with iteration was required.
 
+### Problem 746
+- **Name**: Min Cost Climbing Stairs
+- **Runtime**: 50 ms
+- **Memory**: 16.3 MB
+- **Solution**: Because each step's optimal cost will be the min of the two previous steps we can just keep track of the two previous values and update proceeding through the array.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
