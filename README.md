@@ -2540,6 +2540,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.9 MB
 - **Solution**: Well want to work our way through the string finding the fewest possible leftover characters to arrive at a given position until we reach the end. From a position we can see which future position we can reach with a word in the dictionary efficiently using a trie.
 
+### Problem 2742
+- **Name**: Painting the Walls
+- **Runtime**: 2110 ms
+- **Memory**: 436.5 MB
+- **Solution**: Dynamic programming over the index of the wall considered and the remaining time needed to cover all the walls. Min of including vs excluding cases.
+
 ### Problem 2788
 - **Name**: Split Strings by Separator
 - **Runtime**: 122 ms
