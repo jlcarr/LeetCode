@@ -2006,6 +2006,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Use a DFS/BFS to reach over each each cell in the grid and keep track of connected landmasses and if they reach the border or not.
 
+### Problem 1269
+- **Name**: Number of Ways to Stay in the Same Place After Some Steps
+- **Runtime**: 270 ms
+- **Memory**: 59.2 MB
+- **Solution**: The problem is the same in reverse. So we can do dynamic programming over positon and number of steps to take left. We can also prune all states where returning to the origin would be impossible because of distance.
+
 ### Problem 1319
 - **Name**: Number of Operations to Make Network Connected
 - **Runtime**: 508 ms
