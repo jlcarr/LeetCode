@@ -2048,6 +2048,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: Simply iterate through the matrix, we can start in minimum corner and go up by rows, and break to a new row when we hit a non-negative column, and return entirely when we hit a non-negative start to a row.
 
+### Problem 1361
+- **Name**: Validate Binary Tree Nodes
+- **Runtime**: 271 ms
+- **Memory**: 19.1 MB
+- **Solution**: First find the root node, and check there are no other roots. Then search from the root node checking there are no cycles.
+
 ### Problem 1402
 - **Name**: Reducing Dishes
 - **Runtime**: 42 ms
