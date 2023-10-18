@@ -2288,6 +2288,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: We can only remove letters that are in groups of 3 or more, so essentially we remove letters until we have pairs beside eachother or singles. Because of this we'll never join groups. So we just count the number of removable letters for each player and see if A has enough to outlast B.
 
+### Problem 2050
+- **Name**: Parallel Courses III
+- **Runtime**: 1408 ms
+- **Memory**: 45.6 MB
+- **Solution**: Since we can take as many courses in parallel as we want we should always take a course as soon as possible as soon as we ahve finished all prereqs. We just need to check for new courses ready to take after completing a course. I used a heap to keep track of when the next course would be complete and it's time, thought it seems that isn't necessary.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
