@@ -1286,6 +1286,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.7 MB
 - **Solution**: By removing the most significant binary digit we can a smaller number that has already been computed. As such we can run through the values onces and check previous solutions fill out the answer.
 
+### Problem 341
+- **Name**: Flatten Nested List Iterator
+- **Runtime**: 68 ms
+- **Memory**: 19.9 MB
+- **Solution**: We can use a stack to keep track of the list at the current depth and also indices into it, so as to get a true iterator.
+
 ### Problem 343
 - **Name**: Integer Break
 - **Runtime**: 40 ms
