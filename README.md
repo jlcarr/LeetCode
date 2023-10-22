@@ -2078,6 +2078,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.5 MB
 - **Solution**: Dymanic programming, moving forward over the array, and keeping track of the possible max values for each number of changes so far. If we go past the target number of changes, discard. Compute the number of ways to reach a new changes for a given max, as well as current change, use the accumulated sum so far to quickly compute the number of ways to reach new max. Also if staying the same then any value less than is good, so we multiply to get count.
 
+### Problem 1425
+- **Name**: Constrained Subsequence Sum
+- **Runtime**: 1517 ms
+- **Memory**: 36 MB
+- **Solution**: We can pass through nums once keeping track of the larges possible subsequence so far. If we encounter a non-negative number try to include it, if we encounter a string of negtive numbers keep track of the largest value possible to achieve a given position using a heap. A better solution is to use a monotonic queue.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
