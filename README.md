@@ -2252,6 +2252,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 62.5 MB
 - **Solution**: Because the way we get to an event doesn't matter, just our score, we can keep track of the max sore for each remaining k, then move forward by startDays, using a heap to keep track of trailing days we can move up.
 
+### Problem 1793
+- **Name**: Maximum Score of a Good Subarray
+- **Runtime**: 877 ms
+- **Memory**: 27.5 MB
+- **Solution**: We start at index k and go down possible minimum values, expanding the array as possible and looking for possible maximum results.
+
 ### Problem 1799
 - **Name**: Maximize Score After N Operations
 - **Runtime**: 1171 ms
