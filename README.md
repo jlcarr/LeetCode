@@ -1292,6 +1292,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.9 MB
 - **Solution**: We can use a stack to keep track of the list at the current depth and also indices into it, so as to get a true iterator.
 
+### Problem 342
+- **Name**: Power of Four
+- **Runtime**: 39 ms
+- **Memory**: 16.2 MB
+- **Solution**: Powers of 4 will have even numbered 0s in the bitstring with a leading 1. Check for this to get a quick solution.
+
 ### Problem 343
 - **Name**: Integer Break
 - **Runtime**: 40 ms
