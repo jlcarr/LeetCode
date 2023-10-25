@@ -1700,6 +1700,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Use Python's Counter to get frequencies. Use the most frequent element to make buckets of adjacent characters, which we can then run over placing each new character in the next bucket. We're guarunteed to have at least 1 character between each of the same type.
 
+### Problem 779
+- **Name**: K-th Symbol in Grammar
+- **Runtime**: 26 ms
+- **Memory**: 16.2 MB
+- **Solution**: We notice the pattern actually keeps its symbols fixed since the replacements for the symbols start with the symbols themselves, and that doubling ones position in the pattern doesn't change the symbol, but stepping forward by 1 does, therefore the position of each 1 is where the hamming weight of the index is odd. This makes for a short answer by counting the 1s in the bits of the index.
+
 ### Problem 783
 - **Name**: Minimum Distance Between BST Nodes
 - **Runtime**: 43 ms
