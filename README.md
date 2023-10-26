@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: The trick with this problem is that because of the exponential nature of the problem solutions converge to probability 1 after a large number of iterations. We can write out the dynamic programming version, and run it forward, only keeping track of 4 A states at a time and all corresponding B states probability (unless invalid). We can find a value of 1000 is sufficient for the required accuracy.
 
+### Problem 823
+- **Name**: Binary Trees With Factors
+- **Runtime**: 396 ms
+- **Memory**: 16.3 MB
+- **Solution**: Dynamic programming with memoization, we find all the ways to build each possible number, and then if its a factor of another number all its possible subtrees are possible subtrees.
+
 ### Problem 828
 - **Name**: Count Unique Characters of All Substrings of a Given String
 - **Runtime**: 3426 ms
