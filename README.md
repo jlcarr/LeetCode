@@ -2030,6 +2030,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.11 MB
 - **Solution**: Run through the array and for each value seen add it plus the difference into a dict holding the length of the streak so far. When a value is in the dict we can carry forward the streak.
 
+### Problem 1220
+- **Name**: Count Vowels Permutation
+- **Runtime**: 563 ms
+- **Memory**: 56.7 MB
+- **Solution**: We can solve this fairly easily with recursive dynamic programming an memoization keeping track of the previous vowel, however we could reduce memory by doing bottom-up dynamic programming.
+
 ### Problem 1254
 - **Name**: Number of Closed Islands
 - **Runtime**: 126 ms
