@@ -1454,6 +1454,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 36.6 MB
 - **Solution**: This is a monotonic stack problem: keep a stack of candidates for the largest value, and also our canidate for the second largest, which we can pop from the stack into. We place new candidates on the stack as they come up.
 
+### Problem 458
+- **Name**: Poor Pigs
+- **Runtime**: 29 ms
+- **Memory**: 16.1 MB
+- **Solution**: Given the time to die and total time we get the number of rounds of testing we can do. Each pig could die in any round of testing, and so if we want to get the maximum number of total test outcomes this is `(tests+1)**pigs` possible outcomes, so we want to minimum pigs such that this number is equal to or greater than the number of buckets. Thus we can solve it with a simple logarithm.
+
 ### Problem 459
 - **Name**: Repeated Substring Pattern
 - **Runtime**: 859 ms
