@@ -2090,6 +2090,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: Simply iterate through the matrix, we can start in minimum corner and go up by rows, and break to a new row when we hit a non-negative column, and return entirely when we hit a non-negative start to a row.
 
+### Problem 1356
+- **Name**: Sort Integers by The Number of 1 Bits
+- **Runtime**: 54 ms
+- **Memory**: 16.5 MB
+- **Solution**: We can using Python's build-in sorted function, with a custom key.
+
 ### Problem 1361
 - **Name**: Validate Binary Tree Nodes
 - **Runtime**: 271 ms
