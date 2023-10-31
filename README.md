@@ -2504,6 +2504,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: First find the Hamming weight of the num2, then first cancel out as many leading 1s from num1 as possible, and assign any leftover 1s to the lowest 0s possible.
 
+### Problem 2433
+- **Name**: Find The Original Array of Prefix Xor
+- **Runtime**: 639 ms
+- **Memory**: 36.4 MB
+- **Solution**: We just need to find which value will xor to become the next in pref, and since xor is its own inverse that makes it easy. Just start with a value of 0.
+
 ### Problem 2439
 - **Name**: Minimize Maximum of Array
 - **Runtime**: 747 ms
