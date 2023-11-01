@@ -1490,6 +1490,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: My initial solution was a simple recursive DP over the number we're looking at and the current target. However this solution is not optimal since it will memoize all the possible values of target for every step. A more optimal solution is to iterate over the numbers we either add of subtract to the target and create a new cache from the value at that given step, discarding the older cache as it's no longer needed.
 
+### Problem 501
+- **Name**: Find Mode in Binary Search Tree
+- **Runtime**: 61 ms
+- **Memory**: 20.1 MB
+- **Solution**: In-order traversal of the BST will ensure we see all the duplicate values one after another so we can keep track of the count and update the mode canddiates as needed.
+
 ### Problem 502
 - **Name**: IPO
 - **Runtime**: 1042 ms
