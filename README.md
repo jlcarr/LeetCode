@@ -2414,6 +2414,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.8 MB
 - **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
 
+### Problem 2264
+- **Name**: Count Nodes Equal to Average of Subtree
+- **Runtime**: 50 ms
+- **Memory**: 17.5 MB
+- **Solution**: We can solve this with a recursive function returning the subtree sums, node counts and result.
+
 ### Problem 2305
 - **Name**: Fair Distribution of Cookies
 - **Runtime**: 4026 ms
