@@ -2132,6 +2132,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 36 MB
 - **Solution**: We can pass through nums once keeping track of the larges possible subsequence so far. If we encounter a non-negative number try to include it, if we encounter a string of negtive numbers keep track of the largest value possible to achieve a given position using a heap. A better solution is to use a monotonic queue.
 
+### Problem 1441
+- **Name**: Build an Array With Stack Operations
+- **Runtime**: 48 ms
+- **Memory**:16.3 MB
+- **Solution**: We actually don't need to store the stack, since we'll never remove a value once it matches in target, and since both target and the stream are increasing we can only proceed forward, and each time we encounter a value from the stream we know isn't in target we can remove it immediately, making it a trivial march forward.
+
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
 - **Runtime**: 541 ms
