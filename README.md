@@ -2204,6 +2204,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 29.1 MB
 - **Solution**: First thing to notice is the order of the numbers doesn't matter, because any subarray about a given minimum and maximum can be extended to contribute more numbers lower than the given max without changing violting the target. So we can sort, then run up over the minimums, and find a max that satisfied the condition, and take all subarrays within, which means a power of 2.
 
+### Problem 1503
+- **Name**: Last Moment Before All Ants Fall Out of a Plank
+- **Runtime**: 156 ms
+- **Memory**: 17.4 MB
+- **Solution**: This is a classic problem in which we can notice that ants colliding are functionally the same as moving throught eachother, therefore we just have to find the max steps from the left and right arrays respectively.
+
 ### Problem 1512
 - **Name**: Number of Good Pairs
 - **Runtime**: 34 ms
