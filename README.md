@@ -2222,6 +2222,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 183.9 MB
 - **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
 
+### Problem 1535
+- **Name**: Find the Winner of an Array Game
+- **Runtime**: 537 ms
+- **Memory**: 30 MB
+- **Solution**: We don't actually need to do the list updating, since we know our winner can only be increasing and numbers moved to the end can only be less than it. Therefore we just run through the numbers with pointers looking for k consecutive victories and if we reach the end of the list we know we'll win all remaining ones.
+
 ### Problem 1539
 - **Name**: Kth Missing Positive Number
 - **Runtime**: 51 ms
