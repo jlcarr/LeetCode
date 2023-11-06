@@ -2336,6 +2336,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1845
+- **Name**: Seat Reservation Manager
+- **Runtime**: 443 ms
+- **Memory**: 43.9 MB
+- **Solution**: Needing to have instant access to the smallest member and be able to return elements to the set, this is just a heap.
+
 ### Problem 1870
 - **Name**: Minimum Speed to Arrive on Time
 - **Runtime**: 2274 ms
