@@ -2348,6 +2348,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.5 MB
 - **Solution**: We can do binary search. Start with lower bound of 1 and upper bound of speed that would make every train arrive in an hr. Watch out for edge cases.
 
+### Problem 1921
+- **Name**: Eliminate Maximum Number of Monsters
+- **Runtime**: 744 ms
+- **Memory**: 38.6 MB
+- **Solution**: We can divide to get the time for each monster to arrive and check if we have the laser ready by seeing if there's any remainder.
+
 ### Problem 1970
 - **Name**: Last Day Where You Can Still Cross
 - **Runtime**: 1493 ms
