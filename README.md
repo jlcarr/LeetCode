@@ -2738,6 +2738,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 47.2 MB
 - **Solution**: This is simular to finding lengths of cycles in linked lists. For each node we knows we'll eventually find a cycles, so search until a cycles is detected, easily done with a set, though more efficient is a tortoise-hare algorithm. I also used a stack to get the distances of other nodes in the list to the cycle. In this way we only visit each node a few times at most.
 
+### Problem 2849
+- **Name**: Determine if a Cell Is Reachable at a Given Time
+- **Runtime**: 40 ms
+- **Memory**: 16.18 MB
+- **Solution**: We can add any number of steps on top of the shortest path. Since we have diagonals available to us the shortest path is the smaller of the x and y distances. One edge case is if we start in the same position as the target and time is 1, we cannot succeed because we need to step off first.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
