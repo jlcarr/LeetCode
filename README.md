@@ -2318,6 +2318,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 62.5 MB
 - **Solution**: Because the way we get to an event doesn't matter, just our score, we can keep track of the max sore for each remaining k, then move forward by startDays, using a heap to keep track of trailing days we can move up.
 
+### Problem 1759
+- **Name**: Count Number of Homogenous Substrings
+- **Runtime**: 117 ms
+- **Memory**: 17.3 MB
+- **Solution**: We can keep track of what the last seen character is and how many we've see so far. At we can makes homogenous substrings with any of the contigious matching characters and the most recently seen one too, so we just add the current count to the result.
+
 ### Problem 1793
 - **Name**: Maximum Score of a Good Subarray
 - **Runtime**: 877 ms
