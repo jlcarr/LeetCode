@@ -2672,6 +2672,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Step forward through the array, keeping track of the optimal cost for any split on the previous elements. Then look forward assuming a final split was made here and update for the minimum possible future costs. The overall minimum cost will then be the final result in the dynamic programming array.
 
+### Problem 2642
+- **Name**: Design Graph With Shortest Path Calculator
+- **Runtime**: 685 ms
+- **Memory**: 19.4 MB
+- **Solution**: While the Floyd–Warshall algorithm for all pairs shortest path comes to mind, and might allow for some effciencies in recomputing updates to the shorest paths once updated, however based on the number of calls to the shorest path method, it seems that just re-running Dijkstra's algorithm is the way to go.
+
 ### Problem 2707
 - **Name**: Extra Characters in a String
 - **Runtime**: 144 ms
