@@ -2312,6 +2312,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Simply run through the list keeping track of the cumulative sum and maximum of its value.
 
+### Problem 1743
+- **Name**: Restore the Array From Adjacent Pairs
+- **Runtime**: 914 ms
+- **Memory**: 65 MB
+- **Solution**: We can just build a map of each value to its adjacents, and then find one end by an entry that only has 1 neighbor. We then walk through to the other end.
+
 ### Problem 1751
 - **Name**: Maximum Number of Events That Can Be Attended II
 - **Runtime**: 912 ms
