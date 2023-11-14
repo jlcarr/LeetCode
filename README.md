@@ -2372,6 +2372,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.6 MB
 - **Solution**: We can divide to get the time for each monster to arrive and check if we have the laser ready by seeing if there's any remainder.
 
+### Problem 1930
+- **Name**: Unique Length-3 Palindromic Subsequences
+- **Runtime**: 1602 ms
+- **Memory**: 17.2 MB
+- **Solution**: Because we're only looking for length-3 palindromes we actually only have `26*26=676` possibilities. To find which ones were present efficiently we can find the first and last appearance of each letter and then run through the whole string once checking for middle letter candidates for our palindromes.
+
 ### Problem 1970
 - **Name**: Last Day Where You Can Still Cross
 - **Runtime**: 1493 ms
