@@ -2696,6 +2696,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 436.5 MB
 - **Solution**: Dynamic programming over the index of the wall considered and the remaining time needed to cover all the walls. Min of including vs excluding cases.
 
+### Problem 2785
+- **Name**: Sort Vowels in a String
+- **Runtime**: 149 ms
+- **Memory**: 19.8 MB
+- **Solution**: Filter out the vowels into their own list to sort, and make a queue/stack to pop from, then rerun through the original string and either use the original consonant or the new sorted vowel. A better solution asymptotically is to use counting sort since the cardinality of vowels is low and a constant.
+
 ### Problem 2788
 - **Name**: Split Strings by Separator
 - **Runtime**: 122 ms
