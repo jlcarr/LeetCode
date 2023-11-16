@@ -2390,6 +2390,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.2 MB
 - **Solution**: One will no longer be able to cross when the water connects the left and right sides. We can check connectivity faster than searching for paths, using union-find. Start off with extra columns on the left and right whose members make the left and right sets, and we check once those sets are merged.
 
+### Problem 1980
+- **Name**: Find Unique Binary String
+- **Runtime**: 36 ms
+- **Memory**: 16.2 MB
+- **Solution**: We can do this efficiently using Cantor's diagonal argument. Simply run through the strings and take the flip of the ith bit from each, that way every string mismatches in at least one place.
+
 ### Problem 2009
 - **Name**: Minimum Number of Operations to Make Array Continuous
 - **Runtime**: 720 ms
