@@ -2360,6 +2360,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 43.9 MB
 - **Solution**: Needing to have instant access to the smallest member and be able to return elements to the set, this is just a heap.
 
+### Problem 1846
+- **Name**: Maximum Element After Decreasing and Rearranging
+- **Runtime**: 410 ms
+- **Memory**: 26.3 MB
+- **Solution**: Simply sort the array, and start with 0 ensuring we either meet a value in rannge of the previous, or bring it down to be one greater than the previous.
+
 ### Problem 1870
 - **Name**: Minimum Speed to Arrive on Time
 - **Runtime**: 2274 ms
