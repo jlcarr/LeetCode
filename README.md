@@ -2372,6 +2372,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.5 MB
 - **Solution**: We can do binary search. Start with lower bound of 1 and upper bound of speed that would make every train arrive in an hr. Watch out for edge cases.
 
+### Problem 1877
+- **Name**: Minimize Maximum Pair Sum in Array
+- **Runtime**: 1009 ms
+- **Memory**: 30.2 MB
+- **Solution**: To minimize we should sum largest values with smallest values. So sort the array and pair the first half with the reversed second half.
+
 ### Problem 1921
 - **Name**: Eliminate Maximum Number of Monsters
 - **Runtime**: 744 ms
