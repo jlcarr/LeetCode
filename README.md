@@ -2384,6 +2384,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.2 MB
 - **Solution**: To minimize we should sum largest values with smallest values. So sort the array and pair the first half with the reversed second half.
 
+### Problem 1887
+- **Name**: Reduction Operations to Make the Array Elements Equal
+- **Runtime**: 827 ms
+- **Memory**: 23.7 MB
+- **Solution**: Sort the array and run through it keeping track of number of unique values seen because that's the number of steps each value needs to take to reach the bottom.
+
 ### Problem 1921
 - **Name**: Eliminate Maximum Number of Monsters
 - **Runtime**: 744 ms
