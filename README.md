@@ -2354,6 +2354,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1838
+- **Name**: Frequency of the Most Frequent Element
+- **Runtime**: 1158 ms
+- **Memory**: 31.2 MB
+- **Solution**: Use a sliding window to keep track of the window sum difference to the sum if every element was equal to the rightmost, this gives us how much needs to be incremented in the window to compare against k, and we can tighten the window as needed.
+
 ### Problem 1845
 - **Name**: Seat Reservation Manager
 - **Runtime**: 443 ms
