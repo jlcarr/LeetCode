@@ -2558,6 +2558,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.6 MB
 - **Solution**: This can be solved easily with a stack. Run through the string adding characters to the stack, and for stars pop from the stack.
 
+### Problem 2391
+- **Name**: Minimum Amount of Time to Collect Garbage
+- **Runtime**: 1040 ms
+- **Memory**: 39.4 MB
+- **Solution**: We send out end truck independently and keep track of potential travel time, but only add it once we reach a house with the right type of garbage, and reset the counter.
+
 ### Problem 2405
 - **Name**: Optimal Partition of String
 - **Runtime**: 187 ms
