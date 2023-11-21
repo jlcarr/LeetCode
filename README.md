@@ -2348,6 +2348,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.1 MB
 - **Solution**: Dynamic programming recursively defined with caching. Precompute all the GCDs with Euclid's algorithm.
 
+### Problem 1814
+- **Name**: Count Nice Pairs in an Array
+- **Runtime**: 547 ms
+- **Memory**: 26.8 MB
+- **Solution**: We can rearrange the equation to see we just need to compare differences in the original numbers with their reversed: so we can get counts of these differences and count how many pairs exist with the combination function.
+
 ### Problem 1822
 - **Name**: Sign of the Product of an Array
 - **Runtime**: 70 ms
