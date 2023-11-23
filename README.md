@@ -2132,6 +2132,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.5 MB
 - **Solution**: Dymanic programming, moving forward over the array, and keeping track of the possible max values for each number of changes so far. If we go past the target number of changes, discard. Compute the number of ways to reach a new changes for a given max, as well as current change, use the accumulated sum so far to quickly compute the number of ways to reach new max. Also if staying the same then any value less than is good, so we multiply to get count.
 
+### Problem 1424
+- **Name**: Diagonal Traverse II
+- **Runtime**: 784 ms
+- **Memory**: 37.2 MB
+- **Solution**: Notice that the effect of going along the diagonal is the same as shifting down each next column and then doing along, like a pyramid. So we can set up the pyramid to receive the entries apropriately and then traverse easily to give the result.
+
 ### Problem 1425
 - **Name**: Constrained Subsequence Sum
 - **Runtime**: 1517 ms
