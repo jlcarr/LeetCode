@@ -2258,6 +2258,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 54.1 MB
 - **Solution**: The nodes in questions are the ones with no parents. An easy way and efficient way to find this is start with the set of all nodes and remove all the nodes on the tail of each edge.
 
+### Problem 1561
+- **Name**: Maximum Number of Coins You Can Get
+- **Runtime**: 511 ms
+- **Memory**: 28.7 MB
+- **Solution**: We should greedily choose the top 2 piles and bottom pile each round since we can never make a better choice. We can sort the array and slice of the bottom and skip every second element to get our coins.
+
 ### Problem 1572
 - **Name**: Matrix Diagonal Sum
 - **Runtime**: 119 ms
