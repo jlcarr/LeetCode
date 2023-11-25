@@ -2324,6 +2324,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
 
+### Problem 1685
+- **Name**: Sum of Absolute Differences in a Sorted Array
+- **Runtime**: 675 ms
+- **Memory**: 31.7 MB
+- **Solution**: Since the array is sorted, we can use a cumulative sum to keep track of elements less than, and compute the sum of elements greater than a given element, and therefore compute the absolute values easily without negatives.
+
 ### Problem 1704
 - **Name**: Determine if String Halves Are Alike
 - **Runtime**: 61 ms
