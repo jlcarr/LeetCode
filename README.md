@@ -1892,6 +1892,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16 MB
 - **Solution**: Wherever we choose to "split" the string into a 0s half and 1s half, we can count the number of flips needed on each side. We can compute this instantly by counting up the accumulated count so far, and the total number of 0s since we can take the difference with the current count of 0s to get the number of flips to 1s remaining. We run over the entire string like so and take the min. Initialize values use that it counts the case where the entire string gets changed to 1s.
 
+### Problem 935
+- **Name**: Knight Dialer
+- **Runtime**: 630 ms
+- **Memory**: 16.2 MB
+- **Solution**: We can keep track of the transitions and apply them over and over accumulating the results. A more efficient method is to construct the transition matrix and use fast exponentiation on it.
+
 ### Problem 938
 - **Name**: Range Sum of BST
 - **Runtime**: 579 ms
