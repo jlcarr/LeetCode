@@ -2492,6 +2492,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.4 MB
 - **Solution**: Classic dynamic programming since we can't go back on questions: we can compute the name score achievable by a given question.
 
+### Problem 2147
+- **Name**: Number of Ways to Divide a Long Corridor
+- **Runtime**: 361 ms
+- **Memory**: 17.5 MB
+- **Solution**: The number of ways to divide the corridor is the product of the number of wall placements on each stretch of plants between each group of 2 seats. We can run through this pretty quickly counting strings of plants and total seats. Of course any hall with odd seats has no valid solutions.
+
 ### Problem 2187
 - **Name**: Minimum Time to Complete Trips
 - **Runtime**: 2331 ms
