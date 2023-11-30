@@ -2294,6 +2294,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: Simply keep track of the remainin spots for each parking space.
 
+### Problem 1611
+- **Name**: Minimum One Bit Operations to Make Integers Zero
+- **Runtime**: 23 ms
+- **Memory**: 16.3 MB
+- **Solution**: The operations mentioned only change 1 bit at a time, but allow up to go up indefinitely or down to 0: this is the definition of counting up and down in Grey code.
+
 ### Problem 1615
 - **Name**: Maximal Network Rank
 - **Runtime**: 301 ms
