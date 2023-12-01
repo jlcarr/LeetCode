@@ -2330,6 +2330,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39 MB
 - **Solution**: Used a prefix sum with a map to the index to find the minimum start and end indices to match the target.
 
+### Problem 1662
+- **Name**: Check If Two String Arrays are Equivalent
+- **Runtime**: 52 ms
+- **Memory**: 16.3 MB
+- **Solution**: In python we can just join all the strings in the arrays and check if they are equal.
+
 ### Problem 1672
 - **Name**: Richest Customer Wealth
 - **Runtime**: 62 ms
