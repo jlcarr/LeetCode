@@ -2024,6 +2024,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.5 MB
 - **Solution**: Classic dynamic programming for optimal game tree search. Since every turn forces the number of rock piles to be lower we can memoize over (piles remaining/position, M, turn).
 
+### Problem 1160
+- **Name**: Find Words That Can Be Formed by Characters
+- **Runtime**: 171 ms
+- **Memory**: 16.9 MB
+- **Solution**: We can use Python's Counter class and it's comparator to quickly solve this problem.
+
 ### Problem 1161
 - **Name**: Maximum Level Sum of a Binary Tree
 - **Runtime**: 324 ms
