@@ -2876,6 +2876,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.18 MB
 - **Solution**: We can add any number of steps on top of the shortest path. Since we have diagonals available to us the shortest path is the smaller of the x and y distances. One edge case is if we start in the same position as the target and time is 1, we cannot succeed because we need to step off first.
 
+### Problem 2946
+- **Name**: Matrix Similarity After Cyclic Shifts
+- **Runtime**: 122 ms
+- **Memory**: 16.33 MB
+- **Solution**: We can interate over each row and check that all numbers would be equal after a cyclic shift using modular arithmetic. We can do left and right shifting by a sign change depending on parity of the row number. Break early if any mismatch found.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
