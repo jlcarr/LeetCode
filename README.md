@@ -2882,6 +2882,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.33 MB
 - **Solution**: We can interate over each row and check that all numbers would be equal after a cyclic shift using modular arithmetic. We can do left and right shifting by a sign change depending on parity of the row number. Break early if any mismatch found.
 
+### Problem 2947
+- **Name**: Count Beautiful Substrings I
+- **Runtime**: 1701 ms
+- **Memory**: 16.26 MB
+- **Solution**: For this problem's bounds we can simply iterate over ends and then each paired start, keeping a running track of the number of vowels seen on the end, and for the start so we immediately know the number of vowels and consonents for each substring.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
