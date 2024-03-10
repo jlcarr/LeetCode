@@ -2888,6 +2888,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.26 MB
 - **Solution**: For this problem's bounds we can simply iterate over ends and then each paired start, keeping a running track of the number of vowels seen on the end, and for the start so we immediately know the number of vowels and consonents for each substring.
 
+### Problem 2948
+- **Name**: Make Lexicographically Smallest Array by Swapping Elements
+- **Runtime**: 1188 ms
+- **Memory**: 51.04 MB
+- **Solution**: By transitivity, we can find chains of numbers which can swap places arbitrarily, so we just need to find these chained groups by sorting and keeping track of the original indices. We then places the sorted values into the indices available for the group.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
