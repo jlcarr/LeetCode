@@ -2894,6 +2894,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 51.04 MB
 - **Solution**: By transitivity, we can find chains of numbers which can swap places arbitrarily, so we just need to find these chained groups by sorting and keeping track of the original indices. We then places the sorted values into the indices available for the group.
 
+### Problem 2968
+- **Name**: Count Subarrays Where Max Element Appears at Least K Times
+- **Runtime**: 888 ms
+- **Memory**: 30.92 MB
+- **Solution**: Since we're only concerned about finding contiguous subarrays with k or more appearances of the global maximum, we first just grab the global maximum, then use a window with left and right indices to the array, and run the right index sequentially to the end, and whenever we accumulate more instances of the max value we update the left index the make the window tight. We then know at each instance that all smaller values of the left index would work, so we add it to our accumulated result.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
