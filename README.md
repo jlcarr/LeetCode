@@ -1958,6 +1958,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: We can just use Python's conversion functions to do the work for us.
 
+### Problem 992
+- **Name**: Subarrays with K Different Integers
+- **Runtime**: 439 ms
+- **Memory**: 19.98 MB
+- **Solution**: Use a sliding window, with a tight bound and a loose bound: for each endpoint of the array, use a counter to find the maximum left endpoint such that the condition is satisfied and the minimum left endpoint such that the condition is satisfied, by incrementing 2 left pointers and counters. The difference between each is the number of valid subarrays for the irght endpoint.
+
 ### Problem 995
 - **Name**: Minimum Number of K Consecutive Bit Flips
 - **Runtime**: 1485 ms
