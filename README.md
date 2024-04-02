@@ -1046,6 +1046,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: We can solve this problem simply by using a set to check if we've seen the value before and proceeding with the process. However a more efficient solution is to use Floyd's cycle finding algorithm.
  
+### Problem 205
+- **Name**: Isomorphic Strings
+- **Runtime**: 41 ms
+- **Memory**: 16.74 MB
+- **Solution**: We can make 2 dictionaries, the mapping and it's inverse, the make sure it's consistent and unique for every letter all the way through.
+ 
 ### Problem 206
 - **Name**: Reverse Linked List
 - **Runtime**: 51 ms
