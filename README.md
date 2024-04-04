@@ -2318,6 +2318,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: The operations mentioned only change 1 bit at a time, but allow up to go up indefinitely or down to 0: this is the definition of counting up and down in Grey code.
 
+### Problem 1614
+- **Name**: Maximum Nesting Depth of the Parentheses
+- **Runtime**: 33 ms
+- **Memory**: 16.52 MB
+- **Solution**: We can simply run through the string once keeping track of the depth as we proceed by incrementing upon open brackets and decrementing on close brackets, and keeping a running max.
+
 ### Problem 1615
 - **Name**: Maximal Network Rank
 - **Runtime**: 301 ms
