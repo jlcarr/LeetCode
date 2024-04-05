@@ -2270,6 +2270,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: Besides the easy linear solution, we can do better with binary search to find the index at which the value shows k elements have been skipped so far. The answer is then that index+k.
 
+### Problem 1544
+- **Name**: Make The String Great
+- **Runtime**: 37 ms
+- **Memory**: 16.52 MB
+- **Solution**: Run through the string once, putting characters into result stack. We can check the next character and end of the stack for bad strings, and pop as needed. Once complete join the stack and return. We can check by checking if both characters are not equal, but equal upon both beign upper cased.
+
 ### Problem 1547
 - **Name**: Minimum Cost to Cut a Stick
 - **Runtime**: 833 ms
