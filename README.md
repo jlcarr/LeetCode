@@ -2078,6 +2078,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 56.7 MB
 - **Solution**: We can solve this fairly easily with recursive dynamic programming an memoization keeping track of the previous vowel, however we could reduce memory by doing bottom-up dynamic programming.
 
+### Problem 1249
+- **Name**: Minimum Remove to Make Valid Parentheses
+- **Runtime**: 86 ms
+- **Memory**: 18.15 MB
+- **Solution**: We can keep a stack of indices of open parens, pop from it when we reach a close paren, or add to the set of indices to remove if the stack is empty. When we reach the end any remaining open parens must also be removed. We can make a final pass through the string ignoring characters we marked for removal.
+
 ### Problem 1254
 - **Name**: Number of Closed Islands
 - **Runtime**: 126 ms
