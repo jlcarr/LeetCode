@@ -1628,6 +1628,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.1 MB
 - **Solution**: Pre-construct a balanced BST, with indicators about where values have officially been filled in, and which also saves the max-length path to each number and the number of such paths (updating as appropriate for duplicates). We can then slightly more quickly find all smaller-than nodes which have been reached and look for the longest path and how many there are. The final step is a complete search of the tree, in case of disparate longest paths.
 
+### Problem 678
+- **Name**: Valid Parenthesis String
+- **Runtime**: 41 ms
+- **Memory**: 16.52 MB
+- **Solution**: We can do this in an single pass be keeping track of the maximum possible stack size and minimum possible stack size. Parents will increase and decrease each as normal, but the asterisk will increment the max but decrement the min. We ensur the min can never drop below zero, as this is a non-valid state. If the max were to ever drop below zero this means we cannot make a valid paren string. At the end if the min of above zero then again we cannot make a valid paren string.
+
 ### Problem 688
 - **Name**: Knight Probability in Chessboard
 - **Runtime**: 290 ms
