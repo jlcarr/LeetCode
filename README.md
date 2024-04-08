@@ -2390,6 +2390,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 31.7 MB
 - **Solution**: Since the array is sorted, we can use a cumulative sum to keep track of elements less than, and compute the sum of elements greater than a given element, and therefore compute the absolute values easily without negatives.
 
+### Problem 1700
+- **Name**: Number of Students Unable to Eat Lunch
+- **Runtime**: 46 ms
+- **Memory**: 16.48 MB
+- **Solution**: Since we have only a small number of students and sandwiches we can perform the simulation feasibly. Go through iterations of the who student queue, and see if the size of the student queue and sandwich stack has changed.
+
 ### Problem 1704
 - **Name**: Determine if String Halves Are Alike
 - **Runtime**: 61 ms
