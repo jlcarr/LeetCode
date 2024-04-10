@@ -1922,6 +1922,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.2 MB
 - **Solution**: Since all the values are distinct, we just have to ensure all the pops can happen by iterating through them. If a pop can't currently happen, push to the stack until it can. If we run out of pushes before we finish then return False since it's invalid. If successful return True.
 
+### Problem 950
+- **Name**: Reveal Cards In Increasing Order
+- **Runtime**: 49 ms
+- **Memory**: 16.80 MB
+- **Solution**: We can simulate the procedure with a deque, and using a sorted list of indices to start off, so we can get the ordering outcome of cards in the queue. This way we can place the cards from our sorted deck in our permutation so they will come out in the correct order.
+
 ### Problem 953
 - **Name**: Verifying an Alien Dictionary
 - **Runtime**: 38 ms
