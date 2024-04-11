@@ -1370,6 +1370,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: We should try to use up the letters from the substring as soon as possible running through the largers string.
 
+### Problem 402
+- **Name**: Remove K Digits
+- **Runtime**: 59 ms
+- **Memory**: 17.86 MB
+- **Solution**: We essentially want to make the smallest numbers possible come first, so we should run through the digits, and check for each digit if a smaller one is after: the best thing we can do is to remove it to make room for the smaller digit to take its place earlier. We can do this with a stack. The final thing we need to do is remove leading zeros and ensure empty results return 0.
+
 ### Problem 412
 - **Name**: Fizz Buzz
 - **Runtime**: 69 ms
