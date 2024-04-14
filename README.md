@@ -1376,6 +1376,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.86 MB
 - **Solution**: We essentially want to make the smallest numbers possible come first, so we should run through the digits, and check for each digit if a smaller one is after: the best thing we can do is to remove it to make room for the smaller digit to take its place earlier. We can do this with a stack. The final thing we need to do is remove leading zeros and ensure empty results return 0.
 
+### Problem 404
+- **Name**: Sum of Left Leaves
+- **Runtime**: 35 ms
+- **Memory**: 16.80 MB
+- **Solution**: Traverse the tree recursively, check if the left child is a leaf, and if so add its value to the sum. Add the sub results for the left and right children.
+
 ### Problem 412
 - **Name**: Fizz Buzz
 - **Runtime**: 69 ms
