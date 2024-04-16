@@ -1592,6 +1592,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.3 MB
 - **Solution**: First get tasks and their frequencies, then greedily assign them with a priority queue by frequency. Decrement after each assignment, and put them into a cooldown queue, which is popped into the priority queue after cooldown is over.
 
+### Problem 623
+- **Name**: Add One Row to Tree
+- **Runtime**: 46 ms
+- **Memory** 17.68 MB
+- **Solution**: We can solve the problem with recursion by simple checking for the edge case of replacing the root node and otherwise performing the replacement as needed.
+
 ### Problem 630
 - **Name**: Course Schedule III
 - **Runtime**: 1304 ms
