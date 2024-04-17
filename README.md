@@ -1986,7 +1986,13 @@ Solutions to LeetCode problems in Python3
 - **Name**: Interval List Intersections
 - **Runtime**: 204 ms
 - **Memory**: 14.9 MB
-- **Solution**: Two pointers running through the two lists, checking for interval overlaps, and then adding the overlappign interval to the result (overlapping interval will be the max of both starts, and the mins of boths ends: i.e. the intersection). If there's no overlap the earliest starting one is incremented to catch up, if there is overlap the soonest ending one is incremented to check for more overlaps.
+- **Solution**: Two pointers running through the two lists, checking for interval overlaps, and then adding the overlapping interval to the result (overlapping interval will be the max of both starts, and the mins of boths ends: i.e. the intersection). If there's no overlap the earliest starting one is incremented to catch up, if there is overlap the soonest ending one is incremented to check for more overlaps.
+
+### Problem 988
+- **Name**: Smallest String Starting From Leaf
+- **Runtime**: 36 ms
+- **Memory**: 17.60 MB
+- **Solution**: We can move recursively and keep a stack of the characters along the path, and a global current best solution. We just need to reverse the stack (implemented as a list) to do the lexicographical comparison.
 
 ### Problem 989
 - **Name**: Add to Array-Form of Integer
