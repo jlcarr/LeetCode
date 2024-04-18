@@ -1484,6 +1484,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20 MB
 - **Solution**: Used the fact we must have divisibility to filter out some possible substrings, then used the regex module to perform the check. A more efficient method is the check if the original string is contained in the concatenation with itself without the first and last letters.
 
+### Problem 463
+- **Name**: Island Perimeter
+- **Runtime**: 410 ms
+- **Memory**: 16.98 MB
+- **Solution**: Run through all the coordinates and for each island cell check its neighbors, adding 1 to the result for each not an island cell. 
+
 ### Problem 474
 - **Name**: Concatenated Words
 - **Runtime**: 374 ms
