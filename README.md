@@ -2546,6 +2546,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: We can do this efficiently using Cantor's diagonal argument. Simply run through the strings and take the flip of the ith bit from each, that way every string mismatches in at least one place.
 
+### Problem 1992
+- **Name**: Find All Groups of Farmland
+- **Runtime**: 1009 ms
+- **Memory**: 35.26 MB
+- **Solution**: Obtained a set of all farmland coordinates, and use this set to DFS through each group, taking the min and max coordinates found as each corner.
+
 ### Problem 2009
 - **Name**: Minimum Number of Operations to Make Array Continuous
 - **Runtime**: 720 ms
