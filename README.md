@@ -2540,6 +2540,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.2 MB
 - **Solution**: One will no longer be able to cross when the water connects the left and right sides. We can check connectivity faster than searching for paths, using union-find. Start off with extra columns on the left and right whose members make the left and right sets, and we check once those sets are merged.
 
+### Problem 1971
+- **Name**: Find if Path Exists in Graph
+- **Runtime**: 1443 ms
+- **Memory**: 108.75 MB
+- **Solution**: Construced the graph as a dict of lists from the edges, then ran DFS on it.
+
 ### Problem 1980
 - **Name**: Find Unique Binary String
 - **Runtime**: 36 ms
