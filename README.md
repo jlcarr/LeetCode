@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Because each step's optimal cost will be the min of the two previous steps we can just keep track of the two previous values and update proceeding through the array.
 
+### Problem 752
+- **Name**: Open the Lock
+- **Runtime**: 237 ms
+- **Memory**: 18.26 MB
+- **Solution**: This is a simple shortest path problem. It's easier to work with tuples of numbers instead of strings, so covert them. We can find neighboring states easily with some list comprehension and modular arithmetic. It's quite easy to use A-star with the modular minimum difference sum as the heursitic. Careful of edge cases such as start state being a "deadend", or starting at the target.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
