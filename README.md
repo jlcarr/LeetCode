@@ -2714,6 +2714,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.3 MB
 - **Solution**: We can use a state-machine keeping track of all possible states we could be in running through the array just once and checking we're able to arrive at a valid end state.
 
+### Problem 2370
+- **Name**: Longest Ideal Subsequence
+- **Runtime**: 1446 ms
+- **Memory**: 17.43 MB
+- **Solution**: We can use dynamic programming to check the maximum letters kept up to the most recent occurance of each letter. We just need to check the max within range for each next letter then update the cache.
+
 ### Problem 2390
 - **Name**: Removing Stars From a String
 - **Runtime**: 215 ms
