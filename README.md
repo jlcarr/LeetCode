@@ -2144,6 +2144,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.2 MB
 - **Solution**: The problem is the same in reverse. So we can do dynamic programming over positon and number of steps to take left. We can also prune all states where returning to the origin would be impossible because of distance.
 
+### Problem 1289
+- **Name**: Minimum Falling Path Sum II
+- **Runtime**: 216 ms
+- **Memory**: 19.86 MB
+- **Solution**: Since we're going down row by row and must always switch columns, but can choose any previous column, makes sense we really only need to save the 2 smallest previous column values. We can get the next columns 2 smallest possible sums with a little if-statement logic, and we're all set.
+
 ### Problem 1319
 - **Name**: Number of Operations to Make Network Connected
 - **Runtime**: 508 ms
