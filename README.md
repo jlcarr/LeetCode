@@ -1652,6 +1652,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.4 MB
 - **Solution**: Recursively go down each level, and keep track of the furthest left and right positions found. The position of a node's child can be computed by doubling it's current position, since all other nodes have 2 children (including null nodes).
 
+### Problem 664
+- **Name**: Strange Printer
+- **Runtime**: 127 ms
+- **Memory**: 19.93 MB
+- **Solution**: Firstly preprocess the string to remove all adjacent repeat characters. Then create a lookup map for each letter to their positions in order. Perform DP over start and end indices, looking at the starting character of the range, either just printing that character before continuing, or looking for matching final characters to share from the index lookup. The trick is to consider there could be other appearances of the character within in the range: remove the ending character for the next level of the DP, but not the starting character and do not add to the cost: consider the inside range could be printed over.
+
 ### Problem 673
 - **Name**: Number of Longest Increasing Subsequence
 - **Runtime**: 1192 ms
