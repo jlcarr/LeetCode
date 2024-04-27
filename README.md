@@ -1526,6 +1526,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.9 MB
 - **Solution**: Out of all possible projects we can take at a given time, we should always take the one with highest profit. Therefore we need a priority queue, implemented as a heap, where we can insert projects we can take. We can also use a heap to hold all the projects sorted by capital required, and pop all we can undertake into the priority queue.
 
+### Problem 514
+- **Name**: Freedom Trail
+- **Runtime**: 84 ms
+- **Memory**: 16.44 MB
+- **Solution**: First create the map from characters to their postions in the ring for quick lookup. Create a list of previous possible positions (will be those of the previous letter) with shortest distances to get there, and then each character in the key look at each character position and all the possible previous positions to get the shortest possible distance for each position candidate.
+
 ### Problem 515
 - **Name**: Find Largest Value in Each Tree Row
 - **Runtime**: 54 ms
