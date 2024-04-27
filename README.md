@@ -2900,6 +2900,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Step forward through the array, keeping track of the optimal cost for any split on the previous elements. Then look forward assuming a final split was made here and update for the minimum possible future costs. The overall minimum cost will then be the final result in the dynamic programming array.
 
+### Problem 2551
+- **Name**: Put Marbles in Bags
+- **Runtime**: 514 ms
+- **Memory**: 30.34 MB
+- **Solution**: Notice that the first and last marble always contribute to the sums. Otherwise it's choosing adjacent pairings of marbles. We just need to get every adjacent sum, then take the sum of the highest k and lowest k: their difference will be our answer. We can do this by sorting the list of pair sums, slicing and summing.
+
 ### Problem 2642
 - **Name**: Design Graph With Shortest Path Calculator
 - **Runtime**: 685 ms
