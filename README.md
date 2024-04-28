@@ -1826,6 +1826,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.7 MB
 - **Solution**: Solve this problem by counting the number of substrings in which a given letter appears once: summing over all letters is the same as summing the lengths of all substrings with unique letters. For each letter run through the string keeping track of the last position the character was seen, and the distance to the previous sighting of the character before that. We can update the result whenever a new sighting is found by counting the pairs of choices between indices before and including the previous sighting with the indices after the previous sighting (including none), which can be computed by a simple multiplication. This allows for a single pass for each letter.
 
+### Problem 834
+- **Name**: Sum of Distances in Tree
+- **Runtime**: 945 ms
+- **Memory**: 46.04 MB
+- **Solution**: Start by obtaining a root and its count of descendents and sum of distances of descendants by contracting leaves. Once 2 nodes remain treat them as ancestors of eachother, swapping their descendants to count as ancestors. Go back down the tree to get all the ancestor counts to complete.
+
 ### Problem 837
 - **Name**: New 21 Game
 - **Runtime**: 96 ms
