@@ -2594,6 +2594,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 35.26 MB
 - **Solution**: Obtained a set of all farmland coordinates, and use this set to DFS through each group, taking the min and max coordinates found as each corner.
 
+### Problem 2000
+- **Name**: Reverse Prefix of Word
+- **Runtime**: 33 ms
+- **Memory**: 16.52 MB
+- **Solution**: We can use the `find` method and slicing language features of Python to do this in 2 lines. `find` returns -1 if unfound, and this still works with the indexing for slicing.
+
 ### Problem 2009
 - **Name**: Minimum Number of Operations to Make Array Continuous
 - **Runtime**: 720 ms
