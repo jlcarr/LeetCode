@@ -1892,6 +1892,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.1 MB
 - **Solution**: Keep track of the what the resultant length of the operations would be up will we surpass k, then start undoing the operations, using modular arithmetic to see where k would be pointing to in a string before multuplying it. Use a stack to keep track of the operations and final characters.
 
+### Problem 881
+- **Name**: Boats to Save People
+- **Runtime**: 348 ms
+- **Memory**: 23.50 MB
+- **Solution**: To pair up people as best as possible, sort the array use a left and right pointer to keep track of the unassigned max and min people: if we can pair them into a boat, do so, otherwise send the larger off by themselves.
+
 ### Problem 894
 - **Name**: All Possible Full Binary Trees
 - **Runtime**: 255 ms
