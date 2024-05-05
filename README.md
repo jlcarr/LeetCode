@@ -1172,6 +1172,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.3 MB
 - **Solution**: Recursively solve the problem by returning the current node as soon as it matches one of the two nodes. Otherwise if both the left and right children are returning nodes, then this is the LCA, otherwise just continue to send any found child node up, or none.
 
+### Problem 237
+- **Name**: Delete Node in a Linked List
+- **Runtime**: 37 ms
+- **Memory**: 16.75 MB
+- **Solution**: Since we don't have access to prior nodes to the one we need to delete, we must just shift all the values down and remove the tail node.
+
 ### Problem 238
 - **Name**: Product of Array Except Self
 - **Runtime**: 293 ms
