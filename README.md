@@ -2900,6 +2900,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Using a cumulative sum we can instantly compute the penalty for any index, and quickly find the minimum.
 
+### Problem 2487
+- **Name**: Remove Nodes From Linked List
+- **Runtime**: 401 ms
+- **Memory**: 51.29 MB
+- **Solution**: We need to check future values in the linked list, so we can verse it in place and then just travel forward through it, removing all nodes which are not ascending. Finish by reversing in place once more.
+
 ### Problem 2492
 - **Name**: Minimum Score of a Path Between Two Cities
 - **Runtime**: 1619 ms
