@@ -1532,6 +1532,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.9 MB
 - **Solution**: Out of all possible projects we can take at a given time, we should always take the one with highest profit. Therefore we need a priority queue, implemented as a heap, where we can insert projects we can take. We can also use a heap to hold all the projects sorted by capital required, and pop all we can undertake into the priority queue.
 
+### Problem 508
+- **Name**: Relative Ranks
+- **Runtime**: 62 ms
+- **Memory**: 17.60 MB
+- **Solution**: Create a dictionary for the special cases, then sort the values to create the map of them to their places. Finish by constructing the result array.
+
 ### Problem 514
 - **Name**: Freedom Trail
 - **Runtime**: 84 ms
