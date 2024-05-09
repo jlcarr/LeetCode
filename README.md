@@ -3080,6 +3080,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.93 MB
 - **Solution**: We can xor the results with k to get mismatched bits, after which we need a count: the Hamming weight. Python has a convenient `count_bits` method.
 
+### Problem 3075
+- **Name**: Maximize Happiness of Selected Children
+- **Runtime**: 795 ms
+- **Memory**: 43.50 MB
+- **Solution**: Sort reversed to take the top k, then subtract the index from each value and take the max with 0 and sum the top k.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
