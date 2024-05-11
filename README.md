@@ -3086,6 +3086,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 43.50 MB
 - **Solution**: Sort reversed to take the top k, then subtract the index from each value and take the max with 0 and sum the top k.
 
+### Problem 3136
+- **Name**: Valid Word
+- **Runtime**: 46 ms
+- **Memory**: 16.5 MB
+- **Solution**: Used ASCII ranges and a lot of boolean operations and list comprehensions to solve this one.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
