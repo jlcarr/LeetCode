@@ -3104,6 +3104,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.5 MB
 - **Solution**: Used ASCII ranges and a lot of boolean operations and list comprehensions to solve this one.
 
+### Problem 3137
+- **Name**: Minimum Number of Operations to Make Word K-Periodic
+- **Runtime**: 126 ms
+- **Memory**: 22.5 MB
+- **Solution**: Since we need need k copies exactly we know exactly how long each cycle will be, and we have fixed where the starts and ends must line up, so we can jsut iterate through the substrings and find the one with the highest count. Using the hash the string will make the memory usage slightly lower.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
