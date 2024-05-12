@@ -3110,6 +3110,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.5 MB
 - **Solution**: Since we need need k copies exactly we know exactly how long each cycle will be, and we have fixed where the starts and ends must line up, so we can jsut iterate through the substrings and find the one with the highest count. Using the hash the string will make the memory usage slightly lower.
 
+### Problem 3138
+- **Name**: Minimum Length of Anagram Concatenation
+- **Runtime**: 1098 ms
+- **Memory**: 17.7 MB
+- **Solution**: Find all divisors of the length, then test them all as candidates by making the slices and checking they all have the same letter frequencies, which we can do with Python's Counter. Return the first (smallest) solution found.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
