@@ -1862,6 +1862,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.1 MB
 - **Solution**: We can use binary search to find the peak and check neighbors to see if they're on the left or right side.
 
+### Problem 857
+- **Name**: Minimum Cost to Hire K Workers
+- **Runtime**: 203 ms
+- **Memory**: 19.2 MB
+- **Solution**: For any set of workers we can see that any worker's cost will be `max(quality[i] * wage[jmax] / quality[jmax], wage[i])`, So the maximum wage to quality ratio, muplitiplied by the sum of the qualities of the set gives us the total cost. So if we start with all the lowest set of wage to quality ratios, we can move up and see if replacing any of the wages with a tradeoff of higher ratio will make the overall cost go down. Keep the qualities in a heap so we can always discard the highest, and sort the ratios (with qualities) of each worker so we can work our way up the ratios, and keep track of the minimum we've seen so far. The ratio can only increase so we don't need to worry around the worker we remove from the heap being the one with the highest ratio. Finally by using numerator and denomiator integers to keep track of ratios we can avoid floating point numbers/errors and return as precise an answer at the end as possible.
+
 ### Problem 859
 - **Name**: Buddy Strings
 - **Runtime**: 59 ms
