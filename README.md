@@ -2780,6 +2780,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.43 MB
 - **Solution**: We can use dynamic programming to check the maximum letters kept up to the most recent occurance of each letter. We just need to check the max within range for each next letter then update the cache.
 
+### Problem 2373
+- **Name**: Largest Local Values in a Matrix
+- **Runtime**: 125 ms
+- **Memory**: 17.03 MB
+- **Solution**: We can do this simply with list comprehension loops and slicing.
+
 ### Problem 2390
 - **Name**: Removing Stars From a String
 - **Runtime**: 215 ms
