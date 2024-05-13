@@ -1874,6 +1874,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.6 MB
 - **Solution**: Run through the strings together, checking for mismatched. Can only have 2 at most, and if there are none need to check there are double letters to swap, so keep letter count. Careful the edge cases on this one.
 
+### Problem 861
+- **Name**: Score After Flipping Matrix
+- **Runtime**: 42 ms
+- **Memory**: 16.50 MB
+- **Solution**: Obviously we need to set the leading bits to all be 1 to maximize our result, we can start by doing that row by row. We can't flip any other cell without flipping it's entire column, and flipping its row is out of the question: since it's a simple flip there are no work arounds: if we flip a row we'll always have to flip it back, and since the other of the operations doesn't matter this means we can only do the columns. So count up the bits in each column and take either the sum or the complement, whichever is larger, and add it to the result using the columns position value.
+
 ### Problem 863
 - **Name**: All Nodes Distance K in Binary Tree
 - **Runtime**: 71 ms
