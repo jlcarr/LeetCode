@@ -2168,6 +2168,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.11 MB
 - **Solution**: Run through the array and for each value seen add it plus the difference into a dict holding the length of the streak so far. When a value is in the dict we can carry forward the streak.
 
+### Problem 1219
+- **Name**: Path with Maximum Gold
+- **Runtime**: 2726 ms
+- **Memory**: 16.64 MB
+- **Solution**: Dynamic programming will just barely work, but the number of states is large because each cell is true/false for the entire grid. Instead using DFS with backtracking we don't need extra memory. The size is still feasible to try all starting points and paths.
+
 ### Problem 1220
 - **Name**: Count Vowels Permutation
 - **Runtime**: 563 ms
