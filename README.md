@@ -3014,6 +3014,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 27.2 MB
 - **Solution**: Since all numbers are positive, might as well perform the operation on the furthest right as much as possible since it can only lead to larger numbers. Treat it like a stack.
 
+### Problem 2812
+- **Name**: Find the Safest Path in a Grid 
+- **Runtime**: 4191 ms
+- **Memory**: 68.15 MB
+- **Solution**: Cache min distances to a thief for each cell by doing a BFS outwards from each thief, inplace on the original grid. Then use Dijkstra's algorithm to find the maximum possible value for the destination cell.
+
 ### Problem 2815
 - **Name**: Max Pair Sum in an Array
 - **Runtime**: 145 ms
