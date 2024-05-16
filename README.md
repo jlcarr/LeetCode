@@ -2756,6 +2756,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 81.7 MB
 - **Solution**: Use a BFS to find all the connected components, then get their sizes. The number of pairs between any component is their sizes multiplied. A faster way of computing the multiplication of the sizes of every component is to use the match of expanding the brackets.
 
+### Problem 2331
+- **Name**: Evaluate Boolean Binary Tree
+- **Runtime**: 50 ms
+- **Memory**: 16.8 MB
+- **Solution**: We can do this recursively by simply making the leaves return their values as bools and otherwise taking the correct operation between the recursed result on the left and right children. We can also use the tautology and annihilator identities by checking the right hand result and returning early if we find leaves: otherwise the left should already work with Python.
+
 ### Problem 2348
 - **Name**: Number of Zero-Filled Subarrays
 - **Runtime**: 1035 ms
