@@ -2210,6 +2210,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 44 MB
 - **Solution**: Used a bfs while there are unsearched nodes to find all the connected components. Also if there is an edge to a previously searched node, then it is an excess edge and can be used to connect components in an operation. Check if there are sufficient excess edges for connected components, and if so return 1 less than the number of components.
 
+### Problem 1325
+- **Name**: Delete Leaves With a Given Value
+- **Runtime**: 43 ms
+- **Memory**: 17.1 MB
+- **Solution**: We can define this function recursively, updating the left and right children, then checking if the current node needs to be deleted.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
