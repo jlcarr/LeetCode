@@ -2030,6 +2030,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.9 MB
 - **Solution**: Keep a running count of the number times we've seen a given accumulated sum mod K. Because if we see the same sum mod K, then any previous times we say the same value we could chop the array there to get a subarray sum of 0, i.e. divisible by K.
 
+### Problem 979
+- **Name**: Distribute Coins in Binary Tree
+- **Runtime**: 35 ms
+- **Memory**: 16.54 MB
+- **Solution**: We can make the solution function recursive by ensuring all subtrees have 1 coin on each node, and keep the current node's value the difference in balance, including negatives. After recursing on a child we can add the absolute value of it (except 1) to get the number of moves to settle up that node with transfers from the current node.
+
 ### Problem 980
 - **Name**: Unique Paths III
 - **Runtime**: 95 ms
