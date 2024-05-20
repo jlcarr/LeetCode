@@ -2582,6 +2582,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.3 MB
 - **Solution**: Simply sort the array, and start with 0 ensuring we either meet a value in rannge of the previous, or bring it down to be one greater than the previous.
 
+### Problem 1863
+- **Name**: Sum of All Subset XOR Totals
+- **Runtime**: 41 ms
+- **Memory**: 16.52 MB
+- **Solution**: We can take the sums for each bit independently: therefore we just need to determine how many of the xors in the powerset have the bit set. We can realize that if a number doesn't have the bit set it won't change anything whether it is or isn't included in a set, and if the bit is set, then it will flip all it's included in, and leave all it's not included in: exactly half-half. So being a set bit won't change the count unless all other numbers had the bit unset: therefore we only need to worry about if any bit is ever set: we can take the bitwise or between all numbers, then multiply by half the powerset size, which we can compute easily with bitshifting.
+
 ### Problem 1870
 - **Name**: Minimum Speed to Arrive on Time
 - **Runtime**: 2274 ms
