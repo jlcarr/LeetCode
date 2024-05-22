@@ -3134,6 +3134,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.93 MB
 - **Solution**: We can xor the results with k to get mismatched bits, after which we need a count: the Hamming weight. Python has a convenient `count_bits` method.
 
+### Problem 3068
+- **Name**: Find the Maximum Sum of Node Values
+- **Runtime**: 955 ms
+- **Memory**: 28.09 MB
+- **Solution**: Choosing each edge applies the operation to 2 nodes, and having an even number of times the operation is applied to a node doesn't change it. Since we have a tree structure we can start with a leaf that needs to change, and if it's adjacent node doesn't need to change we just apply the operation to the next edge up to the root: if we have an even number of nodes that need to change total we'll end up correct in the end. Otherwise we'll simply need to leave 1 node changed incorrectly: we can just find which node has the smallest change with the operation.
+
 ### Problem 3075
 - **Name**: Maximize Happiness of Selected Children
 - **Runtime**: 795 ms
