@@ -3002,6 +3002,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.34 MB
 - **Solution**: Notice that the first and last marble always contribute to the sums. Otherwise it's choosing adjacent pairings of marbles. We just need to get every adjacent sum, then take the sum of the highest k and lowest k: their difference will be our answer. We can do this by sorting the list of pair sums, slicing and summing.
 
+### Problem 2597
+- **Name**: The Number of Beautiful Subsets
+- **Runtime**: 54 ms
+- **Memory**: 16.43 MB
+- **Solution**: Since numbers of different value mod k will never block eachother we can separate our problem into independent sets by mod value, and multiply all their solutions. In each mod set we can run through the number in order and keep track of the number of ways we could have arrived at having kept or not kept the current number: we can't keep it if we kept the previous value and it was exactly k less. So we only need to keep track of the counts with and without the previous value. Last thing is to remember we can have duplicates and they are treated as different elements for the purpose of counting subsets: any time we count a without, that's 1 possibility for keeping no copies, any time we keep 1 or more that's `1<<count-1`.
+
 ### Problem 2642
 - **Name**: Design Graph With Shortest Path Calculator
 - **Runtime**: 685 ms
