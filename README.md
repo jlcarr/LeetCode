@@ -2198,6 +2198,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.5 MB
 - **Solution**: Use a DFS/BFS to reach over each each cell in the grid and keep track of connected landmasses and if they reach the border or not.
 
+### Problem 1255
+- **Name**: Maximum Score Words Formed by Letters
+- **Runtime**: 54 ms
+- **Memory**: 16.83 MB
+- **Solution**: We can really only do this by trying all combinations of words, so run through each word keeping or no, and updating the remaining letters before continuing, and replacing one we return, so this saves memory. We can use Python's Counter class to do the letter counting for us, since order of the letters doesn't matter. One last thing: we could use memoization over number of each letter remaining, might give a small time boost, and also pruning can be done by precomputing the score of each word then making a suffix sum array so we can see if we reach a point in a search branch where we can't beat our current max value.
+
 ### Problem 1269
 - **Name**: Number of Ways to Stay in the Same Place After Some Steps
 - **Runtime**: 270 ms
