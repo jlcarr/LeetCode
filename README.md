@@ -1580,6 +1580,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Recursively find max depths by recursing on children, then the max path is max sum of max depths between children for any node.
 
+### Problem 552
+- **Name**: Student Attendance Record II
+- **Runtime**: 81 ms
+- **Memory**: 36.92 MB
+- **Solution**: The number of valid states we can be in is `2*3` since we can have 0-1 absences and 0-2 consecutive lates, so we just need a count of ways to get to each state for each day. We can write the transition equations as a system of linear equations. This gives us a square matrix, which we just need to take to the power of `n`: we can use the fast power algorithm to do this in `O(log(n))` time. The matrix is not diagonalizable, so we aren't able to find a constant time solution.
+
 ### Problem 557
 - **Name**: Reverse Words in a String III
 - **Runtime**: 44 ms
