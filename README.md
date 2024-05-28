@@ -2456,6 +2456,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: Simply keep track of the remainin spots for each parking space.
 
+### Problem 1608
+- **Name**: Special Array With X Elements Greater Than or Equal X
+- **Runtime**: 45 ms
+- **Memory**: 16.5 MB
+- **Solution**: We just need to walk up the elements in the array with their index to get the candidate X value, and keep track of the previous value to ensure the X matches the requirements, also skip over duplicates.
+
 ### Problem 1611
 - **Name**: Minimum One Bit Operations to Make Integers Zero
 - **Runtime**: 23 ms
