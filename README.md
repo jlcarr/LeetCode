@@ -2174,6 +2174,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.1 MB
 - **Solution**: Used Python's Counter class along sets to get unique count values and compare the lengths.
 
+### Problem 1208
+- **Name**: Get Equal Substrings Within Budget
+- **Runtime**: 72 ms
+- **Memory**: 17.08 MB
+- **Solution**: We can use a 2-pointer sliding window to solve this problem. We expand the window to the right, updating the max length, until we fail the maxCost criterion. Then tighten the left bound until we meet it once more or reach the right bound. Continue this process until we reach the end of the array, and return the longest valid window found.
+
 ### Problem 1218
 - **Name**: Longest Arithmetic Subsequence of Given Difference
 - **Runtime**: 579 ms
