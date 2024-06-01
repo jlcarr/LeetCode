@@ -1208,6 +1208,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: We can do this efficiently with modular arithmetic and while loops.
 
+### Problem 260
+- **Name**: Single Number III
+- **Runtime**: 60 ms
+- **Memory**: 18.4 MB
+- **Solution**: Start by taking the xor of every number. This gives us a number with bits in the positions that differ on the 2 numbers we're searching for. Since every other number has a pair, we can use one of the bits to only take numbers with the bit set to xor, and this will leave us with one of the numbers. We can xor with the overall cumulative xor to get the other number.
+
 ### Problem 268
 - **Name**: Missing Number
 - **Runtime**: 149 ms
