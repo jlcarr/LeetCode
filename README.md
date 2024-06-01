@@ -2321,8 +2321,14 @@ Solutions to LeetCode problems in Python3
 ### Problem 1441
 - **Name**: Build an Array With Stack Operations
 - **Runtime**: 48 ms
-- **Memory**:16.3 MB
+- **Memory**: 16.3 MB
 - **Solution**: We actually don't need to store the stack, since we'll never remove a value once it matches in target, and since both target and the stream are increasing we can only proceed forward, and each time we encounter a value from the stream we know isn't in target we can remove it immediately, making it a trivial march forward.
+
+### Problem 1442
+- **Name**: Count Triplets That Can Form Two Arrays of Equal XOR 
+- **Runtime**: 37 ms
+- **Memory**: 16.45 MB
+- **Solution**: If we have an array of the cumulative xors of the array, we can compute any subrange using it. We can work through the algebra to find all values of j are valid. We just need to find all pairs of i and k which have the same cumulative xor value. For every k all of its previous values will be an i pairing, so we can accumulate it to rapidly compute the ranges with all previous values. This brings the runtime to linear.
 
 ### Problem 1443
 - **Name**: Minimum Time to Collect All Apples in a Tree.
