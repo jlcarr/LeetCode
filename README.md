@@ -2288,6 +2288,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sort the satisfactions since we want the largest satisfaction to take advantage of the largest time multiplier. We then want to see which negative dishes we should drop. Use cumulative sum technique to get the effect of shifting down all future dishes by 1 by dropping a dish. We can then run through greedily checking if dropping the dish results in a net gain.
 
+### Problem 1404
+- **Name**: Number of Steps to Reduce a Number in Binary Representation to One
+- **Runtime**: 29 ms
+- **Memory**: 16.54 MB
+- **Solution**: Using Python's big integer we can just directly perform the process. It won't take longer the the length of the input.
+
 ### Problem 1406
 - **Name**: Stone Game III
 - **Runtime**: 5431 ms
