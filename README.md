@@ -3194,6 +3194,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 43.50 MB
 - **Solution**: Sort reversed to take the top k, then subtract the index from each value and take the max with 0 and sum the top k.
 
+### Problem 3110
+- **Name**: Score of a String
+- **Runtime**: 40 ms
+- **Memory**: 16.4 MB
+- **Solution**: We can do this easily with Python list compehension and other build in functions. I decided to also use `pairwise` from the itertools, and map `ord` to the string to start.
+
 ### Problem 3136
 - **Name**: Valid Word
 - **Runtime**: 46 ms
