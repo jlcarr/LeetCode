@@ -1322,6 +1322,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: We will want as much symmetry between the numbers as possible, since we're multilying numbers with a fixed sum. Because of the small problem size we can run over all candidates, and the get their products, accounting for remainder.
 
+### Problem 344
+- **Name**: Reverse String
+- **Runtime**: 160 ms
+- **Memory**: 21.08 MB
+- **Solution**: We can simply run through the array with a left and right pointer and use it to swap the element in the array while the left is less than the right.
+
 ### Problem 347
 - **Name**: Top K Frequent Elements
 - **Runtime**: 109 ms
