@@ -3002,6 +3002,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Using a cumulative sum we can instantly compute the penalty for any index, and quickly find the minimum.
 
+### Problem 2486
+- **Name**: Append Characters to String to Make Subsequence
+- **Runtime**: 59 ms
+- **Memory**: 18.30 MB
+- **Solution**: We can simply run through s, ticking off letters at the start of t as we reach them in order. The number of remaining letters in t are our answer. I turned t into a stack to do this.
+
 ### Problem 2487
 - **Name**: Remove Nodes From Linked List
 - **Runtime**: 401 ms
