@@ -2102,6 +2102,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: The easy solution is a 1-liner in Python. However the linear time solution uses the fact the original array is sorted: simply need to merge the original negatives with the positives into the resultant array.
 
+### Problem 1002
+- **Name**: Find Common Characters
+- **Runtime**: 44 ms
+- **Memory**: 16.75 MB
+- **Solution**: Python's Counter class has an intersection method, which we can call between every element using reduce.
+
 ### Problem 1020
 - **Name**: Number of Enclaves
 - **Runtime**: 942 ms
