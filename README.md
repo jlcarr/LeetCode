@@ -1868,6 +1868,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: We can solve this problem efficiently by maintaining a sliding window of the sum of probabilities of the last k elements. A new element is equally likely across 1/maxPts to receive the probability of any in the window. As soon as we pass k we drop elements from the probability.
 
+### Problem 846
+- **Name**: Hand of Straights
+- **Runtime**: 160 ms
+- **Memory**: 18.74 MB
+- **Solution**: We need to run through the sorted values of cards and keep track of how many ongoing straights we have, and where they started. We can do this with a queue, so we can see which straight have ended, and then see how many new straights are being started.
+
 ### Problem 844
 - **Name**: Backspace String Compare
 - **Runtime**: 30 ms
