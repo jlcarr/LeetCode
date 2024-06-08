@@ -1652,6 +1652,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Left and right pointers to make a sliding window. Keep one large sorted list keeping track of which original lists each came from. Start by "casting out" the right pointer until a valid pointer is found, then "real in" the left pointer, updating the solution while it remains valid.
 
+### Problem 638
+- **Name**: Replace Words
+- **Runtime**: 74 ms
+- **Memory**: 28.2 MB
+- **Solution**: We can do this efficiently by building a trie and then checking each word and stopping at the first word we find. This allows us to exit early from words whose prefix isn't in the dictionary.
+
 ### Problem 647
 - **Name**: Palindromic Substrings
 - **Runtime**: 2333 ms
