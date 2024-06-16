@@ -2156,6 +2156,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17 MB
 - **Solution**: Binary search to find the peak, checking if rising or falling to determine which side. Then binary search the left followed by right, also check the start index, peak, and final index, in order to find the minimum index occurence.
 
+### Problem 1122
+- **Name**: Relative Sort Array
+- **Runtime**: 42 ms
+- **Memory**: 16.62 MB
+- **Solution**: We can make a sort key using a dictionary mapping the values to their positions in the arr2, and if not present add their values to the length of arr2.
+
 ### Problem 1125
 - **Name**: Smallest Sufficient Team
 - **Runtime**: 522 ms
