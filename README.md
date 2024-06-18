@@ -1658,6 +1658,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.4 MB
 - **Solution**: Left and right pointers to make a sliding window. Keep one large sorted list keeping track of which original lists each came from. Start by "casting out" the right pointer until a valid pointer is found, then "real in" the left pointer, updating the solution while it remains valid.
 
+### Problem 633
+- **Name**: Sum of Square Numbers
+- **Runtime**: 150 ms
+- **Memory**: 16.50 MB
+- **Solution**: We only need to search up to half the value of c, square rooted, for values of a who will pair with a value of b. After that use some math and rounding to check the results.
+
 ### Problem 638
 - **Name**: Replace Words
 - **Runtime**: 74 ms
