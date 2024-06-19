@@ -1868,6 +1868,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Dynamic programming with memoization, we find all the ways to build each possible number, and then if its a factor of another number all its possible subtrees are possible subtrees.
 
+### Problem 826
+- **Name**: Most Profit Assigning Work
+- **Runtime**: 295 ms
+- **Memory**: 19.6 MB
+- **Solution**: Since jobs can be redone, each worker should obviously do the highest profit job they are capable of doing. We sort the jobs into a stack/queue starting with the lowest difficulty job going up to the highest, and keeping a running max profit, then sort the workers and go through starting with the lowest ability, popping from the jobs while the worker is able to do them and updating the running max.
+
 ### Problem 828
 - **Name**: Count Unique Characters of All Substrings of a Given String
 - **Runtime**: 3426 ms
