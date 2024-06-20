@@ -2426,6 +2426,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Make an list to hold the urls, and extend it as needed with append. Use an index to keep place for the forward and backward history, and also keep an index for the maximum index after forward history is cleared: avoids reallocation.
 
+### Problem 1482
+- **Name**: Minimum Number of Days to Make m Bouquets
+- **Runtime**: 1346 ms
+- **Memory**: 41.03 MB
+- **Solution**: We can use a heap to keep track of which are the next days for flowers to bloom, and arrays keeping track of the stand and end positions of contiguous bloomed flowers to compute the number of bouquets that can be made. While this is asymptotically optimal in time, it is not in space, and definitely not optimal in practice: it is better to do a binary search over the number of days, after each check the number of bouquets that can be made.
+
 ### Problem 1489
 - **Name**: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - **Runtime**: 795 ms
