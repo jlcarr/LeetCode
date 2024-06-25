@@ -2498,6 +2498,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20 MB
 - **Solution**: Dynamic programming, memoizing over the left and right indices in the sorted cuts array. At each step we need to perform a cut between the left and right indices, and then search the sub-problems for their optimal solutions.
 
+### Problem 1552
+- **Name**: Magnetic Force Between Two Balls
+- **Runtime**: 600 ms
+- **Memory**: 30.50 MB
+- **Solution**: We can do a binary search for the answer, taking linear time to check the answer each time and update the bounds. One last thing is to be careful with the midpoint updating, we can avoid infinite loops from rounding by adding 1 to the midpoint selection numerator.
+
 ### Problem 1557
 - **Name**: Minimum Number of Vertices to Reach All Nodes
 - **Runtime**: 1191 ms
