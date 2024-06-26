@@ -2342,6 +2342,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.1 MB
 - **Solution**: First find the root node, and check there are no other roots. Then search from the root node checking there are no cycles.
 
+### Problem 1382
+- **Name**: Balance a Binary Search Tree
+- **Runtime**: 170 ms
+- **Memory**: 20.25 MB
+- **Solution**: Do a first traversal to draw out the nodes into a list in order. Next recursively send halfs of the list down to the left and right side of the tree we construct: this ensures each side will be balanced, and we can do this efficiently by just passing indices, and reparenting the existing tree nodes.
+
 ### Problem 1402
 - **Name**: Reducing Dishes
 - **Runtime**: 42 ms
