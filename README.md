@@ -2150,6 +2150,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.5 MB
 - **Solution**: We can solve this problem with dynamic programming by noticing we can use sub-solutions: in any subsolution we should start with the leftmost elements from each list and then look at the moves we can makes from there, which each spawn new states with the leftmost elements in positions that can never be further left.
 
+### Problem 1038
+- **Name**: Binary Search Tree to Greater Sum Tree
+- **Runtime**: 27 ms
+- **Memory**: 16.41 MB
+- **Solution**: We can compute this recursively by doing a tree traversal starting with the larger nodes, and passing along the greater than sum, and returning the subtree sums, so as to allow for computing of the complete greater than sum at every node.
+
 ### Problem 1061
 - **Name**: Lexicographically Smallest Equivalent String
 - **Runtime**: 48 ms
