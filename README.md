@@ -2654,6 +2654,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.3 MB
 - **Solution**: We can keep track of what the last seen character is and how many we've see so far. At we can makes homogenous substrings with any of the contigious matching characters and the most recently seen one too, so we just add the current count to the result.
 
+### Problem 1791
+- **Name**: Find Center of Star Graph
+- **Runtime**: 638 ms
+- **Memory**: 52.26 MB
+- **Solution**: We can just check the first 2 edges for the node they have in common.
+
 ### Problem 1793
 - **Name**: Maximum Score of a Good Subarray
 - **Runtime**: 877 ms
