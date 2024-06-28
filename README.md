@@ -2876,6 +2876,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.5 MB
 - **Solution**: We can solve this with a recursive function returning the subtree sums, node counts and result.
 
+### Problem 2285
+- **Name**: Maximum Total Importance of Roads
+- **Runtime**: 1204 ms
+- **Memory**: 41.99 MB
+- **Solution**: We should assign the highest values to the cities with the highest degrees, so we can just compute the degrees, sort them, and assign down from there.
+
 ### Problem 2305
 - **Name**: Fair Distribution of Cookies
 - **Runtime**: 4026 ms
