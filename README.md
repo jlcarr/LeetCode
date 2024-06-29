@@ -2834,6 +2834,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.4 MB
 - **Solution**: We know the rations of each bus used should be approximately equal to their reciprocal, however to find the exact value, we'll need to search to pin the value down. We can use binary search to cut down the search space exponentially.
 
+### Problem 2192
+- **Name**: All Ancestors of a Node in a Directed Acyclic Graph
+- **Runtime**: 488 ms
+- **Memory**: 75.16 MB
+- **Solution**: We can build the graph in reverse, then perform DFS on each node, cacheing the subresults, and accumulating the sets of ancestors, sorting the final results for each.
+
 ### Problem 2215
 - **Name**: Find the Difference of Two Arrays
 - **Runtime**: 173 ms
