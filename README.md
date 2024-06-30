@@ -2534,6 +2534,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
 
+### Problem 1579
+- **Name**: Remove Max Number of Edges to Keep Graph Fully Traversable
+- **Runtime**: 1624 ms
+- **Memory**: 57.62 MB
+- **Solution**: Removing as many edges as possible from a bidirectional graph while maintaining connectivity is simply forming a spanning tree. The edges are unweighted so we don't need to worry about the greedy ordering like in the usual minimum spanning tree problem. However, an edge than can be used by both Alice and Bob should be preferred since the alternative is to use 2, 1 from each. So first attempt to create the spanning tree with the both edges, getting as far as possible, using the usual union-find datastructure, then try Alice's edges see if she can complete her spanning tree, if so try Bob, and if he can too, then the number of the completement of the number of edges used in all 3 constructions to the total number of edges is our answer.
+
 ### Problem 1584
 - **Name**: Min Cost to Connect All Points
 - **Runtime**: 2133 ms
