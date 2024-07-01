@@ -2510,6 +2510,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20 MB
 - **Solution**: Dynamic programming, memoizing over the left and right indices in the sorted cuts array. At each step we need to perform a cut between the left and right indices, and then search the sub-problems for their optimal solutions.
 
+### Problem 1550
+- **Name**: Three Consecutive Odds
+- **Runtime**: 45 ms
+- **Memory**: 16.66 MB
+- **Solution**: We can simply keep a count of the number of odds seen so far and return true if it ever reaches 3.
+
 ### Problem 1552
 - **Name**: Magnetic Force Between Two Balls
 - **Runtime**: 600 ms
