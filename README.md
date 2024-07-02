@@ -1334,6 +1334,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.7 MB
 - **Solution**: Python actually comes with the functions to solve this out of the box: the `Counter` class to found frequencies, which comes with the `most_common(n)` function, which implements a heap under the hood: this gives a time complexity of O(`k*log(n)`), which has the worst case `k == n`. This question is close to sorting the input array: bucket sort is the obvious choice to beat the time requirements in O(`n`).
 
+### Problem 350
+- **Name**: Intersection of Two Arrays II
+- **Runtime**: 46 ms
+- **Memory**: 16.7 MB
+- **Solution**: We can use Python's Counter class to do this in 1 simple line.
+
 ### Problem 371
 - **Name**: Sum of Two Integers
 - **Runtime**: 25 ms
