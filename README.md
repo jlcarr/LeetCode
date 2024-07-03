@@ -2480,6 +2480,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: This is a classic problem in which we can notice that ants colliding are functionally the same as moving throught eachother, therefore we just have to find the max steps from the left and right arrays respectively.
 
+### Problem 1509
+- **Name**: Minimum Difference Between Largest and Smallest Value in Three Moves
+- **Runtime**: 281 ms
+- **Memory**: 27.34 MB
+- **Solution**: After soring the array we need to choose to remove the largest or smallest values, order doesn't matter, so we can run through removing 0-3 from the front, and complement from the back, taking the difference.
+
 ### Problem 1512
 - **Name**: Number of Good Pairs
 - **Runtime**: 34 ms
