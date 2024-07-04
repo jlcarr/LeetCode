@@ -3344,6 +3344,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.7 MB
 - **Solution**: Find all divisors of the length, then test them all as candidates by making the slices and checking they all have the same letter frequencies, which we can do with Python's Counter. Return the first (smallest) solution found.
 
+### Problem 3200
+- **Name**: Maximum Height of a Triangle
+- **Runtime**: 39 ms
+- **Memory**: 16.7 MB
+- **Solution**: This problem can be solved simply by performing the simulation directly of stacking the balls with either blue or red going first. A better solution is to just work out the math.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
