@@ -3350,6 +3350,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: This problem can be solved simply by performing the simulation directly of stacking the balls with either blue or red going first. A better solution is to just work out the math.
 
+### Problem 3201
+- **Name**: Find the Maximum Length of Valid Subsequence I
+- **Runtime**: 672 ms
+- **Memory**: 39 MB
+- **Solution**: If we rearrage terms in the equalities we can see that all the even values must be equal mod 2, and separately all the odd ones. We can go through all the possible even-odd possibilities, and run through the sequence keeping as many as possible and see which gives us the longest sequence.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
