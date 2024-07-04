@@ -3362,6 +3362,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.12 MB
 - **Solution**: Similar to the previous question, all the even values must be equal mod k, same with the odds. We can create a `k*k` sized matrix to keep track of the max sequence lengths for each pairings of remainders, and run through the sequence updating just its row and column each time if the value are the apropriate mod 2. Take care for the case where both even and odd are the same mod k.
 
+### Problem 3203
+- **Name**: Find Minimum Diameter After Merging Two Trees
+- **Runtime**: 3083 ms
+- **Memory**: 99.70 MB
+- **Solution**: In order to get the smallest diameter possible we'd want to choose the node with minimum max distance to any other node for each of the trees. We do this by pruning off the leaves one layer at a time, making new leaves, until we end up with either 1 or 2 nodes left: we can compute the distance along the way. One edge case we need to take care of is the diameter of the individual trees by themselves, which we could use a similar technique, or use the tree radius algorithm of finding the furtherst leaf from any node, then find the further leaf from that node.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
