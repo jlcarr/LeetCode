@@ -2828,6 +2828,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 45.6 MB
 - **Solution**: Since we can take as many courses in parallel as we want we should always take a course as soon as possible as soon as we ahve finished all prereqs. We just need to check for new courses ready to take after completing a course. I used a heap to keep track of when the next course would be complete and it's time, thought it seems that isn't necessary.
 
+### Problem 2058
+- **Name**: Find the Minimum and Maximum Number of Nodes Between Critical Points
+- **Runtime**: 357 ms
+- **Memory**: 44.12 MB
+- **Solution**: We can keep 2 lagged pointers going through the linked list, and an index to keep track of the first critical point found and the most recent, each time updating our knowledge of the max and min distances.
+
 ### Problem 2073
 - **Name**: Time Needed to Buy Tickets
 - **Runtime**: 37 ms
