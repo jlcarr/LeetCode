@@ -3176,6 +3176,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.34 MB
 - **Solution**: Notice that the first and last marble always contribute to the sums. Otherwise it's choosing adjacent pairings of marbles. We just need to get every adjacent sum, then take the sum of the highest k and lowest k: their difference will be our answer. We can do this by sorting the list of pair sums, slicing and summing.
 
+### Problem 2582
+- **Name**: Pass the Pillow
+- **Runtime**: 34 ms
+- **Memory**: 16.58 MB
+- **Solution**: We can compute this by taking the mod with `2*n-2`, which is the number of passes to return the to beginning, and then check if it's on the way back we just need to offset for that.
+
 ### Problem 2597
 - **Name**: The Number of Beautiful Subsets
 - **Runtime**: 54 ms
