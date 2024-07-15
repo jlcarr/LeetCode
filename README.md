@@ -2882,6 +2882,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 75.16 MB
 - **Solution**: We can build the graph in reverse, then perform DFS on each node, cacheing the subresults, and accumulating the sets of ancestors, sorting the final results for each.
 
+### Problem 2196
+- **Name**: Create Binary Tree From Descriptions
+- **Runtime**: 1554 ms
+- **Memory**: 25.78 MB
+- **Solution**: We can construct the TreeNodes each time we see a new one and keep a map to them. We can also keep track of the set of all nodes we know to have been children, and take the difference with the keys from our map to all TreeNodes: this will give us the root.
+
 ### Problem 2215
 - **Name**: Find the Difference of Two Arrays
 - **Runtime**: 173 ms
