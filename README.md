@@ -2226,7 +2226,13 @@ Solutions to LeetCode problems in Python3
 - **Name**: As Far from Land as Possible
 - **Runtime**: 417 ms
 - **Memory**: 43.9 MB
-- **Solution**: Solved using Scipy's distance_transform_cdt, which is much more efficient than normal BFS. Must also turn the grid into a Numpy array. This is the 3rd time I've gotten 100%, then time on timing, while the memory was terrible.
+- **Solution**: Solved using Scipy's `distance_transform_cdt`, which is much more efficient than normal BFS. Must also turn the grid into a Numpy array. This is the 3rd time I've gotten 100% on timing, while the memory was terrible.
+
+### Problem 1190
+- **Name**: Reverse Substrings Between Each Pair of Parentheses
+- **Runtime**: 33 ms
+- **Memory**: 16.5 MB
+- **Solution**: We can use a stack and every time see a regular character append it to the top string on the stack, and every time we see an open bracket we push a new empty strong to the stack, and every time we see a close bracket we pop from the stack, reverse it, and append it to the new top string on the stack.
 
 ### Problem 1203
 - **Name**: Sort Items by Groups Respecting Dependencies
