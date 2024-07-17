@@ -2846,6 +2846,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.51 MB
 - **Solution**: Every person can get at most as many as the kth person before they are finished: people after then in the queue can get at most one less. We can use the min function as well as checking the position to get each persons tickets and sum the result.
 
+### Problem 2096
+- **Name**: Step-By-Step Directions From a Binary Tree Node to Another
+- **Runtime**: 605 ms
+- **Memory**: 55.80 MB
+- **Solution**: We can search through the tree recursively, and when we find the start or destination we can return what we've found and construct the path on the way back up.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
