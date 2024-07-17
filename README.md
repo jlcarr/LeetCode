@@ -2180,6 +2180,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17 MB
 - **Solution**: Binary search to find the peak, checking if rising or falling to determine which side. Then binary search the left followed by right, also check the start index, peak, and final index, in order to find the minimum index occurence.
 
+### Problem 1110
+- **Name**: Delete Nodes And Return Forest
+- **Runtime**: 60 ms
+- **Memory**: 17.1 MB
+- **Solution**: We can do this recursively by passing down if a child node is parented or not, and it can add itself to the result set, meanwhile if it's deleted we know its children will be unparented, and we can check if a child is in the `to_delete` set, and set it to None if so.
+
 ### Problem 1122
 - **Name**: Relative Sort Array
 - **Runtime**: 42 ms
