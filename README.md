@@ -2510,6 +2510,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 183.9 MB
 - **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
 
+### Problem 1530
+- **Name**: Number of Good Leaf Nodes Pairs
+- **Runtime**: 114 ms
+- **Memory**: 17.04 MB
+- **Solution**: We can solve this problem recursively by having each node pass up a queue of descendant leaf-node counts for each distance away as well as the number of pairs already counted within the descendants, which can be used to calculate new possible pairs higher up and we and moves through the queue as we get higher up and further away from the leaves.
+
 ### Problem 1535
 - **Name**: Find the Winner of an Array Game
 - **Runtime**: 537 ms
