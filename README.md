@@ -2594,6 +2594,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: Simply keep track of the remainin spots for each parking space.
 
+### Problem 1605
+- **Name**: Find Valid Matrix Given Row and Column Sums
+- **Runtime**: 547 ms
+- **Memory**: 21.71 MB
+- **Solution**: We can follow the greedy algorithm to solve this problem by simply going through each element of the matrix and assigning it the smallest of either the row or column sum, then updating the row and column sums to reflect our assigned value. We can only decrease our row and column sums, and never drop below zero, and we have more than enough spaces to cover every element of the row and columns sums, so this is guarunteed to work.
+
 ### Problem 1608
 - **Name**: Special Array With X Elements Greater Than or Equal X
 - **Runtime**: 45 ms
