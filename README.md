@@ -2318,6 +2318,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.1 MB
 - **Solution**: We can define this function recursively, updating the left and right children, then checking if the current node needs to be deleted.
 
+### Problem 1334
+- **Name**: Find the City With the Smallest Number of Neighbors at a Threshold Distance
+- **Runtime**: 172 ms
+- **Memory**: 17.86 MB
+- **Solution**: We can perform Dijkstra from each node, which allows us to terminate early once we reach the maximum distance.
+
 ### Problem 1337
 - **Name**: The K Weakest Rows in a Matrix
 - **Runtime**: 108 ms
