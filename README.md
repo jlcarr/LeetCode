@@ -2016,7 +2016,7 @@ Solutions to LeetCode problems in Python3
 - **Name**: Sort an Array
 - **Runtime**: 2054 ms
 - **Memory**: 32.7 MB
-- **Solution**: For nlogn performance, we should use either mergesort,heapsort or quicksort (technically bucketsort and radix sort as well, but they work much better on lower cardinality problem). To minimize the space needed we should perform the sort in-place. Mergesort it the easiest to implement, however doing in place is tricky, so I used a buffer.
+- **Solution**: For nlogn performance, we should use either mergesort,heapsort or quicksort (technically bucketsort and radix sort as well, but they work much better on lower cardinality problem). To minimize the space needed we should perform the sort in-place. Mergesort it the easiest to implement, however doing in place is tricky, so I used a buffer. Update: I added a solution with heapsort, which is done in place.
 
 ### Problem 918
 - **Name**: Maximum Sum Circular Subarray
