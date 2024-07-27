@@ -3356,6 +3356,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.92 MB
 - **Solution**: Since we're only concerned about finding contiguous subarrays with k or more appearances of the global maximum, we first just grab the global maximum, then use a window with left and right indices to the array, and run the right index sequentially to the end, and whenever we accumulate more instances of the max value we update the left index the make the window tight. We then know at each instance that all smaller values of the left index would work, so we add it to our accumulated result.
 
+### Problem 2976
+- **Name**: Minimum Cost to Convert String I
+- **Runtime**: 758 ms
+- **Memory**: 18.02 MB
+- **Solution**: Since we can do the operation more than once we need to find the shortest weighted path of many letter to any other letter. So basically this is an all-pairs shortest path, followed by a simply count up. Technically we only need shortest paths for certain pairs, so we could just run Dijkstra on a case-by-case basis, and cache results for a boost, but it's also a great opportunity to use the Floyd-Warshall algorithm, which is what I did.
+
 ### Problem 2997
 - **Name**: Minimum Number of Operations to Make Array XOR Equal to K
 - **Runtime**: 583 ms
