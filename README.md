@@ -2180,6 +2180,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17 MB
 - **Solution**: Binary search to find the peak, checking if rising or falling to determine which side. Then binary search the left followed by right, also check the start index, peak, and final index, in order to find the minimum index occurence.
 
+### Problem 1105
+- **Name**: Filling Bookcase Shelves
+- **Runtime**: 53 ms
+- **Memory**: 17.53 MB
+- **Solution**: Dynamic programming going over each book and cacheing on current shelf height and current width used on shelf: we can either make a new shelf or add it to the current shelf.
+
 ### Problem 1110
 - **Name**: Delete Nodes And Return Forest
 - **Runtime**: 60 ms
