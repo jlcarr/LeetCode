@@ -2642,6 +2642,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: We can sort each of the sub-arrays and check that their contents has constant difference. We could use a set to be more efficient on the time complexity.
 
+### Problem 1653
+- **Name**: Minimum Deletions to Make String Balanced
+- **Runtime**: 523 ms
+- **Memory**: 17.87 MB
+- **Solution**: We can make a count of the letters and a running sum, looking at each candidate split location, we can instantly compute the numbers of letters than need to change on each side.
+
 ### Problem 1657
 - **Name**: Determine if Two Strings Are Close
 - **Runtime**: 347 ms
