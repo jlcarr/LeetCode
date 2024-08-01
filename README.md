@@ -3248,6 +3248,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.4 MB
 - **Solution**: While the Floyd–Warshall algorithm for all pairs shortest path comes to mind, and might allow for some effciencies in recomputing updates to the shorest paths once updated, however based on the number of calls to the shorest path method, it seems that just re-running Dijkstra's algorithm is the way to go.
 
+### Problem 2678
+- **Name**: Number of Senior Citizens
+- **Runtime**: 48 ms
+- **Memory**: 16.56 MB
+- **Solution**: We can just do a string compare, by slicing the record to extract the age.
+
 ### Problem 2707
 - **Name**: Extra Characters in a String
 - **Runtime**: 144 ms
