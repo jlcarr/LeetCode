@@ -2792,6 +2792,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 23.7 MB
 - **Solution**: Sort the array and run through it keeping track of number of unique values seen because that's the number of steps each value needs to take to reach the bottom.
 
+### Problem 1894
+- **Name**: Find the Student that Will Replace the Chalk
+- **Runtime**: 565 ms
+- **Memory**: 30.55 MB
+- **Solution**: Since we loop until we run out of chalk we just need the remainder of the chalk with the sum of the students chalk uses. Then we can iterate through the list once to find where the chalk will run out.
+
 ### Problem 1915
 - **Name**: Number of Wonderful Substrings
 - **Runtime**: 1034 ms
