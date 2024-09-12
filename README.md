@@ -2678,6 +2678,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.8 MB
 - **Solution**: Sum rows and take the max.
 
+### Problem 1684
+- **Name**: Count the Number of Consistent Strings
+- **Runtime**: 229 ms
+- **Memory**: 17.75 MB
+- **Solution**: We effectively need to not count words which contain letters not in the allowed string. We can do this with set difference.
+
 ### Problem 1685
 - **Name**: Sum of Absolute Differences in a Sorted Array
 - **Runtime**: 675 ms
