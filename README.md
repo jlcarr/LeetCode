@@ -2312,6 +2312,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.86 MB
 - **Solution**: Since we're going down row by row and must always switch columns, but can choose any previous column, makes sense we really only need to save the 2 smallest previous column values. We can get the next columns 2 smallest possible sums with a little if-statement logic, and we're all set.
 
+### Problem 1310
+- **Name**: XOR Queries of a Subarray
+- **Runtime**: 308 ms
+- **Memory**: 31.16 MB
+- **Solution**: Compute the cumulative xor array, then use it to perform the xor queries instantly.
+
 ### Problem 1319
 - **Name**: Number of Operations to Make Network Connected
 - **Runtime**: 508 ms
