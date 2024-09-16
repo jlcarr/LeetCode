@@ -1586,6 +1586,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 31.74 MB
 - **Solution**: A contiguous subarray's sum can be found using the difference between the cumulative sums of the endpoints, so we can run through the array, computing the cumulative sum, and use a set to track previous cumulative sums mod k, looking to see if we have the correct complement to sum to 0 mod k.
 
+### Problem 539
+- **Name**: Minimum Time Difference
+- **Runtime**: 63 ms
+- **Memory**: 19.9 MB
+- **Solution**: We can easily convert the times to minutes easily. Be sure to compare the smallest and largest values for looping as well.
+
 ### Problem 540
 - **Name**: Single Element in a Sorted Array
 - **Runtime**: 173 ms
