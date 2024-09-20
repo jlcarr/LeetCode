@@ -1196,6 +1196,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.3 MB
 - **Solution**: Performing a binary search on each row is enough to satisfy the conditions. However a linear solution can also be obtained.
 
+### Problem 241
+- **Name**: Different Ways to Add Parentheses
+- **Runtime**: 38 ms
+- **Memory**: 16.86 MB
+- **Solution**: We can imagine the different orders of operations as different ways to structure the expression tree. Essentially we can pick different operators to be the root, and then recursively look a the left and right sides of the expression. We can also cache sub-results.
+
 ### Problem 242
 - **Name**: Valid Anagram
 - **Runtime**: 54 ms
