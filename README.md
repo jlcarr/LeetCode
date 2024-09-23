@@ -1100,6 +1100,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Same as problem 198, just we can't have both the first and last house. So loop over the ability to keep one or the other.
  
+### Problem 214
+- **Name**: Shortest Palindrome
+- **Runtime**: 44 ms
+- **Memory**: 17.17 MB
+- **Solution**: We need to search the reversed string for the first occurance of the prefix of the original string: or picture folding the string in half and sliding the front along (wrapping) until a complete match is found. For a linear-time string-search we need the Knuth-Morris-Pratt algorithm. We do this by first precomputing a table of where we can fall back to in the search word. We only need to do this for half the word since we're searching for the palindrome.
+ 
 ### Problem 215
 - **Name**: Kth Largest Element in an Array
 - **Runtime**: 1291 ms
