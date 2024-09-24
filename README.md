@@ -3422,6 +3422,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.93 MB
 - **Solution**: We can xor the results with k to get mismatched bits, after which we need a count: the Hamming weight. Python has a convenient `count_bits` method.
 
+### Problem 3043
+- **Name**: Find The Length of the Longest Prefix
+- **Runtime**: 1045 ms
+- **Memory**: 28 MB
+- **Solution**: We can create a trie from one of the arrays so that we can quickly search for the longest common prefix with the second array. We can also decompose an integer into digits quickly with modulo and integer division, and a stack.
+
 ### Problem 3068
 - **Name**: Find the Maximum Sum of Node Values
 - **Runtime**: 955 ms
