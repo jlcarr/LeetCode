@@ -3098,6 +3098,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.6 MB
 - **Solution**: The greedy approach should be used, scanning through the string and only putting breaks each time a duplicate in the current section is found. Duplicates can be found quickly with a set. Since we know the set will at most contain 26 elements we can use a constant length binary array.
 
+### Problem 2416
+- **Name**: Sum of Prefix Scores of Strings
+- **Runtime**: 1168 ms
+- **Memory**: 211.68 MB
+- **Solution**: We can construct a trie in which we keep track of the counts of words which have a given prefix. That way we can scan through prefix of characters in each word and sum up its score easily.
+
 ### Problem 2418
 - **Name**: Sort the People
 - **Runtime**: 265 ms
