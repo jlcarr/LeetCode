@@ -1802,6 +1802,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: Run through the linked-list once to get its length, then we compute how many elements will go in each position in the result, and use the remainder to compute which will get extra elements.
 
+### Problem 729
+- **Name**: My Calendar I
+- **Runtime**: 327 ms
+- **Memory**: 17.3 MB
+- **Solution**: Based upon the number of calls, we can solve this with a simple list, scanning through upon each insertion, using the usual range intersection approach. A better solution would be to use a balanced binary search tree, or a segment tree.
+
 ### Problem 735
 - **Name**: Asteroid Collision
 - **Runtime**: 101 ms
