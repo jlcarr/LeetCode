@@ -1808,6 +1808,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.3 MB
 - **Solution**: Based upon the number of calls, we can solve this with a simple list, scanning through upon each insertion, using the usual range intersection approach. A better solution would be to use a balanced binary search tree, or a segment tree.
 
+### Problem 731
+- **Name**: My Calendar II
+- **Runtime**: 235 ms
+- **Memory**: 17.49 MB
+- **Solution**: We can keep a record for current double bookings (the maximum possible number of double bookings is 1 less than the total bookings). We just need to check for any additional overlaps here to reject a new booking, otherwise we scan through the current bookings to find overlaps we add the double bookings list. This could be faster using a balanced binary search tree, or a segment tree.
+
 ### Problem 735
 - **Name**: Asteroid Collision
 - **Runtime**: 101 ms
