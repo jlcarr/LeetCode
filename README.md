@@ -1694,6 +1694,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.2 MB
 - **Solution**: We can do this efficiently by building a trie and then checking each word and stopping at the first word we find. This allows us to exit early from words whose prefix isn't in the dictionary.
 
+### Problem 641
+- **Name**: Design Circular Deque
+- **Runtime**: 58 ms
+- **Memory**: 17.17 MB
+- **Solution**: Keep track of the current start and queue size. Make sure to use modular arithmetic and do checks on the queue size for the operations.
+
 ### Problem 647
 - **Name**: Palindromic Substrings
 - **Runtime**: 2333 ms
