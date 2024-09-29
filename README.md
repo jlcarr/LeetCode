@@ -1448,6 +1448,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14 MB
 - **Solution**: For each unique character in the string run through with a fast and slow pointer, keeping track of remaining k and the streak length, pushing up the right pointer when possible, and dragging up the left pointer when needed.
 
+### Problem 432
+- **Name**: All O'one Data Structure
+- **Runtime**: 171 ms
+- **Memory**: 32.64 MB
+- **Solution**: To access the counts of a string in O(1) time this implies a dictionary, however the min and max with changing values is more challenging. The key is to notice they can only imcrement and decrement by 1, so if there's a change its a swap in ranking with a neighbor: we can can access neighbors in O(1) time with a doubly-linked-list! So we have a double linked list for each unique count in order, holding a set of the strings for that count, then we have a dict mapping strings to their counts and counts to their list node.
+
 ### Problem 435
 - **Name**: Non-overlapping Intervals
 - **Runtime**: 1912 ms
