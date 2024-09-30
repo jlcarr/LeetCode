@@ -2420,6 +2420,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.1 MB
 - **Solution**: First find the root node, and check there are no other roots. Then search from the root node checking there are no cycles.
 
+### Problem 1381
+- **Name**: Design a Stack With Increment Operation
+- **Runtime**: 65 ms
+- **Memory**: 17.55 MB
+- **Solution**: We can do the increment operation quickly for the entire stack by doing it lazily with an paired accumulator stack of increments to apply on values. When we pop an element we add its increment, and also accumulate the increment down in the increment stack.
+
 ### Problem 1382
 - **Name**: Balance a Binary Search Tree
 - **Runtime**: 170 ms
