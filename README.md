@@ -2546,6 +2546,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.1 MB
 - **Solution**: Just need to keep track of the length of the current and previous run of 1s. Appending a 0 to the array helps with edge cases, and the final case to catch is if the array is entirely 1s, since one has to be deleted: just check if it's the result is the length of the original array and if so decrement it.
 
+### Problem 1497
+- **Name**: Check If Array Pairs Are Divisible by k
+- **Runtime**: 507 ms
+- **Memory**: 30.53 MB
+- **Solution**: Numbers need to be paired with any of their complements modulo k. So long as these paired sets are equal in size we're good. Special cases are 0 and `k//2`, which need an even number of elements in their set.
+
 ### Problem 1498
 - **Name**: Number of Subsequences That Satisfy the Given Sum Condition
 - **Runtime**: 9238 ms
