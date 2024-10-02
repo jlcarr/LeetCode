@@ -2372,6 +2372,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.1 MB
 - **Solution**: We can define this function recursively, updating the left and right children, then checking if the current node needs to be deleted.
 
+### Problem 1331
+- **Name**: Rank Transform of an Array
+- **Runtime**: 251 ms
+- **Memory**: 35.77 MB
+- **Solution**: We can build a dictionary mapping values to their ranks using Python's set and enumerate built-in classes.
+
 ### Problem 1334
 - **Name**: Find the City With the Smallest Number of Neighbors at a Threshold Distance
 - **Runtime**: 172 ms
