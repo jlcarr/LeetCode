@@ -2660,6 +2660,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 77.9 MB
 - **Solution**: Since we are just worried about connectivity this is just the problem of finding the minimum spanning tree on the complete graph. Use Kruskal's with union-find.
 
+### Problem 1590
+- **Name**: Make Sum Divisible by P
+- **Runtime**: 394 ms
+- **Memory**: 35.10 MB
+- **Solution**: We need to match the total sum of the array mod p with the subarray so that taking it away result in 0. We can run through the array accumulating the sum mod p, and see if there a previous value we have which when subtracted gives us our target subarray sum. 
+
 ### Problem 1601
 - **Name**: Maximum Number of Achievable Transfer Requests
 - **Runtime**: 2937 ms
