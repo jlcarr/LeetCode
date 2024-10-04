@@ -3278,6 +3278,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 51.29 MB
 - **Solution**: We need to check future values in the linked list, so we can verse it in place and then just travel forward through it, removing all nodes which are not ascending. Finish by reversing in place once more.
 
+### Problem 2491
+- **Name**: Divide Players Into Teams of Equal Skill
+- **Runtime**: 409 ms
+- **Memory**: 29.48 MB
+- **Solution**: If we sort the skills we can make sure the lowest and highest match up to the same sum for all, and accumulate the products.
+
 ### Problem 2492
 - **Name**: Minimum Score of a Path Between Two Cities
 - **Runtime**: 1619 ms
