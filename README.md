@@ -2828,6 +2828,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1830
+- **Name**: Sentence Similarity III
+- **Runtime**: 37 ms
+- **Memory**: 16.47 MB
+- **Solution**: We can scan through the lists of words looking for the first mismatch: it's at this point we'd need to do an insertion, and we know how long it must be from the length difference. So we can just skip ahead and see if we are now matching the rest of the way: if not the sentences are not similar enough.
+
 ### Problem 1838
 - **Name**: Frequency of the Most Frequent Element
 - **Runtime**: 1158 ms
