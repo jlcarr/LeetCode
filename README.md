@@ -3356,6 +3356,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.56 MB
 - **Solution**: We can just do a string compare, by slicing the record to extract the age.
 
+### Problem 2696
+- **Name**: Minimum String Length After Removing Substrings
+- **Runtime**: 47 ms
+- **Memory**: 16.55 MB
+- **Solution**: We can use a stack to keep track of the last time we see an 'A' or 'C' and then if a matching 'B' or 'D' comes along we can pop from the stack and decrement our expected size of the result. If an unmatching letter comes along it will block the rest of the stack, so we can reset the stack to being empty.
+
 ### Problem 2707
 - **Name**: Extra Characters in a String
 - **Runtime**: 144 ms
