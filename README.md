@@ -2900,6 +2900,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.2 MB
 - **Solution**: Because we're only looking for length-3 palindromes we actually only have `26*26=676` possibilities. To find which ones were present efficiently we can find the first and last appearance of each letter and then run through the whole string once checking for middle letter candidates for our palindromes.
 
+### Problem 1963
+- **Name**: Minimum Number of Swaps to Make the String Balanced
+- **Runtime**: 234 ms
+- **Memory**: 27.98 MB
+- **Solution**: Keeping track of unmatched brackets is a classic usecase for a stack. Notice that in the end out stack must contain all the closing brackets on the left and all the open brackets on the right, because otherwise they'd have paired up. We can swap a pair of brackets to close 2 sets, or just themselves. Knowing all this we can just keep track of the number of opening and closing brackets in our stack as we run through and increment and decrement as needed.
+
 ### Problem 1970
 - **Name**: Last Day Where You Can Still Cross
 - **Runtime**: 1493 ms
