@@ -2072,6 +2072,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Start with the total number of playlists wihout "at least once" constraint: we can use the usual combinatoric approach of number of choices at each step. Then to remove the cases of not using a song we subtract off the subproblems with fewer songs, using the choose function to account for all combinations.
 
+### Problem 921
+- **Name**: Minimum Add to Make Parentheses Valid
+- **Runtime**: 40 ms
+- **Memory**: 16.61 MB
+- **Solution**: We can scan through once, and instead of keeping a stack, just keep track of the unclosed left and right brackets: they must all be on opposite sides in order to not be closed. We just need an extra bracket to pair up with each unclosed.
+
 ### Problem 926
 - **Name**: Flip String to Monotone Increasing
 - **Runtime**: 509 ms
