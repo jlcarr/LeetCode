@@ -2120,6 +2120,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: We can use BFS using the fact that level sets must match powers of 2 except for the final layer. Now for the final layer we must also check that every node is as far left as possible: we can do this by keeping track of when we meet a missing node, and making sure we don't find any other nodes afterwards.
 
+### Problem 962
+- **Name**: Maximum Width Ramp
+- **Runtime**: 380 ms
+- **Memory**: 27.32 MB
+- **Solution**: Use a monotonic decreasing stack since we don't care about larger values further along if a lower values exists further back. Here we could binary search for the width of each value, or better just construct the full stack, then turn around and go in reverse popping from the stack as much as possible to get the largest width at each value.
+
 ### Problem 973
 - **Name**: K Closest Points to Origin
 - **Runtime**: 1730 ms
