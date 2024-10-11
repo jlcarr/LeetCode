@@ -2912,6 +2912,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.2 MB
 - **Solution**: Because we're only looking for length-3 palindromes we actually only have `26*26=676` possibilities. To find which ones were present efficiently we can find the first and last appearance of each letter and then run through the whole string once checking for middle letter candidates for our palindromes.
 
+### Problem 1942
+- **Name**: The Number of the Smallest Unoccupied Chair
+- **Runtime**: 532 ms
+- **Memory**: 22.58 MB
+- **Solution**: We can sort friends by their arrival time, tacking on their original index, and then go through each friend and they arrive, using a min-heap to keep track of when friends are leaving and their chair, and another min-heap to keep track of the smallest remaining chair. If the heap for the minimum chair is empty, we need a new chair: the length of the leaving friends heap is the number of friends currently at the party.
+
 ### Problem 1963
 - **Name**: Minimum Number of Swaps to Make the String Balanced
 - **Runtime**: 234 ms
