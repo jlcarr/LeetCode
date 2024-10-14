@@ -3326,6 +3326,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 82.1 MB
 - **Solution**: Careful, this isn't a shortest path problem: instead just use a graph search to find the shortest edge in the connected component of the graph.
 
+### Problem 2530
+- **Name**: Maximal Score After Applying K Operations
+- **Runtime**: 699 ms
+- **Memory**: 30.28 MB
+- **Solution**: We can use a heap to always have the highest scoring element in the array at our fingertips.
+
 ### Problem 2542
 - **Name**: Maximum Subsequence Score
 - **Runtime**: 1110 ms
