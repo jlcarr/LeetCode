@@ -3176,6 +3176,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 14.6 MB
 - **Solution**: The greedy approach should be used, scanning through the string and only putting breaks each time a duplicate in the current section is found. Duplicates can be found quickly with a set. Since we know the set will at most contain 26 elements we can use a constant length binary array.
 
+### Problem 2406
+- **Name**: Divide Intervals Into Minimum Number of Groups
+- **Runtime**: 1124 ms
+- **Memory**: 56.33 MB
+- **Solution**: If we sort the intervals by start time we can go through them in order, and keep a heap by the endtime of each group: we add each interval to the group with the soonest end-time if possible, otherwise we need a new group for it to avoid overlap.
+
 ### Problem 2416
 - **Name**: Sum of Prefix Scores of Strings
 - **Runtime**: 1168 ms
