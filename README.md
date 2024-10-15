@@ -3464,6 +3464,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 34.7 MB
 - **Solution**: We can compute once which elements of the array have the remainder criterion, now we need to count sub-arrays whose sum also meet the criterion. Since it's a sub-array sum we're interested in we can use the cumulative sum, and a counter to get all the counts of matching end of each array positon that will meet the criterion.
 
+### Problem 2849
+- **Name**: Determine if a Cell Is Reachable at a Given Time
+- **Runtime**: 40 ms
+- **Memory**: 16.18 MB
+- **Solution**: We can add any number of steps on top of the shortest path. Since we have diagonals available to us the shortest path is the smaller of the x and y distances. One edge case is if we start in the same position as the target and time is 1, we cannot succeed because we need to step off first.
+
 ### Problem 2873
 - **Name**: Maximum Value of an Ordered Triplet I
 - **Runtime**: 57 ms
@@ -3488,11 +3494,11 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 47.2 MB
 - **Solution**: This is simular to finding lengths of cycles in linked lists. For each node we knows we'll eventually find a cycles, so search until a cycles is detected, easily done with a set, though more efficient is a tortoise-hare algorithm. I also used a stack to get the distances of other nodes in the list to the cycle. In this way we only visit each node a few times at most.
 
-### Problem 2849
-- **Name**: Determine if a Cell Is Reachable at a Given Time
-- **Runtime**: 40 ms
-- **Memory**: 16.18 MB
-- **Solution**: We can add any number of steps on top of the shortest path. Since we have diagonals available to us the shortest path is the smaller of the x and y distances. One edge case is if we start in the same position as the target and time is 1, we cannot succeed because we need to step off first.
+### Problem 2938
+- **Name**: Separate Black and White Balls
+- **Runtime**: 103 ms
+- **Memory**: 17.57 MB
+- **Solution**: We can run through the list and count the white balls, each must to go to the index of its count (closest possible), and the number of swaps required will be the same as the different in position.
 
 ### Problem 2946
 - **Name**: Matrix Similarity After Cyclic Shifts
