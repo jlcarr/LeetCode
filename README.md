@@ -2462,6 +2462,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.54 MB
 - **Solution**: Using Python's big integer we can just directly perform the process. It won't take longer the the length of the input.
 
+### Problem 1405
+- **Name**: Longest Happy String
+- **Runtime**: 26 ms
+- **Memory**: 16.44 MB
+- **Solution**: The obvious strategy is to use whichever letter has the most uses remaining, so long as it wasn't used last. We can use a priority queue for this, since we have a small constant number of letters, and it will make our lives much easier than hardcoding if statements for each case. If we are ahead by 2 use 2, otherwise 1 by 1 is fine. Continue until only one letter remains or we use all.
+
 ### Problem 1406
 - **Name**: Stone Game III
 - **Runtime**: 5431 ms
