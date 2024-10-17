@@ -1742,6 +1742,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.93 MB
 - **Solution**: Firstly preprocess the string to remove all adjacent repeat characters. Then create a lookup map for each letter to their positions in order. Perform DP over start and end indices, looking at the starting character of the range, either just printing that character before continuing, or looking for matching final characters to share from the index lookup. The trick is to consider there could be other appearances of the character within in the range: remove the ending character for the next level of the DP, but not the starting character and do not add to the cost: consider the inside range could be printed over.
 
+### Problem 670
+- **Name**: Maximum Swap
+- **Runtime**: 34 ms
+- **Memory**: 16.6 MB
+- **Solution**: We should scan through the digits starting with the smallest to find the smallest position of the largest digit: keep track of this, as well as the best candidates for places to swap to: the last occurring position which has a smaller than contender to swap into it. After this do the swap, reconsitute the number and return the result.
+
 ### Problem 673
 - **Name**: Number of Longest Increasing Subsequence
 - **Runtime**: 1192 ms
