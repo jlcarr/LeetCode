@@ -2990,6 +2990,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: We can only remove letters that are in groups of 3 or more, so essentially we remove letters until we have pairs beside eachother or singles. Because of this we'll never join groups. So we just count the number of removable letters for each player and see if A has enough to outlast B.
 
+### Problem 2044
+- **Name**: Count Number of Maximum Bitwise-OR Subsets
+- **Runtime**: 6 ms
+- **Memory**: 16.80 MB
+- **Solution**: Easy is to simply go through all possible subsets and see how many are equal to the OR of all the values. We can do better with dynamic programming by saving a mapping of the possible values we can reach to the number of ways to reach them: this allows us to collapse same values together, but has same worst-case runtime.
+
 ### Problem 2050
 - **Name**: Parallel Courses III
 - **Runtime**: 1408 ms
