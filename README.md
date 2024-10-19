@@ -2636,6 +2636,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.52 MB
 - **Solution**: Run through the string once, putting characters into result stack. We can check the next character and end of the stack for bad strings, and pop as needed. Once complete join the stack and return. We can check by checking if both characters are not equal, but equal upon both beign upper cased.
 
+### Problem 1545
+- **Name**: Find Kth Bit in Nth Binary String
+- **Runtime**: 0 ms
+- **Memory**: 16.48 MB
+- **Solution**: We can go backwards through the transformations, tracking where the index leads to, and also keeping track of whether the bit needs to be inverted.
+
 ### Problem 1547
 - **Name**: Minimum Cost to Cut a Stick
 - **Runtime**: 833 ms
