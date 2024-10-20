@@ -2246,6 +2246,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.53 MB
 - **Solution**: Dynamic programming going over each book and cacheing on current shelf height and current width used on shelf: we can either make a new shelf or add it to the current shelf.
 
+### Problem 1106
+- **Name**: Parsing A Boolean Expression
+- **Runtime**: 15 ms
+- **Memory**: 16.77 MB
+- **Solution**: For parsing an arithmetic expression we can use a stack. For these multiple-input boolean functions, we can use the open-brackets to help us know where to stop popping values in the stack, and an operator stack to keep track of the operation. 
+
 ### Problem 1110
 - **Name**: Delete Nodes And Return Forest
 - **Runtime**: 60 ms
