@@ -2702,6 +2702,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 35.10 MB
 - **Solution**: We need to match the total sum of the array mod p with the subarray so that taking it away result in 0. We can run through the array accumulating the sum mod p, and see if there a previous value we have which when subtracted gives us our target subarray sum. 
 
+### Problem 1593
+- **Name**: Split a String Into the Max Number of Unique Substrings
+- **Runtime**: 168 ms
+- **Memory**: 16.71 MB
+- **Solution**: We can do a backtracking search over all possibilities, by taking possible words and then searching on what's remaining in the string. We can prune off possibilities by not searching on words that already exist in the set found so far, updating during out backtracks.
+
 ### Problem 1601
 - **Name**: Maximum Number of Achievable Transfer Requests
 - **Runtime**: 2937 ms
