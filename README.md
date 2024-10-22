@@ -3410,6 +3410,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.58 MB
 - **Solution**: We can compute this by taking the mod with `2*n-2`, which is the number of passes to return the to beginning, and then check if it's on the way back we just need to offset for that.
 
+### Problem 2583
+- **Name**: Kth Largest Sum in a Binary Tree
+- **Runtime**: 99 ms
+- **Memory**: 59.12 MB
+- **Solution**: We can traverse the tree recursively, and keep track of the sums on each level, then just sort and get the kth largest.
+
 ### Problem 2597
 - **Name**: The Number of Beautiful Subsets
 - **Runtime**: 54 ms
