@@ -2114,6 +2114,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.80 MB
 - **Solution**: We can simulate the procedure with a deque, and using a sorted list of indices to start off, so we can get the ordering outcome of cards in the queue. This way we can place the cards from our sorted deck in our permutation so they will come out in the correct order.
 
+### Problem 951
+- **Name**: Flip Equivalent Binary Trees
+- **Runtime**: 0 ms
+- **Memory**: 16.85 MB
+- **Solution**: We can do a recursive tree traversal on the equivalent pairs of nodes. We can check the values of the children to pair them together.
+
 ### Problem 953
 - **Name**: Verifying an Alien Dictionary
 - **Runtime**: 38 ms
