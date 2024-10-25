@@ -2354,6 +2354,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 56.7 MB
 - **Solution**: We can solve this fairly easily with recursive dynamic programming an memoization keeping track of the previous vowel, however we could reduce memory by doing bottom-up dynamic programming.
 
+### Problem 1233
+- **Name**: Remove Sub-Folders from the Filesystem
+- **Runtime**: 41 ms
+- **Memory**: 29.93 MB
+- **Solution**: We can sort the list of paths, which will make the top level folders appear before subfolders. Can can then check if we have a new folder or is a subfolder of a preceeding folder by checking the matching start.
+
 ### Problem 1249
 - **Name**: Minimum Remove to Make Valid Parentheses
 - **Runtime**: 86 ms
