@@ -2384,6 +2384,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.2 MB
 - **Solution**: The problem is the same in reverse. So we can do dynamic programming over positon and number of steps to take left. We can also prune all states where returning to the origin would be impossible because of distance.
 
+### Problem 1277
+- **Name**: Count Square Submatrices with All Ones
+- **Runtime**: 83 ms
+- **Memory**: 20.78 MB
+- **Solution**: We can could the current streak length in each direction (left and up) and we traverse through the matrix, left to right, top to bottom, and also keep track of the largest diagonal possible from each position. We can compute the largest diagonal quickly by checking adequate previous diagonal and left and up streaks. At the end the sum of the largest diagonals we saved will be our solution.
+
 ### Problem 1289
 - **Name**: Minimum Falling Path Sum II
 - **Runtime**: 216 ms
