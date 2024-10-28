@@ -3380,6 +3380,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 82.1 MB
 - **Solution**: Careful, this isn't a shortest path problem: instead just use a graph search to find the shortest edge in the connected component of the graph.
 
+### Problem 2501
+- **Name**: Longest Square Streak in an Array
+- **Runtime**: 111 ms
+- **Memory**: 37.57 MB
+- **Solution**: We should first sort the entire array, then run through keeping track of the length of the longest streak so far, with a map in anticipation of next square numbers. Watch out for duplicates in the array.
+
 ### Problem 2530
 - **Name**: Maximal Score After Applying K Operations
 - **Runtime**: 699 ms
