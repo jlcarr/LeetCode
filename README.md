@@ -2804,6 +2804,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: In python we can just join all the strings in the arrays and check if they are equal.
 
+### Problem 1671
+- **Name**: Minimum Number of Removals to Make Mountain Array
+- **Runtime**: 1135 ms
+- **Memory**: 16.88 MB
+- **Solution**: We can run through the values forwards and backwards to find the longest increasing sequences (left to right, and right to left) at each point. We can keep a list of possible max values and their longest lengths for this. Then take each pairing of longest sequences and whichever pair is longest is the peak of our mountain array and so from the lengths we can compute how many elements would need to be removed.
+
 ### Problem 1672
 - **Name**: Richest Customer Wealth
 - **Runtime**: 62 ms
