@@ -3464,6 +3464,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.56 MB
 - **Solution**: We can just do a string compare, by slicing the record to extract the age.
 
+### Problem 2684
+- **Name**: Maximum Number of Moves in a Grid
+- **Runtime**: 76 ms
+- **Memory**: 25.76 MB
+- **Solution**: We can just keep track of if cells in the next column are reachable, and if any are the column number is our max path length. When no more cells are reachable we can break.
+
 ### Problem 2696
 - **Name**: Minimum String Length After Removing Substrings
 - **Runtime**: 47 ms
