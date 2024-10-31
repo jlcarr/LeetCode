@@ -3344,6 +3344,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 162 MB
 - **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
 
+### Problem 2463
+- **Name**: Minimum Total Distance Traveled
+- **Runtime**: 2011 ms
+- **Memory**: 447.98 MB
+- **Solution**: Dynamic programming by noticing that it is either optimal for the furthest left robot to use the furthest left factory, or not use the furthest left factory at all. So we can sort the arrays of robots and factories and DP over the robots we are considering, the factory we are considering and the number of robots assigned to that factory so far.
+
 ### Problem 2466
 - **Name**: Count Ways To Build Good Strings
 - **Runtime**: 331 ms
