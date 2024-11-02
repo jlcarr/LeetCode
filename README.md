@@ -3386,6 +3386,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 51.29 MB
 - **Solution**: We need to check future values in the linked list, so we can verse it in place and then just travel forward through it, removing all nodes which are not ascending. Finish by reversing in place once more.
 
+### Problem 2490
+- **Name**: Circular Sentence
+- **Runtime**: 0 ms
+- **Memory**: 16.71 MB
+- **Solution**: Split the string and run through the words, keeping track of the last letter seen to compare the the start of the next word. Start off with the very last letter of the sentence.
+
 ### Problem 2491
 - **Name**: Divide Players Into Teams of Equal Skill
 - **Runtime**: 409 ms
