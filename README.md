@@ -3686,6 +3686,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.7 MB
 - **Solution**: Find all divisors of the length, then test them all as candidates by making the slices and checking they all have the same letter frequencies, which we can do with Python's Counter. Return the first (smallest) solution found.
 
+### Problem 3163
+- **Name**: String Compression III
+- **Runtime**: 132 ms
+- **Memory**: 27.66 MB
+- **Solution**: Simply run through the string keeping track of the last character seen, and the number of times it's been seen. Upon character change or reaching length of 9, we append to the comp.
+
 ### Problem 3200
 - **Name**: Maximum Height of a Triangle
 - **Runtime**: 39 ms
