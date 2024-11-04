@@ -1898,6 +1898,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.7 MB
 - **Solution**: Essentially a modified BFS, where keys ared based on distance traverse from the the src node. Optimal cost is still tracked. There is probably a Dijkstra solution that's faster.
 
+### Problem 796
+- **Name**: Rotate String
+- **Runtime**: 0 ms
+- **Memory**: 16.7 MB
+- **Solution**: We can run through all possible starting locations and then compare the strings character by character, using mod for cirularity. Could be more optimal using KMP on the string doubled.
+
 ### Problem 797
 - **Name**: All Paths From Source to Target
 - **Runtime**: 110 ms
