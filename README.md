@@ -3602,6 +3602,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 47.2 MB
 - **Solution**: This is simular to finding lengths of cycles in linked lists. For each node we knows we'll eventually find a cycles, so search until a cycles is detected, easily done with a set, though more efficient is a tortoise-hare algorithm. I also used a stack to get the distances of other nodes in the list to the cycle. In this way we only visit each node a few times at most.
 
+### Problem 2914
+- **Name**: Minimum Number of Changes to Make Binary String Beautiful
+- **Runtime**: 23 ms
+- **Memory**: 17.00 MB
+- **Solution**: We can run through the string keeping track of the current value of our streak, which we want to be even. If we come to a change we need to change the newly seen value greedily in order to keep our streak going. This is optimal as is might break us into longer streaks we can continue to concatenate.
+
 ### Problem 2938
 - **Name**: Separate Black and White Balls
 - **Runtime**: 103 ms
