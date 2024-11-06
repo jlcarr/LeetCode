@@ -3650,6 +3650,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.93 MB
 - **Solution**: We can xor the results with k to get mismatched bits, after which we need a count: the Hamming weight. Python has a convenient `count_bits` method.
 
+### Problem 3011
+- **Name**: Find if Array Can Be Sorted
+- **Runtime**: 7 ms
+- **Memory**: 16.40 MB
+- **Solution**: We can run through the array once keeping track of which bitcount grouping we're in and the max and min values seen. We should also keep track of the max of the previous bitcount group: that way when we reach the end of the grouping we can check if all the values from the previous group are indeed less.
+
 ### Problem 3043
 - **Name**: Find The Length of the Longest Prefix
 - **Runtime**: 1045 ms
