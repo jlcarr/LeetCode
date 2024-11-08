@@ -2900,6 +2900,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: Simply run through the numbers, noting a 0 will make the entire result 0, and only negative values change the result.
 
+### Problem 1829
+- **Name**: Maximum XOR for Each Query
+- **Runtime**: 56 ms
+- **Memory**: 30.28 MB
+- **Solution**: We can easily get the cumulative xor, but also we should get the maximum value of the bitset `k` can influence, which is `(1 << maximumBit) - 1`. We can use this to mask our current cumulative xor, and xoring that with our max value will give us the maximizing k. We just need to pop from the list of nums and xor it off our cumulative xor for the next iteration.
+
 ### Problem 1830
 - **Name**: Sentence Similarity III
 - **Runtime**: 37 ms
