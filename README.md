@@ -3686,6 +3686,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: We can do this easily with Python list compehension and other build in functions. I decided to also use `pairwise` from the itertools, and map `ord` to the string to start.
 
+### Problem 3133
+- **Name**: Minimum Array End
+- **Runtime**: 1 ms
+- **Memory**: 33.33 MB
+- **Solution**: We essentially need to put the bits of `n-1` into where the 0s are of `x`. We can use bit manipulation to run through the bits with a mask and set them.
+
 ### Problem 3136
 - **Name**: Valid Word
 - **Runtime**: 46 ms
