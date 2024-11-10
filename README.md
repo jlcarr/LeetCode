@@ -3680,6 +3680,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 43.50 MB
 - **Solution**: Sort reversed to take the top k, then subtract the index from each value and take the max with 0 and sum the top k.
 
+### Problem 3097
+- **Name**: Shortest Subarray With OR at Least K II
+- **Runtime**: 1075 ms
+- **Memory**: 35.78 MB
+- **Solution**: We can run through the array with a left and right window indices, incrementing the right each time, and then tightening the left side. We keep a count of the number of elements in our window which set each bit. We can use this to compute the current value of the window, which we can check if greater than k.
+
 ### Problem 3110
 - **Name**: Score of a String
 - **Runtime**: 40 ms
