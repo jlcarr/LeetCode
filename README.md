@@ -3482,6 +3482,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.43 MB
 - **Solution**: Since numbers of different value mod k will never block eachother we can separate our problem into independent sets by mod value, and multiply all their solutions. In each mod set we can run through the number in order and keep track of the number of ways we could have arrived at having kept or not kept the current number: we can't keep it if we kept the previous value and it was exactly k less. So we only need to keep track of the counts with and without the previous value. Last thing is to remember we can have duplicates and they are treated as different elements for the purpose of counting subsets: any time we count a without, that's 1 possibility for keeping no copies, any time we keep 1 or more that's `1<<count-1`.
 
+### Problem 2601
+- **Name**: Prime Subtraction Operation
+- **Runtime**: 43 ms
+- **Memory**: 16.92 MB
+- **Solution**: Since we can only decrease elements and we want everything increasing we should start at the end of the array where we ahve the greatest possible element and work backwards. At each next value we need to ensure it is lower than the previous by finding the prime which will minimize the difference, so as to leave more room for subsequence values in the array. We can get a list of primes using a sieve of Eratosthenes, and using binary search to find the best element.
+
 ### Problem 2641
 - **Name**: Cousins in Binary Tree II
 - **Runtime**: 191 ms
