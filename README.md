@@ -3068,6 +3068,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 44.12 MB
 - **Solution**: We can keep 2 lagged pointers going through the linked list, and an index to keep track of the first critical point found and the most recent, each time updating our knowledge of the max and min distances.
 
+### Problem 2070
+- **Name**: Most Beautiful Item for Each Query
+- **Runtime**: 146 ms
+- **Memory**: 65.80 MB
+- **Solution**: We can sort the items by price and put them into a monotonic stack such we remove all items for which another items of lower price and equal or greater beauty exists. Essentially the stack will proceed down in value and we must also proceed downwards in beauty. The queries can then be sorted, keeping their original index handy for building the solution, and we can then proceed down the queries stack popping from the expensive end of our monotonic stack until we meet the price requirement, at which point we're guarunteed to have the most beautiful items for the given price.
+
 ### Problem 2073
 - **Name**: Time Needed to Buy Tickets
 - **Runtime**: 37 ms
