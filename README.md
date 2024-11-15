@@ -3470,6 +3470,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.34 MB
 - **Solution**: Notice that the first and last marble always contribute to the sums. Otherwise it's choosing adjacent pairings of marbles. We just need to get every adjacent sum, then take the sum of the highest k and lowest k: their difference will be our answer. We can do this by sorting the list of pair sums, slicing and summing.
 
+### Problem 2563
+- **Name**: Count the Number of Fair Pairs
+- **Runtime**: 176 ms
+- **Memory**: 30.59 MB
+- **Solution**: We can count the number of pairs equal or below `upper` and at the same time strictly below `lower` and then subtract them to get the result. If we sort the array and step through we can examine every element and look for matching values larger than it with s strictly decrementing pointer. This allows us to do a single pass through the array.
+
 ### Problem 2582
 - **Name**: Pass the Pillow
 - **Runtime**: 34 ms
