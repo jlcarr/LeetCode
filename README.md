@@ -2708,6 +2708,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: One pass to get both diagonals works, and checking if the square matrix is an odd size to remove the second use of the center element.
 
+### Problem 1574
+- **Name**: Shortest Subarray to be Removed to Make Array Sorted
+- **Runtime**: 23 ms
+- **Memory**: 30.13 MB
+- **Solution**: Start by finding the first and last adjacency order violations: this gives us a starting subarray to remove. Next we need to search for where in the left and right sides we can end an d start our arrays respectively so as to keep the sorted order. We can go down through the left array and tighten the right side while it meets the sorted criterion.
+
 ### Problem 1579
 - **Name**: Remove Max Number of Edges to Keep Graph Fully Traversable
 - **Runtime**: 1624 ms
