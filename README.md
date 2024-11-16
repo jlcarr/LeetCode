@@ -3770,6 +3770,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 99.70 MB
 - **Solution**: In order to get the smallest diameter possible we'd want to choose the node with minimum max distance to any other node for each of the trees. We do this by pruning off the leaves one layer at a time, making new leaves, until we end up with either 1 or 2 nodes left: we can compute the distance along the way. One edge case we need to take care of is the diameter of the individual trees by themselves, which we could use a similar technique, or use the tree radius algorithm of finding the furtherst leaf from any node, then find the further leaf from that node.
 
+### Problem 3254
+- **Name**: Find the Power of K-Size Subarrays I
+- **Runtime**: 200 ms
+- **Memory**: 17.06 MB
+- **Solution**: Keep a deque to keep track of the last index at which there was an adjacent violation, pop from it as they fall out of the window. As long as there are values in the deque the window is invalid, otherwise we can return the last value we're looking at into the window.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
