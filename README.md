@@ -1988,6 +1988,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.50 MB
 - **Solution**: Obviously we need to set the leading bits to all be 1 to maximize our result, we can start by doing that row by row. We can't flip any other cell without flipping it's entire column, and flipping its row is out of the question: since it's a simple flip there are no work arounds: if we flip a row we'll always have to flip it back, and since the other of the operations doesn't matter this means we can only do the columns. So count up the bits in each column and take either the sum or the complement, whichever is larger, and add it to the result using the columns position value.
 
+### Problem 862
+- **Name**: Shortest Subarray with Sum at Least K
+- **Runtime**: 199 ms
+- **Memory**: 31.75 MB
+- **Solution**: We can find the subarray sum using the cumulative sum technique. To find the most recent previous index which will allow the subarray sum to be greater than k, we need a monotonically increasing stack, which we can search quickly with bisection. We can improve on this solution by realizing the leftmost values are no longer needed the first time they are used, so using a deque we can pop from the left while valid, and use them to update the solution.
+
 ### Problem 863
 - **Name**: All Nodes Distance K in Binary Tree
 - **Runtime**: 71 ms
