@@ -2798,6 +2798,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: We can sort each of the sub-arrays and check that their contents has constant difference. We could use a set to be more efficient on the time complexity.
 
+### Problem 1652
+- **Name**: Defuse the Bomb
+- **Runtime**: 0 ms
+- **Memory**: 16.69 MB
+- **Solution**: We can keep an accumulated value for the window we are interested in and update it as we go through the array. We can handle cases for positive, negative and zero separately for ease.
+
 ### Problem 1653
 - **Name**: Minimum Deletions to Make String Balanced
 - **Runtime**: 523 ms
