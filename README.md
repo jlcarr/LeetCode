@@ -3452,6 +3452,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 37.57 MB
 - **Solution**: We should first sort the entire array, then run through keeping track of the length of the longest streak so far, with a map in anticipation of next square numbers. Watch out for duplicates in the array.
 
+### Problem 2516
+- **Name**: Take K of Each Character From Left and Right
+- **Runtime**: 143 ms
+- **Memory**: 17.31 MB
+- **Solution**: We can instead solve the complementary problem of finding the longest substring in which we haven't used up too much of the required letters. We can solve this problem with the sliding window technique, incrementing our right bound, and then tightening the left as necessary.
+
 ### Problem 2530
 - **Name**: Maximal Score After Applying K Operations
 - **Runtime**: 699 ms
