@@ -3182,6 +3182,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.8 MB
 - **Solution**: Keep a current starting sum and ending sum, then take the means and round on the spot on each index, updating the result if necessary.
 
+### Problem 2257
+- **Name**: Count Unguarded Cells in the Grid
+- **Runtime**: 1296 ms
+- **Memory**: 41.20 MB
+- **Solution**: We can mark each cell if it's unoccupied and then run through the rows and columns, keeping track of the cells between walls and if there was 1 or more guards in between.
+
 ### Problem 2264
 - **Name**: Count Nodes Equal to Average of Subtree
 - **Runtime**: 50 ms
