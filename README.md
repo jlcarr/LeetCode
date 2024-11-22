@@ -2222,6 +2222,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.75 MB
 - **Solution**: Python's Counter class has an intersection method, which we can call between every element using reduce.
 
+### Problem 1006
+- **Name**: Flip Columns For Maximum Number of Equal Rows
+- **Runtime**: 44 ms
+- **Memory**: 19.7 MB
+- **Solution**: We need to see which rows are all the same quickly for a given masking. We can see what masking would be needed to make a row all the same, and normalize by always having the first column go to zero (the inverse is also a row of all the same, so this covers both cases). We can put these maskings as key for a Counter and therefore quickly get a count of how many rows they give.
+
 ### Problem 1020
 - **Name**: Number of Enclaves
 - **Runtime**: 942 ms
