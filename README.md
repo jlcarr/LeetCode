@@ -2222,12 +2222,6 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.75 MB
 - **Solution**: Python's Counter class has an intersection method, which we can call between every element using reduce.
 
-### Problem 1006
-- **Name**: Flip Columns For Maximum Number of Equal Rows
-- **Runtime**: 44 ms
-- **Memory**: 19.7 MB
-- **Solution**: We need to see which rows are all the same quickly for a given masking. We can see what masking would be needed to make a row all the same, and normalize by always having the first column go to zero (the inverse is also a row of all the same, so this covers both cases). We can put these maskings as key for a Counter and therefore quickly get a count of how many rows they give.
-
 ### Problem 1020
 - **Name**: Number of Enclaves
 - **Runtime**: 942 ms
@@ -2257,6 +2251,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 30 ms
 - **Memory**: 13.9 MB
 - **Solution**: Increasingly append to common divisor candidate while the prefixes are the same, and record whenever a valid candidate is found.
+
+### Problem 1072
+- **Name**: Flip Columns For Maximum Number of Equal Rows
+- **Runtime**: 44 ms
+- **Memory**: 19.7 MB
+- **Solution**: We need to see which rows are all the same quickly for a given masking. We can see what masking would be needed to make a row all the same, and normalize by always having the first column go to zero (the inverse is also a row of all the same, so this covers both cases). We can put these maskings as key for a Counter and therefore quickly get a count of how many rows they give.
 
 ### Problem 1095
 - **Name**: Find in Mountain Array
@@ -2953,6 +2953,12 @@ Solutions to LeetCode problems in Python3
 - **Runtime**: 410 ms
 - **Memory**: 26.3 MB
 - **Solution**: Simply sort the array, and start with 0 ensuring we either meet a value in rannge of the previous, or bring it down to be one greater than the previous.
+
+### Problem 1861
+- **Name**: Rotating the Box
+- **Runtime**: 1896 ms
+- **Memory**: 29.00 MB
+- **Solution**: We can allocate the space for the new box, already rotated, and fill it in with index, running over each row in the original, every time we need a stone, backfill with how many we've counted will pile up.
 
 ### Problem 1863
 - **Name**: Sum of All Subset XOR Totals
