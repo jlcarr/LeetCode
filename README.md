@@ -3038,6 +3038,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 108.75 MB
 - **Solution**: Construced the graph as a dict of lists from the edges, then ran DFS on it.
 
+### Problem 1975
+- **Name**: Maximum Matrix Sum
+- **Runtime**: 46 ms
+- **Memory**: 25.55 MB
+- **Solution**: Since we can repeatedly flip adjacent cells we can effectively reach any pair of cells. From here we'll want to try an make every cell positive. If there is an even number of negative cells this is possible, otherwise we should take the minimum absolute valued cell, could be 0, and choose that to be the remaining negative cell.
+
 ### Problem 1980
 - **Name**: Find Unique Binary String
 - **Runtime**: 36 ms
