@@ -1868,6 +1868,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Use Python's Counter to get frequencies. Use the most frequent element to make buckets of adjacent characters, which we can then run over placing each new character in the next bucket. We're guarunteed to have at least 1 character between each of the same type.
 
+### Problem 773
+- **Name**: Sliding Puzzle
+- **Runtime**: 111 ms
+- **Memory**: 16.88 MB
+- **Solution**: `A*` is a good approach in general. However in this case the state space is only `6! = 720`, so backtracking is probably faster than computing the heuristic distances.
+
 ### Problem 779
 - **Name**: K-th Symbol in Grammar
 - **Runtime**: 26 ms
