@@ -3692,6 +3692,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.00 MB
 - **Solution**: We can run through the string keeping track of the current value of our streak, which we want to be even. If we come to a change we need to change the newly seen value greedily in order to keep our streak going. This is optimal as is might break us into longer streaks we can continue to concatenate.
 
+### Problem 2924
+- **Name**: Find Champion II
+- **Runtime**: 7 ms
+- **Memory**: 17.70 MB
+- **Solution**: We simply need to find if there is one root node which has no ancestors: otherwise any other node with no ancestors could possible also be the champion. We can use a set, or an array in place, and check if we end up with just one and return it.
+
 ### Problem 2938
 - **Name**: Separate Black and White Balls
 - **Runtime**: 103 ms
