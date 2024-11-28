@@ -3224,6 +3224,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 41.99 MB
 - **Solution**: We should assign the highest values to the cities with the highest degrees, so we can just compute the degrees, sort them, and assign down from there.
 
+### Problem 2290
+- **Name**: Minimum Obstacle Removal to Reach Corner
+- **Runtime**: 1558 ms
+- **Memory**: 47.10 MB
+- **Solution**: A simple implementation of Dijkstra's will work. A better method is to use 0-1 BFS, which will search all the "free" cells first before looking at costly ones.
+
 ### Problem 2305
 - **Name**: Fair Distribution of Cookies
 - **Runtime**: 4026 ms
