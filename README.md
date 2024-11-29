@@ -3542,6 +3542,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.59 MB
 - **Solution**: We can count the number of pairs equal or below `upper` and at the same time strictly below `lower` and then subtract them to get the result. If we sort the array and step through we can examine every element and look for matching values larger than it with s strictly decrementing pointer. This allows us to do a single pass through the array.
 
+### Problem 2577
+- **Name**: Minimum Time to Visit a Cell In a Grid
+- **Runtime**: 960 ms
+- **Memory**: 42.98 MB
+- **Solution**: So long as the first cell isn't blocked we can "bide time" be going back and forth until a cell is available. Note that because of parity, we can only visit cells of even index sums on even times, so this offsets the minimum time to reach any cell if it's time requirement is off parity. Otherwise this is simply Dijkstra's.
+
 ### Problem 2582
 - **Name**: Pass the Pillow
 - **Runtime**: 34 ms
