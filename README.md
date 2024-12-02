@@ -2474,6 +2474,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39.3 MB
 - **Solution**: This is a simple shortest path problem without edge weights or an admissable heuristic, so we can just use BFS. However cases are made to make a simple BFS run quadratically. Using a 2-sided BFS actuall solves the problem very quickly. However a more proper solution is to use note that we can keep track of neighbor groups to not search them again, greatly cutting down the problem in general.
 
+### Problem 1346
+- **Name**: Check If N and Its Double Exist
+- **Runtime**: 3 ms
+- **Memory**: 17.32 MB
+- **Solution**: We can use a dictionary mapping each value to its position to instantly check if the double of a number exits elsewhere in the array in 1 pass, and also helps with the case of 0 needing another entry at a different index.
+
 ### Problem 1351
 - **Name**: Count Negative Numbers in a Sorted Matrix
 - **Runtime**: 142 ms
