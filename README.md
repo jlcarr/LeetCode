@@ -2576,6 +2576,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16 MB
 - **Solution**: Dynamic programming. Since we always give away the upper and left sides of the pizza after a cut, we can keep track of the minimum x and y left, as well as the number of cuts left, making a triple we can cache. We also need a quick way of checking of a cut has as least one apple left in it, and if the remaining pizza has at least one apple left: we can do this with the cumulative sum technique, but in 2D.
 
+### Problem 1455
+- **Name**: Check If a Word Occurs As a Prefix of Any Word in a Sentence
+- **Runtime**: 0 ms
+- **Memory**: 17.4 MB
+- **Solution**: We just need to split the string and run through the words using Python's built-in `startswith` function.
+
 ### Problem 1456
 - **Name**: Maximum Number of Vowels in a Substring of Given Length
 - **Runtime**: 172 ms
