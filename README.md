@@ -3146,6 +3146,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 93.88 MB
 - **Solution**: This is the problem of finding an Eulerian path. The solution is to use Hierholzer's algorithm, which is essentially a greedy algorithm. We need to build the graph and remove edges as we explore them and keep track of if there are edges left. If there is a node with more exits than entrances then it must be the starting node. As we explore the graph we place nodes in a deque which will hold the order of our Eulerian path. If we ever get stuck, we rotate the deque until we have a head node with can continue: thinking about the queue circularly this means inserting another loop explored. Finally rotate the deque until we have the correct start and end nodes in position. There is a much more implementation than mine, which uses the same graph and Counter approach, but only uses a stack, popping the head into another stack any time its stuck so as to always be looking in between the two stacks, guaranteeing the overall start and ends are in the right place, and not needing to worry about deque rotation.
 
+### Problem 2109
+- **Name**: Adding Spaces to a String
+- **Runtime**: 99 ms
+- **Memory**: 50.48 MB
+- **Solution**: We can intert the list of spaces and then efficiently use it as a stack. A single pass through the string we can insert the spaces as they come up, popping them off the stack to see the next index.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
