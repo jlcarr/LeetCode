@@ -3674,6 +3674,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.3 MB
 - **Solution**: For the contest I just convertted directly to an int and then back. A proper solution is to first reverse the linked list, perform the arithmetic, then reverse once more.
 
+### Problem 2825
+- **Name**: Make String a Subsequence Using Cyclic Increments
+- **Runtime**: 67 ms
+- **Memory**: 20.45 MB
+- **Solution**: We can arrange `str2` into a stack and greadily assign each of its values to a source in `str1`. Using `ord` for cyclically incrementing characters.
+
 ### Problem 2843
 - **Name**: Count Symmetric Integers
 - **Runtime**: 900 ms
