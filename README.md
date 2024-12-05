@@ -3278,6 +3278,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.8 MB
 - **Solution**: We can do this recursively by simply making the leaves return their values as bools and otherwise taking the correct operation between the recursed result on the left and right children. We can also use the tautology and annihilator identities by checking the right hand result and returning early if we find leaves: otherwise the left should already work with Python.
 
+### Problem 2337
+- **Name**: Move Pieces to Obtain a String
+- **Runtime**: 73 ms
+- **Memory**: 17.70 MB
+- **Solution**: Keep track of the Ls needed in the target string, which must be met by future Ls in the start string, as well as excess Rs in the start string which must move into future positions in the target string. We can only have one or the other, since Ls and Rs cannot move through eachother.
+
 ### Problem 2348
 - **Name**: Number of Zero-Filled Subarrays
 - **Runtime**: 1035 ms
