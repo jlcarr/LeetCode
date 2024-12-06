@@ -3566,6 +3566,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.34 MB
 - **Solution**: Notice that the first and last marble always contribute to the sums. Otherwise it's choosing adjacent pairings of marbles. We just need to get every adjacent sum, then take the sum of the highest k and lowest k: their difference will be our answer. We can do this by sorting the list of pair sums, slicing and summing.
 
+### Problem 2554
+- **Name**: Maximum Number of Integers to Choose From a Range I
+- **Runtime**: 117 ms
+- **Memory**: 18.5 MB
+- **Solution**: A solution for the case where the n is large and the length of banned isn't would be to sort banned and iterate through, adding the length of the range until we would exceed maxSum, ad which point we find the maximum range possible using the quadratic formula. However since for this problem this wasn't the case, and so just iterating through and checking a set of banned would have been easier.
+
 ### Problem 2563
 - **Name**: Count the Number of Fair Pairs
 - **Runtime**: 176 ms
