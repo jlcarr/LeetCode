@@ -2912,6 +2912,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.3 MB
 - **Solution**: We can keep track of what the last seen character is and how many we've see so far. At we can makes homogenous substrings with any of the contigious matching characters and the most recently seen one too, so we just add the current count to the result.
 
+### Problem 1760
+- **Name**: Minimum Limit of Balls in a Bag
+- **Runtime**: 486 ms
+- **Memory**: 29.35 MB
+- **Solution**: Binary search for the optimal penalty value, for each checking the operations needed: each number larger than the penalty needs to be divided into pieces of size equal or less than the penalty: a simple division does the trick.
+
 ### Problem 1791
 - **Name**: Find Center of Star Graph
 - **Runtime**: 638 ms
