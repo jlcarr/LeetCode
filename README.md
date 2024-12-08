@@ -3122,6 +3122,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 45.6 MB
 - **Solution**: Since we can take as many courses in parallel as we want we should always take a course as soon as possible as soon as we ahve finished all prereqs. We just need to check for new courses ready to take after completing a course. I used a heap to keep track of when the next course would be complete and it's time, thought it seems that isn't necessary.
 
+### Problem 2054
+- **Name**: Two Best Non-Overlapping Events
+- **Runtime**: 131 ms
+- **Memory**: 57.39 MB
+- **Solution**: We can run through the list with a heap to keep track of when events fall to being finished and their values can be the "first chosen" and we can look at next values as the "second chosen".
+
 ### Problem 2058
 - **Name**: Find the Minimum and Maximum Number of Nodes Between Critical Points
 - **Runtime**: 357 ms
