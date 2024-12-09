@@ -3866,6 +3866,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.7 MB
 - **Solution**: Find all divisors of the length, then test them all as candidates by making the slices and checking they all have the same letter frequencies, which we can do with Python's Counter. Return the first (smallest) solution found.
 
+### Problem 3152
+- **Name**: Special Array II
+- **Runtime**: 24 ms
+- **Memory**: 46.65 MB
+- **Solution**: We can run through the pairs in the array and keep track of where there the last invalid pair has appeared for each position. We can then run through the queries checking the subarray starts are after the last seen invalid pair for the end.
+
 ### Problem 3163
 - **Name**: String Compression III
 - **Runtime**: 132 ms
