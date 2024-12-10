@@ -3800,6 +3800,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.02 MB
 - **Solution**: Since we can do the operation more than once we need to find the shortest weighted path of many letter to any other letter. So basically this is an all-pairs shortest path, followed by a simply count up. Technically we only need shortest paths for certain pairs, so we could just run Dijkstra on a case-by-case basis, and cache results for a boost, but it's also a great opportunity to use the Floyd-Warshall algorithm, which is what I did.
 
+### Problem 2981
+- **Name**: Find Longest Special Substring That Occurs Thrice I
+- **Runtime**: 7 ms
+- **Memory**: 17.35 MB
+- **Solution**: We can run through the string keeping track of the first and second longest streaks for each letter in a cache, and the counts of how many times they appear. We can then run through this cache and go through the cases of the longest streak appearing all 3 times, or offsetting by 1 with the 3rd made up for by either another copy or the next smallest streak, or the longest streak offsetting by 2. This makes a linear 1-pass solution with constant additional space.
+
 ### Problem 2997
 - **Name**: Minimum Number of Operations to Make Array XOR Equal to K
 - **Runtime**: 583 ms
