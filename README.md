@@ -3806,6 +3806,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.35 MB
 - **Solution**: We can run through the string keeping track of the first and second longest streaks for each letter in a cache, and the counts of how many times they appear. We can then run through this cache and go through the cases of the longest streak appearing all 3 times, or offsetting by 1 with the 3rd made up for by either another copy or the next smallest streak, or the longest streak offsetting by 2. This makes a linear 1-pass solution with constant additional space.
 
+### Problem 2982
+- **Name**: Find Longest Special Substring That Occurs Thrice II
+- **Runtime**: 315 ms
+- **Memory**: 19.89 MB
+- **Solution**: Exact same solution as for Problem 2982.
+
 ### Problem 2997
 - **Name**: Minimum Number of Operations to Make Array XOR Equal to K
 - **Runtime**: 583 ms
