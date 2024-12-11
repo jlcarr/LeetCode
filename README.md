@@ -3662,6 +3662,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 436.5 MB
 - **Solution**: Dynamic programming over the index of the wall considered and the remaining time needed to cover all the walls. Min of including vs excluding cases.
 
+### Problem 2779
+- **Name**: Maximum Beauty of an Array After Applying Operation
+- **Runtime**: 228 ms
+- **Memory**: 28.1 MB
+- **Solution**: Since we are just looking to equalize all elements and remove some, the order doesn't actually matter: we can sort the elments and run through with a sliding window tightening to a valid window each time and keeping track of the max length.
+
 ### Problem 2785
 - **Name**: Sort Vowels in a String
 - **Runtime**: 149 ms
