@@ -3614,6 +3614,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 59.12 MB
 - **Solution**: We can traverse the tree recursively, and keep track of the sums on each level, then just sort and get the kth largest.
 
+### Problem 2593
+- **Name**: Find Score of an Array After Marking All Elements
+- **Runtime**: 784 ms
+- **Memory**: 43.89 MB
+- **Solution**: We use a heap to always find the min element of the lowest index quickly, and a set to keep track of marked elements.
+
 ### Problem 2597
 - **Name**: The Number of Beautiful Subsets
 - **Runtime**: 54 ms
