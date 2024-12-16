@@ -3674,6 +3674,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 436.5 MB
 - **Solution**: Dynamic programming over the index of the wall considered and the remaining time needed to cover all the walls. Min of including vs excluding cases.
 
+### Problem 2762
+- **Name**: Continuous Subarrays
+- **Runtime**: 795 ms
+- **Memory**: 44.42 MB
+- **Solution**: We can run the sliding window forward and use heapqs to keep track of the max and min value in the window, which needs to be tightend as long as the range is too large. A more efficient method is to use a monotonic queue.
+
 ### Problem 2779
 - **Name**: Maximum Beauty of an Array After Applying Operation
 - **Runtime**: 228 ms
