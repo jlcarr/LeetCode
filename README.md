@@ -3950,6 +3950,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.06 MB
 - **Solution**: Keep a deque to keep track of the last index at which there was an adjacent violation, pop from it as they fall out of the window. As long as there are values in the deque the window is invalid, otherwise we can return the last value we're looking at into the window.
 
+### Problem 3264
+- **Name**: Final Array State After K Multiplication Operations I
+- **Runtime**: 7 ms
+- **Memory**: 17.4 MB
+- **Solution**: Use a heapq to always know the lowest value in the array, and also store its index along with it for each updating.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
