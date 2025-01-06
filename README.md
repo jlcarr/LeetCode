@@ -2918,6 +2918,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 29.35 MB
 - **Solution**: Binary search for the optimal penalty value, for each checking the operations needed: each number larger than the penalty needs to be divided into pieces of size equal or less than the penalty: a simple division does the trick.
 
+### Problem 1769
+- **Name**: Minimum Number of Operations to Move All Balls to Each Box
+- **Runtime**: 9 ms
+- **Memory**: 18.1 MB
+- **Solution**: We can keep track of the number of balls before and after the current box, and update as we run through, along with the total distances of the balls on either side, which will be updated accordingly with each step.
+
 ### Problem 1791
 - **Name**: Find Center of Star Graph
 - **Runtime**: 638 ms
