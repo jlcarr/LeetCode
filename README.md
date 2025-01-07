@@ -2534,6 +2534,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 505.4 MB
 - **Solution**: Use dynamic programming over the current position along the piles and the player's turn. A more efficient solution is to only keep track of the current and last 3 states for each player.
 
+### Problem 1408
+- **Name**: String Matching in an Array
+- **Runtime**: 1 ms
+- **Memory**: 17.62 MB
+- **Solution**: Run through all ordered pairs, checking we aren't comparing a value with itself, and use Python's in function for the string search.
+
 ### Problem 1420
 - **Name**: Build Array Where You Can Find The Maximum Exactly K Comparisons
 - **Runtime**: 91 ms
