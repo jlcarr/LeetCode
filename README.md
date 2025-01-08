@@ -3860,6 +3860,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.40 MB
 - **Solution**: We can run through the array once keeping track of which bitcount grouping we're in and the max and min values seen. We should also keep track of the max of the previous bitcount group: that way when we reach the end of the grouping we can check if all the values from the previous group are indeed less.
 
+### Proiblem 3042
+- **Name**: Count Prefix and Suffix Pairs I
+- **Runtime**: 10 ms
+- **Memory**: 17.76 MB
+- **Solution**: Go through all pairs and check the prefix and suffix condition with Python's built-in `startswith` and `endswith` functions.
+
 ### Problem 3043
 - **Name**: Find The Length of the Longest Prefix
 - **Runtime**: 1045 ms
