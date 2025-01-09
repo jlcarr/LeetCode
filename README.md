@@ -3200,6 +3200,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 56.00 MB
 - **Solution**: We can keep one pointer to the last seen zero and an accumulator as we traverse through the list. Upon seeing a new zero update the prev zero, and set its next value to the current zero, update the prev pointer and continue until the end, making sure to handle the case when we reach the end of the list.
 
+### Problem 2185
+- **Name**: Counting Words With a Given Prefix
+- **Runtime**: 4 ms
+- **Memory**: 18.11 MB
+- **Solution**: We can run through the list of words and use Python's startswith function to check, and we can sum a list comprehension to make this a one-liner.
+
 ### Problem 2187
 - **Name**: Minimum Time to Complete Trips
 - **Runtime**: 2331 ms
