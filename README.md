@@ -2072,6 +2072,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17 MB
 - **Solution**: Just return the arrays joined, filtered by even and odds respectively.
 
+### Problem 906
+- **Name**: Word Subsets
+- **Runtime**: 399 ms
+- **Memory**: 21.25 MB
+- **Solution**: Since we're dealing with subsets of letters with multiplicity, a Counter object is what we need. We can contruct the universal multi-set which will check being a subset for all words by taking the OR between all the Counters: this gives the highest counts for each letter. Finally run through a and check for the universal being a subset with the less-than-or-equal-to operator.
+
 ### Problem 909
 - **Name**: Snakes and Ladders
 - **Runtime**: 128 ms
