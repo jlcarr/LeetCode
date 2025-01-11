@@ -2516,6 +2516,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 20.25 MB
 - **Solution**: Do a first traversal to draw out the nodes into a list in order. Next recursively send halfs of the list down to the left and right side of the tree we construct: this ensures each side will be balanced, and we can do this efficiently by just passing indices, and reparenting the existing tree nodes.
 
+### Problem 1400
+- **Name**: Construct K Palindrome Strings
+- **Runtime**: 35 ms
+- **Memory**: 18.13 MB
+- **Solution**: Order isn't important, only counts of the letters. If there is an even count of a letter, in can be wrapped onto any palindrome and not increase the count, if it is odd it must increase the count, and in any case we can at most have a palidrome for each letter. So we run through the letters and their counts and update the minimum and maximum number of possible palindromes and then see if our answer is within the range.
+
 ### Problem 1402
 - **Name**: Reducing Dishes
 - **Runtime**: 42 ms
