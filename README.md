@@ -3980,6 +3980,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 99.70 MB
 - **Solution**: In order to get the smallest diameter possible we'd want to choose the node with minimum max distance to any other node for each of the trees. We do this by pruning off the leaves one layer at a time, making new leaves, until we end up with either 1 or 2 nodes left: we can compute the distance along the way. One edge case we need to take care of is the diameter of the individual trees by themselves, which we could use a similar technique, or use the tree radius algorithm of finding the furtherst leaf from any node, then find the further leaf from that node.
 
+### Problem 3223
+- **Name**: Minimum Length of String After Operations
+- **Runtime**: 128 ms
+- **Memory**: 18.86 MB
+- **Solution**: Essentially as long as there are more than 2 of the same character in the string we can subtract 2 from the count. So we end up with a count of either 2 if we started with an even number or 1 if we started with an odd number.
+
 ### Problem 3243
 - **Name**: Shortest Distance After Road Addition Queries I
 - **Runtime**: 80 ms
