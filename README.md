@@ -3188,6 +3188,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 50.48 MB
 - **Solution**: We can intert the list of spaces and then efficiently use it as a stack. A single pass through the string we can insert the spaces as they come up, popping them off the stack to see the next index.
 
+### Problem 2116
+- **Name**: Check if a Parentheses String Can Be Valid
+- **Runtime**: 77 ms
+- **Memory**: 21.87 MB
+- **Solution**: We keep a stack of locked open brackets and their indices and the indices of any flexible brackets. As soon as we find a closing bracket we close it preferably with a left bracket, but if there are none, a flexible. Finally we need to close the remaining locked open brackets with the flexible ones. If we are able to do all of this, we are valid, otherwise it is invalid.
+
 ### Problem 2130
 - **Name**: Maximum Twin Sum of a Linked List
 - **Runtime**: 972 ms
