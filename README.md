@@ -3680,6 +3680,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.4 MB
 - **Solution**: While the Floyd–Warshall algorithm for all pairs shortest path comes to mind, and might allow for some effciencies in recomputing updates to the shorest paths once updated, however based on the number of calls to the shorest path method, it seems that just re-running Dijkstra's algorithm is the way to go.
 
+### Problem 2657
+- **Name**: Find the Prefix Common Array of Two Arrays
+- **Runtime**: 12 ms
+- **Memory**: 17.84 MB
+- **Solution**: We can run through the pairs of numbers in the arrays and for each one add it to a set of unpaired, or remove it once we find its pair. We can use the number of unpaired along with the current index to know the current number of elements that have been paired.
+
 ### Problem 2678
 - **Name**: Number of Senior Citizens
 - **Runtime**: 48 ms
