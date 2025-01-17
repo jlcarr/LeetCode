@@ -3422,6 +3422,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.7 MB
 - **Solution**: Create first differences array, then use a sliding window to count when the window contains all preceding non-increasing and proceding non-decreasing. This allows us to grab all the good indices. Careful for off-by-one errors.
 
+### Problem 2425
+- **Name**: Bitwise XOR of All Pairings
+- **Runtime**: 7 ms
+- **Memory**: 36.7 MB
+- **Solution**: Since XOR is commutative, we just need to know if the number of times each values is XOR'd in: if it's odd keep 1 copy, otherwise it will cancel itself out. We can check if the number of pairs from each list is even or odd quickly and then decide if the paired elements need to be XOR'd in.
+
 ### Problem 2427
 - **Name**: Number of Common Factors
 - **Runtime**: 31 ms
