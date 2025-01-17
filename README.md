@@ -3698,6 +3698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.56 MB
 - **Solution**: We can just do a string compare, by slicing the record to extract the age.
 
+### Problem 2683
+- **Name**: Neighboring Bitwise XOR
+- **Runtime**: 31 ms
+- **Memory**: 22.39 MB
+- **Solution**: Since each element represents a unique adjacent pair of elements XORed if we XOR everything it will all cancel out to 0. We just need to check this.
+
 ### Problem 2684
 - **Name**: Maximum Number of Moves in a Grid
 - **Runtime**: 76 ms
