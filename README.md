@@ -2504,6 +2504,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.1 MB
 - **Solution**: First find the root node, and check there are no other roots. Then search from the root node checking there are no cycles.
 
+### Problem 1368
+- **Name**: Minimum Cost to Make at Least One Valid Path in a Grid
+- **Runtime**: 179 ms
+- **Memory**: 19.77 MB
+- **Solution**: We can perform a shortest path search in which the cost to go to an adjacent node with the arrow is free, while other directions have a cost of 1. Dijkstra's works, however 0-1 BFS is actually better time complexity.
+
 ### Problem 1381
 - **Name**: Design a Stack With Increment Operation
 - **Runtime**: 65 ms
