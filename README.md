@@ -3698,6 +3698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.84 MB
 - **Solution**: We can run through the pairs of numbers in the arrays and for each one add it to a set of unpaired, or remove it once we find its pair. We can use the number of unpaired along with the current index to know the current number of elements that have been paired.
 
+### Problem 2661
+- **Name**: First Completely Painted Row or Column
+- **Runtime**: 107 ms
+- **Memory**: 43.9 MB
+- **Solution**: We can make a quick mapping from values to indices in the matrix, then keep a count of the number of values seen in each row and column as we run through the array, and stop when we complete one. Another approach with slightly less memory, but more time on average, is to build the inverse mapping of the array, and then run through the rows and columns of the matrix, finding the greatest index in the array for each, and then taking the one with the minimum max index.
+
 ### Problem 2678
 - **Name**: Number of Senior Citizens
 - **Runtime**: 48 ms
