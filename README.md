@@ -2942,6 +2942,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 29.35 MB
 - **Solution**: Binary search for the optimal penalty value, for each checking the operations needed: each number larger than the penalty needs to be divided into pieces of size equal or less than the penalty: a simple division does the trick.
 
+### Problem 1765
+- **Name**: Map of Highest Peak
+- **Runtime**: 675 ms
+- **Memory**: 60.08 MB
+- **Solution**: We can used breadth-first search in waves to effectively perform a layer-by-layer dilation and mark the heights from there.
+
 ### Problem 1769
 - **Name**: Minimum Number of Operations to Move All Balls to Each Box
 - **Runtime**: 9 ms
