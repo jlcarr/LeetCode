@@ -1916,6 +1916,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.5 MB
 - **Solution**: Because we are working with a DAG a simple recursive DFS will work fine, and we can use Python's functools.cache to avoid repeating computations.
 
+### Problem 802
+- **Name**: Find Eventual Safe States
+- **Runtime**: 95 ms
+- **Memory**: 27.97 MB
+- **Solution**: We can use a modified version of Kuhn's algorithm, where we take the inverse graph and start with a set of all teriminal nodes and look at each inbound edge for nodes which only lead to safe nodes, and therefore build up our safe node set.
+
 ### Problem 808
 - **Name**: Soup Servings
 - **Runtime**: 62 ms
