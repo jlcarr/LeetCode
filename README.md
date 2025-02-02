@@ -2942,6 +2942,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 62.5 MB
 - **Solution**: Because the way we get to an event doesn't matter, just our score, we can keep track of the max sore for each remaining k, then move forward by startDays, using a heap to keep track of trailing days we can move up.
 
+### Problem 1752
+- **Name**: Check if Array Is Sorted and Rotated
+- **Runtime**: 0 ms
+- **Memory**: 17.84 MB
+- **Solution**: We can simply count the number of time there is an element out of order, including from the tail to the start. If there's more than 1 break, then the it is invalid.
+
 ### Problem 1759
 - **Name**: Count Number of Homogenous Substrings
 - **Runtime**: 117 ms
