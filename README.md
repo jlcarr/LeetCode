@@ -3974,6 +3974,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 35.78 MB
 - **Solution**: We can run through the array with a left and right window indices, incrementing the right each time, and then tightening the left side. We keep a count of the number of elements in our window which set each bit. We can use this to compute the current value of the window, which we can check if greater than k.
 
+### Problem 3105
+- **Name**: Longest Strictly Increasing or Strictly Decreasing Subarray
+- **Runtime**: 3 ms
+- **Memory**: 17.89 MB
+- **Solution**: We can run through the array and keep track of our current streaks of increases and decreases at the same time, updating the max streak length.
+
 ### Problem 3110
 - **Name**: Score of a String
 - **Runtime**: 40 ms
