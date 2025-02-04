@@ -2990,6 +2990,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.1 MB
 - **Solution**: Dynamic programming recursively defined with caching. Precompute all the GCDs with Euclid's algorithm.
 
+### Problem 1800
+- **Name**: Maximum Ascending Subarray Sum
+- **Runtime**: 1 ms
+- **Memory**: 17.66 MB
+- **Solution**: We can run through the array adding to a temp variable while we are increasing, otherwise reset the aggregator, and keep the max found.
+
 ### Problem 1814
 - **Name**: Count Nice Pairs in an Array
 - **Runtime**: 547 ms
