@@ -2972,6 +2972,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.1 MB
 - **Solution**: We can keep track of the number of balls before and after the current box, and update as we run through, along with the total distances of the balls on either side, which will be updated accordingly with each step.
 
+### Problem 1790
+- **Name**: Check if One String Swap Can Make Strings Equal
+- **Runtime**: 0 ms
+- **Memory**: 17.63 MB
+- **Solution**: Collect all different characters, then check if there are 0 or 2 differences, and if so the different characters are a perfect swap.
+
 ### Problem 1791
 - **Name**: Find Center of Star Graph
 - **Runtime**: 638 ms
