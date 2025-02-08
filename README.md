@@ -3386,6 +3386,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 24.7 MB
 - **Solution**: We can solve this efficiently by just keeping track of the current streak of 0s, and when a streak is broken, add the triangluar number of the streak length (the number of start and end pairs within the streak) to the accumulated result.
 
+### Problem 2349
+- **Name**: Design a Number Container System
+- **Runtime**: 87 ms
+- **Memory**: 81.02 MB
+- **Solution**: We can keep a map of indices to their numbers, as well as an inverse map to a heap so we can quickly access the smallest index. Lastly we need a set to help invalidate values deeper in the queue.
+
 ### Problem 2352
 - **Name**: Equal Row and Column Pairs
 - **Runtime**: 652 ms
