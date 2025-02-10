@@ -4046,6 +4046,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 27.66 MB
 - **Solution**: Simply run through the string keeping track of the last character seen, and the number of times it's been seen. Upon character change or reaching length of 9, we append to the comp.
 
+### Problem 3174
+- **Name**: Clear Digits
+- **Runtime**: 0 ms
+- **Memory**: 17.65 MB
+- **Solution**: We can keep a stack of characters added so far, and pop from it when digits would be added (makes it closest remaining to the left).
+
 ### Problem 3200
 - **Name**: Maximum Height of a Triangle
 - **Runtime**: 39 ms
