@@ -2924,6 +2924,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Simply run though the first and second halves of the string counting up vowels, then compare the counts from each side.
 
+### Problem 1718
+- **Name**: Construct the Lexicographically Largest Valid Sequence
+- **Runtime**: 7 ms
+- **Memory**: 17.73 MB
+- **Solution**: We can solve this problem with backtracking: we try to place the largest numbers first, and if not use the next largest, continuing through the positions and marking off used numbers as we go, and returning when a valid solution is found, or we find ourselves stuck.
+
 ### Problem 1732
 - **Name**: Find the Highest Altitude
 - **Runtime**: 40 ms
