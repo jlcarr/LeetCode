@@ -2246,6 +2246,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.4 MB
 - **Solution**: Simple DFS/BFS search/flood-fill, to check which connected islands touch the border or not.
 
+### Problem 1028
+- **Name**: Recover a Tree From Preorder Traversal
+- **Runtime**: 3 ms
+- **Memory**: 18.70 MB
+- **Solution**: The preorder traversal means that a child can only appear after its parent, either immediately after, or after all other of the parent's left descendants have been processed, therefore we can turn the list into a stack and recursively check if we are at the correct depth to add the child, and if no go back up to find where the right child should be put.
+
 ### Problem 1035
 - **Name**: Uncrossed Lines
 - **Runtime**: 232 ms
