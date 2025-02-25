@@ -2720,6 +2720,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 183.9 MB
 - **Solution**: Constructed the undirected graph, then performed DFS from the root, returning the sub-tree counts, and updating the solution array along the way. Careful of the undirected nature, and keep track of the parent, so as always search down in depth.
 
+### Problem 1524
+- **Name**: Number of Sub-arrays With Odd Sum
+- **Runtime**: 81 ms
+- **Memory**: 21.98 MB
+- **Solution**: We can keep a running sum if the total is even or odd so far, and also count the number of times its been odd so far, from this we can at each value instantly get the number of preceeding subarrays including the current value with are odd, and thus update the result.
+
 ### Problem 1530
 - **Name**: Number of Good Leaf Nodes Pairs
 - **Runtime**: 114 ms
