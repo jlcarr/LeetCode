@@ -2960,6 +2960,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 65 MB
 - **Solution**: We can just build a map of each value to its adjacents, and then find one end by an entry that only has 1 neighbor. We then walk through to the other end.
 
+### Problem 1749
+- **Name**: Maximum Absolute Sum of Any Subarray
+- **Runtime**: 75 ms
+- **Memory**: 28.46 MB
+- **Solution**: Keep track of the accumulated sum, as well as the maximum and mimimum value it reaches so far. We can take the difference between the max and min sums to get the largest subarray in absolute value.
+
 ### Problem 1751
 - **Name**: Maximum Number of Events That Can Be Attended II
 - **Runtime**: 912 ms
