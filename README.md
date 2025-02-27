@@ -2024,6 +2024,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 13.9 MB
 - **Solution**: Recursively look for leaves, and append the lists in order, then compare for the two trees.
 
+### Problem 873
+- **Name**: Length of Longest Fibonacci Subsequence
+- **Runtime**: 3728 ms
+- **Memory**: 89.45 MB
+- **Solution**: We can run through the pairs going forward and cache the number of steps up the previous value. We can then get the maximum number of steps.
+
 ### Problem 875
 - **Name**: Koko Eating Bananas
 - **Runtime**: 356 ms
