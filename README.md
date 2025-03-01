@@ -2288,6 +2288,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.7 MB
 - **Solution**: We need to see which rows are all the same quickly for a given masking. We can see what masking would be needed to make a row all the same, and normalize by always having the first column go to zero (the inverse is also a row of all the same, so this covers both cases). We can put these maskings as key for a Counter and therefore quickly get a count of how many rows they give.
 
+### Problem 1092
+- **Name**: Shortest Common Supersequence 
+- **Runtime**: 572 ms
+- **Memory**: 175.11 MB
+- **Solution**: Because as we proceed forward through the strings constructing the common supersequence the previous values don't affect the proceeding sub-solutions, we can use dynamic programming over positions in the 2 strings. Store complete string sub-solutions is expensive, so we should just cache the optimal lengths, and then proceed once checking which subsolution path to choose to build up the string solution.
+
 ### Problem 1095
 - **Name**: Find in Mountain Array
 - **Runtime**: 48 ms
