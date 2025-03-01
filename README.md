@@ -3602,6 +3602,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 162 MB
 - **Solution**: We can find heights of the binary tree with nodes deleted by storing all the solutions from 2 passes, and then querying that cache. The first pass returns the greatest depth below each node, the second passes down information about the greatest depth without anything below the given node.
 
+### Problem 2460
+- **Name**: Apply Operations to an Array
+- **Runtime**: 4 ms
+- **Memory**: 17.84 MB
+- **Solution**: Simply apply the operation to each element, then use 2-pointers to shift all the zeros to the right.
+
 ### Problem 2461
 - **Name**: Maximum Sum of Distinct Subarrays With Length K
 - **Runtime**: 266 ms
