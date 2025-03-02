@@ -3746,6 +3746,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 30.59 MB
 - **Solution**: We can count the number of pairs equal or below `upper` and at the same time strictly below `lower` and then subtract them to get the result. If we sort the array and step through we can examine every element and look for matching values larger than it with s strictly decrementing pointer. This allows us to do a single pass through the array.
 
+### Problem 2570
+- **Name**: Merge Two 2D Arrays by Summing Values
+- **Runtime**: 0 ms
+- **Memory**: 17.90 MB
+- **Solution**: Classic merge algorithm with pointers on each array.
+
 ### Problem 2577
 - **Name**: Minimum Time to Visit a Cell In a Grid
 - **Runtime**: 960 ms
