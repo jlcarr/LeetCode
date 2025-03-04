@@ -3014,6 +3014,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.1 MB
 - **Solution**: We can keep track of the number of balls before and after the current box, and update as we run through, along with the total distances of the balls on either side, which will be updated accordingly with each step.
 
+### Problem 1780
+- **Name**: Check if Number is a Sum of Powers of Three
+- **Runtime**: 0 ms
+- **Memory**: 17.8 MB
+- **Solution**: This is the same as checking if none of the digits in the base 3 representation are 2 (i.e either 1 or 0). We can check this by repeatedly checking the remainder mod 3, and then shifting down by dividing by 3.
+
 ### Problem 1790
 - **Name**: Check if One String Swap Can Make Strings Equal
 - **Runtime**: 0 ms
