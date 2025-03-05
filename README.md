@@ -3770,6 +3770,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 42.98 MB
 - **Solution**: So long as the first cell isn't blocked we can "bide time" be going back and forth until a cell is available. Note that because of parity, we can only visit cells of even index sums on even times, so this offsets the minimum time to reach any cell if it's time requirement is off parity. Otherwise this is simply Dijkstra's.
 
+### Problem 2579
+- **Name**: Count Total Number of Colored Cells
+- **Runtime**: 0 ms
+- **Memory**: 17.78 MB
+- **Solution**: We can see the number of blue cells follows the triangular numbers, modified to only take odd numbers (i.e. doubled and then n subtracted) then mirrored (i.e. doubled) and then remove the overlap (i.e. subtract off n). Simplifying this we get a very simple formula to instantly get the answer.
+
 ### Problem 2582
 - **Name**: Pass the Pillow
 - **Runtime**: 34 ms
