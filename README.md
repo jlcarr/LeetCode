@@ -4004,6 +4004,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 51.04 MB
 - **Solution**: By transitivity, we can find chains of numbers which can swap places arbitrarily, so we just need to find these chained groups by sorting and keeping track of the original indices. We then places the sorted values into the indices available for the group.
 
+### Problem 2965
+- **Name**: Find Missing and Repeated Values
+- **Runtime**: 19 ms
+- **Memory**: 18.34 MB
+- **Solution**: We can essentially do an in-place linear sort since we know where all the elements belong, except for the repeated item. Afterwards we look for the item out of place, and that gives us both the repeated item by its value and the missing item by its index.
+
 ### Problem 2968
 - **Name**: Count Subarrays Where Max Element Appears at Least K Times
 - **Runtime**: 888 ms
