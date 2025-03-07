@@ -3698,6 +3698,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.31 MB
 - **Solution**: We can instead solve the complementary problem of finding the longest substring in which we haven't used up too much of the required letters. We can solve this problem with the sliding window technique, incrementing our right bound, and then tightening the left as necessary.
 
+### Problem 2523
+- **Name**: Closest Prime Numbers in Range
+- **Runtime**: 738 ms
+- **Memory**: 21.86 MB
+- **Solution**: We can use a sieve of Eratosthenes to get the list of primes up to the upper bound, then search through adjacent pairs for the first minimum difference.
+
 ### Problem 2530
 - **Name**: Maximal Score After Applying K Operations
 - **Runtime**: 699 ms
