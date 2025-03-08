@@ -3488,6 +3488,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.03 MB
 - **Solution**: We can do this simply with list comprehension loops and slicing.
 
+### Problem 2379
+- **Name**: Minimum Recolors to Get K Consecutive Black Blocks
+- **Runtime**: 4 ms
+- **Memory**: 17.60 MB
+- **Solution**: We can keep a running count of the number of black blocks in the window, and the complement will be the number of white blocks we need to flip.
+
 ### Problem 2390
 - **Name**: Removing Stars From a String
 - **Runtime**: 215 ms
