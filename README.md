@@ -2534,6 +2534,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.5 MB
 - **Solution**: We can using Python's build-in sorted function, with a custom key.
 
+### Problem 1358
+- **Name**: Number of Substrings Containing All Three Characters
+- **Runtime**: 298 ms
+- **Memory**: 17.82 MB
+- **Solution**: We can use a sliding window in which we tighten the left bound as much as possible at each step: all additional subarrays left from expanding it would count too, so we can instantly get those counts.
+
 ### Problem 1361
 - **Name**: Validate Binary Tree Nodes
 - **Runtime**: 271 ms
