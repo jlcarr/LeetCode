@@ -3716,6 +3716,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 21.86 MB
 - **Solution**: We can use a sieve of Eratosthenes to get the list of primes up to the upper bound, then search through adjacent pairs for the first minimum difference.
 
+### Problem 2529
+- **Name**: Maximum Count of Positive Integer and Negative Integer
+- **Runtime**: 0 ms
+- **Memory**: 18.03 MB
+- **Solution**: We can use Python's bisect to perform the binary searches for us to find the start and end of 0s, and therefore get the number of positive and negative numbers in the array.
+
 ### Problem 2530
 - **Name**: Maximal Score After Applying K Operations
 - **Runtime**: 699 ms
