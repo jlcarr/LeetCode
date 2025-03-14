@@ -3362,6 +3362,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 69.2 MB
 - **Solution**: Simply count the losses for each player, and also keep track of winning players as existing. Sort at the end.
 
+### Problem 2226
+- **Name**: Maximum Candies Allocated to K Children
+- **Runtime**: 409 ms
+- **Memory**: 29.69 MB
+- **Solution**: We can binary search for the optimal value, and linearly check the result each time by using integer division of the piles of candies by the result to get the number of kids we can assign to and thus if we are able to get k of them.
+
 ### Problem 2244
 - **Name**: Minimum Rounds to Complete All Tasks
 - **Runtime**: 1793 ms
