@@ -3350,6 +3350,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.78 MB
 - **Solution**: We can construct the TreeNodes each time we see a new one and keep a map to them. We can also keep track of the set of all nodes we know to have been children, and take the difference with the keys from our map to all TreeNodes: this will give us the root.
 
+### Problem 2206
+- **Name**: Divide Array Into Equal Pairs
+- **Runtime**: 3 ms
+- **Memory**: 17.84 MB
+- **Solution**: If we hash every element then xor them all together every pair should cancel out if they all pair up.
+
 ### Problem 2215
 - **Name**: Find the Difference of Two Arrays
 - **Runtime**: 173 ms
