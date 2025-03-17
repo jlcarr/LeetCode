@@ -3824,6 +3824,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 43.89 MB
 - **Solution**: We use a heap to always find the min element of the lowest index quickly, and a set to keep track of marked elements.
 
+### Problem 2594
+- **Name**: Minimum Time to Repair Cars
+- **Runtime**: 859 ms
+- **Memory**: 21.81 MB
+- **Solution**: Binary search for the minimum time to satisfy the condition.
+
 ### Problem 2597
 - **Name**: The Number of Beautiful Subsets
 - **Runtime**: 54 ms
