@@ -3524,6 +3524,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 39.4 MB
 - **Solution**: We send out end truck independently and keep track of potential travel time, but only add it once we reach a house with the right type of garbage, and reset the counter.
 
+### Problem 2401
+- **Name**: Longest Nice Subarray
+- **Runtime**: 95 ms
+- **Memory**: 33.64 MB
+- **Solution**: We can use a sliding window where we extend out the right bound each iteration, and then tighten the left each iteration. To check all pairs AND to zero means they share no common set bits. We can therefore keep the OR of all window and check any new addition doesn't AND to nonzero: while it does remove from the left end of the window.
+
 ### Problem 2405
 - **Name**: Optimal Partition of String
 - **Runtime**: 187 ms
