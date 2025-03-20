@@ -4130,6 +4130,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.89 MB
 - **Solution**: We can run through the array and keep track of our current streaks of increases and decreases at the same time, updating the max streak length.
 
+### Problem 3108
+- **Name**: Minimum Cost Walk in Weighted Graph
+- **Runtime**: 195 ms
+- **Memory**: 93.40 MB
+- **Solution**: Because the AND of two ints always decreases we can just walk to every connected node to get the minimum possible value. So really we're only concerned about connected components of the graph and the AND of all nodes within. We can do this very quickly with the union-find data structure.
+
 ### Problem 3110
 - **Name**: Score of a String
 - **Runtime**: 40 ms
