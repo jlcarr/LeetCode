@@ -3290,6 +3290,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 50.48 MB
 - **Solution**: We can intert the list of spaces and then efficiently use it as a stack. A single pass through the string we can insert the spaces as they come up, popping them off the stack to see the next index.
 
+### Problem 2115
+- **Name**: Find All Possible Recipes from Given Supplies
+- **Runtime**: 117 ms
+- **Memory**: 21.02 MB
+- **Solution**: We can construct the inverse mapping and keep track of how many ingredients are remaining for each recipe, then with a queue of ingredients work our way backward completing recipes and adding them to the ingredients queue until we run out of ingredients.
+
 ### Problem 2116
 - **Name**: Check if a Parentheses String Can Be Valid
 - **Runtime**: 77 ms
