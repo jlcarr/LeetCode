@@ -3902,6 +3902,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.76 MB
 - **Solution**: We can just keep track of if cells in the next column are reachable, and if any are the column number is our max path length. When no more cells are reachable we can break.
 
+### Problem 2685
+- **Name**: Count the Number of Complete Components
+- **Runtime**: 87 ms
+- **Memory**: 18.35 MB
+- **Solution**: We can use the union-find to get the components quickly, and also count up the number of edges coming out of each node, then get the number of nodes in each component and check the number of edges for each node is 1 less than the size of the component.
+
 ### Problem 2696
 - **Name**: Minimum String Length After Removing Substrings
 - **Runtime**: 47 ms
