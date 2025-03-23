@@ -3188,6 +3188,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.55 MB
 - **Solution**: Since we can repeatedly flip adjacent cells we can effectively reach any pair of cells. From here we'll want to try an make every cell positive. If there is an even number of negative cells this is possible, otherwise we should take the minimum absolute valued cell, could be 0, and choose that to be the remaining negative cell.
 
+### Problem 1976
+- **Name**: Number of Ways to Arrive at Destination
+- **Runtime**: 23 ms
+- **Memory**: 24.15 MB
+- **Solution**: Dijkstra's along with an updated count for the number of ways to reach each node with the current optimal cost: any better path found causes a reset instead of adding to the number of routes.
+
 ### Problem 1980
 - **Name**: Find Unique Binary String
 - **Runtime**: 36 ms
