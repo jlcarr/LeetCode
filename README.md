@@ -4196,6 +4196,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 27.66 MB
 - **Solution**: Simply run through the string keeping track of the last character seen, and the number of times it's been seen. Upon character change or reaching length of 9, we append to the comp.
 
+### Problem 3169
+- **Name**: Count Days Without Meetings
+- **Runtime**: 239 ms
+- **Memory**: 52.57 MB
+- **Solution**: We sort the meeting so we process them as they come active, and keep track of the current time of the employee's next availability, pushing it back as we process more meetings. If the next meeting we process starts past the employees current availability, the employee can work all that time.
+
 ### Problem 3174
 - **Name**: Clear Digits
 - **Runtime**: 0 ms
