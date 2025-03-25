@@ -4268,6 +4268,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.70 MB
 - **Solution**: We can use binary search to find the minimum k. To compute if the k is valid or not we can keep an array with the updates on each ends of the bounds from the queries used, and then run once through the numbers to check if they are reducible to zero or not.
 
+### Problem 3394
+- **Name**: Check if Grid can be Cut into Sections
+- **Runtime**: 229 ms
+- **Memory**: 83.65 MB
+- **Solution**: We can sort the blocks by their start x and y values and sweep through them checking for gaps.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
