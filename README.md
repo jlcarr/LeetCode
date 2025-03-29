@@ -3734,6 +3734,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 37.57 MB
 - **Solution**: We should first sort the entire array, then run through keeping track of the length of the longest streak so far, with a map in anticipation of next square numbers. Watch out for duplicates in the array.
 
+### Problem 2503
+- **Name**: Maximum Number of Points From Grid Queries
+- **Runtime**: 800 ms
+- **Memory**: 53.37 MB
+- **Solution**: We can get the list of query values and order them by size, then perform a search with a priority queue to keep track of new cells adjacent so we can quickly determine new cells available as we go through the query values.
+
 ### Problem 2516
 - **Name**: Take K of Each Character From Left and Right
 - **Runtime**: 143 ms
