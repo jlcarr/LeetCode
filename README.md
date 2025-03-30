@@ -3986,6 +3986,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.3 MB
 - **Solution**: For the contest I just convertted directly to an int and then back. A proper solution is to first reverse the linked list, perform the arithmetic, then reverse once more.
 
+### Problem 2818
+- **Name**: Apply Operations to Maximize Score
+- **Runtime**: 2029 ms
+- **Memory**: 44.68 MB
+- **Solution**: First generate a list of primes to use to compute the prime scores. We only need up to the square root of the largest number. Then compute the prime score by repeated division with each prime until 1 is reached, again only checking up to their square root, and if there is any remainder it itself is another prime larger than our list. Finally the main trick is that we'd like to instantly find the widest range left and right for each number in our array for which it would have the largest prime score and be multiplied in after performing the operation. We can do this by running through left and then right, using a monotonic stack keeping the values with are bounding extending the range back in each direction. Now we can finish by going through the values, largest to smallest and finding out the number of ranges which have them as the largest prime score so we can multiply them in.
+
 ### Problem 2825
 - **Name**: Make String a Subsequence Using Cyclic Increments
 - **Runtime**: 67 ms
