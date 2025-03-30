@@ -1862,6 +1862,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.26 MB
 - **Solution**: This is a simple shortest path problem. It's easier to work with tuples of numbers instead of strings, so covert them. We can find neighboring states easily with some list comprehension and modular arithmetic. It's quite easy to use A-star with the modular minimum difference sum as the heursitic. Careful of edge cases such as start state being a "deadend", or starting at the target.
 
+### Problem 763
+- **Name**: Partition Labels
+- **Runtime**: 4 ms
+- **Memory**: 17.7 MB
+- **Solution**: We can turn the string into a list of ranges of appearances of letters, which we can run through checking for gaps.
+
 ### Problem 767
 - **Name**: Reorganize String
 - **Runtime**: 33 ms
