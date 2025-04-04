@@ -2330,6 +2330,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.62 MB
 - **Solution**: We can make a sort key using a dictionary mapping the values to their positions in the arr2, and if not present add their values to the length of arr2.
 
+### Problem 1123
+- **Name**: Lowest Common Ancestor of Deepest Leaves
+- **Runtime**: 4 ms
+- **Memory**: 18.16 MB
+- **Solution**: We can recursively search for the deepest node, then return a tuple of the depth and the node itself, and at each higher node see if we have descendants of the same deepest depth, and if so we get a new common ancestor.
+
 ### Problem 1125
 - **Name**: Smallest Sufficient Team
 - **Runtime**: 522 ms
