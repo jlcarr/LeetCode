@@ -1352,6 +1352,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.7 MB
 - **Solution**: We can use Python's Counter class to do this in 1 simple line.
 
+### Problem 368
+- **Name**: Largest Divisible Subset
+- **Runtime**: 143 ms
+- **Memory**: 18.06 MB
+- **Solution**: The requirements is essentially there the set is an increasing sequence where the next term is multiplied by an integer greater than 1. Therefore we should start by sorting and look for candidate sequences to be the longest each element could join: it need only join the longest for which it is a multiple the the previous last element.
+
 ### Problem 371
 - **Name**: Sum of Two Integers
 - **Runtime**: 25 ms
