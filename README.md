@@ -4304,6 +4304,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 83.65 MB
 - **Solution**: We can sort the blocks by their start x and y values and sweep through them checking for gaps.
 
+### Problem 3396
+- **Name**: Minimum Number of Operations to Make Elements in Array Distinct
+- **Runtime**: 3 ms
+- **Memory**: 17.91 MB
+- **Solution**: We can keep a counter of elements as well as the number of non-distinct elements. Then run through groups of three updating the counter until all are distinct.
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
