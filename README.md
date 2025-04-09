@@ -4298,6 +4298,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.70 MB
 - **Solution**: We can use binary search to find the minimum k. To compute if the k is valid or not we can keep an array with the updates on each ends of the bounds from the queries used, and then run once through the numbers to check if they are reducible to zero or not.
 
+### Problem 3375
+- **Name**: Minimum Operations to Make Array Values Equal to K
+- **Runtime**: 65 ms
+- **Memory**: 17.66 MB
+- **Solution**: Effectively we can only lower values in the array, so if there are any elements greater than the target then it's impossible. Otherwise we need to lower the elements from the largest value down through all the possibilities to the target, and one less if the smallest value is the target.
+
 ### Problem 3394
 - **Name**: Check if Grid can be Cut into Sections
 - **Runtime**: 229 ms
