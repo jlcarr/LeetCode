@@ -4292,6 +4292,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: Use a heapq to always know the lowest value in the array, and also store its index along with it for each updating.
 
+### Problem 3272
+- **Name**: Find the Count of Good Integers
+- **Runtime**: 1616 ms
+- **Memory**: 18.97 MB
+- **Solution**: We can enumerate through the halves of the palindromes, then check if they are divisible by k. We can compute the number of permutations possible, without leading zeros. We also need to avoid double counting, which we can do by keeping a set of of the sorted digits (unique over permutations).
+
 ### Problem 3356
 - **Name**: Zero Array Transformation II
 - **Runtime**: 1150 ms
