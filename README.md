@@ -3164,6 +3164,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 38.6 MB
 - **Solution**: We can divide to get the time for each monster to arrive and check if we have the laser ready by seeing if there's any remainder.
 
+### Problem 1922
+- **Name**: Count Good Numbers
+- **Runtime**: 0 ms
+- **Memory**: 38.6 MB
+- **Solution**: We can write a closed form expression for this using the fact that half the numbers rounded up will be in the even position, and there are 5 different options for them, and hald the numbers rounded down will be in the odd position and there are 4 options for them. Finally we need to use Python's `pow` function to apply the modular exponentiation to avoid overflow.
+
 ### Problem 1930
 - **Name**: Unique Length-3 Palindromic Subsequences
 - **Runtime**: 1602 ms
