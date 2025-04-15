@@ -2768,6 +2768,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.04 MB
 - **Solution**: We can solve this problem recursively by having each node pass up a queue of descendant leaf-node counts for each distance away as well as the number of pairs already counted within the descendants, which can be used to calculate new possible pairs higher up and we and moves through the queue as we get higher up and further away from the leaves.
 
+### Problem 1534
+- **Name**: Count Good Triplets
+- **Runtime**: 277 ms
+- **Memory**: 17.93 MB
+- **Solution**: We can simply brute force all triplets.
+
 ### Problem 1535
 - **Name**: Find the Winner of an Array Game
 - **Runtime**: 537 ms
