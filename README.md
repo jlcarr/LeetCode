@@ -3362,6 +3362,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 34.51 MB
 - **Solution**: We can run through, placing the values in expandable arrays for being larger, equal to, or smaller than the the pivot, then concatenate them to construct the result.
 
+### Problem 2176
+- **Name**: Count Equal and Divisible Pairs in an Array
+- **Runtime**: 23 ms
+- **Memory**: 17.61 MB
+- **Solution**: We can just brute force all the pairs.
+
 ### Problem 2181
 - **Name**: Merge Nodes in Between Zeros
 - **Runtime**: 853 ms
