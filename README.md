@@ -1892,6 +1892,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.2 MB
 - **Solution**: We notice the pattern actually keeps its symbols fixed since the replacements for the symbols start with the symbols themselves, and that doubling ones position in the pattern doesn't change the symbol, but stepping forward by 1 does, therefore the position of each 1 is where the hamming weight of the index is odd. This makes for a short answer by counting the 1s in the bits of the index.
 
+### Problem 781
+- **Name**: Rabbits in Forest
+- **Runtime**: 0 ms
+- **Memory**: 17.85 MB
+- **Solution**: For each response we want as much overlap as possible: rabbits referring to other rabbits polled. If the number given is greater than or equal to the frequency, then we can minimally assume they are all the same color, otherwise we make as many groups of colors as possible, and with whatever remains, we must add rabbits to complete the group.
+
 ### Problem 783
 - **Name**: Minimum Distance Between BST Nodes
 - **Runtime**: 43 ms
