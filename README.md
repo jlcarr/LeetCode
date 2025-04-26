@@ -3356,6 +3356,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.4 MB
 - **Solution**: Classic dynamic programming since we can't go back on questions: we can compute the name score achievable by a given question.
 
+### Problem 2145
+- **Name**: Count the Hidden Sequences
+- **Runtime**: 51 ms
+- **Memory**: 31.79 MB
+- **Solution**: If we accumulate the differences array we can find the range of the values (max and min). The difference in the range in values with the range of the upper and lower limits gives the number of possible sequences.
+
 ### Problem 2147
 - **Name**: Number of Ways to Divide a Long Corridor
 - **Runtime**: 361 ms
