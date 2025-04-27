@@ -4340,6 +4340,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.66 MB
 - **Solution**: Effectively we can only lower values in the array, so if there are any elements greater than the target then it's impossible. Otherwise we need to lower the elements from the largest value down through all the possibilities to the target, and one less if the smallest value is the target.
 
+### Problem 3392
+- **Name**: Count Subarrays of Length Three With a Condition
+- **Runtime**: 7 ms
+- **Memory**: 17.80 MB
+- **Solution**: We can run through the array checking the condition, multiplying by 2 instead of dividing by 2 for numberical efficiency.
+
 ### Problem 3394
 - **Name**: Check if Grid can be Cut into Sections
 - **Runtime**: 229 ms
