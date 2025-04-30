@@ -2486,6 +2486,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 19.86 MB
 - **Solution**: Since we're going down row by row and must always switch columns, but can choose any previous column, makes sense we really only need to save the 2 smallest previous column values. We can get the next columns 2 smallest possible sums with a little if-statement logic, and we're all set.
 
+### Problem 1295
+- **Name**: Find Numbers with Even Number of Digits
+- **Runtime**: 0 ms
+- **Memory**: 17.89 MB
+- **Solution**: We can use the `log10` function to quickly return us the number of digits base 10, which is faster than converting to string. Furthermore we can use bit arithmetic to check if the result is even or odd by ANDing the result with 1.
+
 ### Problem 1310
 - **Name**: XOR Queries of a Subarray
 - **Runtime**: 308 ms
