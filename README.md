@@ -3314,6 +3314,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 65.80 MB
 - **Solution**: We can sort the items by price and put them into a monotonic stack such we remove all items for which another items of lower price and equal or greater beauty exists. Essentially the stack will proceed down in value and we must also proceed downwards in beauty. The queries can then be sorted, keeping their original index handy for building the solution, and we can then proceed down the queries stack popping from the expensive end of our monotonic stack until we meet the price requirement, at which point we're guarunteed to have the most beautiful items for the given price.
 
+### Problem 2071
+- **Name**: Maximum Number of Tasks You Can Assign
+- **Runtime**: 550 ms
+- **Memory**: 26.48 MB
+- **Solution**: The maximum number of tasks that can be accomplished will always come from the easiest, and assigned to the strongest workers. We can binary search for this optimal overlap. To check if the overlap works, we can use a deque, into which we will put our strongest workers as we work our way down the hardest tasks: we need to try to accomplish all for our given target overlap. Use the strongest worker in the queue to perform the task if possible: there will only be easier tasks afterwards after all, otherwise use the weakest worker who can accomplish it with a pill, which we do by placing workers into the back of the queue while they are able to accomplish the task with the pill.
+
 ### Problem 2073
 - **Name**: Time Needed to Buy Tickets
 - **Runtime**: 37 ms
