@@ -3188,6 +3188,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.53 MB
 - **Solution**: The idea here is even/odd counts can be represented by pairity, and so we can store the state of pairities of all the characters by a bitmask, and with only 10 characters this makes only 1024 states. When we arrive at a given cumulative state the number times we've seen it before gives us substrings with all even pairities between since it's unchanged. Now we can also be off by 1, so we just loop over each bit position.
 
+### Problem 1920
+- **Name**: Build Array from Permutation
+- **Runtime**: 0 ms
+- **Memory**: 17.73 MB
+- **Solution**: Make a placeholder array for the answer, and fill it in with a loop.
+
 ### Problem 1921
 - **Name**: Eliminate Maximum Number of Monsters
 - **Runtime**: 744 ms
