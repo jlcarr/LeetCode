@@ -1922,6 +1922,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15.7 MB
 - **Solution**: Essentially a modified BFS, where keys ared based on distance traverse from the the src node. Optimal cost is still tracked. There is probably a Dijkstra solution that's faster.
 
+### Problem 790
+- **Name**: Domino and Tromino Tiling
+- **Runtime**: 15 ms
+- **Memory**: 20.21 MB
+- **Solution**: We can use dynamic programming, with the states of subproblems being rows left, and states for if there is a block on the current row we are considering.
+
 ### Problem 796
 - **Name**: Rotate String
 - **Runtime**: 0 ms
