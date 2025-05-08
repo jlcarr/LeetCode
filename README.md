@@ -4364,6 +4364,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.97 MB
 - **Solution**: We can enumerate through the halves of the palindromes, then check if they are divisible by k. We can compute the number of permutations possible, without leading zeros. We also need to avoid double counting, which we can do by keeping a set of of the sorted digits (unique over permutations).
 
+### Problem 3342
+- **Name**: Find Minimum Time to Reach Last Room II
+- **Runtime**: 395 ms
+- **Memory**: 80.43 MB
+- **Solution**: Dijkstra's algorithm, with noticing that cells whose sum of coordinates are even vs odd are the different costs.
+
 ### Problem 3356
 - **Name**: Zero Array Transformation II
 - **Runtime**: 1150 ms
