@@ -4370,6 +4370,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 80.43 MB
 - **Solution**: Dijkstra's algorithm, with noticing that cells whose sum of coordinates are even vs odd are the different costs.
 
+### Problem 3343
+- **Name**: Count Number of Balanced Permutations
+- **Runtime**: 2100 ms
+- **Memory**: 171.26 MB
+- **Solution**: We need to use dynamic programming over the integer we are considering, spaces left in the digits, and sum remaining. We are looking to get the number of ways to assign the digits to evens/odds such that the sums are the half the total, and get the number of permutations, dividing out for multiple copies of the same digit.
+
 ### Problem 3356
 - **Name**: Zero Array Transformation II
 - **Runtime**: 1150 ms
