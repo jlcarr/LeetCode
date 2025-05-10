@@ -4136,6 +4136,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.00 MB
 - **Solution**: We can run through the string keeping track of the current value of our streak, which we want to be even. If we come to a change we need to change the newly seen value greedily in order to keep our streak going. This is optimal as is might break us into longer streaks we can continue to concatenate.
 
+### Problem 2918
+- **Name**: Minimum Equal Sum of Two Arrays After Replacing Zeros
+- **Runtime**: 891 ms
+- **Memory**: 34.92 MB
+- **Solution**: All the zeros must become at least 1, so we can simply add those in when summing the two arrays. Finally, if the arrays are not equal, the smaller array must have at least 1 zero so it can catch up to the larger array, otherwise a solution isn't possible.
+
 ### Problem 2924
 - **Name**: Find Champion II
 - **Runtime**: 7 ms
