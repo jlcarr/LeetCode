@@ -4376,6 +4376,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.13 MB
 - **Solution**: We can keep track of the counts of each character, and then simply perform the transformation on the counts.
 
+### Problem 3337
+- **Name**: Total Characters in String After Transformations II
+- **Runtime**: 3262 ms
+- **Memory**: 18.66 MB
+- **Solution**: We can use fast exponentiation technique to perform matrix multiplication quickly.
+
 ### Problem 3342
 - **Name**: Find Minimum Time to Reach Last Room II
 - **Runtime**: 395 ms
