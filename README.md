@@ -4130,6 +4130,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 47.2 MB
 - **Solution**: This is simular to finding lengths of cycles in linked lists. For each node we knows we'll eventually find a cycles, so search until a cycles is detected, easily done with a set, though more efficient is a tortoise-hare algorithm. I also used a stack to get the distances of other nodes in the list to the cycle. In this way we only visit each node a few times at most.
 
+### Problem 2901
+- **Name**: Longest Unequal Adjacent Groups Subsequence II
+- **Runtime**: 1359 ms
+- **Memory**: 17.83 MB
+- **Solution**: We can simply keep track of the length of the longest sequence so far, and previous index to reach each word. For each new word we consider we simply look backwards to find the longest sequence which could come before and use that.
+
 ### Problem 2914
 - **Name**: Minimum Number of Changes to Make Binary String Beautiful
 - **Runtime**: 23 ms
