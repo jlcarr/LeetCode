@@ -3146,6 +3146,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 26.3 MB
 - **Solution**: Simply sort the array, and start with 0 ensuring we either meet a value in rannge of the previous, or bring it down to be one greater than the previous.
 
+### Problem 1857
+- **Name**: Largest Color Value in a Directed Graph
+- **Runtime**: 2377 ms
+- **Memory**: 136.56 MB
+- **Solution**: We keep track of the max counts of each color to reach each node. We pop root nodes while we have them and update their children's color counts, and check if the child becomes a new root. At the end we can check if there are still nodes with parents: if so, this means there was a cycle. Otherwise we look for the node with a color count of highest value.
+
 ### Problem 1861
 - **Name**: Rotating the Box
 - **Runtime**: 1896 ms
