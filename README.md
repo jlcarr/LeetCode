@@ -4412,6 +4412,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.70 MB
 - **Solution**: We can use binary search to find the minimum k. To compute if the k is valid or not we can keep an array with the updates on each ends of the bounds from the queries used, and then run once through the numbers to check if they are reducible to zero or not.
 
+### Problem 3373
+- **Name**: Maximize the Number of Target Nodes After Connecting Trees II
+- **Runtime**: 621 ms
+- **Memory**: 133.21 MB
+- **Solution**: This is the same thing as 2-coloring a tree, we want to find the size of the largest color group in the second tree, and then find the sizes of the color groups for each node in the first tree: their sums give the max values because we can connect them anywhere such that the max color joins the node in question's color. Only edges case is if both trees only have 1 node.
+
 ### Problem 3375
 - **Name**: Minimum Operations to Make Array Values Equal to K
 - **Runtime**: 65 ms
