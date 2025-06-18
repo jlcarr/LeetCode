@@ -4442,6 +4442,13 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.91 MB
 - **Solution**: We can keep a counter of elements as well as the number of non-distinct elements. Then run through groups of three updating the counter until all are distinct.
 
+### Problem 3405
+- **Name**: Count the Number of Arrays with K Matching Adjacent Elements
+- **Runtime**: 3275 ms
+- **Memory**: 18.03 MB
+- **Solution**: We can use the stars and bars formula to get the number of ways to divide up the array into contiguous blocks, then a little more combinatorics to compute the number of ways to assign numbers to the blocks.
+
+
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - Sean Prashad's LeetCode patterns: https://github.com/SeanPrashad/leetcode-patterns
