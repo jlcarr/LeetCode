@@ -4190,6 +4190,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.34 MB
 - **Solution**: We can essentially do an in-place linear sort since we know where all the elements belong, except for the repeated item. Afterwards we look for the item out of place, and that gives us both the repeated item by its value and the missing item by its index.
 
+### Problem 2966
+- **Name**: Divide Array Into Arrays With Max Difference
+- **Runtime**: 128 ms
+- **Memory**: 33.13 MB
+- **Solution**: Sort the array, and divvy up, checking if every triplet's largest and smallest elements satisfy the condition.
+
 ### Problem 2968
 - **Name**: Count Subarrays Where Max Element Appears at Least K Times
 - **Runtime**: 888 ms
