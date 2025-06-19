@@ -3518,6 +3518,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 47.10 MB
 - **Solution**: A simple implementation of Dijkstra's will work. A better method is to use 0-1 BFS, which will search all the "free" cells first before looking at costly ones.
 
+### Problem 2294
+- **Name**: Partition Array Such That Maximum Difference Is K
+- **Runtime**: 79 ms
+- **Memory**: 29.06 MB
+- **Solution**: Since we're only concerned about the maximum difference of each subsequence, order doesn't matter. Sort the array and run through making new arrays as needed.
+
 ### Problem 2302
 - **Name**: Count Subarrays With Score Less Than K
 - **Runtime**: 123 ms
