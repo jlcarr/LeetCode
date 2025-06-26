@@ -3446,6 +3446,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.78 MB
 - **Solution**: We can construct the TreeNodes each time we see a new one and keep a map to them. We can also keep track of the set of all nodes we know to have been children, and take the difference with the keys from our map to all TreeNodes: this will give us the root.
 
+### Problem 2200
+- **Name**: Find All K-Distant Indices in an Array
+- **Runtime**: 3 ms
+- **Memory**: 17.94 MB
+- **Solution**: We can run through the array, putting up to k values in a deque, and they we find a key we can append the contents of the deque to the result, and then also append the next k values as well.
+
 ### Problem 2206
 - **Name**: Divide Array Into Equal Pairs
 - **Runtime**: 3 ms
