@@ -3548,6 +3548,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 28.8 MB
 - **Solution**: If we create maps from each starting letter to the set of their possible suffixes, then we can go through each pair of letters, and find the set intersection reasonably quickly, which will give us words that can't be used as pairs, all others can be used as pairs, so we can perform the multiplication quickly.
 
+### Problem 2311
+- **Name**: Longest Binary Subsequence Less Than or Equal to K
+- **Runtime**: 10 ms
+- **Memory**: 17.58 MB
+- **Solution**: Leading zeros freely add to the length without increasing the value, so we always want to keep them, but leading ones are a priority. So we want to remove leading ones until the condition is satisfied. We can find them by bit-bashing a leading 1 mask, and dropping leading 1s using the mask. We simply count the number of ones that need to be dropped, and take the compliment to get the remaining length.
+
 ### Problem 2316
 - **Name**: Count Unreachable Pairs of Nodes in an Undirected Graph
 - **Runtime**: 2311 ms
