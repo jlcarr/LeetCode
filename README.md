@@ -1658,6 +1658,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 15 MB
 - **Solution**: Recursively search the tree, checking "is same tree" on each node. A more optimal approach would be to convert to a Merkle tree for instant checking.
 
+### Problem 594
+- **Name**: Longest Harmonious Subsequence
+- **Runtime**: 63 ms
+- **Memory**: 19.00 MB
+- **Solution**: Used a 2 pointer approach to look for the longest streak of numbers in the sorted array satisfying the condition.
+
 ### Problem 605
 - **Name**: Can Place Flowers
 - **Runtime**: 180 ms
