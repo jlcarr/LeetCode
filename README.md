@@ -4418,6 +4418,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.97 MB
 - **Solution**: We can enumerate through the halves of the palindromes, then check if they are divisible by k. We can compute the number of permutations possible, without leading zeros. We also need to avoid double counting, which we can do by keeping a set of of the sorted digits (unique over permutations).
 
+### Problem 3330
+- **Name**: Find the Original Typed String I
+- **Runtime**: 32 ms
+- **Memory**: 17.61 MB
+- **Solution**: We can use 2 pointers, 1 to find the end of the current streak, and the other to hold onto the start of the streak. After each streak add the length (less 1) to the result as possible number of duplicates in that streak.
+
 ### Problem 3335
 - **Name**: Total Characters in String After Transformations I
 - **Runtime**: 702 ms
