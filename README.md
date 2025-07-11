@@ -3662,6 +3662,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 33.64 MB
 - **Solution**: We can use a sliding window where we extend out the right bound each iteration, and then tighten the left each iteration. To check all pairs AND to zero means they share no common set bits. We can therefore keep the OR of all window and check any new addition doesn't AND to nonzero: while it does remove from the left end of the window.
 
+### Problem 2402
+- **Name**: Meeting Rooms III
+- **Runtime**: 188 ms
+- **Memory**: 51.58 MB
+- **Solution**: We can use python's heapq to instantly get the lowest numbered room available, as well as keep track of the first ending currently booked meeting. This makes it quite easy to implement the instructions exactly as given, and then just keep count of the number of times each room is booked.
+
 ### Problem 2405
 - **Name**: Optimal Partition of String
 - **Runtime**: 187 ms
