@@ -3230,6 +3230,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.58 MB
 - **Solution**: We can sort friends by their arrival time, tacking on their original index, and then go through each friend and they arrive, using a min-heap to keep track of when friends are leaving and their chair, and another min-heap to keep track of the smallest remaining chair. If the heap for the minimum chair is empty, we need a new chair: the length of the leaving friends heap is the number of friends currently at the party.
 
+### Problem 1948
+- **Name**: Delete Duplicate Folders in System
+- **Runtime**: 187 ms
+- **Memory**: 52.79 MB
+- **Solution**: We can use a hash tree to quickly find identical subtrees and then from there remove them from their parents and then reconstruct the paths.
+
 ### Problem 1957
 - **Name**: Delete Characters to Make Fancy String
 - **Runtime**: 145 ms
