@@ -3002,6 +3002,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 31.7 MB
 - **Solution**: Since the array is sorted, we can use a cumulative sum to keep track of elements less than, and compute the sum of elements greater than a given element, and therefore compute the absolute values easily without negatives.
 
+### Problem 1695
+- **Name**: Maximum Erasure Value
+- **Runtime**: 193 ms
+- **Memory**: 28.87 MB
+- **Solution**: We can keep a set to keep track of the unique elements in the window, and left and right bounds.
+
 ### Problem 1700
 - **Name**: Number of Students Unable to Eat Lunch
 - **Runtime**: 46 ms
