@@ -3482,6 +3482,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.84 MB
 - **Solution**: If we hash every element then xor them all together every pair should cancel out if they all pair up.
 
+### Problem 2210
+- **Name**: Count Hills and Valleys in an Array
+- **Runtime**: 0 ms
+- **Memory**: 17.96 MB
+- **Solution**: We can use 3 indices, for the next, middle/current, and previous different values, and thereby make a single pass through the array incrementing them to catch all the hills and valleys.
+
 ### Problem 2215
 - **Name**: Find the Difference of Two Arrays
 - **Runtime**: 173 ms
