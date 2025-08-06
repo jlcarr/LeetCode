@@ -4520,6 +4520,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.02 MB
 - **Solution**: Uses of the changes should be to undo pairs of moves that "undo" eachother: we can keep track of moves, and then get the pairings of N/S moves as well as pairings of E/W moves, and then undo as many as possible so they amplify our position. This is all done easily one pass with a few min/max operations.
 
+### Problem 3477
+- **Name**: Fruits Into Baskets II
+- **Runtime**: 18 ms
+- **Memory**: 17.64 MB
+- **Solution**: We can simply brute force by taking each fruit and going through baskets looking for a place for it. If we find one, we can set that baskets capacity to now 0. Count up leftover baskets.
+
 ### Problem 3487
 - **Name**: Maximum Unique Subarray Sum After Deletion
 - **Runtime**: 0 ms
