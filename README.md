@@ -1772,6 +1772,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.52 MB
 - **Solution**: We can do this in an single pass be keeping track of the maximum possible stack size and minimum possible stack size. Parents will increase and decrease each as normal, but the asterisk will increment the max but decrement the min. We ensur the min can never drop below zero, as this is a non-valid state. If the max were to ever drop below zero this means we cannot make a valid paren string. At the end if the min of above zero then again we cannot make a valid paren string.
 
+### Problem 679
+- **Name**: 24 Game
+- **Runtime**: 113 ms
+- **Memory**: 18.50 MB
+- **Solution**: To avoid taking too long, we can recursively compute our expression trees and cache subresults by sorted tuples of cards remaining. We can also not compute the different orders for commutative operators. Finally we can use Python's fractions library to do the fraction arithmetic for us.
+
 ### Problem 688
 - **Name**: Knight Probability in Chessboard
 - **Runtime**: 290 ms
