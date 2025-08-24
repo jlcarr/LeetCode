@@ -2774,6 +2774,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.4 MB
 - **Solution**: This is a classic problem in which we can notice that ants colliding are functionally the same as moving throught eachother, therefore we just have to find the max steps from the left and right arrays respectively.
 
+### Problem 1504
+- **Name**: Count Submatrices With All Ones
+- **Runtime**: 387 ms
+- **Memory**: 18.90 MB
+- **Solution**: Can store the longest streaks of ones along each row, then go through and so how large each array can go down rows.
+
 ### Problem 1509
 - **Name**: Minimum Difference Between Largest and Smallest Value in Three Moves
 - **Runtime**: 281 ms
