@@ -3044,6 +3044,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.3 MB
 - **Solution**: Simply run through the list keeping track of the cumulative sum and maximum of its value.
 
+### Problem 1733
+- **Name**: Minimum Number of People to Teach
+- **Runtime**: 71 ms
+- **Memory**: 31.94 MB
+- **Solution**: We can use set intersection to get which pairs of friends currently can't communicate, and make a set of all those friends. We can then check for each choice of language how many of the remaining friends would need to be taught that language so that everyone can communicate.
+
 ### Problem 1743
 - **Name**: Restore the Array From Adjacent Pairs
 - **Runtime**: 914 ms
