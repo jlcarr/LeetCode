@@ -4436,6 +4436,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.86 MB
 - **Solution**: Essentially as long as there are more than 2 of the same character in the string we can subtract 2 from the count. So we end up with a count of either 2 if we started with an even number or 1 if we started with an odd number.
 
+### Problem 3227
+- **Name**: Vowels Game in a String
+- **Runtime**: 26 ms
+- **Memory**: 18.25 MB
+- **Solution**: Essentially as long as A can make a move they win: if it's odd take all leaving nothing for B, if even then take 1 which makes it odd so B can't finish and then A finishes. Only case is if we start with nothing, so it's a simple check. 
+
 ### Problem 3243
 - **Name**: Shortest Distance After Road Addition Queries I
 - **Runtime**: 80 ms
