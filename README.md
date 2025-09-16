@@ -3248,6 +3248,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.2 MB
 - **Solution**: Because we're only looking for length-3 palindromes we actually only have `26*26=676` possibilities. To find which ones were present efficiently we can find the first and last appearance of each letter and then run through the whole string once checking for middle letter candidates for our palindromes.
 
+### Problem 1935
+- **Name**: Maximum Number of Words You Can Type
+- **Runtime**: 3 ms
+- **Memory**: 18.1 MB
+- **Solution**: For each word check if it has any letters which are broken using set intersection.
+
 ### Problem 1942
 - **Name**: The Number of the Smallest Unoccupied Chair
 - **Runtime**: 532 ms
