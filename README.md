@@ -2792,6 +2792,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.4 MB
 - **Solution**: This is just the number of unique pairs we can choose from the sets of same value. So we can solve this in a 1-liner with Python's Counter class and the comb math function.
 
+### Problem 1513
+- **Name**: Number of Substrings With Only 1s
+- **Runtime**: 15 ms
+- **Memory**: 18.3 MB
+- **Solution**: Count up lengths of 1-streaks and the number of substrings is pairs + singles.
+
 ### Problem 1519
 - **Name**: Number of Nodes in the Sub-Tree With the Same Label
 - **Runtime**: 3145 ms
