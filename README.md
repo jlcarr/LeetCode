@@ -3464,6 +3464,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.5 MB
 - **Solution**: The number of ways to divide the corridor is the product of the number of wall placements on each stretch of plants between each group of 2 seats. We can run through this pretty quickly counting strings of plants and total seats. Of course any hall with odd seats has no valid solutions.
 
+### Problem 2154
+- **Name**: Keep Multiplying Found Values by Two
+- **Runtime**: 4 ms
+- **Memory**: 18.08 MB
+- **Solution**: Sort the numbers and then we can go in order, which ensures the multiples of original we're searching for would appear as needed.
+
 ### Problem 2161
 - **Name**: Partition Array According to Given Pivot
 - **Runtime**: 29 ms
