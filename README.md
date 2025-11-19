@@ -2672,6 +2672,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 36 MB
 - **Solution**: We can pass through nums once keeping track of the larges possible subsequence so far. If we encounter a non-negative number try to include it, if we encounter a string of negtive numbers keep track of the largest value possible to achieve a given position using a heap. A better solution is to use a monotonic queue.
 
+### Problem 1437
+- **Name**: Check If All 1's Are at Least Length K Places Away
+- **Runtime**: 3 ms
+- **Memory**: 21.17 MB
+- **Solution**: Simply track the last positions of each seen 1 and check and update as we see each.
+
 ### Problem 1441
 - **Name**: Build an Array With Stack Operations
 - **Runtime**: 48 ms
