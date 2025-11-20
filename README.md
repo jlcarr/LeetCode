@@ -1880,6 +1880,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.26 MB
 - **Solution**: This is a simple shortest path problem. It's easier to work with tuples of numbers instead of strings, so covert them. We can find neighboring states easily with some list comprehension and modular arithmetic. It's quite easy to use A-star with the modular minimum difference sum as the heursitic. Careful of edge cases such as start state being a "deadend", or starting at the target.
 
+### Problem 757
+- **Name**: Set Intersection Size At Least Two
+- **Runtime**: 0 ms
+- **Memory**: 19.05 MB
+- **Solution**: If we sort the intervals by end time, then we can greedily look and ending intervals, and just keep track of the last 2 numbers picked: this way we know if we have enough already for an ending interval, or if we need more and can optimally take from as close the the end of the ending interval as possible so as to potentially satisfy future ending intervals.
+
 ### Problem 763
 - **Name**: Partition Labels
 - **Runtime**: 4 ms
