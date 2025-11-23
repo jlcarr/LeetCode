@@ -2492,6 +2492,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 22.31 MB
 - **Solution**: We can recover the tree easily with a recursive function. We can create a set to find the elements instantly. However we could also look at the binary structure to traverse the tree in logarithmic time.
 
+### Problem 1262
+- **Name**: Greatest Sum Divisible by Three
+- **Runtime**: 19 ms
+- **Memory**: 22.09 MB
+- **Solution**: If the sum is divisible by 3 we are already done. If there is a remainder we need either the smallest element with the same remainder to be removed, or the 2 smallest of compliment remainder. I used a sort to get these, but they are obtainable by a one pass.
+
 ### Problem 1267
 - **Name**: Count Servers that Communicate
 - **Runtime**: 17 ms
