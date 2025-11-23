@@ -4430,6 +4430,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.65 MB
 - **Solution**: We can keep a stack of characters added so far, and pop from it when digits would be added (makes it closest remaining to the left).
 
+### Problem 3190
+- **Name**: Find Minimum Operations to Make All Elements Divisible by Three
+- **Runtime**: 0 ms
+- **Memory**: 17.92 MB
+- **Solution**: Since we can add or subtract by 1, we can turn any non-divisible by 3 number into a number divisible by 3 with 1 operation. So we just count up the number of elements not divisible by 3.
+
 ### Problem 3200
 - **Name**: Maximum Height of a Triangle
 - **Runtime**: 39 ms
