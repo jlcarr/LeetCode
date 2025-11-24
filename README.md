@@ -2288,6 +2288,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.75 MB
 - **Solution**: Python's Counter class has an intersection method, which we can call between every element using reduce.
 
+### Problem 1018
+- **Name**: Binary Prefix Divisible By 5
+- **Runtime**: 103 ms
+- **Memory**: 19.18 MB
+- **Solution**: We can build up our prex accumulator easily with bitshifting and do the divisibility check at each step to accumulate the resultant array.
+
 ### Problem 1020
 - **Name**: Number of Enclaves
 - **Runtime**: 942 ms
