@@ -3530,6 +3530,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 25.78 MB
 - **Solution**: We can construct the TreeNodes each time we see a new one and keep a map to them. We can also keep track of the set of all nodes we know to have been children, and take the difference with the keys from our map to all TreeNodes: this will give us the root.
 
+### Problem 2197
+- **Name**: Replace Non-Coprime Numbers in Array
+- **Runtime**: 158 ms
+- **Memory**: 32.00 MB
+- **Solution**: We can run through the values in the array, and keep a stack they will be appended to. While there are common divisors with the top of the stack, update to the lcm and pop from the stack.
+
 ### Problem 2200
 - **Name**: Find All K-Distant Indices in an Array
 - **Runtime**: 3 ms
