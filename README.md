@@ -2288,6 +2288,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.75 MB
 - **Solution**: Python's Counter class has an intersection method, which we can call between every element using reduce.
 
+### Problem 1015
+- **Name**: Smallest Integer Divisible by K
+- **Runtime**: 23 ms
+- **Memory**: 17.92 MB
+- **Solution**: We only need to check the remainder mod k, so we we can accumulate reasonable values as we run through possibilities. There are only at most k different remainders of k, so we need k iterations max.
+
 ### Problem 1018
 - **Name**: Binary Prefix Divisible By 5
 - **Runtime**: 103 ms
