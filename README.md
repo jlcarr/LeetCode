@@ -3824,6 +3824,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 36.4 MB
 - **Solution**: We just need to find which value will xor to become the next in pref, and since xor is its own inverse that makes it easy. Just start with a value of 0.
 
+### Problem 2435
+- **Name**: Paths in Matrix Whose Sum Is Divisible by K
+- **Runtime**: 5436 ms
+- **Memory**: 210.06 MB
+- **Solution**: We can use dynamic programming over he positions in the grid, memoizing the mod k remainders for subproblems.
+
 ### Problem 2439
 - **Name**: Minimize Maximum of Array
 - **Runtime**: 747 ms
