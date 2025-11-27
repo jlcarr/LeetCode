@@ -4580,6 +4580,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.66 MB
 - **Solution**: Effectively we can only lower values in the array, so if there are any elements greater than the target then it's impossible. Otherwise we need to lower the elements from the largest value down through all the possibilities to the target, and one less if the smallest value is the target.
 
+### Problem 3381
+- **Name**: Maximum Subarray Sum With Length Divisible by K
+- **Runtime**: 452 ms
+- **Memory**: 42.03 MB
+- **Solution**: We can keep track of the current prefix sum, and the minimum values previously seen for each remainder of k. This way we can the best prefix subarray to subtract off at each step.
+
 ### Problem 3392
 - **Name**: Count Subarrays of Length Three With a Condition
 - **Runtime**: 7 ms
