@@ -4244,6 +4244,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 16.18 MB
 - **Solution**: We can add any number of steps on top of the shortest path. Since we have diagonals available to us the shortest path is the smaller of the x and y distances. One edge case is if we start in the same position as the target and time is 1, we cannot succeed because we need to step off first.
 
+### Problem 2872
+- **Name**: Maximum Number of K-Divisible Components
+- **Runtime**: 199 ms
+- **Memory**: 35.36 MB
+- **Solution**: We can greedily either absorb or cut leaves until there are none left. If a leaf is a multiple of k, obviously we want to cut it into its own component, otherwise it must be part of its parent's component: it's a leaf so it doesn't have any other choice. We can just remove it and add its value to its parent. We can then iterate with new leaves created and come to the optimal solution.
+
 ### Problem 2873
 - **Name**: Maximum Value of an Ordered Triplet I
 - **Runtime**: 57 ms
