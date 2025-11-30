@@ -4634,6 +4634,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 17.74 MB
 - **Solution**: This is the same thing as summing all the unique positive numbers in the set. We can do this with a set and filter. If the result is empty return the max element.
 
+### Problem 3512
+- **Name**: Minimum Operations to Make Array Sum Divisible by K
+- **Runtime**: 3 ms
+- **Memory**: 18.07 MB
+- **Solution**: The remainder of the sum with k is what we need to subtract off.
+
 
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
