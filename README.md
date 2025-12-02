@@ -3476,6 +3476,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 63.4 MB
 - **Solution**: Classic dynamic programming since we can't go back on questions: we can compute the name score achievable by a given question.
 
+### Problem 2141
+- **Name**: Maximum Running Time of N Computers
+- **Runtime**: 47 ms
+- **Memory**: 31.04 MB
+- **Solution**: Ideally we'd be able to distribute the total charge equally across all computers: this makes the ideal optimal time the average charge per computer. If a battery has more charge than the average per computer then it must run 1 computer the whole time. We can consider the subproblem without this battery. Once we reach a subproblem in which the greatest charge is equal to or less than the charge per computer, we can swap batteries as needed to power all computers for the optimal time.
+
 ### Problem 2145
 - **Name**: Count the Hidden Sequences
 - **Runtime**: 51 ms
