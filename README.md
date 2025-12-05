@@ -4622,6 +4622,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.03 MB
 - **Solution**: We can use the stars and bars formula to get the number of ways to divide up the array into contiguous blocks, then a little more combinatorics to compute the number of ways to assign numbers to the blocks.
 
+### Problem 3432
+- **Name**: Count Partitions with Even Sum Difference
+- **Runtime**: 0 ms
+- **Memory**: 17.9 MB
+- **Solution**: Taking the difference vs the sum doesn't change parity: we simply need to check the sum of the whole array is even, and if so any non-empty slice is valid, otherwise no slice is valid.
+
 ### Problem 3443
 - **Name**: Maximum Manhattan Distance After K Changes
 - **Runtime**: 2340 ms
