@@ -4646,6 +4646,12 @@ Solutions to LeetCode problems in Python3
 - **Memory**: 18.07 MB
 - **Solution**: The remainder of the sum with k is what we need to subtract off.
 
+### Problem 3623
+- **Name**: Count Number of Trapezoids I
+- **Runtime**: 139 ms
+- **Memory**: 63.07 MB
+- **Solution**: Sorted points by y, and collected number of collinear on y to get number of edges along y, and can then get the number of pairs with previous edges.
+
 
 ## Resources
 - Blind 75 problem set: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
